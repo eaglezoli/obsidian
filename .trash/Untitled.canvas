@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"cba93861754e7400","type":"file","file":"Data Analysis/attachments/histograms_pi.png","x":-420,"y":-180,"width":400,"height":200},
+		{"id":"a7b6c1d894658181","type":"file","file":"Data Analysis/attachments/histograms_median_upslope_pulse_length_ratio.png","x":80,"y":-160,"width":400,"height":200},
+		{"id":"a1a1316b40e26413","type":"file","file":"Data Analysis/Mixed Effects Models.md","x":-120,"y":200,"width":480,"height":420},
+		{"id":"6928d61c1a84e1fe","type":"text","text":"Step 1","x":-420,"y":120,"width":250,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"a5bf2352519fcdb1","fromNode":"cba93861754e7400","fromSide":"bottom","toNode":"a1a1316b40e26413","toSide":"top"},
+		{"id":"65c7edcbbc7e20cb","fromNode":"a7b6c1d894658181","fromSide":"bottom","toNode":"a1a1316b40e26413","toSide":"top"}
+	]
+}
