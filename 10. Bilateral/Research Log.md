@@ -5,4 +5,4 @@
  **Next**
 - Maybe try ANOVA
 - Look at statistical methods of Thomas and other papers 
-- Just go with the mixed effects models
+- Just go with the mixed effects models as it is (with the funnel)
