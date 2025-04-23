@@ -1,4 +1,5 @@
-| Week  | Start          | Main Chapter                | Small Chapter       |
+
+| Week  | Date           | Main Chapter                | Small Chapter       |
 | :---: | :------------- | --------------------------- | ------------------- |
 | **1** | 14th **April** | **10. Bilateral**           |                     |
 | **2** | 21st           |                             |                     |
