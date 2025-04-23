@@ -4,7 +4,7 @@
 | **1** | 14th **April** | **10. Bilateral**           |                     |
 | **2** | 21st           |                             |                     |
 | **3** | 28th           | 5. Rig                      | 8. Vessels          |
-| **4** | 5th **May**    | 7. Proxy                    | 3.. PPG             |
+| **4** | 5th **May**    | 7. Proxy                    | 3. PPG              |
 | **5** | 12th           | 11. Classification          | 2. CVD              |
 | **6** | 19th           | 6. Thickness                | 4. Review           |
 | **7** | 26th           | 12. Discussion & Conclusion | 1. Intro & Abstract |
