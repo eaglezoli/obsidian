@@ -5,4 +5,4 @@
 - Next
 	- Maybe try ANOVA
 	- Look at Thomas and other paper statistical methods
-	- Just go
+	- Just go with the mixed effects models
