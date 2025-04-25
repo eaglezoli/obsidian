@@ -1,3 +1,12 @@
+```table-of-contents
+title: 
+style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
+minLevel: 0 # Include headings from the specified level
+maxLevel: 2 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+hideWhenEmpty: false # Hide TOC if no headings are found
+debugInConsole: false # Print debug info in Obsidian console
+```
 # Thesis Plan
 
 | Week  | Date                      | Main Chapter                | Small Chapter       |
@@ -10,8 +19,31 @@
 | **6** | 19<sup>th</sup>           | 11. Classification          | 2. CVD              |
 | **7** | 26<sup>th</sup>           | 6. Thickness                | 4. Lit. Review      |
 |   8   | 2<sup>nd</sup> **June**   | 12. Discussion & Conclusion | 1. Intro & Abstract |
-  
+
+# Previous Paper – Significance Testing
+- Ranked features by significance
+- Range of 5 stiffness levels
+- **To Do**
+	- Train/test model
+	- Classification
+	- Measurement of stiffness
+
+![[image-1.png]]
+
+![[image-2.png]]
+
+![[image.png]]
+
 # Bilateral Chapter – Data Analysis
+- [[#Normalising|Normalising]]
+- [[#Visualising|Visualising]]
+- [[#Analysing|Analysing]]
+	- [[#Analysing#Mixed Effects Model|Mixed Effects Model]]
+	- [[#Analysing#Results|Results]]
+		- [[#Results#Check Assumptions|Check Assumptions]]
+			- [[#Check Assumptions#Residuals|Residuals]]
+			- [[#Check Assumptions#Q-Q Plots|Q-Q Plots]]
+	- [[#Analysing#Generalized Additive Model (GAM)|Generalized Additive Model (GAM)]]
 
 ## Normalising
 - Tried normalising the data
@@ -73,8 +105,16 @@
 
 ![[mixed-qqplot-not-normalised.png|mixed-qqplot-not-normalised]]
 
-### Generalized Additive Model
+### Generalized Additive Model (GAM)
 - Nonlinear and multiple predictors
-![[gam.png|gam]]
+- With many variables, interactions can be missed
+![[gam.png|GAM]]
 
-![[gam-normal.png|gam-normal]]
+![[gam-normal.png|GAM with normalised data]]
+
+### Next
+- Just go with the mixed effects models as it is (with the funnel)
+	- Currently just linear, try upgrade to non-linear
+		- Generalised Additive Model (GAM) – nonlinear and multiple predictors (trying currently)
+- Look at statistical methods of Thomas and other papers
+- Maybe try ANOVA
