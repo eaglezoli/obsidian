@@ -17,6 +17,7 @@
 -  [[2. Simple Model]]
 -  [[3. Visualise Data]]
 -  [[4. Mixed Effects Model]]
+- [[5. Generalized Additive Model]]
 ### To do
 ---
 - [ ] Filtering data set – specific 
