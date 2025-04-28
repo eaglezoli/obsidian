@@ -7,10 +7,30 @@
 **Next**
 - Just go with the mixed effects models as it is (with the funnel)
 	- Currently just linear, try upgrade to non-linear
-		- Generalised Additive Model (GAM) – nonlinear and multiple predictors 'added'
-- Look at statistical methods of Thomas and other papers
+		- Generalised Additive Model (GAM)
+			- Nonlinear and multiple predictors 'added'
+			- Might miss interactions with large numbers of features
+- Look at statistical methods of other papers
+	- Thomas – ANOVA, Pearson Correlation Coefficient
+	- Elisa – Poincare Plots
 - Maybe try ANOVA
 - KEEP IT SIMPLE!
 	- Just focus on what I need to finish the chapter
-	- Doesn't need to be a volume of statistical study
+	- Doesn't need to be a two-volume statistical study
 	- Can always continue the research afterwards
+- Decide what the goal is?
+	- Regression
+		- Continuous data
+	- Prediction
+		- Discrete data
+		- Decision Tree
+		- XGBoost
+- Principal Component Analysis (PCA)
+	- Order reduction
+	- Reduce features
+	- Find combination features – optimise
+	- Scikit learn
+- Regression -> confidence intervals probability distribution -> gaussian process regression (for FR and HR, same model for both) -> confidence interval plot – show overlap at low flow and gap at high
+- Double check
+	- LOESS curve – should be more curved?
+	- Boxplot – why are both channels the same?
