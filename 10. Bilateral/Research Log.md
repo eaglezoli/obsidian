@@ -12,7 +12,7 @@
 	- Currently just linear, try upgrade to non-linear
 		- Generalised Additive Model (GAM)
 			- Nonlinear and multiple predictors 'added'
-			- Might miss interactions with large numbers of features
+			- With many variables, important interactions can be missed
 - Look at statistical methods of other papers
 	- Thomas – ANOVA, Pearson Correlation Coefficient
 	- Elisa – Poincare Plots
