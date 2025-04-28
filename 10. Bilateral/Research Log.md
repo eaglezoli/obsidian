@@ -1,5 +1,9 @@
+## Bilateral Setup
+- Multiple patients
+	- One way valves
+- Single patient
+	- Left and right arm/leg
 ## Data Analysis
-
 - Mixed effects model has funnel shape
 	- Tried log transform of AUC 
 		- Helped, but still funnelled the other way
@@ -24,6 +28,10 @@
 		- Discrete data
 		- Decision Tree
 		- XGBoost
+- **The Goal**
+	- Which features increase with FR and HR
+	- Interaction effect between FR and HR on features
+	- Highlight the difference in the gap between healthy and unhealthy vessel at low flow and high flow
 ### Meeting with Juan
 - Principal Component Analysis (PCA)
 	- Order reduction
