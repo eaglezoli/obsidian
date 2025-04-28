@@ -1,5 +1,5 @@
 
-| Week  | Start Date                | Main Chapter                | Small Chapter       |
+| Week  | Beginning                 | Main Chapter                | Small Chapter       |
 | :---: | :------------------------ | --------------------------- | ------------------- |
 | **1** | 14<sup>th</sup> **April** | **10. Bilateral**           |                     |
 | **2** | 21<sup>st</sup>           |                             |                     |
@@ -9,7 +9,7 @@
 | **6** | 19<sup>th</sup>           | 11. Classification          | 2. CVD              |
 | **7** | 26<sup>th</sup>           | 6. Thickness                | 4. Lit. Review      |
 | **8** | 2<sup>nd</sup> **June**   | 12. Discussion & Conclusion | 1. Intro & Abstract |
-
+ 
 ## 10. Bilateral
 #### [[Research Log]]
 ### Data Analysis
