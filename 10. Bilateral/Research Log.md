@@ -1,8 +1,9 @@
 ## Bilateral Setup
-- Multiple patients
-	- One way valves
 - Single patient
 	- Left and right arm/leg
+	- Peripheral arterial disease
+- Multiple patients
+	- One way valves
 ## Data Analysis
 - Mixed effects model has funnel shape
 	- Tried log transform of AUC 
@@ -17,6 +18,7 @@
 	- Thomas – ANOVA, Pearson Correlation Coefficient
 	- Elisa – Poincare Plots
 - Maybe try ANOVA
+- Do analysis for each feature
 - KEEP IT SIMPLE!
 	- Just focus on what I need to finish the chapter
 	- Doesn't need to be a two-volume statistical study
@@ -33,6 +35,10 @@
 	- Interaction effect between FR and HR on features
 	- Highlight the difference in the gap between healthy and unhealthy vessel at low flow and high flow
 	- Highlight difference in response to changing flow dynamics between healthy and unhealthy vessels
+### Meeting with James
+- Double check
+	- LOESS curve – should be more curved?
+	- Boxplot – why are both channels the same?
 ### Meeting with Juan
 - Principal Component Analysis (PCA)
 	- Order reduction
@@ -40,6 +46,3 @@
 	- Find combination features – optimise
 	- Scikit learn
 - Regression -> confidence intervals probability distribution -> gaussian process regression (for FR and HR, same model for both) -> confidence interval plot – show overlap at low flow and gap at high
-- Double check
-	- LOESS curve – should be more curved?
-	- Boxplot – why are both channels the same?
