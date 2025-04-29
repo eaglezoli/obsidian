@@ -32,6 +32,7 @@
 	- Which features increase with FR and HR
 	- Interaction effect between FR and HR on features
 	- Highlight the difference in the gap between healthy and unhealthy vessel at low flow and high flow
+	- Highlight difference in response to changing flow dynamics between healthy and unhealthy vessels
 ### Meeting with Juan
 - Principal Component Analysis (PCA)
 	- Order reduction
