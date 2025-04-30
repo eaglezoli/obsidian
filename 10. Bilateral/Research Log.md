@@ -1,3 +1,4 @@
+
 ## Bilateral Setup
 - Single patient
 	- Left and right arm/leg
