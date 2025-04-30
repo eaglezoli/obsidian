@@ -40,6 +40,7 @@
 - Double check
 	- LOESS curve – should be more curved?
 	- Boxplot – why are both channels the same?
+		- Do with specific FR and HRs
 ### Meeting with Juan
 - Principal Component Analysis (PCA)
 	- Order reduction
