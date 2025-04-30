@@ -1,3 +1,9 @@
+---
+banner: https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?q=80&w=1673&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+banner-inline-title-color: "#222222"
+banner-x: 50
+banner-y: 45
+---
 
 ## Bilateral Setup
 - Single patient
@@ -9,6 +15,12 @@
 - Mixed effects model has funnel shape
 	- Tried log transform of AUC 
 		- Helped, but still funnelled the other way
+- **Regression**
+	- Continuous data
+- **Prediction**
+	- Discrete data
+	- Decision Tree
+	- XGBoost
 ### Next
 - Just go with the mixed effects models as it is (with the funnel)
 	- Currently just linear, try upgrade to non-linear
@@ -20,31 +32,28 @@
 	- Elisa – Poincare Plots
 - Maybe try ANOVA
 - Do analysis for each feature
-- KEEP IT SIMPLE!
+
+- KEEP IT SIMPLE! – Decide what the **aim** is?
 	- Just focus on what I need to finish the chapter
 	- Doesn't need to be a two-volume statistical study
 	- Can always continue the research afterwards
-- Decide what the goal is?
-	- Regression
-		- Continuous data
-	- Prediction
-		- Discrete data
-		- Decision Tree
-		- XGBoost
-- **The Goal**
-	- Which features increase with FR and HR
-	- Interaction effect between FR and HR on features
-	- Highlight the difference in the gap between healthy and unhealthy vessel at low flow and high flow
-	- Highlight difference in response to changing flow dynamics between healthy and unhealthy vessels
-### Meeting with James
+- **Aims**
+	1. Which features increase with FR and HR
+	2. Interaction effect between FR and HR on features
+	3. Highlight how unhealthy vessels respond differently to changing flow dynamics
+### Meeting James
 - Double check
 	- LOESS curve – should be more curved?
 	- Boxplot – why are both channels the same?
 		- Do with specific FR and HRs
-### Meeting with Juan
+### Meeting Juan
 - Principal Component Analysis (PCA)
 	- Order reduction
 	- Reduce features
 	- Find combination features – optimise
 	- Scikit learn
-- Regression -> confidence intervals probability distribution -> gaussian process regression (for FR and HR, same model for both) -> confidence interval plot – show overlap at low flow and gap at high
+- Steps
+	1. Regression
+	2. Confidence intervals probability distribution
+	3. Gaussian process regression (for FR and HR, same model for both)
+	4. Confidence interval plot – show overlap at low flow and gap at high

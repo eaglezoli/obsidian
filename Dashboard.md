@@ -1,3 +1,8 @@
+---
+banner: https://images.unsplash.com/photo-1676263813382-bb5ba4b63f91?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+banner-x: 50
+banner-y: 88
+---
 
 | Week  | Beginning                 | Main Chapter                | Small Chapter       |
 | :---: | :------------------------ | --------------------------- | ------------------- |
