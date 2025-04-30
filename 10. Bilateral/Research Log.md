@@ -38,7 +38,7 @@ banner-y: 45
 	- Doesn't need to be a two-volume statistical study
 	- Can always continue the research afterwards
 - **Aims**
-	1. Which features increase with FR and HR
+	1. Find which features are most strongly correlated with FR and HR
 	2. Interaction effect between FR and HR on features
 	3. Highlight how unhealthy vessels respond differently to changing flow dynamics
 ### Meeting James
