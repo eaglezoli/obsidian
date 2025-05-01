@@ -20,7 +20,7 @@ banner-y: 88
 -  [[1. Normalisation]]
 -  [[2. Simple Model]]
 -  [[3. Visualise Data]]
--  [[4. Mixed Effects Model]]
+-  [[6. Mixed Effects Model]]
 - [[5. Generalized Additive Model]]
 ### To do
 ---

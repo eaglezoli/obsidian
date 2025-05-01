@@ -41,6 +41,8 @@ banner-y: 45
 	1. Find which features are most strongly correlated with FR and HR
 	2. Interaction effect between FR and HR on features
 	3. Highlight how unhealthy vessels respond differently to changing flow dynamics
+### Improvements
+- Feature naming/numbering
 ### Meeting James
 - Double check
 	- LOESS curve – should be more curved?
