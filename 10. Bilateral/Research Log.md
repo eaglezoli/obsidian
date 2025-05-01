@@ -47,6 +47,7 @@ banner-y: 45
 	3. Highlight how unhealthy vessels respond differently to changing flow dynamics
 ### Improvements
 - Feature naming/numbering system
+- Remove collinear features
 ### Meeting James
 - Double check
 	- LOESS curve – should be more curved?
