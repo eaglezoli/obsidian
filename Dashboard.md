@@ -18,8 +18,8 @@ banner-y: 88
 #### [[Research Log]]
 ### Data Analysis
 -  [[1. Normalisation]]
--  [[2. Simple Model]]
--  [[3. Visualise Data]]
+-  [[4. Simple Model]]
+-  [[2. Visualise Data]]
 -  [[6. Mixed Effects Model]]
 - [[5. Generalized Additive Model]]
 ### To do
