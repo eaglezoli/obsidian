@@ -11,6 +11,10 @@ banner-y: 45
 	- Peripheral arterial disease
 - Multiple patients
 	- One way valves
+## Experiment
+- FR 1–6 L/min (1, 2, 3, 4, 5)
+- HR 60–180 bpm (60, 90, 120, 150, 180)
+- Two vessel stiffnesses – healthy and unhealthy
 ## Data Analysis
 - Mixed effects model has funnel shape
 	- Tried log transform of AUC 
@@ -42,7 +46,7 @@ banner-y: 45
 	2. Interaction effect between FR and HR on features
 	3. Highlight how unhealthy vessels respond differently to changing flow dynamics
 ### Improvements
-- Feature naming/numbering
+- Feature naming/numbering system
 ### Meeting James
 - Double check
 	- LOESS curve – should be more curved?
