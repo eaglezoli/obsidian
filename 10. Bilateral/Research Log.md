@@ -37,14 +37,17 @@ banner-y: 45
 - Maybe try ANOVA
 - Do analysis for each feature
 
-- KEEP IT SIMPLE! – Decide what the **aim** is?
+- <span style="background:rgba(3, 135, 102, 0.2)">KEEP IT SIMPLE!</span> – Decide what the **aim** is?
 	- Just focus on what I need to finish the chapter
 	- Doesn't need to be a two-volume statistical study
 	- Can always continue the research afterwards
-- **Aims**
-	1. Find which features are most strongly correlated with FR and HR
-	2. Interaction effect between FR and HR on features
-	3. Highlight how unhealthy vessels respond differently to changing flow dynamics
+
+> [!todo]
+> ### Aims
+> 1. Find which features are most strongly correlated with FR and HR
+> 2. Interaction effect between FR and HR on features
+> 3. Highlight how unhealthy vessels respond differently to changing flow dynamics
+
 ### Improvements
 - Feature naming/numbering system
 - Remove collinear features
