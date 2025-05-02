@@ -4,6 +4,7 @@ banner-inline-title-color: "#222222"
 banner-x: 50
 banner-y: 45
 ---
+********
 
 ## Bilateral Setup
 - Single patient
@@ -44,9 +45,9 @@ banner-y: 45
 
 > [!todo]
 > ### Aims
-> 1. Find which features are most strongly correlated with FR and HR
-> 2. Interaction effect between FR and HR on features
-> 3. Highlight how unhealthy vessels respond differently to changing flow dynamics
+> 1. Find which features are most **strongly correlated** with FR and HR
+> 2. **Interaction effect** between FR and HR on features
+> 3. Highlight how **unhealthy** vessels **respond differently** to changing **flow dynamics**
 
 ### Improvements
 - Feature naming/numbering system

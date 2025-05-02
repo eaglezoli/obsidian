@@ -3,6 +3,7 @@ banner: https://images.unsplash.com/photo-1676263813382-bb5ba4b63f91?q=80&w=1742
 banner-x: 50
 banner-y: 88
 ---
+********
 
 | Week  | Beginning                 | Main Chapter                | Small Chapter       |
 | :---: | :------------------------ | --------------------------- | ------------------- |
@@ -12,7 +13,6 @@ banner-y: 88
 | **4** | 19<sup>th</sup>           | 11. Classification          | 2. CVD              |
 | **5** | 26<sup>th</sup>           | 6. Thickness                | 4. Lit. Review      |
 | **6** | 2<sup>nd</sup> **June**   | 12. Discussion & Conclusion | 1. Intro & Abstract |
-
 
 ## 10. Bilateral
 #### [[Research Log]]
