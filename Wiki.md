@@ -31,5 +31,3 @@
 ### Generalized Additive Model (GAM)
 - Nonlinear and multiple predictors
 - With many variables, interactions can be missed
-
-^gam-info

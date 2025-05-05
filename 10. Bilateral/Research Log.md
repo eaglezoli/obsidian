@@ -6,6 +6,18 @@ banner-y: 45
 ---
 ********
 
+-  <span style="background:rgba(3, 135, 102, 0.2)">KEEP IT SIMPLE!</span> – Decide what the **aim** is?
+	- Just focus on what I need to finish the chapter
+	- Doesn't need to be a two-volume statistical study
+	- Can always continue the research afterwards
+
+> [!todo]
+> ### Aims
+> 1. Find which features are most **strongly correlated** with FR and HR
+> 2. **Interaction effect** of stiffness, FR and HR on select features
+> 3. Highlight how **unhealthy** vessels **respond differently** to changing **flow dynamics**
+
+********
 ## Bilateral Setup
 - Single patient
 	- Left and right arm/leg
@@ -17,40 +29,34 @@ banner-y: 45
 - HR 60–180 bpm (60, 90, 120, 150, 180)
 - Two vessel stiffnesses – healthy and unhealthy (need to determine elasticities)
 ## Data Analysis
-- Mixed effects model has funnel shape
-	- Tried log transform of AUC 
-		- Helped, but still funnelled the other way
-- Generalised Additive Model
-	- 
 - **Regression**
 	- Continuous data
 - **Prediction**
 	- Discrete data
 	- Decision Tree
 	- XGBoost
-### Next
-- Just go with the mixed effects models as it is (with the funnel)
-	- Currently just linear, try upgrade to non-linear
-		- Generalised Additive Model (GAM)
-			- Nonlinear and multiple predictors 'added'
-			- With many variables, important interactions can be missed
-- Look at statistical methods of other papers
-	- Thomas – ANOVA, Pearson Correlation Coefficient
-	- Elisa – Poincare Plots
-- Maybe try ANOVA
-- Do analysis for each feature
 
-- <span style="background:rgba(3, 135, 102, 0.2)">KEEP IT SIMPLE!</span> – Decide what the **aim** is?
-	- Just focus on what I need to finish the chapter
-	- Doesn't need to be a two-volume statistical study
-	- Can always continue the research afterwards
-![[Wiki#^gam-info]]
+- **Mixed effects model** has funnel shape
+	- Tried log transform of AUC 
+		- Helped, but still funnelled the other way
+- **Next**
+	- Just go with the mixed effects models as it is (with the funnel)
+		- Currently just linear, try upgrade to non-linear
+			- **Generalised Additive Model (GAM)**
+				- Nonlinear and multiple predictors 'added'
+				- With many variables, important interactions can be missed
+	- Look at statistical methods of other papers
+		- Thomas – ANOVA, Pearson Correlation Coefficient
+		- Elisa – Poincare Plots
+	- Maybe try ANOVA
+	- Do analysis for each feature
 
-> [!todo]
-> ### Aims
-> 1. Find which features are most **strongly correlated** with FR and HR
-> 2. **Interaction effect** of stiffness, FR and HR on select features
-> 3. Highlight how **unhealthy** vessels **respond differently** to changing **flow dynamics**
+- **Generalised Additive Model (GAM)**
+	- Plotted fitted values with confidence intervals ✔️
+	- Plotted difference bands with spot tests ✔️
+**Next**
+- GAM for each feature
+- Rename y-axis with feature name and unit
 
 ### Improvements
 - Feature naming/numbering system
