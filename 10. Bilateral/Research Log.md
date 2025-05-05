@@ -20,6 +20,8 @@ banner-y: 45
 - Mixed effects model has funnel shape
 	- Tried log transform of AUC 
 		- Helped, but still funnelled the other way
+- Generalised Additive Model
+	- 
 - **Regression**
 	- Continuous data
 - **Prediction**
@@ -42,6 +44,7 @@ banner-y: 45
 	- Just focus on what I need to finish the chapter
 	- Doesn't need to be a two-volume statistical study
 	- Can always continue the research afterwards
+![[Wiki#^gam-info]]
 
 > [!todo]
 > ### Aims
