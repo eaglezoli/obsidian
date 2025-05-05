@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10. Bilateral/Research Log.md",
+                "file": "Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Research Log"
+              "title": "Dashboard"
             }
           },
           {
@@ -218,11 +218,11 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "4efbde0fd2b45243",
+  "active": "0d4258afa816e20e",
   "lastOpenFiles": [
+    "10. Bilateral/Research Log.md",
     "10. Bilateral/4. Interaction.md",
     "10. Bilateral/4. Simple Model.md",
-    "10. Bilateral/Research Log.md",
     "10. Bilateral/3. Cross Correlation.md",
     "Dashboard.md",
     "10. Bilateral/5. Generalized Additive Model.md",
