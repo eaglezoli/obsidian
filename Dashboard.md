@@ -25,7 +25,4 @@ banner-y: 88
 - [[6. Mixed Effects Model]]
 - [[7. Generalized Additive Model]]
 - [[8. Model Interaction]]
-### To do
----
-- [ ] Filtering data set – specific 
-- [ ] Loop over filtered sets
+
