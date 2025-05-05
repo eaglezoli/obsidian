@@ -49,8 +49,7 @@
               "title": "3. Cross Correlation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -233,12 +232,12 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "73d34d54838c73a7",
+  "active": "0d4258afa816e20e",
   "lastOpenFiles": [
+    "10. Bilateral/4. Simple Model.md",
     "Dashboard.md",
     "10. Bilateral/Research Log.md",
     "10. Bilateral/4. Interaction.md",
-    "10. Bilateral/4. Simple Model.md",
     "10. Bilateral/3. Cross Correlation.md",
     "10. Bilateral/5. Generalized Additive Model.md",
     "10. Bilateral/6. Mixed Effects Model.md",
