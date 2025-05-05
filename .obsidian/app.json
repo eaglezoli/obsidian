@@ -1,0 +1,10 @@
+{
+  "promptDelete": true,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "showIndentGuide": false,
+  "attachmentFolderPath": "./images",
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "showInlineTitle": true
+}
