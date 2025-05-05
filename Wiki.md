@@ -1,9 +1,19 @@
+
 ## Data Visualisation
+
 ![[visualisation.png]]
+
+
 
 ## Data Analysis
 ### Mixed Effects Model
 - Mixed models were developed to allow us to use all our data, even when we have low sample sizes, structured data and many covariates to fit
+
+
+![[linear-approach.png|Linear Approach]]
+
+![[mixed-effect-model.png|Mixed Effects Model – Random Intercepts and Slopes]]
+
 - **Fixed effects**
 	- Variables that we expect will have an effect on the dependent/response variable
 	- **Explanatory** variables in a standard linear regression
@@ -18,3 +28,9 @@
 	- A lot of the time we are not specifically interested in their impact on the response variable, but we know that they might be influencing the patterns we see
 	- Golden rule: you generally want your random effect to have **at least five levels**
 		- E.g. gender would be a fixed effect not random
+
+### Generalized Additive Model (GAM)
+- Nonlinear and multiple predictors
+- With many variables, interactions can be missed
+
+^gam-info
