@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBookOpenText",
       "LiLogs",
       "LiLayoutDashboard",
       "LiMessageSquareQuote",
@@ -36,5 +37,6 @@
   "10. Bilateral": "LiGitCompare",
   "Meetings": "LiMessageSquareQuote",
   "Dashboard.md": "LiLayoutDashboard",
-  "10. Bilateral/Research Log.md": "LiLogs"
+  "10. Bilateral/Research Log.md": "LiLogs",
+  "Wiki.md": "LiBookOpenText"
 }

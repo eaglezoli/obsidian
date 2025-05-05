@@ -1,4 +1,8 @@
-## Notes
+## Data Visualisation
+![[visualisation.png]]
+
+## Data Analysis
+### Mixed Effects Model
 - Mixed models were developed to allow us to use all our data, even when we have low sample sizes, structured data and many covariates to fit
 - **Fixed effects**
 	- Variables that we expect will have an effect on the dependent/response variable
@@ -14,24 +18,3 @@
 	- A lot of the time we are not specifically interested in their impact on the response variable, but we know that they might be influencing the patterns we see
 	- Golden rule: you generally want your random effect to have **at least five levels**
 		- E.g. gender would be a fixed effect not random
-[[Wiki#Mixed Effects Model|Notes]]
-
-
-![[linear-approach.png|Linear Approach]]
-
-![[mixed-effect-model.png|Mixed Effects Model – Random Intercepts and Slopes]]
-
-## Results
-### Check Assumptions
-#### Residuals
-![[mixed-residuals.png|mixed-residuals]]
-![[mixed-quad-residuals.png|mixed-quad-residuals]]
-
-![[mixed-residuals-not-normalised.png|mixed-residuals-not-normalised]]
-
-![[mixed-resiudals-log.png|mixed-resiudals-log]]
-
-#### Q-Q Plots
-![[mixed-qqplot.png|mixed-qqplot]]
-
-![[mixed-qqplot-not-normalised.png|mixed-qqplot-not-normalised]]
