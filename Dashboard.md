@@ -17,11 +17,14 @@ banner-y: 88
 ## 10. Bilateral
 #### [[Research Log]]
 ### Data Analysis
--  [[1. Normalisation]]
--  [[4. Simple Model]]
--  [[2. Visualise Data]]
--  [[6. Mixed Effects Model]]
-- [[5. Generalized Additive Model]]
+- [[1. Normalisation]]
+- [[2. Visualise Data]]
+- [[3. Cross Correlation]]
+- [[4. HR & FR Interaction]]
+- [[5. Simple Model]]
+- [[6. Mixed Effects Model]]
+- [[7. Generalized Additive Model]]
+- [[8. Model Interaction]]
 ### To do
 ---
 - [ ] Filtering data set – specific 
