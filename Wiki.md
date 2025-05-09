@@ -1,4 +1,4 @@
-## Data Visualisation
+## [[Data Visualisation]]
 
 ![[visualisation.png]]
 
