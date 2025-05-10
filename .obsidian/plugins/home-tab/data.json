@@ -1,5 +1,5 @@
 {
-  "logoType": "default",
+  "logoType": "none",
   "logo": {
     "lucideIcon": "",
     "imagePath": "",
@@ -7,7 +7,7 @@
   },
   "logoScale": 1.2,
   "iconColorType": "default",
-  "wordmark": "Obsidian",
+  "wordmark": "",
   "customFont": "interfaceFont",
   "fontSize": "4em",
   "fontColorType": "default",
@@ -24,15 +24,40 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "10. Bilateral/6. Mixed Effects Model.md",
+      "timestamp": 1746872789702
+    },
+    {
+      "filepath": "10. Bilateral/Research Log.md",
+      "timestamp": 1746872734404
+    },
+    {
+      "filepath": "Dashboard.md",
+      "timestamp": 1746872731778
+    },
+    {
       "filepath": "10. Bilateral/2. Visualise Data.md",
-      "timestamp": 1746872680474
+      "timestamp": 1746872719268
     }
   ],
-  "bookmarkedFileStore": [],
+  "bookmarkedFileStore": [
+    {
+      "filepath": "Dashboard.md",
+      "iconId": "layout-dashboard"
+    },
+    {
+      "filepath": "10. Bilateral/Research Log.md",
+      "iconId": "list"
+    },
+    {
+      "filepath": "Wiki.md",
+      "iconId": "book-open"
+    }
+  ],
   "searchDelay": 0,
   "replaceNewTabs": true,
   "newTabOnStart": false,
   "closePreviousSessionTabs": false,
-  "omnisearch": false,
+  "omnisearch": true,
   "showOmnisearchExcerpt": true
 }
