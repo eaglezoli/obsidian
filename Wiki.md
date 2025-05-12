@@ -15,10 +15,9 @@ debugInConsole: false # Print debug info in Obsidian console
 ![[visualisation.png]]
 
 ## Data Analysis
-- **Regression** 
-	- Continuous data
-- **Prediction**  Discrete data
-- **Algorithms**
+- **Regression** – *Continuous* data
+- **Prediction** – *Discrete* data
+- Algorithms
 	- Decision Tree
 	- XGBoost
 

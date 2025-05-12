@@ -35,10 +35,10 @@ banner-y: 45
 		- Helped, but still funnelled the other way
 - **Next**
 	- Just go with the mixed effects models as it is (with the funnel)
-		- Currently just linear, try upgrade to non-linear
-			- **Generalised Additive Model (GAM)**
-				- Nonlinear and multiple predictors 'added'
-				- With many variables, important interactions can be missed
+	- Currently just linear, try upgrade to non-linear
+		- **Generalised Additive Model (GAM)**
+			- Nonlinear and multiple predictors 'added'
+			- With many variables, important interactions can be missed
 	- Look at statistical methods of other papers
 		- Thomas – ANOVA, Pearson Correlation Coefficient
 		- Elisa – Poincare Plots
