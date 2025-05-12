@@ -28,6 +28,7 @@ banner-y: 45
 - FR 1–6 L/min (1, 2, 3, 4, 5)
 - HR 60–180 bpm (60, 90, 120, 150, 180)
 - Two vessel stiffnesses – healthy and unhealthy (need to determine elasticities)
+^test
 ## Data Analysis
 ![[Wiki#^data-analysis-types]]
 - **Mixed effects model** has funnel shape
