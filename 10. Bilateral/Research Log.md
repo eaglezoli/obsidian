@@ -48,6 +48,7 @@ banner-y: 45
 - **Generalised Additive Model (GAM)**
 	- Plotted fitted values with confidence intervals ✔️
 	- Plotted difference bands with spot tests ✔️
+	- Filtering out HRs improved gap a little
 **Next**
 - GAM for each feature
 - Rename y-axis with feature name and unit
