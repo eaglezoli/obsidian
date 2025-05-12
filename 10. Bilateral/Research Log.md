@@ -60,8 +60,8 @@ banner-y: 45
 		- Do analysis for each feature
 
 - **Generalised Additive Model (GAM)**
-	- Textbook gam doesn't show both vessels in one graph, also graphics  outdated
-	- [This](https://stackoverflow.com/questions/75502600/visualize-generalized-additive-model-gam-in-r) looks better
+	- Textbook gam doesn't show both vessels in one graph, also graphics look dated
+	- [This](https://stackoverflow.com/questions/75502600/visualize-generalized-additive-model-gam-in-r) shows both and looks better
 		- Plotted fitted values with confidence intervals ✔️
 		- Plotted difference bands with spot tests (chatGPT) ✔️
 	- Filtering out HRs improved gap a little
