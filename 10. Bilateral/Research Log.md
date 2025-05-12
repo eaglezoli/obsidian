@@ -53,7 +53,7 @@ banner-y: 45
 
 - **Generalised Additive Model (GAM)**
 	- Plotted fitted values with confidence intervals ✔️
-	- Plotted difference bands with spot tests ✔️
+	- Plotted difference bands with spot tests ✔️**✓**
 **Next**
 - GAM for each feature
 - Rename y-axis with feature name and unit
