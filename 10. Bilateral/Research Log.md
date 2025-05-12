@@ -32,13 +32,14 @@ banner-y: 45
 ![[Wiki#^ml-methods]]
 
 - **Visualisation**
+	- To Do
 	- Double check
 		- LOESS curve – should be more curved?
 		- Boxplot – why are both channels the same?
 			- Do with specific FR and HRs
 
 - **Cross Correlation**
-	- Looks good
+	- Looks good on first look
 	- To do
 		- Healthy vs unhealthy
 		- Red vs infrared
@@ -48,16 +49,15 @@ banner-y: 45
 	- Funnel shape residuals
 		- Tried log transform of AUC 
 			- Helped, but still funnelled the other way
-- **Next**
-	- Just go with the mixed effects models as it is (with the funnel)
-	- Currently just linear, try upgrade to non-linear
-		- **Generalised Additive Model (GAM)** ![[Wiki#^gam]]
-	- MATLAB interaction
-	- Look at statistical methods of other papers
-		- Thomas – ANOVA, Pearson Correlation Coefficient
-		- Elisa – Poincare Plots
-	- Maybe try ANOVA
-	- Do analysis for each feature
+	- **Next**
+		- Just go with the mixed effects models as it is (with the funnel)
+		- Currently just linear, try upgrade to non-linear
+			- **Generalised Additive Model (GAM)** ![[Wiki#^gam]]
+		- Look at statistical methods of other papers
+			- Thomas – ANOVA, Pearson Correlation Coefficient
+			- Elisa – Poincare Plots
+		- Maybe try ANOVA
+		- Do analysis for each feature
 
 - **Generalised Additive Model (GAM)**
 	- Textbook gam graphics outdated
@@ -69,6 +69,8 @@ banner-y: 45
 		- GAM for each feature
 		- Rename y-axis with feature name and unit
 
+- **MATLAB interaction** 
+	- To Do
 ### Improvements
 - Feature naming/numbering system
 - Remove collinear features
