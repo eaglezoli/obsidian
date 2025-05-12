@@ -15,7 +15,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ![[visualisation.png]]
 
 ## Data Analysis
-- **Regression**
+- **Regression** 
 	- Continuous data
 - **Prediction**  Discrete data
 - **Algorithms**
