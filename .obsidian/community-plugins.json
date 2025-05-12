@@ -16,5 +16,8 @@
   "cursor-goaway",
   "obsidian-outliner",
   "obsidian-pandoc",
-  "pexels-banner"
+  "pexels-banner",
+  "obsidian-plugin-toc",
+  "remember-cursor-position",
+  "copy-image-text"
 ]

@@ -39,6 +39,7 @@ banner-y: 45
 		- **Generalised Additive Model (GAM)**
 			- Nonlinear and multiple predictors 'added'
 			- With many variables, important interactions can be missed
+	- MATLAB interaction method
 	- Look at statistical methods of other papers
 		- Thomas – ANOVA, Pearson Correlation Coefficient
 		- Elisa – Poincare Plots
