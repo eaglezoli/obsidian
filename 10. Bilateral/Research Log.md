@@ -53,7 +53,7 @@ banner-y: 45
 
 - **Generalised Additive Model (GAM)**
 	- Plotted fitted values with confidence intervals ✔️
-	- Plotted difference bands with spot tests ✔️**✓**
+	- Plotted difference bands with spot tests ✔️
 **Next**
 - GAM for each feature
 - Rename y-axis with feature name and unit
@@ -61,12 +61,12 @@ banner-y: 45
 ### Improvements
 - Feature naming/numbering system
 - Remove collinear features
-### Meeting James
+### James Meeting
 - Double check
 	- LOESS curve – should be more curved?
 	- Boxplot – why are both channels the same?
 		- Do with specific FR and HRs
-### Meeting Juan
+### Juan Meeting
 - Principal Component Analysis (PCA)
 	- Order reduction
 	- Reduce features
