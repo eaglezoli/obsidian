@@ -15,13 +15,13 @@ debugInConsole: false # Print debug info in Obsidian console
 
 
 ## Data Analysis
-- **Regression**
-	- Continuous data
-- **Prediction**
-	- Discrete data
-	- Decision Tree
-	- XGBoost
-^data-analysis-types
+**Regression**
+- Continuous data
+**Prediction**
+- Discrete data
+- Decision Tree
+- XGBoost
+
 ### Mixed Effects Model
 - Mixed models were developed to allow us to use all our data, even when we have low sample sizes, structured data and many covariates to fit
 
