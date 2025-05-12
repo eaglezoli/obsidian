@@ -29,12 +29,6 @@ banner-y: 45
 - HR 60–180 bpm (60, 90, 120, 150, 180)
 - Two vessel stiffnesses – healthy and unhealthy (need to determine elasticities)
 ## Data Analysis
-![[Wiki#^test-block]]
-
-dfgdf
-
-
-
 ![[Wiki#^data-analysis-types]]
 - **Mixed effects model** has funnel shape
 	- Tried log transform of AUC 
