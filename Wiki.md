@@ -8,18 +8,21 @@ hideWhenEmpty: false # Hide TOC if no headings are found
 debugInConsole: false # Print debug info in Obsidian console
 ```
 
+^1e8ec3
+
 ## Data Visualisation
 
 ![[visualisation.png]]
 
 ## Data Analysis
 - **Regression**
-  - Continuous data
-- **Prediction**
-  - Discrete data
-  - Decision Tree
-  - XGBoost
-^test
+	- Continuous data
+- **Prediction**  Discrete data
+- **Algorithms**
+	- Decision Tree
+	- XGBoost
+
+^ml-methods
 
 ### Mixed Effects Model
 - Mixed models were developed to allow us to use all our data, even when we have low sample sizes, structured data and many covariates to fit
