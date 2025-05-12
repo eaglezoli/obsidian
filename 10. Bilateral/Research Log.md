@@ -30,9 +30,24 @@ banner-y: 45
 - Two vessel stiffnesses – healthy and unhealthy (need to determine elasticities)
 ## Data Analysis
 ![[Wiki#^ml-methods]]
-- **Mixed effects model** has funnel shape
-	- Tried log transform of AUC 
-		- Helped, but still funnelled the other way
+
+- **Visualisation**
+	- Double check
+		- LOESS curve – should be more curved?
+		- Boxplot – why are both channels the same?
+			- Do with specific FR and HRs
+
+- **Cross Correlation**
+	- Looks good
+	- To do
+		- Healthy vs unhealthy
+		- Red vs infrared
+		- Export as table
+
+- **Mixed Effects Model**
+	- Funnel shape residuals
+		- Tried log transform of AUC 
+			- Helped, but still funnelled the other way
 - **Next**
 	- Just go with the mixed effects models as it is (with the funnel)
 	- Currently just linear, try upgrade to non-linear
@@ -57,11 +72,7 @@ banner-y: 45
 ### Improvements
 - Feature naming/numbering system
 - Remove collinear features
-### James Meeting
-- Double check
-	- LOESS curve – should be more curved?
-	- Boxplot – why are both channels the same?
-		- Do with specific FR and HRs
+
 ### Juan Meeting
 - Principal Component Analysis (PCA)
 	- Order reduction
