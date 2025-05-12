@@ -36,7 +36,8 @@ banner-y: 45
 	- Double check
 		- LOESS curve – should be more curved?
 		- Boxplot – why are both channels the same?
-			- Do with specific FR and HRs
+			- Do with specific FR and HRs, don't forget to set as one wavelength as well!
+				- Worked!
 
 - **Cross Correlation**
 	- Looks good on first look
