@@ -1,10 +1,27 @@
-## [[Data Visualisation]]
+```table-of-contents
+title: 
+style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
+minLevel: 0 # Include headings from the specified level
+maxLevel: 0 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+hideWhenEmpty: false # Hide TOC if no headings are found
+debugInConsole: false # Print debug info in Obsidian console
+```
+
+## Data Visualisation
 
 ![[visualisation.png]]
 
 
 
 ## Data Analysis
+- **Regression**
+	- Continuous data
+- **Prediction**
+	- Discrete data
+	- Decision Tree
+	- XGBoost
+^data-analysis-types
 ### Mixed Effects Model
 - Mixed models were developed to allow us to use all our data, even when we have low sample sizes, structured data and many covariates to fit
 
