@@ -37,7 +37,6 @@ banner-y: 45
 	- Just go with the mixed effects models as it is (with the funnel)
 	- Currently just linear, try upgrade to non-linear
 		- **Generalised Additive Model (GAM)** ![[Wiki#^gam]]
-			- 
 	- MATLAB interaction
 	- Look at statistical methods of other papers
 		- Thomas – ANOVA, Pearson Correlation Coefficient
@@ -46,12 +45,14 @@ banner-y: 45
 	- Do analysis for each feature
 
 - **Generalised Additive Model (GAM)**
-	- Plotted fitted values with confidence intervals ✔️
-	- Plotted difference bands with spot tests ✔️
+	- Textbook gam graphics outdated
+	- [This](https://stackoverflow.com/questions/75502600/visualize-generalized-additive-model-gam-in-r) looks better
+		- Plotted fitted values with confidence intervals ✔️
+		- Plotted difference bands with spot tests (chatGPT) ✔️
 	- Filtering out HRs improved gap a little
-**Next**
-- GAM for each feature
-- Rename y-axis with feature name and unit
+	- **Next**
+		- GAM for each feature
+		- Rename y-axis with feature name and unit
 
 ### Improvements
 - Feature naming/numbering system
