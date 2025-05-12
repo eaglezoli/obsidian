@@ -41,8 +41,10 @@ banner-y: 45
 - **Cross Correlation**
 	- Looks good on first look
 	- To do
-		- Healthy vs unhealthy
-		- Red vs infrared
+		- Correlation with *vessel health*
+		- Correlation with FR & HR
+			- Healthy vs unhealthy
+			- Red vs infrared
 		- Export as table
 
 - **Mixed Effects Model**
