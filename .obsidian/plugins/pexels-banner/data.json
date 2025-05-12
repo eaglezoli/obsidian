@@ -107,7 +107,7 @@
   "titleColor": "var(--inline-title-color)",
   "enableImageShuffle": false,
   "hideEmbeddedNoteTitles": false,
-  "hideEmbeddedNoteBanners": false,
+  "hideEmbeddedNoteBanners": true,
   "showBannerInPopoverPreviews": true,
   "showSelectImageIcon": false,
   "selectImageIconOpacity": 40,
