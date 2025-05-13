@@ -36,7 +36,7 @@ banner-y: 45
 	- Double check
 		- LOESS curve – should be more curved?
 		- Boxplot – why are both channels the same?
-			- Do with specific FR and HRs, don't forget to set as one wavelength as well!
+			- Filtering with specific FR and HRs, and one wavelength helped!
 				- Worked!
 
 - **Cross Correlation**
@@ -50,8 +50,7 @@ banner-y: 45
 
 - **Mixed Effects Model**
 	- Funnel shape residuals
-		- Tried log transform of AUC 
-			- Helped, but still funnelled the other way
+		- Log transform of AUC helped, but still funnelled the other way
 	- **Next**
 		- Just go with the mixed effects models as it is (with the funnel)
 		- Currently just linear, try upgrade to non-linear
