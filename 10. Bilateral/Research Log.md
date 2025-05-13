@@ -36,7 +36,7 @@ banner-y: 45
 
 - **Visualisation**
 	- To Do
-		- Grouped line plots ![[image-3.png]]
+		- Split line plots & box plots for healthy/unhealthy red/IR like Matlab
 	- Double check
 		- LOESS curve – should be more curved?
 		- Boxplot – why are both channels the same?
