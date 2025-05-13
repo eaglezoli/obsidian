@@ -31,6 +31,9 @@ banner-y: 45
 ## Data Analysis
 ![[Wiki#^ml-methods]]
 
+[Palette](https://pixelied.com/colors/palette-editor/edb120-d95319-4dbeee-0072bd-60c899-9c5a9a)
+![[palette.png]]
+
 - **Visualisation**
 	- To Do
 	- Double check
