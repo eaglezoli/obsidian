@@ -24,16 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Dashboard.md",
-      "timestamp": 1747132089703
+      "filepath": "10. Bilateral/3. Cross Correlation.md",
+      "timestamp": 1747132410329
     },
     {
       "filepath": "10. Bilateral/2. Visualise Data.md",
-      "timestamp": 1747132063652
+      "timestamp": 1747132406888
+    },
+    {
+      "filepath": "10. Bilateral/1. Normalisation.md",
+      "timestamp": 1747132405084
+    },
+    {
+      "filepath": "10. Bilateral/4. HR & FR Interaction.md",
+      "timestamp": 1747132402477
     },
     {
       "filepath": "10. Bilateral/Research Log.md",
-      "timestamp": 1747131859283
+      "timestamp": 1747132398916
     }
   ],
   "bookmarkedFileStore": [
