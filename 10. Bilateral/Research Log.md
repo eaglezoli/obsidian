@@ -37,7 +37,7 @@ banner-y: 45
 - **Visualisation**
 	- To Do
 		- Split line plots & box plots for healthy/unhealthy red/IR like Matlab
-		- Multi-coloured scatter bp
+		- Multi-coloured scatter plots
 	- Double check
 		- LOESS curve – should be more curved?
 		- Boxplot – why are both channels the same?
@@ -45,11 +45,11 @@ banner-y: 45
 
 - **Cross Correlation**
 	- Looks good on first look
+	- Correlation with *vessel health*
+		- Only two levels (healthy/unhealthy), but still did correlation with corrr_var
+			- Categorical gives same results as with elasticity values (as there are only two)
+		- Updated colours
 	- **To do**
-		- Correlation with *vessel health* ✔️
-			- Only two levels (healthy/unhealthy), but still did correlation with corrr_var
-				- Categorical gives same results as with elasticity values (as there are only two)
-			- Updated colours
 		- Correlation with FR & HR
 			- Healthy vs unhealthy
 			- Red vs infrared
