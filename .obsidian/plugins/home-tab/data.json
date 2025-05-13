@@ -22,7 +22,12 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": false,
-  "recentFilesStore": [],
+  "recentFilesStore": [
+    {
+      "filepath": "10. Bilateral/3. Cross Correlation.md",
+      "timestamp": 1747150661747
+    }
+  ],
   "bookmarkedFileStore": [
     {
       "filepath": "Dashboard.md",
