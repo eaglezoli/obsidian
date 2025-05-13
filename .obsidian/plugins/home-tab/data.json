@@ -24,8 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "10. Bilateral/3. Cross Correlation.md",
-      "timestamp": 1747157176167
+      "filepath": "10. Bilateral/images/scatter-fr-hr-groups.png",
+      "timestamp": 1747157448404
+    },
+    {
+      "filepath": "10. Bilateral/images/scatter-HR-stiffness.png",
+      "timestamp": 1747157434251
+    },
+    {
+      "filepath": "10. Bilateral/images/interaction-three-way-HR-stiffness-FR.png",
+      "timestamp": 1747157431447
+    },
+    {
+      "filepath": "10. Bilateral/images/interaction-CI-AUC-FR-HR_below_180.png",
+      "timestamp": 1747157362323
+    },
+    {
+      "filepath": "10. Bilateral/images/interaction-linear-AUC-FR.png",
+      "timestamp": 1747157361652
     }
   ],
   "bookmarkedFileStore": [
