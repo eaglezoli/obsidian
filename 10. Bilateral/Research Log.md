@@ -31,11 +31,12 @@ banner-y: 45
 ## Data Analysis
 ![[Wiki#^ml-methods]]
 
-[Palette](https://pixelied.com/colors/palette-editor/edb120-d95319-4dbeee-0072bd-60c899-9c5a9a)
+[Palette](https://pixelied.com/colors/palette-editor/edb120-d95319-4dbeee-0072bd-60c899-d681d2)
 ![[palette.png]]
 
 - **Visualisation**
 	- To Do
+		- Grouped line plots ![[image-3.png]]
 	- Double check
 		- LOESS curve – should be more curved?
 		- Boxplot – why are both channels the same?
