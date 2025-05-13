@@ -45,7 +45,7 @@ banner-y: 45
 - **Cross Correlation**
 	- Looks good on first look
 	- To do
-		- Correlation with *vessel health*
+		- Correlation with *vessel health* ✔️
 		- Correlation with FR & HR
 			- Healthy vs unhealthy
 			- Red vs infrared
