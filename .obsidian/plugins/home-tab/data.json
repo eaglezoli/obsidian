@@ -22,16 +22,7 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": false,
-  "recentFilesStore": [
-    {
-      "filepath": "10. Bilateral/3. Cross Correlation.md",
-      "timestamp": 1747148921209
-    },
-    {
-      "filepath": "10. Bilateral/images/histograms_snr.png",
-      "timestamp": 1747148919025
-    }
-  ],
+  "recentFilesStore": [],
   "bookmarkedFileStore": [
     {
       "filepath": "Dashboard.md",
