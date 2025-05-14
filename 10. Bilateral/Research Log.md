@@ -55,6 +55,7 @@ banner-y: 45
 	- **To do**
 		- Export as table
 			- Might have to rename features to create alphabetical order
+				- Managed to get it working without renam
 		- Redo to remove 'file' variable
 
 - **Mixed Effects Model**
