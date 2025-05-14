@@ -13,7 +13,7 @@ banner-y: 45
 
 > [!todo]
 > ### Aims
-> 1. Find which features are most **strongly correlated** with FR and HR
+> 1. Find which features are most **strongly correlated** with ~~FR and HR~~ ***stiffness***
 > 2. **Interaction effect** of stiffness, FR and HR on select features
 > 3. Highlight how **unhealthy** vessels **respond differently** to changing **flow dynamics**
 
