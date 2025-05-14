@@ -48,7 +48,7 @@ banner-y: 45
 	- Correlation with *vessel health*
 		- Only two levels (healthy/unhealthy), but still did correlation with corrr_var
 			- Categorical gives same results as with elasticity values (as there are only two)
-		- Updated colours
+		- Updated colour palette
 	- **To do**
 		- Correlation with FR & HR
 			- Healthy vs unhealthy
