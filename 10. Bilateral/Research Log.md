@@ -54,6 +54,8 @@ banner-y: 45
 		- Red vs infrared
 	- **To do**
 		- Export as table
+			- Might have to rename features to create alphabetical order
+		- Redo to remove 'file' variable
 
 - **Mixed Effects Model**
 	- Funnel shape residuals
