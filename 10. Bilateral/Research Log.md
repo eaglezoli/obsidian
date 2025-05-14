@@ -31,7 +31,7 @@ banner-y: 45
 ## Data Analysis
 ![[Wiki#^ml-methods]]
 
-[Palette](https://pixelied.com/colors/palette-editor/edb120-d95319-4dbeee-0072bd-60c899-d681d2)
+[**Colour Palette**](https://pixelied.com/colors/palette-editor/edb120-d95319-4dbeee-0072bd-60c899-d681d2)
 ![[palette.png]]
 
 - **Visualisation**
@@ -48,7 +48,7 @@ banner-y: 45
 	- Correlation with *vessel health*
 		- Only two levels (healthy/unhealthy), but still did correlation with corrr_var
 			- Categorical gives same results as with elasticity values (as there are only two)
-		- Updated colour palette
+	- Updated colour palette
 	- **To do**
 		- Correlation with FR & HR
 			- Healthy vs unhealthy
