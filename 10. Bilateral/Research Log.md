@@ -49,10 +49,10 @@ banner-y: 45
 		- Only two levels (healthy/unhealthy), but still did correlation with corrr_var
 			- Categorical gives same results as with elasticity values (as there are only two)
 	- Updated colour palette
+	- Correlation with FR & HR
+		- Healthy vs unhealthy
+		- Red vs infrared
 	- **To do**
-		- Correlation with FR & HR
-			- Healthy vs unhealthy
-			- Red vs infrared
 		- Export as table
 
 - **Mixed Effects Model**
