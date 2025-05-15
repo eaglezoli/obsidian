@@ -34,7 +34,7 @@ banner-y: 45
 [**Colour Palette**](https://pixelied.com/colors/palette-editor/edb120-d95319-4dbeee-0072bd-60c899-d681d2)
 ![[palette.png]]
 
-- **Visualisation**
+1. Visualisation
 	- To Do
 		- Split line plots & box plots for healthy/unhealthy red/IR like Matlab
 		- Multi-coloured scatter plots
@@ -43,7 +43,7 @@ banner-y: 45
 		- Boxplot – why are both channels the same?
 			- Filtering with specific FR and HRs, and one wavelength helped!
 
-- **Cross Correlation**
+2. **Cross Correlation**
 	- Looks good on first look
 	- Correlation with *vessel health*
 		- Only two levels (healthy/unhealthy), but still did correlation with corrr_var
@@ -52,17 +52,17 @@ banner-y: 45
 	- Correlation with FR & HR
 		- Healthy vs unhealthy
 		- Red vs infrared
-	- **To do**
+	- To do
 		- Export as table
 			- Might have to rename features to create alphabetical order
 				- Managed to get it working without renaming
 			- Export working, need to stack them horizontally and fit into one page
 		- Redo to remove 'file' variable
 
-- **Mixed Effects Model**
+3. Mixed Effects Model
 	- Funnel shape residuals
 		- Log transform of AUC helped, but still funnelled the other way
-	- **Next**
+	- Next
 		- Just go with the mixed effects models as it is (with the funnel)
 		- Currently just linear, try upgrade to non-linear
 			- **Generalised Additive Model (GAM)** ![[Wiki#^gam]]
@@ -72,17 +72,17 @@ banner-y: 45
 		- Maybe try ANOVA
 		- Do analysis for each feature
 
-- **Generalised Additive Model (GAM)**
+4. **Generalised Additive Model (GAM)**
 	- Textbook gam doesn't show both vessels in one graph, also graphics look dated
 	- [This](https://stackoverflow.com/questions/75502600/visualize-generalized-additive-model-gam-in-r) shows both and looks better
 		- Plotted fitted values with confidence intervals ✔️
 		- Plotted difference bands with spot tests (chatGPT) ✔️
 	- Filtering out HRs improved gap a little
-	- **Next**
+	- Next
 		- GAM for each feature
 		- Rename y-axis with feature name and unit
 
-- **MATLAB interaction** 
+5. MATLAB interaction 
 	- To Do
 ### Improvements
 - Feature naming/numbering system
