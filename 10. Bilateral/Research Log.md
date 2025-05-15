@@ -57,7 +57,10 @@ banner-y: 45
 			- Might have to rename features to create alphabetical order
 				- Managed to get it working without renaming
 			- Export working, need to stack them horizontally and fit into one page
-		- Redo to remove 'file' variable
+		- Redo graphs
+			- Remove 'file' variable
+			- Correct 'upslope' and 'onset' typos
+			- Make IR graph taller and lighter to show .9
 
 3. Mixed Effects Model
 	- Funnel shape residuals
