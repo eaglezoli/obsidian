@@ -63,13 +63,13 @@ banner-y: 45
 			- Make IR graph taller and lighter to show .9
 		- Captions for graphs and table
 
-3. **Mixed Effects Model**
+3. Mixed Effects Model
 	- Funnel shape residuals
 		- Log transform of AUC helped, but still funnelled the other way
 	- Next
 		- Just go with the mixed effects models as it is (with the funnel)
 		- Currently just linear, try upgrade to non-linear
-			- **Generalised Additive Model (GAM)** ![[Wiki#^gam]]
+			- Generalised Additive Model (GAM) ![[Wiki#^gam]]
 		- Look at statistical methods of other papers
 			- Thomas – ANOVA, Pearson Correlation Coefficient
 			- Elisa – Poincare Plots
@@ -82,6 +82,7 @@ banner-y: 45
 		- Plotted fitted values with confidence intervals ✔️
 		- Plotted difference bands with spot tests (chatGPT) ✔️
 	- Filtering out HRs improved gap a little
+		- **To do:** try filtering Red/IR!
 	- Next
 		- GAM for each feature
 		- Rename y-axis with feature name and unit
