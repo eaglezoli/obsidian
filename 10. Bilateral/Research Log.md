@@ -83,8 +83,8 @@ banner-y: 45
 		- Plotted difference bands with spot tests (chatGPT) ✔️
 	- Filtering out HRs improved gap a little
 		- **To do:** try filtering Red/IR!
-	- Next
-		- GAM for each feature
+	- **To do**
+		- GAM for specific features
 		- Rename y-axis with feature name and unit
 
 5. MATLAB interaction 
