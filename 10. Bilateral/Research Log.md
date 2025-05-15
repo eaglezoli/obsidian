@@ -56,7 +56,8 @@ banner-y: 45
 		- Export as table
 			- Might have to rename features to create alphabetical order
 				- Managed to get it working without renaming
-			- Export working, need to stack them horizontally and fit into one page
+			- Export working, stacked horizontally to fit together with only one features column
+			- Need to redo values to make sure correlation sign is aligned with graphs for stiffness (as it is categorical and doesn't have a clear order)
 		- Redo graphs
 			- Remove 'file' variable
 			- Correct 'upslope' and 'onset' typos
