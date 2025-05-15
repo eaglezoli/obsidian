@@ -43,7 +43,7 @@ banner-y: 45
 		- Boxplot – why are both channels the same?
 			- Filtering with specific FR and HRs, and one wavelength helped!
 
-2. **Cross Correlation**
+2. Cross Correlation
 	- Looks good on first look
 	- Correlation with *vessel health*
 		- Only two levels (healthy/unhealthy), but still did correlation with corrr_var
@@ -61,9 +61,9 @@ banner-y: 45
 			- Remove 'file' variable
 			- Correct 'upslope' and 'onset' typos
 			- Make IR graph taller and lighter to show .9
-		- Graph and table captions
+		- Captions for graphs and table
 
-3. Mixed Effects Model
+3. **Mixed Effects Model**
 	- Funnel shape residuals
 		- Log transform of AUC helped, but still funnelled the other way
 	- Next
