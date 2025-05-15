@@ -79,10 +79,11 @@ banner-y: 45
 4. **Generalised Additive Model (GAM)**
 	- Textbook gam doesn't show both vessels in one graph, also graphics look dated
 	- [This](https://stackoverflow.com/questions/75502600/visualize-generalized-additive-model-gam-in-r) shows both and looks better
-		- Plotted fitted values with confidence intervals ✔️
-		- Plotted difference bands with spot tests (chatGPT) ✔️
+		- Plotted fitted values with confidence intervals
+		- Plotted difference bands with spot tests (chatGPT)
 	- Filtering out HRs improved gap a little
-	- Separating the analysis for Red/IR!
+	- Separate analysis for Red/IR
+		- Matches cross correlation results!
 	- Made GAM function loop for all features
 		- Look into [[gam-red-stiffness-length_height_ratio.png|geometry ratios]]
 			- [[correlation-stiffness-red.png|Highest correlated]] red feature, double the 2nd
