@@ -82,11 +82,15 @@ banner-y: 45
 		- Plotted fitted values with confidence intervals ✔️
 		- Plotted difference bands with spot tests (chatGPT) ✔️
 	- Filtering out HRs improved gap a little
-		- **To do:** try filtering Red/IR!
+	- Separating the analysis for Red/IR!
 	- Made GAM function loop for all features
-		- Look into [[gam]]
+		- Look into [[gam-red-stiffness-length_height_ratio.png|geometry ratios]]
+			- [[correlation-stiffness-red.png|Highest correlated]] red feature, double the 2nd
+			- Shows potential for geometry ratios
+				- May be linked to 2nd derivative ratios e.g. a/b
+			- To do: show example waveforms and measurements
 	- **To do**
-		- GAM for specific features
+		- Look into GAM for IR
 		- y-axis feature name and unit
 
 5. MATLAB interaction 
