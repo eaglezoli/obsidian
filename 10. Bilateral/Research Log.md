@@ -52,15 +52,16 @@ banner-y: 45
 	- Correlation with FR & HR
 		- Healthy vs unhealthy
 		- Red vs infrared
-		- Export as table
-			- Following original order of features list
-			- Export working, stacked horizontally to fit together with only one features column
-			- Need to redo values to make sure correlation sign is aligned with graphs for stiffness (as it is categorical and doesn't have a clear order)
+	- Export as table
+		- Following original order of features list
+		- Stacked horizontally to fit together with only one features column
+		- Values and signs matching graphs
 	- **To do**
 		- Redo graphs
 			- Remove 'file' variable
 			- Correct 'upslope' and 'onset' typos
 			- Make IR graph taller and lighter to show .9
+		- Graph and table captions
 
 3. Mixed Effects Model
 	- Funnel shape residuals
