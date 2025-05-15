@@ -83,6 +83,8 @@ banner-y: 45
 		- Plotted difference bands with spot tests (chatGPT) ✔️
 	- Filtering out HRs improved gap a little
 		- **To do:** try filtering Red/IR!
+	- Made GAM function loop for all features
+		- Look into [[gam]]
 	- **To do**
 		- GAM for specific features
 		- y-axis feature name and unit
