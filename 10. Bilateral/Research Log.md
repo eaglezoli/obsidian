@@ -52,12 +52,11 @@ banner-y: 45
 	- Correlation with FR & HR
 		- Healthy vs unhealthy
 		- Red vs infrared
-	- **To do**
 		- Export as table
-			- Might have to rename features to create alphabetical order
-				- Managed to get it working without renaming
+			- Following original order of features list
 			- Export working, stacked horizontally to fit together with only one features column
 			- Need to redo values to make sure correlation sign is aligned with graphs for stiffness (as it is categorical and doesn't have a clear order)
+	- **To do**
 		- Redo graphs
 			- Remove 'file' variable
 			- Correct 'upslope' and 'onset' typos
