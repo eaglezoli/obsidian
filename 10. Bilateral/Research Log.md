@@ -85,7 +85,7 @@ banner-y: 45
 		- **To do:** try filtering Red/IR!
 	- **To do**
 		- GAM for specific features
-		- Rename y-axis with feature name and unit
+		- y-axis feature name and unit
 
 5. MATLAB interaction 
 	- To Do
