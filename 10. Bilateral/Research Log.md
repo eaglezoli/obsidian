@@ -52,7 +52,7 @@ banner-y: 45
 	- Correlation with FR & HR
 		- Healthy vs unhealthy
 		- Red vs infrared
-	- To do
+	- **To do**
 		- Export as table
 			- Might have to rename features to create alphabetical order
 				- Managed to get it working without renaming
