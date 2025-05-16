@@ -97,7 +97,7 @@ banner-y: 45
 	- Function loop for all features
 	- **Observations**
 		- GAM matches cross correlation results
-		- Look into [[gam-red-stiffness-length_height_ratio.png|geometry ratios]]
+		- [[gam-red-stiffness-length_height_ratio.png|Geometry ratios]] (length-height ratio)
 			- [[correlation-stiffness-red.png|Highest correlated]] red feature, double the 2nd
 			- Shows potential for geometry ratios
 				- May be linked to 2nd derivative ratios e.g. a/b
