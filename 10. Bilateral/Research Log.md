@@ -106,6 +106,8 @@ banner-y: 45
 				- HR more negative (smaller waveform)
 			- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
 				- Maybe link to BP?
+		- SNR is higher in healthier, as expected
+			- Flow rate doesn't seem to effect, so it's constant difference (offset)
 	- **To do**
 		- Look into GAM for IR
 		- Show example waveforms and geometrical measurements
