@@ -104,11 +104,6 @@ banner-y: 45
 			- As does start (-ve) and end (+ve) datum areas, which also matches the upslope downslope signs
 			- Shows that stiffness affects systolic and diastolic segments of the PPG differently 
 			- Again need to look at example waveforms
-		- FR and HR have opposite effects on features
-			- FR more positive (larger waveform)
-				- HR more negative (smaller waveform)
-			- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
-				- Maybe link to BP?
 		- SNR is higher in healthier, as expected
 			- Flow rate doesn't seem to effect, so it's constant difference (offset)
 	- **To do**
@@ -117,8 +112,8 @@ banner-y: 45
 		- Difference confidence bands
 		- y-axis feature name and unit
 
-5. MATLAB interaction 
-	- To Do
+5. Interaction 
+	- **To do:** MATLAB funct
 ### Improvements
 - Feature naming/numbering system
 - Remove collinear features
