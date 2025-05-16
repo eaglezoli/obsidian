@@ -113,7 +113,7 @@ banner-y: 45
 				- Flow rate doesn't seem to effect, so it's constant difference (offset)
 					- For both wavelengths
 		- HR
-			- Shows a line with multiple curves
+			- Multiple curves
 	- **To do**
 		- Show example waveforms and geometrical measurements
 		- Difference confidence bands
