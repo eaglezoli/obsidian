@@ -97,15 +97,14 @@ banner-y: 45
 	- Function loop for all features
 	- **Observations**
 		- GAM matches cross correlation results
-		- [[gam-red-stiffness-length_height_ratio.png|Geometry ratios]] (length-height ratio)
-			- [[correlation-stiffness-red.png|Highest correlated]] red feature, double the 2nd
-			- Shows potential for geometry ratios
+		- [[correlation-stiffness-red.png|length-height ratio]] is the highest correlated feature, *double* the 2nd
+			- Shows potential for [[gam-red-stiffness-length_height_ratio.png|geometry ratios]]
 				- May be linked to 2nd derivative ratios e.g. a/b
 			- Need to look at example waveforms and geometrical measurements
 			- But why is it not present on IR?
 				- It is higher than IRs most correlated feature
-				- Compare red and IR waveforms
-		- Upslope (-ve) and downslope (+ve) have different correlation signs
+				- Need to compare red and IR waveforms
+		- IR: Upslope (-ve) and downslope (+ve) have different correlation signs
 			- As does start (-ve) and end (+ve) datum areas, which also matches the upslope downslope signs
 			- Shows that stiffness affects systolic and diastolic segments of the PPG differently 
 			- Again need to look at example waveforms
