@@ -56,6 +56,12 @@ banner-y: 45
 		- Following original order of features list
 		- Stacked horizontally to fit together with only one features column
 		- Values and signs matching graphs
+	- **To do**
+		- Redo graphs
+			- Remove 'file' variable
+			- Correct 'upslope' and 'onset' typos
+			- Make IR graph taller and lighter to show .9
+		- Captions for graphs and table
 	- **Observations**
 		- IR features are more correlated with stiffness than red
 			- IR mostly negative correlations
@@ -66,12 +72,6 @@ banner-y: 45
 					- HR more negative (smaller waveform)
 				- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
 					- Maybe link to BP?
-	- **To do**
-		- Redo graphs
-			- Remove 'file' variable
-			- Correct 'upslope' and 'onset' typos
-			- Make IR graph taller and lighter to show .9
-		- Captions for graphs and table
 
 3. Mixed Effects Model
 	- Funnel shape residuals
@@ -95,6 +95,11 @@ banner-y: 45
 	- Separate analysis for Red/IR
 		- Matches cross correlation results!
 	- Function loop for all features
+	- y-axis feature name and unit
+	- **To do**
+		- Show example waveforms and geometrical measurements
+		- Difference confidence bands
+		- Against HR
 	- **Observations**
 		- GAM matches cross correlation results
 		- FR
@@ -114,20 +119,15 @@ banner-y: 45
 					- For both wavelengths
 		- HR
 			- Multiple curves
-	- **To do**
-		- Show example waveforms and geometrical measurements
-		- Difference confidence bands
-		- Against HR
-		- y-axis feature name and unit
 
 5. Interaction 
+	- **To do:** MATLAB function
 	- **Observations**
 		- FR and HR have opposite effects on features
 			- FR more positive (larger waveform)
 				- HR more negative (smaller waveform)
 			- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
 				- Maybe link to BP?
-	- **To do:** MATLAB function
 ### Improvements
 - Feature naming/numbering system
 - Remove collinear features
