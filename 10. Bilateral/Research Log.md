@@ -97,10 +97,11 @@ banner-y: 45
 			- Shows potential for geometry ratios
 				- May be linked to 2nd derivative ratios e.g. a/b
 			- **To do:** show example waveforms and measurement
-		- Upslope (-ve) and downslope (-ve) have different correlation signs
+		- Upslope (-ve) and downslope (+ve) have different correlation signs
 			- As does start (-ve) and end (+ve) datum areas, which also matches the upslope downslope signs
-			- Shows a possible link 
-		- HR and FR 
+			- Shows that stiffness affects systolic and diastolic segments of the PPG differently 
+		- FR and HR have opposite effects on features
+			- 
 	- **To do**
 		- Look into GAM for IR
 		- y-axis feature name and unit
