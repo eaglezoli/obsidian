@@ -114,6 +114,7 @@ banner-y: 45
 	- **To do**
 		- Show example waveforms and geometrical measurements
 		- Difference confidence bands
+		- Against HR
 		- y-axis feature name and unit
 
 5. Interaction 
