@@ -89,10 +89,11 @@ banner-y: 45
 			- [[correlation-stiffness-red.png|Highest correlated]] red feature, double the 2nd
 			- Shows potential for geometry ratios
 				- May be linked to 2nd derivative ratios e.g. a/b
-			- To do: show example waveforms and measurements
+			- **To do:** show example waveforms and measurements
 	- **To do**
 		- Look into GAM for IR
 		- y-axis feature name and unit
+		- Difference confidence bands
 
 5. MATLAB interaction 
 	- To Do
