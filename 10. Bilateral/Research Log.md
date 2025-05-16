@@ -96,16 +96,21 @@ banner-y: 45
 			- [[correlation-stiffness-red.png|Highest correlated]] red feature, double the 2nd
 			- Shows potential for geometry ratios
 				- May be linked to 2nd derivative ratios e.g. a/b
-			- **To do:** show example waveforms and measurement
+			- Need to look at example waveforms and geometrical measurements
 		- Upslope (-ve) and downslope (+ve) have different correlation signs
 			- As does start (-ve) and end (+ve) datum areas, which also matches the upslope downslope signs
 			- Shows that stiffness affects systolic and diastolic segments of the PPG differently 
+			- Again need to look at example waveforms
 		- FR and HR have opposite effects on features
-			- 
+			- FR more positive (larger waveform)
+				- HR more negative (smaller waveform)
+			- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
+				- Maybe link to BP?
 	- **To do**
 		- Look into GAM for IR
-		- y-axis feature name and unit
+		- Show example waveforms and geometrical measurements
 		- Difference confidence bands
+		- y-axis feature name and unit
 
 5. MATLAB interaction 
 	- To Do
