@@ -56,6 +56,7 @@ banner-y: 45
 		- Following original order of features list
 		- Stacked horizontally to fit together with only one features column
 		- Values and signs matching graphs
+	- **Observations**
 	- **To do**
 		- Redo graphs
 			- Remove 'file' variable
@@ -84,12 +85,14 @@ banner-y: 45
 	- Filtering out HRs improved gap a little
 	- Separate analysis for Red/IR
 		- Matches cross correlation results!
-	- Made GAM function loop for all features
+	- Function loop for all features
+	- **Observations**
 		- Look into [[gam-red-stiffness-length_height_ratio.png|geometry ratios]]
 			- [[correlation-stiffness-red.png|Highest correlated]] red feature, double the 2nd
 			- Shows potential for geometry ratios
 				- May be linked to 2nd derivative ratios e.g. a/b
-			- **To do:** show example waveforms and measurements
+			- **To do:** show example waveforms and measurement
+		- 
 	- **To do**
 		- Look into GAM for IR
 		- y-axis feature name and unit
