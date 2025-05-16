@@ -91,12 +91,16 @@ banner-y: 45
 		- Matches cross correlation results!
 	- Function loop for all features
 	- **Observations**
+		- GAM matches cross correlation results
 		- Look into [[gam-red-stiffness-length_height_ratio.png|geometry ratios]]
 			- [[correlation-stiffness-red.png|Highest correlated]] red feature, double the 2nd
 			- Shows potential for geometry ratios
 				- May be linked to 2nd derivative ratios e.g. a/b
 			- **To do:** show example waveforms and measurement
-		- 
+		- Upslope (-ve) and downslope (-ve) have different correlation signs
+			- As does start (-ve) and end (+ve) datum areas, which also matches the upslope downslope signs
+			- Shows a possible link 
+		- HR and FR 
 	- **To do**
 		- Look into GAM for IR
 		- y-axis feature name and unit
