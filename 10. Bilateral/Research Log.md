@@ -61,6 +61,11 @@ banner-y: 45
 			- IR mostly negative correlations
 				- Red mixed
 		- FR and HR are much more influential on PPG features (both wavelengths), as expected
+			- They have opposite effects
+				- FR more positive (larger waveform)
+					- HR more negative (smaller waveform)
+				- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
+					- Maybe link to BP?
 	- **To do**
 		- Redo graphs
 			- Remove 'file' variable
@@ -113,7 +118,13 @@ banner-y: 45
 		- y-axis feature name and unit
 
 5. Interaction 
-	- **To do:** MATLAB funct
+	- **Observations**
+		- FR and HR have opposite effects on features
+			- FR more positive (larger waveform)
+				- HR more negative (smaller waveform)
+			- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
+				- Maybe link to BP?
+	- **To do:** MATLAB function
 ### Improvements
 - Feature naming/numbering system
 - Remove collinear features
