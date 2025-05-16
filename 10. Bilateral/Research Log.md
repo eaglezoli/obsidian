@@ -57,6 +57,10 @@ banner-y: 45
 		- Stacked horizontally to fit together with only one features column
 		- Values and signs matching graphs
 	- **Observations**
+		- IR features are more correlated with stiffness than red
+			- IR mostly negative correlations
+				- Red mixed
+		- FR and HR are much more influential on PPG features (both wavelengths), as expected
 	- **To do**
 		- Redo graphs
 			- Remove 'file' variable
