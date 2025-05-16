@@ -97,6 +97,9 @@ banner-y: 45
 			- Shows potential for geometry ratios
 				- May be linked to 2nd derivative ratios e.g. a/b
 			- Need to look at example waveforms and geometrical measurements
+			- But why is it not present on IR?
+				- It is higher than IRs most correlated feature
+				- Compare red and IR waveforms
 		- Upslope (-ve) and downslope (+ve) have different correlation signs
 			- As does start (-ve) and end (+ve) datum areas, which also matches the upslope downslope signs
 			- Shows that stiffness affects systolic and diastolic segments of the PPG differently 
