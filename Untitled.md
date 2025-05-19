@@ -23,6 +23,8 @@ I got into egg toast sandwiches and loved it. The same ones my mum made me on we
 
 I made my own egg toasts for a couple of weeks. Once I got used to it, my mind and body were into it. I’d naturally wake up 15 minutes earlier to make my egg toast, even when I had morning lectures. It lasted a couple of weeks.
 
+![[image-1.png]]
+
 Then guess what happened. I fell off again. One of those things where day by day nothing changes, but looking back, everything is different. One morning I must’ve woken up too late. And if you know me, I don’t leave without breakfast. So I must’ve eaten a quick cereal and never made a toast again. That’s all it takes to lose a streak. I ended up back on the Weetabix Minis. One day can make all the difference.
 
 Recently, M&S came out with a new line and I’ve been having that. I upgraded the Minis to the M&S "only X ingredients" line. The lineup is literally based on numbers. One for the one ingredient cereal. Just corn. Five for the five ingredient multigrain hoops. You can add one extra for the chocolate version, which makes six. Being a cereal muncher and health conscious, I was excited to try them out.
@@ -31,15 +33,11 @@ I tried them in order of ingredients. Starting with the 1. It wasn’t bad, but 
 
 I thought the 6 would hit the mark but the chocolate flavour was weird. Nothing like Krave. But it worked as a mix-in. I realised I could sprinkle some of them into my 5 bowl to add a bit of contrast.
 
-So that’s my current go-to healthy cereal. Multigrain hoops, five ingredients, with a layer of the six choco hoops. But again, now that I’m even closer to 30, it’s time for a change.
-
-And what I’ve started to realise is that I want my mornings to feel a bit more intentional. A bit more made. Not just swallowed between emails and door slams.
+So that’s my current go-to healthy cereal. Multigrain hoops, five ingredients, with a layer of the six choco hoops. But again, now closer to 30, it’s time for a change!
 
 Recently, I’ve had more structure forced into my mornings anyway. I volunteered for the school run. Every weekday, 8:45 drop-off. It’s hard, but it’s made me consistent. I’m waking up earlier, going to the gym, and getting into uni at a decent time. That alone has been a game-changer.
 
 So now feels like the right time to level up the rest of the morning too.
-
-No, not the sugary neon-colored kind with cartoon mascots. I’m talking about the M&S "healthy" range. The 1, 5, and 6 ingredient boxes. Genuinely decent. Quick, clean, no faff. But still, it’s just pour, crunch, go. Feels more like fuelling up than actually eating. It could be worse, at least it's not neon.
 
 **The 30-Day Plan**
 
@@ -116,7 +114,10 @@ It sets the tone. For the gym. For work. For how I show up as a parent. And I’
     
 4. **Chia pudding with mango or berry compote**  
     Prep ahead. Feels indulgent but is packed with good stuff.
-    
+
+![[image-2.png]]
+
+![[image-3.png]]
 
 **The Final Four**
 
