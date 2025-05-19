@@ -1,20 +1,21 @@
 # 🥣 From Cereal to Sanity
 
 # My 30-Day Breakfast Challenge
+![[image.png]]
 
 I have a confession to make. I’m a cereal merchant.
 
 I LOVE breakfast. I don’t care if it’s the same cereal every day. I will wake up excited to eat my cookie crisps. Nothing can rush me into skipping breakfast. I don’t leave the house without it.
 
-Since I was a kid, it’s always been cereal. I’m super health conscious, so I started looking into healthier cereals and protein cereals. The protein ones were expensive like Surreal and Eleat. I settled on Fuel, which was still pricey but not as much. Then I realised this granola wasn’t much better thanks to the high sugar. So I toned it down to Weetabix, the protein packed one. Cereal doesn’t get much better than that.
+Since I was a kid, it’s always been cereal. I’m super health conscious, so I started looking into healthier cereals and protein cereals. The protein ones were expensive like Surreal and Eleat. I settled on Fuel, which was still pricey but not as much. Then I realised this granola wasn’t much better thanks to the high sugar. So I toned it down to Weetabix, the protein packed one. Cereal doesn’t get much healthier than pure wheat.
 
-Of course I had to add stuff to it. I discovered so many good toppings. All the berries. Strawberries, blueberries, blackberries, raspberries. Of course a banana for energy. Dates so sweet you don’t need Frosties. A handful of different nuts. A sprinkle of whatever was in Liam’s baby superfood drawer. Chia seeds, desiccated coconut. And that list wasn’t a selection. I would add all of them every time. I loved it and didn’t get bored.
+Of course I had to add stuff to it. I discovered so many good toppings. All the berries. Strawberries, blueberries, blackberries, raspberries. Of course a banana for energy. Dates so sweet you don’t need Frosties. A handful of different nuts. A sprinkle of whatever was in my nephew's baby superfood drawer. Chia seeds, desiccated coconut. And that list wasn’t a selection. I would add all of them every time. I loved it and didn’t get bored.
 
-I added so many toppings I actually had to upgrade my cereal bowl. They didn’t fit in a regular one. I used a mixing bowl instead. It was nearly just as quick as regular cereal, especially if I prepped everything in the bowl the night before and just added milk in the morning. I had plans to alternate with porridge or yogurt instead of milk, but never really stuck to it.
+I added so many toppings I actually had to upgrade my cereal bowl. They didn’t fit in a regular one. I used a mixing bowl instead. It was nearly just as quick as regular cereal, especially if I prepped everything in the bowl the night before and just added milk in the morning.
 
-As a backup, if I was ever in a super rush, I had the plan B Weetabix Minis. A bit chocolaty and not as healthy as the original, which is unbeatable because it’s literally pure wheat with protein added. But the Minis tasted good and are probably the healthiest traditional cereal you could get without going into pure grains.
+As a backup, if I was ever in a super rush, I had the plan B Weetabix Minis. A bit chocolaty and not as healthy as the original (which is unbeatable because it’s literally pure wheat). But the Minis tasted good and are probably the healthiest traditional cereal you could get without going into pure grains.
 
-The issue was, I fell off. I gravitated more and more towards the Minis. Eventually I hadn’t made my big Weetabix fruit bowls in months and was sneaking in the odd Krave. It’s hard to resist when it’s right there in the cereal cupboard.
+The issue was, I fell off. I gravitated more and more towards the Minis. Eventually I hadn’t made my big Weetabix fruit bowls in months and was sneaking in the odd Krave! It’s hard to resist when it’s right there in the cereal cupboard.
 
 But at nearly age 30, it was time for a change.
 
@@ -26,9 +27,9 @@ Then guess what happened. I fell off again. One of those things where day by day
 
 Recently, M&S came out with a new line and I’ve been having that. I upgraded the Minis to the M&S "only X ingredients" line. The lineup is literally based on numbers. One for the one ingredient cereal. Just corn. Five for the five ingredient multigrain hoops. You can add one extra for the chocolate version, which makes six. Being a cereal muncher and health conscious, I was excited to try them out.
 
-I tried them in order of ingredients. Starting with the one. It wasn’t bad, but let’s just say I can see why cereal usually has more than one ingredient. It wasn’t the taste, but the texture wasn’t great. Not enough crunch and a bit sticky. The five though? Perfect texture. They really nailed it. The taste was almost non-existent, but that’s okay. With cold milk and crunch, that’s all I need. I don’t need sugar or sweetness.
+I tried them in order of ingredients. Starting with the 1. It wasn’t bad, but let’s just say I can see why cereal usually has more than one ingredient. It wasn’t the taste, but the texture wasn’t great. Not enough crunch and a bit sticky. The 5 though? Perfect texture. They really nailed it. The taste was almost non-existent, but that’s okay. With cold milk and crunch, that’s all I need. I don’t need sugar or sweetness.
 
-I thought the six would hit the mark but the chocolate flavour was weird. Nothing like Krave. But it worked as a mix-in. I realised I could sprinkle some of them into my five bowl to add a bit of contrast.
+I thought the 6 would hit the mark but the chocolate flavour was weird. Nothing like Krave. But it worked as a mix-in. I realised I could sprinkle some of them into my 5 bowl to add a bit of contrast.
 
 So that’s my current go-to healthy cereal. Multigrain hoops, five ingredients, with a layer of the six choco hoops. But again, now that I’m even closer to 30, it’s time for a change.
 
