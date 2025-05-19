@@ -115,10 +115,6 @@ It sets the tone. For the gym. For work. For how I show up as a parent. And I’
 4. **Chia pudding with mango or berry compote**  
     Prep ahead. Feels indulgent but is packed with good stuff.
 
-![[image-2.png]]
-
-![[image-3.png]]
-
 **The Final Four**
 
 Here’s what I’m starting with for each week:
@@ -131,6 +127,10 @@ Here’s what I’m starting with for each week:
     
 - **Week 4:** Greek yogurt bowl
     
+
+![[image-2.png|253x253]] ![[image-3.png|167x250]]
+
+![[image-4.png|153x229]] ![[image-5.png|364x232]]
 
 That gives me:
 
