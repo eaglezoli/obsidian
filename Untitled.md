@@ -4,14 +4,6 @@
 
 I have a confession to make. I’m a cereal merchant.
 
-No, not the sugary neon-colored kind with cartoon mascots. I’m talking about the M&S "healthy" range. The 1, 5, and 6 ingredient boxes. Genuinely decent. Quick, clean, no faff. But still, it’s just pour, crunch, go. Feels more like fuelling up than actually eating. It could be worse, at least it's not neon.
-
-And what I’ve started to realise is that I want my mornings to feel a bit more intentional. A bit more made. Not just swallowed between emails and door slams.
-
-Recently, I’ve had more structure forced into my mornings anyway. I volunteered for the school run. Every weekday, 8:45 drop-off. It’s hard, but it’s made me consistent. I’m waking up earlier, going to the gym, and getting into uni at a decent time. That alone has been a game-changer.
-
-So now feels like the right time to level up the rest of the morning too.
-
 I LOVE breakfast. I don’t care if it’s the same cereal every day. I will wake up excited to eat my cookie crisps. Nothing can rush me into skipping breakfast. I don’t leave the house without it.
 
 Since I was a kid, it’s always been cereal. I’m super health conscious, so I started looking into healthier cereals and protein cereals. The protein ones were expensive like Surreal and Eleat. I settled on Fuel, which was still pricey but not as much. Then I realised this granola wasn’t much better thanks to the high sugar. So I toned it down to Weetabix, the protein packed one. Cereal doesn’t get much better than that.
@@ -39,6 +31,14 @@ I tried them in order of ingredients. Starting with the one. It wasn’t bad, bu
 I thought the six would hit the mark but the chocolate flavour was weird. Nothing like Krave. But it worked as a mix-in. I realised I could sprinkle some of them into my five bowl to add a bit of contrast.
 
 So that’s my current go-to healthy cereal. Multigrain hoops, five ingredients, with a layer of the six choco hoops. But again, now that I’m even closer to 30, it’s time for a change.
+
+And what I’ve started to realise is that I want my mornings to feel a bit more intentional. A bit more made. Not just swallowed between emails and door slams.
+
+Recently, I’ve had more structure forced into my mornings anyway. I volunteered for the school run. Every weekday, 8:45 drop-off. It’s hard, but it’s made me consistent. I’m waking up earlier, going to the gym, and getting into uni at a decent time. That alone has been a game-changer.
+
+So now feels like the right time to level up the rest of the morning too.
+
+No, not the sugary neon-colored kind with cartoon mascots. I’m talking about the M&S "healthy" range. The 1, 5, and 6 ingredient boxes. Genuinely decent. Quick, clean, no faff. But still, it’s just pour, crunch, go. Feels more like fuelling up than actually eating. It could be worse, at least it's not neon.
 
 **The 30-Day Plan**
 
