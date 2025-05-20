@@ -99,6 +99,7 @@ banner-y: 45
 	- **To do**
 		- Show example waveforms and geometrical measurements
 		- Difference confidence bands
+			- **Table**
 		- Against HR
 	- **Observations**
 		- GAM matches cross correlation results
