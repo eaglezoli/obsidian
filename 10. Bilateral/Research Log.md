@@ -98,8 +98,9 @@ banner-y: 45
 	- y-axis feature name and unit
 	- **To do**
 		- Show example waveforms and geometrical measurements
-		- Difference confidence bands
-			- **Table**
+		- **Difference confidence bands**
+			- y-axis unit
+			- Table
 		- Against HR
 	- **Observations**
 		- GAM matches cross correlation results
@@ -122,7 +123,9 @@ banner-y: 45
 			- Multiple curves
 
 5. Interaction 
-	- **To do:** MATLAB function
+	- **To do**
+		- MATLAB function
+		- Interaction for significant features
 	- **Observations**
 		- FR and HR have opposite effects on features
 			- FR more positive (larger waveform)
