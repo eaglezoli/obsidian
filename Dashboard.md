@@ -7,12 +7,12 @@ banner-y: 88
 
 | Week  | Beginning               | Main Chapter                | Small Chapter       |
 | :---: | :---------------------- | --------------------------- | ------------------- |
-| **1** | 12<sup>th</sup> **May** | **10. Bilateral**           |                     |
-| **2** | 19<sup>th</sup>         | 5. Rig                      | 8. Vessels          |
-| **3** | 26<sup>th</sup>         | 7. Proxy                    | 3. PPG              |
-| **4** | 2<sup>nd</sup> **June** | 11. Classification          | 2. CVD              |
-| **5** | 9<sup>th</sup> June     | 6. Thickness                | 4. Lit. Review      |
-| **6** | 16<sup>th</sup> June    | 12. Discussion & Conclusion | 1. Intro & Abstract |
+| **1** | 26<sup>th</sup> **May** | **10. Bilateral**           |                     |
+| **2** | 2<sup>nd</sup> **June** | 5. Rig                      | 8. Vessels          |
+| **3** | 9<sup>th</sup> June     | 7. Proxy                    | 3. PPG              |
+| **4** | 16<sup>th</sup> June    | 11. Classification          | 2. CVD              |
+| **5** | 23<sup>rd</sup> June    | 6. Thickness                | 4. Lit. Review      |
+| **6** | 30<sup>th</sup> June    | 12. Discussion & Conclusion | 1. Intro & Abstract |
 ☠️ **Official Deadline: 14th Aug**
 
 ## 10. Bilateral
