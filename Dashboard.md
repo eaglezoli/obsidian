@@ -13,7 +13,7 @@ banner-y: 88
 | **4** | 16<sup>th</sup> June    | 11. Classification          | 2. CVD              |
 | **5** | 23<sup>rd</sup> June    | 6. Thickness                | 4. Lit. Review      |
 | **6** | 30<sup>th</sup> June    | 12. Discussion & Conclusion | 1. Intro & Abstract |
-☠️ **Submission Deadline: 1st July**
+☠️ **Submission Deadline: 1st July!**
 
 ## 10. Bilateral
 #### [[Research Log]]
