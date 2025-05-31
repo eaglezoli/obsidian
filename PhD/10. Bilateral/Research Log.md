@@ -105,7 +105,7 @@ banner-y: 45
 	- **Observations**
 		- GAM matches cross correlation results
 		- FR
-			- *Red*: [[correlation-stiffness-red.png|length-height ratio]] is the highest correlated feature, *double* the 2nd
+			- *Red*: [[correlation-stiffness-Red.png|length-height ratio]] is the highest correlated feature, *double* the 2nd
 				- Shows potential for [[gam-red-stiffness-length_height_ratio.png|geometry ratios]]
 					- May be linked to 2nd derivative ratios e.g. a/b
 				- Need to look at example waveforms and geometrical measurements

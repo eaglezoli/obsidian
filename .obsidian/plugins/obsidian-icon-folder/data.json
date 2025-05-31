@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiGraduationCap",
       "LiBookOpenText",
       "LiLogs",
       "LiLayoutDashboard",
-      "LiMessageSquareQuote",
-      "LiGitCompare"
+      "LiMessageSquareQuote"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,9 +34,10 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "10. Bilateral": "LiGitCompare",
-  "Meetings": "LiMessageSquareQuote",
-  "Dashboard.md": "LiLayoutDashboard",
-  "10. Bilateral/Research Log.md": "LiLogs",
-  "Wiki.md": "LiBookOpenText"
+  "PhD": "LiGraduationCap",
+  "PhD/Meetings": "LiMessageSquareQuote",
+  "PhD/10. Bilateral": "LiGitCompare",
+  "PhD/10. Bilateral/Research Log.md": "LiLogs",
+  "PhD/Wiki.md": "LiBookOpenText",
+  "PhD/Dashboard.md": "LiLayoutDashboard"
 }
