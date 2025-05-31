@@ -44,7 +44,68 @@
             {
               "type": "group",
               "ctime": 1748692731878,
-              "items": [],
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/Research Log.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/1. Normalisation.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/2. Visualise Data.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/3. Cross Correlation.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/4. HR & FR Interaction.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/5. Simple Model.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/6. Mixed Effects Model.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/7. Generalized Additive Model.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/8. Model Interaction.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1748692908638,
+                  "items": [],
+                  "title": "images"
+                }
+              ],
               "title": "10. Bilateral"
             },
             {
