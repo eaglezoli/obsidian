@@ -37,3 +37,13 @@
 - **Quantitative:** surveys, statistical analysis, experiments
 - **Mixed Methods:** combine both
 - Use **Sage Research Methods Online** and **Sage Campus**
+
+## ✅ **Evaluating Sources – PROMPT**
+
+- **P**resentation
+- **R**elevance
+- **O**bjectivity
+- **M**ethodology
+- **P**rovenance (authority)
+- **T**imeliness
+
