@@ -28,7 +28,44 @@
         {
           "type": "group",
           "ctime": 1748692571630,
-          "items": [],
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1748692731878,
+              "path": "PhD/Dashboard.md",
+              "subpath": "#^-"
+            },
+            {
+              "type": "file",
+              "ctime": 1748692731878,
+              "path": "PhD/Wiki.md",
+              "subpath": "#^-"
+            },
+            {
+              "type": "group",
+              "ctime": 1748692731878,
+              "items": [],
+              "title": "10. Bilateral"
+            },
+            {
+              "type": "group",
+              "ctime": 1748692731878,
+              "items": [],
+              "title": "Meetings"
+            },
+            {
+              "type": "group",
+              "ctime": 1748692731878,
+              "items": [],
+              "title": "images"
+            },
+            {
+              "type": "group",
+              "ctime": 1748692731878,
+              "items": [],
+              "title": "images"
+            }
+          ],
           "title": "PhD"
         }
       ],
