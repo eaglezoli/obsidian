@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiUniversity",
       "LiGraduationCap",
       "LiBookOpenText",
       "LiLogs",
-      "LiLayoutDashboard",
-      "LiMessageSquareQuote"
+      "LiLayoutDashboard"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,5 +39,7 @@
   "PhD/10. Bilateral": "LiGitCompare",
   "PhD/10. Bilateral/Research Log.md": "LiLogs",
   "PhD/Wiki.md": "LiBookOpenText",
-  "PhD/Dashboard.md": "LiLayoutDashboard"
+  "PhD/Dashboard.md": "LiLayoutDashboard",
+  "MAAP": "LiUniversity",
+  "MAAP/Researching Higher Education": "LiGraduationCap"
 }
