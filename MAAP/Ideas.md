@@ -1,4 +1,4 @@
-![[image.png]]
+![[5_stars.png]]
 
 | The launch of Study+: an interdisciplinary approach<br><br>Launching in September 2025/26, Study+ modules at City St George’s will allow eligible level 5 students to select a 15-credit elective from outside their discipline specifically designed to broaden their horizons and employment prospects. Integrating knowledge from multiple disciplines, these modules ensure that students can approach new real-world challenges with creativity and versatility. |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

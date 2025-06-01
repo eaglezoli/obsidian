@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiLightbulb",
       "LiUniversity",
       "LiGraduationCap",
       "LiBookOpenText",
-      "LiLogs",
-      "LiLayoutDashboard"
+      "LiLogs"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,5 +41,6 @@
   "PhD/Wiki.md": "LiBookOpenText",
   "PhD/Dashboard.md": "LiLayoutDashboard",
   "MAAP": "LiUniversity",
-  "MAAP/Researching Higher Education": "LiGraduationCap"
+  "MAAP/Researching Higher Education": "LiGraduationCap",
+  "MAAP/Ideas.md": "LiLightbulb"
 }
