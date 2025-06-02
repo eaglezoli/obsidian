@@ -72,6 +72,7 @@ banner-y: 45
 					- HR more negative (smaller waveform)
 				- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
 					- Maybe link to BP?
+		- Look at difference curves
 
 3. Mixed Effects Model
 	- Funnel shape residuals
