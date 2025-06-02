@@ -33,5 +33,6 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "PhD/Dashboard.md": "LiLayoutDashboard"
 }
