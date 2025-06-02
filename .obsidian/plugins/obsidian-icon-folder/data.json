@@ -34,5 +34,6 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "PhD/Dashboard.md": "LiLayoutDashboard"
+  "PhD/Dashboard.md": "LiLayoutDashboard",
+  "PhD/Wiki.md": "LiBookOpenText"
 }
