@@ -35,7 +35,7 @@ banner-y: 45
 ![[palette.png]]
 
 1. Visualisation
-	- To Do
+	- **To Do**
 		- Split line plots & box plots for healthy/unhealthy red/IR like Matlab
 		- Multi-coloured scatter plots
 	- Double check
@@ -103,6 +103,7 @@ banner-y: 45
 		- Show example waveforms and geometrical measurements
 		- **Difference confidence bands**
 			- Table
+				- Make aesthetic?
 		- Against HR
 	- **Observations**
 		- GAM matches cross correlation results
