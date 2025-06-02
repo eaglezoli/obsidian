@@ -33,7 +33,7 @@
               "title": "images"
             }
           ],
-          "title": "\\\\MAAP"
+          "title": "MAAP"
         },
         {
           "type": "group",
@@ -43,6 +43,18 @@
               "type": "file",
               "ctime": 1748886104628,
               "path": "PhD/Dashboard.md",
+              "subpath": "#^-"
+            },
+            {
+              "type": "file",
+              "ctime": 1748886104628,
+              "path": "PhD/Dashboard.md",
+              "subpath": "#^-"
+            },
+            {
+              "type": "file",
+              "ctime": 1748886104628,
+              "path": "PhD/Wiki.md",
               "subpath": "#^-"
             },
             {
@@ -129,21 +141,9 @@
               "ctime": 1748886104628,
               "items": [],
               "title": "Meetings"
-            },
-            {
-              "type": "file",
-              "ctime": 1748886104628,
-              "path": "PhD/Dashboard.md",
-              "subpath": "#^-"
-            },
-            {
-              "type": "file",
-              "ctime": 1748886104628,
-              "path": "PhD/Wiki.md",
-              "subpath": "#^-"
             }
           ],
-          "title": "\\\\PhD"
+          "title": "PhD"
         }
       ],
       "title": "sortspec"
