@@ -96,11 +96,10 @@ banner-y: 45
 	- Separate analysis for Red/IR
 		- Matches cross correlation results!
 	- Function loop for all features
-	- y-axis feature name and unit
+	- y-axis feature name and unit (gam and difference plots)
 	- **To do**
 		- Show example waveforms and geometrical measurements
 		- **Difference confidence bands**
-			- y-axis unit
 			- Table
 		- Against HR
 	- **Observations**
