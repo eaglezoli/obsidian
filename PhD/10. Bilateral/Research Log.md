@@ -73,6 +73,7 @@ banner-y: 45
 				- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
 					- Maybe link to BP?
 		- Look at difference curves
+			- Showing which flow rates have significant differences between healthy and unhealthy 
 
 3. Mixed Effects Model
 	- Funnel shape residuals
