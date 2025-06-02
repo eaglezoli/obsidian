@@ -91,7 +91,8 @@ banner-y: 45
 	- [This](https://stackoverflow.com/questions/75502600/visualize-generalized-additive-model-gam-in-r) shows both and looks better
 		- Plotted fitted values with confidence intervals
 		- Plotted difference bands with spot tests (chatGPT)
-	- Filtering out HRs improved gap a little
+	- Filtering out high HRs, which are all close together, improved gap between healthy and unhealthy a little, but not much
+		- Indicates the data is just different
 	- Separate analysis for Red/IR
 		- Matches cross correlation results!
 	- Function loop for all features
