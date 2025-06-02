@@ -104,6 +104,11 @@ banner-y: 45
 		- **Difference confidence bands**
 			- Table
 				- Make aesthetic?
+					- No 0s
+					- Make it fit in less pages in word
+						- Symbols in header
+						- Feature codes
+					- Separator lines
 		- Against HR
 	- **Observations**
 		- GAM matches cross correlation results
