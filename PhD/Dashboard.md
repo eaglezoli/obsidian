@@ -14,15 +14,3 @@ banner-y: 88
 | **5** | 23<sup>rd</sup> June    | 6. Thickness                | 4. Lit. Review      |
 | **6** | 30<sup>th</sup> June    | 12. Discussion & Conclusion | 1. Intro & Abstract |
 ☠️ **Submission Deadline: 1st July!** 
-
-## 10. Bilateral
-#### [[Research Log]]
-### Data Analysis
-- [[1. Normalisation]]
-- [[2. Visualise Data]]
-- [[3. Cross Correlation]]
-- [[4. HR & FR Interaction]]
-- [[5. Simple Model]]
-- [[6. Mixed Effects Model]]
-- [[7. Generalized Additive Model]]
-- [[8. Model Interaction]]
