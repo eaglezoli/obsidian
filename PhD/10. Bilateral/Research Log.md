@@ -92,7 +92,7 @@ banner-y: 45
 		- Plotted fitted values with confidence intervals
 		- Plotted difference bands with spot tests (chatGPT)
 	- Filtering out high HRs, which are all close together, improved gap between healthy and unhealthy a little, but not much
-		- Indicates the data is just different
+		- Shows that even though healthy vessel has higher AUC, the average isn't as far off due to the lower values
 	- Separate analysis for Red/IR
 		- Matches cross correlation results!
 	- Function loop for all features
