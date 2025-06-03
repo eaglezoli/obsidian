@@ -102,7 +102,7 @@ banner-y: 45
 	- **To do**
 		- Show example waveforms and geometrical measurements
 		- **Difference confidence bands**
-			- Table
+			- Table (*not* the 20%) 
 				- Make aesthetic?
 					- No 0s
 					- Make it fit in less pages in word
