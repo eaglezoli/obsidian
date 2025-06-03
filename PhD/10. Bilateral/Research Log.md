@@ -101,6 +101,7 @@ banner-y: 45
 	- y-axis feature name and unit (gam and difference plots)
 	- **To do**
 		- Show example waveforms and geometrical measurements
+		- GAM against HR (not the 20%)
 		- **Difference confidence bands**
 			- Table (*not* the 20%) 
 				- Make aesthetic?
@@ -109,7 +110,6 @@ banner-y: 45
 						- Symbols in header
 						- Feature codes
 					- Separator lines
-		- Against HR
 	- **Observations**
 		- GAM matches cross correlation results
 		- FR
