@@ -34,16 +34,18 @@ banner-y: 45
 [**Colour Palette**](https://pixelied.com/colors/palette-editor/edb120-d95319-4dbeee-0072bd-60c899-d681d2)
 ![[palette.png]]
 
-1. Visualisation
+1. **Visualisation**
 	- **To Do**
 		- Split line plots & box plots for healthy/unhealthy red/IR like Matlab
 		- Multi-coloured scatter plots
+		- **Show example waveforms**
+		- Show geometrical measurements
 	- Double check
 		- LOESS curve – should be more curved?
 		- Boxplot – why are both channels the same?
 			- Filtering with specific FR and HRs, and one wavelength helped!
 
-2. Cross Correlation
+2. **Cross Correlation**
 	- Looks good on first look
 	- Correlation with *vessel health*
 		- Only two levels (healthy/unhealthy), but still did correlation with corrr_var
@@ -75,10 +77,10 @@ banner-y: 45
 		- Look at difference curves
 			- Showing which flow rates have significant differences between healthy and unhealthy 
 
-3. Mixed Effects Model
+3. **Mixed Effects Model**
 	- Funnel shape residuals
 		- Log transform of AUC helped, but still funnelled the other way
-	- Next
+	- **Next**
 		- Just go with the mixed effects models as it is (with the funnel)
 		- Currently just linear, try upgrade to non-linear
 			- Generalised Additive Model (GAM) ![[Wiki#^gam]]
@@ -100,8 +102,6 @@ banner-y: 45
 	- Function loop for all features
 	- y-axis feature name and unit (gam and difference plots)
 	- **To do**
-		- Show example waveforms
-		- Show geometrical measurements
 		- GAM against HR
 		- Difference confidence bands
 			- Table
@@ -131,7 +131,7 @@ banner-y: 45
 		- HR
 			- Multiple curves
 
-5. Interaction 
+5. **Interaction** 
 	- **To do**
 		- MATLAB function
 		- Interaction for significant features
