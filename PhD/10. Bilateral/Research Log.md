@@ -100,10 +100,11 @@ banner-y: 45
 	- Function loop for all features
 	- y-axis feature name and unit (gam and difference plots)
 	- **To do**
-		- Show example waveforms and geometrical measurements
-		- GAM against HR (not the 20%)
-		- **Difference confidence bands**
-			- Table (*not* the 20%) 
+		- Show example waveforms
+		- Show geometrical measurements
+		- GAM against HR
+		- Difference confidence bands
+			- Table
 				- Make aesthetic?
 					- No 0s
 					- Make it fit in less pages in word
