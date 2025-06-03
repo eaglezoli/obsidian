@@ -37,3 +37,12 @@
 2. **Literature Review & Search Strategy (25%)**
     - Critically discuss existing research
     - Explain your search strategy (keywords, scope, databases)
+
+3. Methodology & Ethics 30%
+- Appropriateness of chosen methods
+- Clear research design and data collection/analysis
+- Consideration of ethical issues and procedures
+
+1. Structure, Referencing & Clarity	10%	- Logical and well-developed proposal
+- Accurate use of a formal referencing system (e.g. Cite Them Right/Harvard)
+- Clear, academic writing style
