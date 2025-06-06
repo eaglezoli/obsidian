@@ -14,8 +14,8 @@ banner-y: 45
 > [!todo]
 > ### Aims
 > 1. Find which features are most **strongly correlated** with ~~FR and HR~~ ***stiffness***
-> 2. **Interaction effect** of stiffness, FR and HR on select features
-> 3. Highlight how **unhealthy** vessels **respond differently** to changing **flow dynamics**
+> 2. Highlight how **unhealthy** vessels **respond differently** to changing **flow dynamics**
+> 3. **Interaction effect** of stiffness, FR and HR on select features
 
 ********
 ## Bilateral Setup
@@ -90,18 +90,7 @@ banner-y: 45
 		- Maybe try ANOVA
 		- Do analysis for each feature
 
-4. **Interaction** 
-	- **To do**
-		- MATLAB function
-		- Interaction for significant features
-	- **Observations**
-		- FR and HR have opposite effects on features
-			- FR more positive (larger waveform)
-				- HR more negative (smaller waveform)
-			- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
-				- Maybe link to BP?
-
-5. **Generalised Additive Model (GAM)**
+4. **Generalised Additive Model (GAM)**
 	- Textbook gam doesn't show both vessels in one graph, also graphics look dated
 	- [This](https://stackoverflow.com/questions/75502600/visualize-generalized-additive-model-gam-in-r) shows both and looks better
 		- Plotted fitted values with confidence intervals
@@ -141,6 +130,18 @@ banner-y: 45
 					- For both wavelengths
 		- HR
 			- Multiple curves
+
+5. **Interaction** 
+	- **To do**
+		- MATLAB function
+		- Interaction for significant features
+	- **Observations**
+		- FR and HR have opposite effects on features
+			- FR more positive (larger waveform)
+				- HR more negative (smaller waveform)
+			- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
+				- Maybe link to BP?
+
 ### Improvements
 - Feature naming/numbering system
 - Remove collinear features
