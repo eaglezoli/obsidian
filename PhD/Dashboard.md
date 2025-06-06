@@ -10,7 +10,7 @@ banner-y: 88
 | **1** | 26<sup>th</sup> **May** | **10. Bilateral**           |                     |
 | **2** | 2<sup>nd</sup> **June** | 5. Rig                      | 8. Vessels          |
 | **3** | 9<sup>th</sup> June     | 7. Proxy                    | 3. PPG              |
-| **4** | 16<sup>th</sup> June    | 11. Classification          | 2. CVD              |
-| **5** | 23<sup>rd</sup> June    | 6. Thickness                | 4. Lit. Review      |
+| **4** | 16<sup>th</sup> June    | 11. ~~Classification~~      | 2. CVD              |
+| **5** | 23<sup>rd</sup> June    | 6. ~~Thickness~~            | 4. Lit. Review      |
 | **6** | 30<sup>th</sup> June    | 12. Discussion & Conclusion | 1. Intro & Abstract |
 ☠️ **Submission Deadline: 1st July!** 
