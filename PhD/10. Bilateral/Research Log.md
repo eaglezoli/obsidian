@@ -35,10 +35,10 @@ banner-y: 45
 ![[palette.png]]
 
 1. **Visualisation**
+	- Example waveforms
 	- **To Do**
 		- Split line plots & box plots for healthy/unhealthy red/IR like Matlab
 		- Multi-coloured scatter plots
-		- **Show example waveforms**
 		- Show geometrical measurements
 	- Double check
 		- LOESS curve – should be more curved?
@@ -90,7 +90,18 @@ banner-y: 45
 		- Maybe try ANOVA
 		- Do analysis for each feature
 
-4. **Generalised Additive Model (GAM)**
+4. **Interaction** 
+	- **To do**
+		- MATLAB function
+		- Interaction for significant features
+	- **Observations**
+		- FR and HR have opposite effects on features
+			- FR more positive (larger waveform)
+				- HR more negative (smaller waveform)
+			- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
+				- Maybe link to BP?
+
+5. **Generalised Additive Model (GAM)**
 	- Textbook gam doesn't show both vessels in one graph, also graphics look dated
 	- [This](https://stackoverflow.com/questions/75502600/visualize-generalized-additive-model-gam-in-r) shows both and looks better
 		- Plotted fitted values with confidence intervals
@@ -130,17 +141,6 @@ banner-y: 45
 					- For both wavelengths
 		- HR
 			- Multiple curves
-
-5. **Interaction** 
-	- **To do**
-		- MATLAB function
-		- Interaction for significant features
-	- **Observations**
-		- FR and HR have opposite effects on features
-			- FR more positive (larger waveform)
-				- HR more negative (smaller waveform)
-			- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
-				- Maybe link to BP?
 ### Improvements
 - Feature naming/numbering system
 - Remove collinear features
