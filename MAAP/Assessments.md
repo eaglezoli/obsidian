@@ -1,6 +1,6 @@
 ### 🎓 Curriculum Presentation (EDM106)
 
-**💬 Feedback: 11th June** 5pm
+**🗓️ Feedback: 11th June** 5pm
 **🚩 Final: 9th July**
 
 **Assessment:** 15-minute recorded presentation on a curriculum-related topic
