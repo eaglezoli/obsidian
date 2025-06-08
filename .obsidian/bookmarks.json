@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "type": "file",
+      "ctime": 1746872711253,
+      "path": "PhD/Dashboard.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1746872727564,
+      "path": "PhD/10. Bilateral/Research Log.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1746872833794,
+      "path": "PhD/Wiki.md"
+    },
+    {
       "type": "group",
       "ctime": 1748692571630,
       "items": [
@@ -10,7 +25,7 @@
           "items": [
             {
               "type": "file",
-              "ctime": 1748885951092,
+              "ctime": 1748793193105,
               "path": "MAAP/Ideas.md",
               "subpath": "#^-"
             },
@@ -41,19 +56,13 @@
           "items": [
             {
               "type": "file",
-              "ctime": 1748886104628,
+              "ctime": 1748692731878,
               "path": "PhD/Dashboard.md",
               "subpath": "#^-"
             },
             {
               "type": "file",
-              "ctime": 1748886104628,
-              "path": "PhD/Dashboard.md",
-              "subpath": "#^-"
-            },
-            {
-              "type": "file",
-              "ctime": 1748886104628,
+              "ctime": 1748692731878,
               "path": "PhD/Wiki.md",
               "subpath": "#^-"
             },
@@ -63,67 +72,61 @@
               "items": [
                 {
                   "type": "file",
-                  "ctime": 1748885970075,
+                  "ctime": 1748692908638,
                   "path": "PhD/10. Bilateral/Research Log.md",
                   "subpath": "#^-"
                 },
                 {
                   "type": "file",
-                  "ctime": 1748885970075,
-                  "path": "PhD/10. Bilateral/Research Log.md",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/1. Normalisation.md",
                   "subpath": "#^-"
                 },
                 {
                   "type": "file",
-                  "ctime": 1748885982061,
-                  "path": "PhD/10. Bilateral/0. Normalisation.md",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/2. Visualise Data.md",
                   "subpath": "#^-"
                 },
                 {
                   "type": "file",
-                  "ctime": 1748885982061,
-                  "path": "PhD/10. Bilateral/1. Visualise Data.md",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/3. Cross Correlation.md",
                   "subpath": "#^-"
                 },
                 {
                   "type": "file",
-                  "ctime": 1748885982061,
-                  "path": "PhD/10. Bilateral/2. Cross Correlation.md",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/4. HR & FR Interaction.md",
                   "subpath": "#^-"
                 },
                 {
                   "type": "file",
-                  "ctime": 1748885982061,
-                  "path": "PhD/10. Bilateral/3. HR & FR Interaction.md",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/5. Simple Model.md",
                   "subpath": "#^-"
                 },
                 {
                   "type": "file",
-                  "ctime": 1748885982061,
-                  "path": "PhD/10. Bilateral/4.1 Simple Model.md",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/6. Mixed Effects Model.md",
                   "subpath": "#^-"
                 },
                 {
                   "type": "file",
-                  "ctime": 1748885982061,
-                  "path": "PhD/10. Bilateral/4.2 Mixed Effects Model.md",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/7. Generalized Additive Model.md",
                   "subpath": "#^-"
                 },
                 {
                   "type": "file",
-                  "ctime": 1748885982061,
-                  "path": "PhD/10. Bilateral/4.3. Generalized Additive Model.md",
-                  "subpath": "#^-"
-                },
-                {
-                  "type": "file",
-                  "ctime": 1748885982061,
-                  "path": "PhD/10. Bilateral/5. Model Interaction.md",
+                  "ctime": 1748692908638,
+                  "path": "PhD/10. Bilateral/8. Model Interaction.md",
                   "subpath": "#^-"
                 },
                 {
                   "type": "group",
-                  "ctime": 1748885982061,
+                  "ctime": 1748692908638,
                   "items": [],
                   "title": "images"
                 }
@@ -134,13 +137,19 @@
               "type": "group",
               "ctime": 1748692731878,
               "items": [],
+              "title": "Meetings"
+            },
+            {
+              "type": "group",
+              "ctime": 1748692731878,
+              "items": [],
               "title": "images"
             },
             {
               "type": "group",
-              "ctime": 1748886104628,
+              "ctime": 1748692731878,
               "items": [],
-              "title": "Meetings"
+              "title": "images"
             }
           ],
           "title": "PhD"
