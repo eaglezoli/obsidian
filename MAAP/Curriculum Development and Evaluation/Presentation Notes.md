@@ -152,6 +152,15 @@ _(Citations will appear from slide 2 onward as evidence is introduced.)_
 
 
 
+
+
+
+
+
+
+
+
+
 ](https://docs.google.com/viewer?url=https%3A%2F%2Fwww.officeforstudents.org.uk%2Fmedia%2F77d4955c-4165-4f8f-94cf-315544b6cf25%2Fra22-tef-framework-guidance-final.pdf%23%3A~%3Atext%3D%25E2%2580%25A2%2520The%2520student%2520outcomes%2520aspect%252C%2Cthe%2520educational%2520gains%2520delivered%2520for&embedded=true&chrome=false&dov=1 "View this pdf file"). TEF emphasizes that students must _“succeed in and beyond their studies”_, which calls for stronger practical and employability skills[officeforstudents.org.uk](https://www.officeforstudents.org.uk/media/77d4955c-4165-4f8f-94cf-315544b6cf25/ra22-tef-framework-guidance-final.pdf#:~:text=%E2%80%A2%20The%20student%20outcomes%20aspect%2C,the%20educational%20gains%20delivered%20for)[![](chrome-extension://gmpljdlgcdkljlppaekciacdmdlhfeon/images/beside-link-icon.svg)
 
 
