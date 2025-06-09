@@ -1,3 +1,4 @@
+[Frameworks and organisations - Academic Practice - Library guides at City St George's, University of London](https://libguides.city.ac.uk/academicpractice/frameworks)
 ## Frameworks
 
 - [Teaching Excellence Framework (TEF)](https://www.officeforstudents.org.uk/for-providers/quality-and-standards/about-the-tef/)
