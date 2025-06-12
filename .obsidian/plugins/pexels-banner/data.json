@@ -55,8 +55,20 @@
   "customBannerIconField": [
     "icon"
   ],
+  "customBannerIconImageField": [
+    "icon-image"
+  ],
   "customBannerIconSizeField": [
     "icon-size"
+  ],
+  "customBannerIconImageSizeMultiplierField": [
+    "icon-image-size-multiplier"
+  ],
+  "customBannerIconTextVerticalOffsetField": [
+    "icon-text-vertical-offset"
+  ],
+  "customBannerIconRotateField": [
+    "icon-rotate"
   ],
   "customBannerIconXPositionField": [
     "icon-x"
@@ -85,6 +97,9 @@
   "customBannerIconVeritalOffsetField": [
     "icon-y"
   ],
+  "customBannerIconImageAlignmentField": [
+    "banner-icon-image-alignment"
+  ],
   "customFlagColorField": [
     "pixel-banner-flag-color"
   ],
@@ -99,7 +114,7 @@
   "showPinIcon": false,
   "pinnedImageFolder": "pixel-banner-images",
   "showReleaseNotes": true,
-  "lastVersion": "3.4.5",
+  "lastVersion": "3.5.5",
   "showRefreshIcon": false,
   "showViewImageIcon": false,
   "hidePixelBannerFields": true,
@@ -113,9 +128,12 @@
   "selectImageIconOpacity": 40,
   "selectImageIconFlag": "red",
   "defaultSelectImagePath": "",
+  "defaultSelectIconPath": "",
   "useShortPath": true,
   "bannerGap": 12,
   "bannerIconSize": 70,
+  "bannerIconImageSizeMultiplier": 1,
+  "bannerIconTextVerticalOffset": 0,
   "bannerIconXPosition": 75,
   "bannerIconOpacity": 100,
   "bannerIconColor": "",
@@ -125,7 +143,8 @@
   "bannerIconPaddingY": "0",
   "bannerIconBorderRadius": "17",
   "bannerIconVeritalOffset": "0",
-  "openBannerIconModalAfterSelectingBanner": true,
+  "bannerIconImageAlignment": "left",
   "openTargetingModalAfterSelectingBannerOrIcon": true,
-  "enableDailyGame": false
+  "enableDailyGame": false,
+  "openBannerIconModalAfterSelectingBanner": true
 }
