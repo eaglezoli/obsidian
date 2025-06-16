@@ -20,5 +20,6 @@
   "obsidian-plugin-toc",
   "remember-cursor-position",
   "copy-image-text",
-  "custom-sort"
+  "custom-sort",
+  "callout-manager"
 ]
