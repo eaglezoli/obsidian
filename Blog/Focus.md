@@ -1,5 +1,4 @@
-## Stolen Focus: Why You Can't Pay Attention— and How to Think Deeply Again
-**Johann Hari**
+## Stolen Focus: Why You Can't Pay Attention— and How to Think Deeply Again – Johann Hari
 
 • In 2013, on twitter, a topic would remain in the most discussed topics for 17.5 hours. In 2016, this had dropped to 11.9 hours.  
   
