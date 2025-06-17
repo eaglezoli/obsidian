@@ -1,4 +1,14 @@
 ## Tiny Habits – BJ Fogg
+
+```cardlink
+url: https://www.tosummarise.com/book-summary-tiny-habits-by-bj-fogg/
+title: "Book Summary: Tiny Habits by BJ Fogg - To Summarise"
+description: "This summary of Tiny Habits by BJ Fogg describes how behaviour change works and how you can implement the Tiny Habits method in your life."
+host: www.tosummarise.com
+favicon: https://www.tosummarise.com/wp-content/uploads/2024/05/cropped-TS-site-icon-32x32.png
+image: https://www.tosummarise.com/wp-content/uploads/2023/01/Fogg-TinyHabits.jpg
+```
+
 1. Habit formation is a set of skills that you can build. This book is about teaching you what the skills are and showing you how to practice.  
   
 2. Habits are automatic so the goal is to build something that is automatic before growing. Far too often we bite off more than we can chew and the habit dies far before it is able to take root.  

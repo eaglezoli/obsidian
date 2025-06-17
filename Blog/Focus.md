@@ -74,6 +74,3 @@ CONCLUSION
 • Seeking flow is better than punishing yourself for distractions.  
 • Act on mind wandering. This is letting your mind drift away from immediate surroundings, it then drifts among memories of the past, starts to game out the future, and makes connections between the different things you've learned. Johann says he not goes for an hour walk daily without his phone.# Stolen Focus: Why You Can't Pay Attention— and How to Think Deeply Again
 
-### 
-
-[Johann Hari](https://www.goodreads.com/author/show/321601.Johann_Hari)
