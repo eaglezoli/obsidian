@@ -3,7 +3,7 @@
 - Beat **Procrastination** – Especially 'Productive' Procrastination
 - Get better at **Prioritising**
 - Practice **Self Discipline**
-- Do the right thing
+- How to do the right thing in daily life - e.g. get out and go gym rather than lounging, do work rather than web surfing 
 - Avoid **Burnout**
 
 - How to build accountability systems for solo workers (especially PhD students)
