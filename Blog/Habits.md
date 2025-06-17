@@ -9,6 +9,37 @@ favicon: https://www.tosummarise.com/wp-content/uploads/2024/05/cropped-TS-site-
 image: https://www.tosummarise.com/wp-content/uploads/2023/01/Fogg-TinyHabits.jpg
 ```
 
+**KEY TAKEAWAYS**
+
+This summary of _Tiny Habits_ is divided into three parts. The first part of the summary describes the theory behind how behaviour and behaviour change works:
+
+- Behaviour is a function of Motivation _and_ Ability, combined with a Prompt. This is the **Fogg Behaviour Model**, which is expressed as:
+    
+
+**B = MAP**
+
+- Motivation is fickle and unreliable.
+    
+- Luckily, Motivation and Ability compensate for each other. When something is easy to do (high ability), you need less motivation to do it. So successful behaviour design usually relies on increasing ability, such as by making the habit “tiny”, or changing your environment.
+    
+- Prompts are what trigger our behaviours. There are three types of prompts: person, action, and context. Fogg favours action prompts or “anchors”, where you do the new behaviour after an action you already do consistently.
+    
+- Immediate rewards are important as they make behaviours into habits. People succeed when they feel good. Celebration is one way to provide an instant, easy reward.
+    
+
+The second part of the summary is about the Tiny Habits method itself and how to implement it. Here there are broadly three stages:
+
+- First, work out which behaviours you will make into habits. This involves clarifying your aspiration, brainstorming behaviours, and then mapping those behaviours onto your aspiration. This exercise helps you find the best behaviours to make into habits.
+    
+- Second, make those behaviours into habits with the ABC formula: find a good **a**nchor, make the **b**ehaviour easier, and practise **c**elebrations.
+    
+- Lastly, rehearse your habits, and let them naturally multiply and grow. If you need to troubleshoot, look at the prompt, ability, or celebration first. Look at motivation _last_.
+    
+
+The last part of the summary covers the bonus stuff, like untangling bad habits and changing with others. I also outline a few examples of habits and links to further resources. Although these are still important, they don’t form the “core” of the book.
+
+**Notes**
+
 1. Habit formation is a set of skills that you can build. This book is about teaching you what the skills are and showing you how to practice.  
   
 2. Habits are automatic so the goal is to build something that is automatic before growing. Far too often we bite off more than we can chew and the habit dies far before it is able to take root.  
