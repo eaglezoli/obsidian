@@ -1,0 +1,8 @@
+@media print {
+    .markdown-preview-view {
+        column-count: 2;
+        column-gap: 2em;
+		font-family: "Computer Modern";
+		line-height: 1.2em;
+    }
+}

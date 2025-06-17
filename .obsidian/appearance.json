@@ -1,4 +1,7 @@
 {
   "showRibbon": true,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "two-column"
+  ]
 }
