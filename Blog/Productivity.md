@@ -88,3 +88,31 @@ Picture a scenario in which you’ve come within five pounds of your weight-loss
 It’s always to your own benefit to push yourself a little more, go for a little longer and prepare a little better. That’s why the author invests a great deal of time researching all he can about the companies to whom he gives keynote speeches. The extra work he puts in is more than what’s expected of him, and this makes his speeches extremely popular.
 
 So if you want to put yourself ahead of others and your old self, you need to break through your limits.
+
+# A lesson from the productivity book, "The Compound Effect"
+
+AVOID THE TRAP OF INSTANT GRATIFICATION
+
+> “Why are we so irrationally enslaved by so many bad habits? It’s because our need for immediate gratification can turn us into the most reactive, nonthinking animals around. — Page 59
+
+If you took a bite of a Big Mac and immediately fell to the ground from a heart attack, you’d probably never eat one again in your life.
+
+And if you smoked a cigarette and all the sudden your face was wrinkled and your teeth turned yellow, you’d likely quit smoking forever. Or if you ate a piece of ice cream cake packed with chocolate and frosting, and it added 30 pounds to your frame, saying “no thank you” to dessert next time would be a piece of cake.
+
+The problem, however, is that all of these actions involve an instant sense of gratification and your mind doesn’t concern itself about the long-term consequences.
+
+Having a burger, smoking a cigarette or eating cake, provides us with pleasure and there are no apparent negative effects at the moment.
+
+But, as Darren Hardy mentioned earlier, the Compound Effect is always in motion, for both good and bad habits.
+
+Even the smallest change can have a huge difference.
+
+For instance, imagine a plane leaves from Los Angeles to New York City. If the nose of the plane is just 1% off, the plane will end up about 150 miles off course and will arrive in either Albany, New York or Dover, Delaware.
+
+Even a small change, such as a 1% change in direction, can result in a completely different outcome. Make sure your habits are taking you in the right direction.
+
+The same goes for habits. A single bad habit may not look like much at the moment, but over time it can lead you miles off course from the direction of your goals and the life you desire.
+
+There’s a great quote in the book by leadership expert John C. Maxwell that says, “You will never change your life until you change something you do daily. The secret of success is found in your daily routine.”
+
+So look at the actions and habits you take every day and ask yourself, “Is this bringing me closer to my goals or away from them?”
