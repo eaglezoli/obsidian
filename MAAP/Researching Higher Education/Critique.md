@@ -1,3 +1,8 @@
+
+## My Notes
+
+
+
 ### Aim & Relevance
 
 The paper sets out to **raise student motivation and perceived relevance in a biomedical signals-and-systems course by embedding an “experiential learning space” built around commercial wearable devices and cloud-based coding notebooks.** This objective is timely: biomedical engineering programmes worldwide struggle to translate theory into practice early in the curriculum. The study therefore targets a genuine pedagogical pain-point in BME education and aligns with current accreditation pressures to deliver evidence of competency-based learning. ([mdpi.com][1])
