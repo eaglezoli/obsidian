@@ -145,6 +145,10 @@ banner-y: 45
 			- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
 				- Maybe link to BP?
 
+## Discussion
+- Can be applied in vivo in two ways
+	1. Exercise
+	2. 
 ### Improvements
 - Feature naming/numbering system
 - Remove collinear features
