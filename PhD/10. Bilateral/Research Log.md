@@ -121,10 +121,13 @@ banner-y: 45
 				- But why is it not present on IR?
 					- It is higher than IRs most correlated feature
 					- Need to compare red and IR waveforms
-			- *IR*: Upslope (-ve) and downslope (+ve) have different correlation signs
+			- *IR:* Upslope (-ve) and downslope (+ve) have different correlation signs
 				- As does start (-ve) and end (+ve) datum areas, which also matches the upslope downslope signs
 				- Shows that stiffness affects systolic and diastolic segments of the PPG differently 
 				- Again need to look at example waveforms
+			- *IR:* Datum area
+				- *Max* for start & end exhibit positive correlation
+				- However *Median* is opposite (-ve)
 			- SNR is higher in healthier, as expected
 				- Flow rate doesn't seem to effect, so it's constant difference (offset)
 					- For both wavelengths
