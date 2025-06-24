@@ -146,9 +146,7 @@ banner-y: 45
 				- Maybe link to BP?
 
 ## Discussion
-- Can be applied in vivo in two ways
-	1. Exercise
-	2. 
+- Can be applied in vivo during exercise to observe how red & IR features change accross both sides of the body
 ### Improvements
 - Feature naming/numbering system
 - Remove collinear features
