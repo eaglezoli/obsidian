@@ -14,3 +14,9 @@ banner-y: 88
 | **5** | 30<sup>th</sup> June | 12. Discussion & Conclusion     | 1. Intro & Abstract |
 ☠️ **Submission Deadline: 1st July!** 
 
+### 📃 Bilateral
+- [ ] Method
+- [ ] Results
+- [ ] Discussion
+- [ ] Conclusion
+- [ ] Intro

@@ -3,5 +3,6 @@
   "showViewHeader": true,
   "enabledCssSnippets": [
     "two-column"
-  ]
+  ],
+  "cssTheme": "Minimal"
 }
