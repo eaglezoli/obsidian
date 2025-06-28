@@ -150,7 +150,6 @@ banner-y: 45
 ### Improvements
 - Feature naming/numbering system
 - Remove collinear features
-
 ### Juan Meeting
 - Principal Component Analysis (PCA)
 	- Order reduction
