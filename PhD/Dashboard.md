@@ -15,7 +15,8 @@ banner-y: 88
 ☠️ **Submission Deadline: 1st July!** 
 
 ### 📝 Bilateral
-- [ ] Method
+- [x] Method
+	- [ ] Figures
 - [ ] Results
 - [ ] Discussion
 - [ ] Conclusion
