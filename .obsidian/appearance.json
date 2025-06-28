@@ -4,5 +4,6 @@
   "enabledCssSnippets": [
     "two-column"
   ],
-  "cssTheme": "Obsidianite"
+  "cssTheme": "Primary",
+  "theme": "system"
 }
