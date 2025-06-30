@@ -8,7 +8,7 @@ banner-y: 88
 	- Setup (add photos, update diagrams)
 	- Vessels (adapt technical paper into a chapter)
 - **MPhil Edits**
-	- Tissue stiffness proxy results
+	- Results – refine for thesis
 	- CVD
 	- PPG
 	- Lit. Review
