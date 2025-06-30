@@ -17,7 +17,7 @@ banner-y: 88
 ### 📝 Bilateral
 - [x] Method
 	- [ ] Figures
-- [ ] Results
+- [x] Results
 - [ ] Discussion
 - [ ] Conclusion
 - [ ] Intro
