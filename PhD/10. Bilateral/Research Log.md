@@ -133,6 +133,7 @@ banner-y: 45
 					- For both wavelengths
 		- HR
 			- Multiple curves
+				- AUC single curve
 
 5. **Interaction** 
 	- **To do**
