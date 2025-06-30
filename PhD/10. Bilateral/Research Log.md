@@ -67,11 +67,11 @@ banner-y: 45
 	- **Observations**
 		- IR features are more correlated with stiffness than red
 			- IR mostly negative correlations
-				- Red mixed
+			- Red mixed
 		- FR and HR are much more influential on PPG features (both wavelengths), as expected
 			- They have opposite effects
-				- FR more positive (larger waveform)
-					- HR more negative (smaller waveform)
+				- FR more positive (larger waveform area)
+				- HR more negative (smaller waveform area)
 				- Can use heart rate to adjust flow rate predictions from PPG-based algorithms
 					- Maybe link to BP?
 		- Look at difference curves
