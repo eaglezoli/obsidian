@@ -5,10 +5,10 @@ banner-y: 88
 ---
 ********
 - **Update**
-	- Setup (New changes)
-	- Vessels (Technical Paper)
-- **Edit**
-	- Tissue stiffness proxy (MPhil results)
+	- Setup (add photos, update diagrams)
+	- Vessels (adapt technical paper into a chapter)
+- **MPhil Edits**
+	- Tissue stiffness proxy results
 	- CVD
 	- PPG
 	- Lit. Review
