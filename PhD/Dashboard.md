@@ -4,6 +4,18 @@ banner-x: 50
 banner-y: 88
 ---
 ********
+- **B**
+	- Setup
+	- Vessels
+- **Edit**
+	- Proxy
+	- CVD
+	- PPG
+	- Lit. Review
+- **Write**
+	- Bilateral
+	- Discussion & Conclusion
+	- Intro & Abstract
 
 | Week  | Beginning            | Main Chapter                    | Small Chapter       |
 | :---: | :------------------- | ------------------------------- | ------------------- |
