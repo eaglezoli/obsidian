@@ -134,6 +134,8 @@ banner-y: 45
 		- HR
 			- Multiple curves
 				- AUC single curve
+				- Due to code misdetecting peaks
+					- Diastolic peak same height as systolic
 
 5. **Interaction** 
 	- **To do**
