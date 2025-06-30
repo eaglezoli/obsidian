@@ -129,13 +129,12 @@ banner-y: 45
 				- *Max* for start & end exhibit positive correlation
 				- However *Median* is opposite (-ve)
 			- SNR is higher in healthier, as expected
-				- Flow rate doesn't seem to effect, so it's constant difference (offset)
-					- For both wavelengths
+				- Flow rate doesn't seem to effect, so it's constant difference (offset), for both wavelengths
 		- HR
 			- Multiple curves
 				- AUC single curve
 				- Due to code misdetecting peaks
-					- Diastolic peak same height as systolic
+					- This is because at these heart rates: diastolic peak same height as systolic – why is this?
 
 5. **Interaction** 
 	- **To do**
