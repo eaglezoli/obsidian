@@ -15,6 +15,12 @@
       "name": "Git: Commit-and-sync and then close Obsidian",
       "mode": "any",
       "color": "#a4896e"
+    },
+    {
+      "id": "obsidian-git:push",
+      "icon": "lucide-refresh-ccw",
+      "name": "Git: Commit-and-sync",
+      "mode": "any"
     }
   ],
   "macros": [],
