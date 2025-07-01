@@ -8,7 +8,15 @@
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
-  "pageHeader": [],
+  "pageHeader": [
+    {
+      "id": "obsidian-git:backup-and-close",
+      "icon": "lucide-x-circle",
+      "name": "Git: Commit-and-sync and then close Obsidian",
+      "mode": "any",
+      "color": "#a4896e"
+    }
+  ],
   "macros": [],
   "explorer": [],
   "hide": {
