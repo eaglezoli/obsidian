@@ -20,7 +20,8 @@
       "id": "obsidian-git:push",
       "icon": "lucide-refresh-ccw",
       "name": "Git: Commit-and-sync",
-      "mode": "any"
+      "mode": "any",
+      "color": "#a4896e"
     }
   ],
   "macros": [],
