@@ -5,10 +5,10 @@ banner-y: 88
 ---
 ********
 - **Update**
-	- Setup (add photos, update diagrams)
+	- Setup (add photos, update diagrams, add new methods)
 	- Vessels (adapt technical paper into a chapter)
 - **MPhil Edits**
-	- Results – refine for thesis
+	- MPhil Results – refine for thesis
 	- CVD
 	- PPG
 	- Lit. Review
