@@ -5,15 +5,15 @@ banner-y: 88
 ---
 ********
 - **Update**
-	- Setup (add photos, update diagrams, add new methods)
+	- Setup (add photos, update diagrams, add changes)
 	- Vessels (adapt technical paper into a chapter)
-- **MPhil Edits**
+- **MPhil Edits/Comments**
 	- MPhil Results – refine for thesis
 	- CVD
 	- PPG
 	- Lit. Review
 - **Write**
-	- Bilateral
+	- Bilateral Flow 
 	- Overall Discussion & Conclusion
 	- Intro & Abstract
 
