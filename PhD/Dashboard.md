@@ -13,7 +13,7 @@ banner-y: 88
 	- PPG
 	- Lit. Review
 - **Write**
-	- Bilateral Flow 
+	- **Bilateral Flow Experiment**
 	- Overall Discussion & Conclusion
 	- Intro & Abstract
 
