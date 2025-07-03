@@ -11,10 +11,15 @@
             "id": "28e85c908f71794b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "New file.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "New file"
             }
           }
         ]
@@ -95,6 +100,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "New file.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -113,6 +119,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "New file.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -126,6 +133,7 @@
         "state": {
           "type": "outline",
           "state": {
+            "file": "New file.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
