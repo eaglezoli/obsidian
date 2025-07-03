@@ -1,9 +1,7 @@
 {
-  "showRibbon": true,
-  "showViewHeader": true,
+  "cssTheme": "Primary",
   "enabledCssSnippets": [
     "two-column"
   ],
-  "cssTheme": "Primary",
-  "theme": "system"
+  "accentColor": ""
 }
