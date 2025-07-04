@@ -20,6 +20,7 @@ banner-y: 88
 		- [x] Summary
 		- [ ] Introduction
 		- [ ] Figures
+		- [ ] ToCs
 	- [ ] Overall Discussion & Conclusion
 	- [ ] Intro & Abstract
 
