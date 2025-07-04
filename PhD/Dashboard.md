@@ -18,7 +18,7 @@ banner-y: 88
 		- [x] Results
 		- [x] Discussion
 		- [x] Summary
-		- [ ] Introduction
+		- [x] Introduction
 		- [ ] Figures
 		- [ ] ToCs
 	- [ ] Overall Discussion & Conclusion
