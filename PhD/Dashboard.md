@@ -4,21 +4,24 @@ banner-x: 50
 banner-y: 88
 ---
 ********
-- **Update**
-	- Setup (add photos, update diagrams, add changes)
-	- Vessels (adapt technical paper into a chapter)
-- **MPhil Edits/Comments**
-	- MPhil Results – refine for thesis
-	- CVD
-	- PPG
-	- Lit. Review
-- **Write**
-	- **Bilateral Flow Experiment**
-		- Summary
-		- Introduction
-		- Figures
-	- Overall Discussion & Conclusion
-	- Intro & Abstract
+- [ ] **Update**
+	- [ ] Setup (add photos, update diagrams, add changes)
+	- [ ] Vessels (adapt technical paper into a chapter)
+- [ ] **MPhil Edits/Comments**
+	- [ ] MPhil Results – refine for thesis
+	- [ ] CVD
+	- [ ] PPG
+	- [ ] Lit. Review
+- [ ] **Write**
+	- [ ] **Bilateral Flow Experiment**
+		- [x] Method
+		- [x] Results
+		- [x] Discussion
+		- [ ] Summary
+		- [ ] Introduction
+		- [ ] Figures
+	- [ ] Overall Discussion & Conclusion
+	- [ ] Intro & Abstract
 
 | Week  | Beginning            | Main Chapter                     | Small Chapter       |
 | :---: | :------------------- | -------------------------------- | ------------------- |
