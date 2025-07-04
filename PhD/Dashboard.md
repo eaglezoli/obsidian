@@ -14,6 +14,9 @@ banner-y: 88
 	- Lit. Review
 - **Write**
 	- **Bilateral Flow Experiment**
+		- Summary
+		- Introduction
+		- Figures
 	- Overall Discussion & Conclusion
 	- Intro & Abstract
 
