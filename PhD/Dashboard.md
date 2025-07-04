@@ -20,6 +20,9 @@ banner-y: 88
 		- [x] Summary
 		- [x] Introduction
 		- [ ] Figures
+			- [ ] Setup photo
+			- [ ] Setup diagram
+			- [ ] 
 		- [ ] ToCs
 	- [ ] Overall Discussion & Conclusion
 	- [ ] Intro & Abstract
