@@ -22,10 +22,12 @@ banner-y: 88
 		- [ ] Figures
 			- [ ] Setup photo
 			- [ ] Setup diagram
-			- [ ] 
 		- [ ] ToCs
 	- [ ] Overall Discussion & Conclusion
 	- [ ] Intro & Abstract
+- [ ] **Final Edits**
+	- [ ] Chapter titles
+	- [ ] Figure numbers
 
 | Week  | Beginning            | Main Chapter                     | Small Chapter       |
 | :---: | :------------------- | -------------------------------- | ------------------- |
