@@ -17,7 +17,7 @@ banner-y: 88
 		- [x] Method
 		- [x] Results
 		- [x] Discussion
-		- [ ] Summary
+		- [x] Summary
 		- [ ] Introduction
 		- [ ] Figures
 	- [ ] Overall Discussion & Conclusion
