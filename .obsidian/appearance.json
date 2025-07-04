@@ -1,6 +1,7 @@
 {
   "enabledCssSnippets": [
-    "two-column"
+    "two-column",
+    "hide-nav-guides"
   ],
   "cssTheme": "Primary",
   "accentColor": ""

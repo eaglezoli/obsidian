@@ -1,0 +1,8 @@
+/* Hide indentation lines in the File Explorer */
+body {
+    /* set line width to nothing … */
+    --nav-indentation-guide-width: 0;
+    /* or: unset; */
+    /* …and make sure no stray colour shows */
+    --nav-indentation-guide-color: transparent;
+}
