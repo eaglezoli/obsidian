@@ -3,6 +3,7 @@ banner: https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?q=80&w=1673
 banner-inline-title-color: "#222222"
 banner-x: 50
 banner-y: 45
+icon: 📒
 ---
 ********
 
