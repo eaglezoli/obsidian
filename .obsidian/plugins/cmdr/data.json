@@ -22,12 +22,6 @@
       "name": "Git: Commit-and-sync",
       "mode": "any",
       "color": "#a4896e"
-    },
-    {
-      "id": "app:open-settings",
-      "icon": "lucide-settings",
-      "name": "Open settings",
-      "mode": "any"
     }
   ],
   "macros": [],
