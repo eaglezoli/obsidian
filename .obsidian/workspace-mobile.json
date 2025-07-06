@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5efcfff0f917b83f",
+        "id": "adc1a1c05a72e6c5",
         "type": "tabs",
         "children": [
           {
-            "id": "c8fb2eff1d4a4c9f",
+            "id": "e8c93a7ab558e176",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -154,8 +154,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8fb2eff1d4a4c9f",
+  "active": "e8c93a7ab558e176",
   "lastOpenFiles": [
+    "MAAP/Assessments.md",
     "MAAP/Curriculum Development and Evaluation/💬 Presentation Feedback.md",
     "New file.md",
     "Blog/Focus.md",
@@ -200,7 +201,6 @@
     "Blog/Habits.md",
     "Blog/Psychology.md",
     "Blog/Productivity.md",
-    "Blog/Reflections.md",
-    "Blog/Personal Development.md"
+    "Blog/Reflections.md"
   ]
 }
