@@ -32,6 +32,7 @@ icon: 🏠
 	- [ ] Intro & Abstract
 
 - [ ] ☑️ **Final Edits**
+	- [ ] Title!
 	- [ ] Chapter titles
 	- [ ] Figure numbers
 	- [ ] Spell check!
