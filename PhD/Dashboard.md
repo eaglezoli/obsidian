@@ -5,14 +5,18 @@ banner-y: 88
 icon: 🏠
 ---
 ********
+### 📒 Chapter List
+
 - [ ] **Update**
 	- [ ] Setup (add photos, update diagrams, add changes)
 	- [ ] Vessels (adapt technical paper into a chapter)
+
 - [ ] **MPhil Edits/Comments**
 	- [ ] MPhil Results – refine for thesis
 	- [ ] CVD
 	- [ ] PPG
 	- [ ] Lit. Review
+
 - [ ] **Write**
 	- [ ] **Bilateral Flow Experiment**
 		- [x] Method
@@ -26,10 +30,12 @@ icon: 🏠
 		- [x] ToCs
 	- [ ] Overall Discussion & Conclusion
 	- [ ] Intro & Abstract
+
 - [ ] **Final Edits**
 	- [ ] Chapter titles
 	- [ ] Figure numbers
 	- [ ] Spell check!
+### 📅 Schedule
 
 | 🔢 Week | 📅 Beginning         | 📝 Main Chapter                  | 🗒️ Small Chapter   |
 | :-----: | :------------------- | -------------------------------- | ------------------- |
@@ -41,15 +47,7 @@ icon: 🏠
 ☠️ **Submission Deadline: 14th Aug!** 
 
 ### 🧑🏼‍🏫 James' Dates
-- Mon 28th July –
-- Mon 11th Aug – Clearing
-- 
-
-### 📝 Bilateral
-- [x] Method
-	- [ ] Figures
-- [x] Results
-- [ ] Discussion
-- [ ] Conclusion
-- [ ] Intro
+- Mon 28th July	|	AL
+- Mon 11th Aug		|	Clearing
+- End of Aug?	 	|
 
