@@ -8,7 +8,14 @@
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
-  "pageHeader": [],
+  "pageHeader": [
+    {
+      "id": "obsidian-git:push",
+      "icon": "lucide-refresh-ccw",
+      "name": "Git: Commit-and-sync",
+      "mode": "any"
+    }
+  ],
   "macros": [],
   "explorer": [],
   "hide": {
