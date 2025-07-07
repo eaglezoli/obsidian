@@ -13,7 +13,15 @@
       "id": "obsidian-git:push",
       "icon": "lucide-refresh-ccw",
       "name": "Git: Commit-and-sync",
-      "mode": "any"
+      "mode": "any",
+      "color": "#a3886e"
+    },
+    {
+      "id": "obsidian-git:backup-and-close",
+      "icon": "lucide-x-circle",
+      "name": "Git: Commit-and-sync and then close Obsidian",
+      "mode": "any",
+      "color": "#a3886e"
     }
   ],
   "macros": [],
