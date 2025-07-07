@@ -7,17 +7,17 @@ icon: 🏠
 ********
 ### 📒 Chapter List
 
-- [ ] **Update**
+- [ ] ➕ **Update**
 	- [ ] Setup (add photos, update diagrams, add changes)
 	- [ ] Vessels (adapt technical paper into a chapter)
 
-- [ ] **MPhil Edits/Comments**
+- [ ] 💬 **MPhil Edits/Comments**
 	- [ ] MPhil Results – refine for thesis
 	- [ ] CVD
 	- [ ] PPG
 	- [ ] Lit. Review
 
-- [ ] **Write**
+- [ ] 📝 **Write**
 	- [ ] **Bilateral Flow Experiment**
 		- [x] Method
 		- [x] Results
@@ -31,10 +31,11 @@ icon: 🏠
 	- [ ] Overall Discussion & Conclusion
 	- [ ] Intro & Abstract
 
-- [ ] **Final Edits**
+- [ ] ☑️ **Final Edits**
 	- [ ] Chapter titles
 	- [ ] Figure numbers
 	- [ ] Spell check!
+
 ### 📅 Schedule
 
 | 🔢 Week | 📅 Beginning         | 📝 Main Chapter                  | 🗒️ Small Chapter   |
@@ -44,10 +45,11 @@ icon: 🏠
 |  **3**  | 16<sup>th</sup> June | 11. ~~Classification~~ 7. Tissue | 2. CVD              |
 |  **4**  | 23<sup>rd</sup> June | 6. ~~Thickness~~ 3. PPG          | 4. Lit. Review      |
 |  **5**  | 30<sup>th</sup> June | 12. Discussion & Conclusion      | 1. Intro & Abstract |
-☠️ **Submission Deadline: 14th Aug!** 
+📑 First Draft to James: 
+☠️ Submission Deadline: 14th Aug!
 
 ### 🧑🏼‍🏫 James' Dates
 - Mon 28th July	|	AL
 - Mon 11th Aug		|	Clearing
-- End of Aug?	 	|
+- End of Aug?	 	|	AL
 
