@@ -40,12 +40,7 @@ icon: 🏠
 |  **5**  | 30<sup>th</sup> June | 12. Discussion & Conclusion      | 1. Intro & Abstract |
 ☠️ **Submission Deadline: 14th Aug!** 
 
-### James' Dates
-
-| 📅 Beginning |     |
-| ------------ | --- |
-|              |     |
-
+### 🧑🏼‍🏫 James' Dates
 - Mon 28th July –
 - Mon 11th Aug – Clearing
 - 
