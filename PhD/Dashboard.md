@@ -38,7 +38,7 @@ icon: 🏠
 | **3** | 16<sup>th</sup> June | 11. ~~Classification~~ 7. Tissue | 2. CVD              |
 | **4** | 23<sup>rd</sup> June | 6. ~~Thickness~~ 3. PPG          | 4. Lit. Review      |
 | **5** | 30<sup>th</sup> June | 12. Discussion & Conclusion      | 1. Intro & Abstract |
-☠️ **Submission Deadline: 1st July!** 
+☠️ **Submission Deadline: 14th Aug!** 
 
 ### 📝 Bilateral
 - [x] Method
