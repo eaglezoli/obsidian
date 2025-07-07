@@ -3,7 +3,7 @@
 
 - [ ] Your presentation refers to we but this is your presentation so avoid this
 - [ ] You refer to redesigning a lab but your focus needs to be on a programme or module not just one format of learning so perhaps **outline a module** and then the fact you are changing the lab and why which you do have on a slide
-- [ ] You refer to curriculum objectives which is fine but then you refer to the UKPSF which is not used any more but the PSF but this is not part of the assessment criteria and should not be included in your presentation
+- [x] You refer to curriculum objectives which is fine but then you refer to the UKPSF which is not used any more but the PSF but this is not part of the assessment criteria and should not be included in your presentation
 
 - [ ] Your presentation then moves to the content python but you should not be **focusing** on the content but the **education activities** such as the **approaches to learning** which you include next and make some good points
 - You then talk about how to integrate into the labs
