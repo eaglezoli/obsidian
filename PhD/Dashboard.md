@@ -45,8 +45,8 @@ icon: 🏠
 |  **3**  | 16<sup>th</sup> June | 11. ~~Classification~~ 7. Tissue | 2. CVD              |
 |  **4**  | 23<sup>rd</sup> June | 6. ~~Thickness~~ 3. PPG          | 4. Lit. Review      |
 |  **5**  | 30<sup>th</sup> June | 12. Discussion & Conclusion      | 1. Intro & Abstract |
-📑 First Draft to James: 
-☠️ Submission Deadline: 14th Aug!
+📑 **First Draft to James: Mon 21st July**
+☠️ **Submission Deadline: Thu 14th Aug!**
 
 ### 🧑🏼‍🏫 James' Dates
 - Mon 28th July	|	AL
