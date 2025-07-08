@@ -7,7 +7,7 @@
 
 - [ ] Your presentation then moves to the content python but you should not be **focusing** on the content but the **education activities** such as the **approaches to learning** which you include next and make some good points
 - You then talk about how to integrate into the labs
-- [ ] There is reference to **inclusivity** which is important so perhaps refer to this earlier in your reasons to **redesign**.  
+- [x] There is reference to **inclusivity** which is important so perhaps refer to this earlier in your reasons to **redesign**.  
 - You do refer to delivery tools
 - [ ] There is a good focus on the activities but reduce the refer to content but focus on their **skills** like **group work** and **collaboration**
 - [ ] It is good to also refer to assessment and the evaluation
