@@ -39,15 +39,15 @@ icon: 🏠
 
 ### 📅 Schedule
 
-| Mon 7th | Tue 8th                      | Wed 9th          | Thu 10th       | Fri 11th                                     | Sat 12th      | Sun 13th            |
-| :-----: | :--------------------------- | ---------------- | -------------- | -------------------------------------------- | ------------- | ------------------- |
-|         |                              | Presentation Due |                |                                              | Charlie's BBQ | Total Wipeout + BBQ |
-|         | Iman & Raghda's Viva Dinners |                  | Paradox Museum | Jewellery Making & Iman's Bday + Viva Dinner |               |                     |
+| Mon 7th | Tue 8th                        | Wed 9th      | Thu 10th       | Fri 11th                                        | Sat 12th      | Sun 13th            |
+| :-----: | :----------------------------- | ------------ | -------------- | ----------------------------------------------- | ------------- | ------------------- |
+|         |                                | Presentation |                |                                                 | Charlie's BBQ | Total Wipeout + BBQ |
+|         | - Iman & Raghda's Viva Dinners |              | Paradox Museum | Jewellery Making<br>- Iman's Bday + Viva Dinner |               |                     |
 
-| Mon 14th | Tue 15th                                   | Wed 16th                                  | Thu 17th | Fri 18th | Sat 19th | Sun 20th |
-| :------: | :----------------------------------------- | ----------------------------------------- | -------- | -------- | -------- | -------- |
-|          | Engineering Science & Intro to Programming | Education Research Project Proposal Draft |          |          |          |          |
-|          | Mark Presentations                         |                                           |          |          |          |          |
+| Mon 14th | Tue 15th                                        | Wed 16th                                    | Thu 17th | Fri 18th | Sat 19th | Sun 20th |
+| :------: | :---------------------------------------------- | ------------------------------------------- | -------- | -------- | -------- | -------- |
+|          | - Engineering Science<br>- Intro to Programming | - Education Research Project Proposal Draft |          |          |          |          |
+|          | - Mark Presentations                            |                                             |          |          |          |          |
 
 | 🔢 Week | 📅 Beginning         | 📝 Main Chapter                  | 🗒️ Small Chapter   |
 | :-----: | :------------------- | -------------------------------- | ------------------- |
