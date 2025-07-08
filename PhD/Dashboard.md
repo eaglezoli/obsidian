@@ -38,7 +38,14 @@ icon: 🏠
 	- [ ] Spell check!
 
 ### 📅 Schedule
-![[image.png]]
+
+| Mon 7th | Tue 8th | Wed 9th | Thu 10th | Fri 11th | Sat 12th | Sun 13th |
+| :-----: | :------ | ------- | -------- | -------- | -------- | -------- |
+|         |         |         |          |          |          |          |
+
+| Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+| :-: | :-- | --- | --- | --- | --- | --- |
+|     |     |     |     |     |     |     |
 
 | 🔢 Week | 📅 Beginning         | 📝 Main Chapter                  | 🗒️ Small Chapter   |
 | :-----: | :------------------- | -------------------------------- | ------------------- |
