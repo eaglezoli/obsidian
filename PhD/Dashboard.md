@@ -44,10 +44,10 @@ icon: 🏠
 |         | Presentation                   | Presentation Due<br>- Setup |                | - Vessels                                       |               | Total Wipeout + BBQ |
 |         | - Iman & Raghda's Viva Dinners |                             | Paradox Museum | Jewellery Making<br>- Iman's Bday + Viva Dinner | Charlie's BBQ |                     |
 
-| Mon 14th    | Tue 15th                                        | Wed 16th                                    | Thu 17th                 | Fri 18th | Sat 19th           | Sun 20th      |
-| :---------- | :---------------------------------------------- | ------------------------------------------- | ------------------------ | -------- | ------------------ | ------------- |
-| Lesson prep | - Engineering Science<br>- Intro to Programming | - Education Research Project Proposal Draft | Discussion<br>Conclusion |          | - Intro & Abstract | - Final edits |
-|             | - Mark Presentations                            | - MPhil Edits                               |                          |          |                    |               |
+| Mon 14th    | Tue 15th                                        | Wed 16th                                    | Thu 17th | Fri 18th                 | Sat 19th | Sun 20th                         |
+| :---------- | :---------------------------------------------- | ------------------------------------------- | -------- | ------------------------ | -------- | -------------------------------- |
+| Lesson prep | - Engineering Science<br>- Intro to Programming | - Education Research Project Proposal Draft |          | Discussion<br>Conclusion |          | Final edits<br>Intro<br>Abstract |
+|             | - Mark Presentations                            | - MPhil Edits                               |          |                          |          |                                  |
 
 | 🔢 Week | 📅 Beginning         | 📝 Main Chapter                  | 🗒️ Small Chapter   |
 | :-----: | :------------------- | -------------------------------- | ------------------- |
