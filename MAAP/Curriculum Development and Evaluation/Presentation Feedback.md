@@ -10,5 +10,5 @@
 - [x] There is reference to **inclusivity** which is important so perhaps refer to this earlier in your reasons to **redesign**.  
 - You do refer to delivery tools
 - [ ] There is a good focus on the activities but reduce the refer to content but focus on their **skills** like **group work** and **collaboration**
-- [ ] It is good to also refer to assessment and the evaluation
+- [ ] It is good to also refer to **assessment** and the **evaluation**
 - [ ] Include a slide with your **references**
