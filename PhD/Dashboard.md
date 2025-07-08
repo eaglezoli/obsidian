@@ -40,9 +40,9 @@ icon: 🏠
 ### 📅 Schedule
 
 | Mon 7th | Tue 8th                        | Wed 9th                 | Thu 10th       | Fri 11th                                        | Sat 12th      | Sun 13th            |
-|:------- |:------------------------------ | ----------------------- | -------------- | ----------------------------------------------- | ------------- | ------------------- |
-|         |                                | Presentation<br>- Setup |                | - Vessels                                       | Charlie's BBQ | Total Wipeout + BBQ |
-|         | - Iman & Raghda's Viva Dinners |                         | Paradox Museum | Jewellery Making<br>- Iman's Bday + Viva Dinner |               |                     |
+| :------ | :----------------------------- | ----------------------- | -------------- | ----------------------------------------------- | ------------- | ------------------- |
+|         |                                | Presentation<br>- Setup |                | - Vessels                                       |               | Total Wipeout + BBQ |
+|         | - Iman & Raghda's Viva Dinners |                         | Paradox Museum | Jewellery Making<br>- Iman's Bday + Viva Dinner | Charlie's BBQ |                     |
 
 | Mon 14th    | Tue 15th                                        | Wed 16th                                    | Thu 17th                 | Fri 18th | Sat 19th           | Sun 20th      |
 | :---------- | :---------------------------------------------- | ------------------------------------------- | ------------------------ | -------- | ------------------ | ------------- |
