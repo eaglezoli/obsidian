@@ -38,6 +38,7 @@ icon: 🏠
 	- [ ] Spell check!
 
 ### 📅 Schedule
+![[image.png]]
 
 | 🔢 Week | 📅 Beginning         | 📝 Main Chapter                  | 🗒️ Small Chapter   |
 | :-----: | :------------------- | -------------------------------- | ------------------- |

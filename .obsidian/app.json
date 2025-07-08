@@ -1,3 +1,5 @@
 {
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "trashOption": "local",
+  "attachmentFolderPath": "./images"
 }
