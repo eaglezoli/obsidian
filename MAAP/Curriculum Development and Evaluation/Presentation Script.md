@@ -19,3 +19,4 @@ This project-based model replaces isolated tasks with authentic challenges. Stud
 ### Inclusive Learning
 Inclusive teaching in this lab isn’t about one-size-fits-all. Instead, we provide differentiated support. Beginners benefit from a structured bootcamp, guided lab materials, and early feedback mechanisms. Meanwhile, more advanced students are stretched through open-ended projects, optional challenges, and space to explore beyond the brief. This ensures all learners — regardless of background — stay engaged, feel supported, and grow in confidence and competence.
 
+### Tools
