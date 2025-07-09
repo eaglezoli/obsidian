@@ -1,7 +1,11 @@
 ### Intro
 This presentation will outline the redesign of biomedical engineering lab teaching to better equip students with practical, industry-relevant skills. I’ll begin by identifying the current challenges and the need for change. Then, I’ll walk through the core design objectives, including a shift toward flipped classrooms, project-based learning using Python, and inclusive strategies for all learners. I’ll also cover the teaching tools and assessment methods used, and finish with how we plan to evaluate and continuously improve the new lab experience.
 
+### Why?
+
+
 ### Frameworks & Objectives
+This redesign is intentionally aligned with key national and institutional frameworks to ensure quality, inclusivity, and impact. The Teaching Excellence Framework (TEF) guided our focus on active learning, employability, and real-world projects that improve student experience and outcomes. At City, we’ve also used the Inclusive Curriculum Framework to support diverse learners through scaffolded resources and cross-module coordination. The QAA framework reinforced the need to embed technical skills like coding and circuit design directly into the curriculum. And finally, our approach to evaluating the redesign follows BERA’s ethical research principles — collecting feedback through informed consent and protecting student anonymity.
 
 ### Stakeholders & Skills
 This redesign is built on input from those who hire and teach our students — from NHS partners to alumni now working in industry. They highlighted the need for both modern tools like Python and solid fundamentals like circuit design and signal analysis. We’ve responded by embedding real-world workflows into the labs — giving students hands-on practice in building and understanding biomedical systems. The result is a skillset that isn’t just useful in biomedical engineering — it’s applicable in wider tech, data, consulting, and research careers.
