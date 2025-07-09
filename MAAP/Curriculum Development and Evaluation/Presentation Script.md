@@ -27,3 +27,7 @@ Similarly, we emphasise group work and collaboration to develop communication, a
 This structure ensures our tools aren’t just delivering content — they’re actively building transferable skills that students can take forward into practice.
 
 ### Assessment & Feedback
+We’ve structured assessment not just to test performance, but to _develop it progressively_. Early-stage quizzes and feedback help students course-correct. The project portfolio encourages reflection and documentation — critical skills in engineering. The prototype shows their technical competence in action, and the viva allows them to explain their thinking and problem-solving. This balanced strategy blends formative and summative assessment while developing communication, teamwork, and practical engineering skills.
+
+### Evaluation & Improvement
+Evaluation isn’t a one-off activity — it’s a continuous cycle that helps us improve the lab experience over time. We begin with data collection: surveys, focus groups, and performance analysis across cohorts. This feeds into structured analysis where we look for trends, strengths, and areas needing development. Based on that, we refine both content and delivery — whether that’s adjusting scaffolding, pacing, or tool usage. Crucially, we also share our findings — presenting internally and at conferences — to contribute to the wider conversation on engineering education. All of this is conducted under BERA’s ethical guidelines to ensure data is used responsibly and students are treated as active partners in improvement.
