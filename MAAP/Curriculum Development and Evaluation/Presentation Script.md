@@ -1,6 +1,14 @@
 ### Intro
 This presentation will outline the redesign of biomedical engineering lab teaching to better equip students with practical, industry-relevant skills. I’ll begin by identifying the current challenges and the need for change. Then, I’ll walk through the core design objectives, including a shift toward flipped classrooms, project-based learning using Python, and inclusive strategies for all learners. I’ll also cover the teaching tools and assessment methods used, and finish with how we plan to evaluate and continuously improve the new lab experience.
 
-## Stakeholder Priorities & Industry-Aligned Skills
+### Stakeholder Priorities & Industry-Aligned Skills
 This redesign is built on input from those who hire and teach our students — from NHS partners to alumni now working in industry. They highlighted the need for both modern tools like Python and solid fundamentals like circuit design and signal analysis. We’ve responded by embedding real-world workflows into the labs — giving students hands-on practice in building and understanding biomedical systems. The result is a skillset that isn’t just useful in biomedical engineering — it’s applicable in wider tech, data, consulting, and research careers.
 
+### Flipped Learning
+Traditionally, much of lab time was taken up by explaining background theory — which left little time for deeper engagement or experimentation. In this flipped approach, students complete structured preparation at home using short videos, quizzes, or coding notebooks. Then, in the lab, they work collaboratively to apply these ideas — with immediate support and feedback. This increases participation, improves understanding, and makes lab time more meaningful. The evidence for flipped learning in engineering is strong, and we’ve adapted it specifically for biomedical lab contexts.
+
+### Project-Based Learning for Real-World Applications
+This project-based model replaces isolated tasks with authentic challenges. Students work in teams to design biomedical systems — for example, capturing ECG signals, processing them in Python, and building simple apps or dashboards to visualise the data. Along the way, they develop creative and technical skills while learning how to collaborate and communicate. This prepares them not only for biomedical roles, but also for careers in health tech, R&D, and digital innovation.
+
+### Inclusive & Adaptive Teaching for All Learners
+Inclusive learning isn’t just about accessibility — it’s about recognising that students come with very different levels of experience. We’ve built in structures to support those new to coding or lab work through bootcamps, hints, and TA support. At the same time, advanced students get stretch opportunities — with open-ended tasks and deeper goals. By designing adaptively, we ensure everyone is challenged appropriately, and no one is left behind.
