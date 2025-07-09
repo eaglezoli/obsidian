@@ -20,4 +20,10 @@ This project-based model replaces isolated tasks with authentic challenges. Stud
 Inclusive teaching in this lab isn’t about one-size-fits-all. Instead, we provide differentiated support. Beginners benefit from a structured bootcamp, guided lab materials, and early feedback mechanisms. Meanwhile, more advanced students are stretched through open-ended projects, optional challenges, and space to explore beyond the brief. This ensures all learners — regardless of background — stay engaged, feel supported, and grow in confidence and competence.
 
 ### Tools
-This slide shows how we’re using targeted tools to actively build core learning skills. On the left are the skills we’re aiming to develop — things like independent preparation, lab confidence, group communication, and collaborative workflow. On the right, we’ve matched each with tools and methods that support it. This ensures that we’re not just delivering content — we’re creating structured opportunities for students to practise real-world skills in a safe, scaffolded environment.
+This slide shows how we’ve aligned specific teaching tools with the core skills we want students to develop. On the left, we focus on the learning outcomes — for example, independent preparation helps students build autonomy and confidence before stepping into the lab. To support this, we use short, high-quality video demos and virtual simulations that allow them to explore equipment in advance.
+
+Similarly, we emphasise group work and collaboration to develop communication, accountability, and critical thinking — skills vital in both academic and industry settings. We support this through live collaborative coding sessions and team-based tools like Jupyter Notebooks and GitHub, which reflect real-world engineering workflows.
+
+This structure ensures our tools aren’t just delivering content — they’re actively building transferable skills that students can take forward into practice.
+
+### Assessment & Feedback
