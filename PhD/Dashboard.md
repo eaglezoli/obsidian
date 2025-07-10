@@ -9,6 +9,7 @@ icon: 🏠
 
 - [ ] ➕ **Update**
 	- [ ] Setup (add photos, update diagrams, add changes)
+		- [ ] Comments!
 		- [ ] Zen
 		- [ ] Vertical vs horizontal
 		- [ ] Mould updates
@@ -46,13 +47,13 @@ icon: 🏠
 
 | Mon 7th | Tue 8th                        | Wed 9th                     | Thu 10th       | Fri 11th                                        | Sat 12th      | Sun 13th            |
 | :------ | :----------------------------- | --------------------------- | -------------- | ----------------------------------------------- | ------------- | ------------------- |
-|         | Presentation                   | Presentation Due<br>- Setup |                | - Vessels                                       |               | Total Wipeout + BBQ |
-|         | - Iman & Raghda's Viva Dinners |                             | Paradox Museum | Jewellery Making<br>- Iman's Bday + Viva Dinner | Charlie's BBQ |                     |
+|         | Presentation                   | Presentation Due<br>- Setup |                | - Vessels                                       |               | Mark Presentations  |
+|         | - Iman & Raghda's Viva Dinners |                             | Paradox Museum | Jewellery Making<br>- Iman's Bday + Viva Dinner | Charlie's BBQ | Total Wipeout + BBQ |
 
 | Mon 14th    | Tue 15th                                        | Wed 16th                                    | Thu 17th | Fri 18th                 | Sat 19th | Sun 20th                         |
 | :---------- | :---------------------------------------------- | ------------------------------------------- | -------- | ------------------------ | -------- | -------------------------------- |
 | Lesson prep | - Engineering Science<br>- Intro to Programming | - Education Research Project Proposal Draft |          | Discussion<br>Conclusion |          | Final edits<br>Intro<br>Abstract |
-|             | - Mark Presentations                            | - MPhil Edits                               |          |                          |          |                                  |
+|             |                                                 | - MPhil Edits                               |          |                          |          |                                  |
 
 📑 **Draft to James:					==Mon 21st July==**
 ☠️ **Submission Deadline:		==Thu 14th Aug**==
