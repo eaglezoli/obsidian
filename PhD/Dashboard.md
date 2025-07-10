@@ -9,6 +9,10 @@ icon: 🏠
 
 - [ ] ➕ **Update**
 	- [ ] Setup (add photos, update diagrams, add changes)
+		- [ ] Vertical vs horizontal
+		- [ ] Tubing options
+		- [ ] Mould updates
+		- [ ] Connectors
 	- [ ] Vessels (adapt technical paper into a chapter)
 
 - [ ] 💬 **MPhil Edits/Comments**
@@ -49,14 +53,7 @@ icon: 🏠
 | Lesson prep | - Engineering Science<br>- Intro to Programming | - Education Research Project Proposal Draft |          | Discussion<br>Conclusion |          | Final edits<br>Intro<br>Abstract |
 |             | - Mark Presentations                            | - MPhil Edits                               |          |                          |          |                                  |
 
-| 🔢 Week | 📅 Beginning         | 📝 Main Chapter                  | 🗒️ Small Chapter   |
-| :-----: | :------------------- | -------------------------------- | ------------------- |
-|  **1**  | 2<sup>nd</sup> June  | **10. Bilateral**                |                     |
-|  **2**  | 9<sup>th</sup> June  | 5. Setup                         | 8. Vessels          |
-|  **3**  | 16<sup>th</sup> June | 11. ~~Classification~~ 7. Tissue | 2. CVD              |
-|  **4**  | 23<sup>rd</sup> June | 6. ~~Thickness~~ 3. PPG          | 4. Lit. Review      |
-|  **5**  | 30<sup>th</sup> June | 12. Discussion & Conclusion      | 1. Intro & Abstract |
-📑 **Draft to James:			==Mon 21st July==**
+📑 **Draft to James:					==Mon 21st July==**
 ☠️ **Submission Deadline:		==Thu 14th Aug**==
 
 ### 🧑🏼‍🏫 James' Dates
@@ -64,3 +61,11 @@ icon: 🏠
 - Mon 11th Aug		|	Clearing
 - End of Aug?	 	|	AL
 
+
+| 🔢 Week | 📅 Beginning         | 📝 Main Chapter                  | 🗒️ Small Chapter   |
+| :-----: | :------------------- | -------------------------------- | ------------------- |
+|  **1**  | 2<sup>nd</sup> June  | **10. Bilateral**                |                     |
+|  **2**  | 9<sup>th</sup> June  | 5. Setup                         | 8. Vessels          |
+|  **3**  | 16<sup>th</sup> June | 11. ~~Classification~~ 7. Tissue | 2. CVD              |
+|  **4**  | 23<sup>rd</sup> June | 6. ~~Thickness~~ 3. PPG          | 4. Lit. Review      |
+|  **5**  | 30<sup>th</sup> June | 12. Discussion & Conclusion      | 1. Intro & Abstract |
