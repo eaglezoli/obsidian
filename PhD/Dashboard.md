@@ -11,13 +11,14 @@ icon: 🏠
 	- [ ] Setup (add photos, update diagrams, add changes)
 		- [ ] Comments!
 		- [ ] Zen
-		- [ ] Diagrams
-			- [ ] Setup
+		- [ ] Figures
+			- [ ] Setup Diagram
 				- [ ] Purpose of return flow branch
 				- [ ] Aorta material
-				- [ ] Different sections
 			- [ ] Tubing
-				- [ ] In
+				- [ ] Indicate sections
+			- [ ] Connectors
+				- [ ] Leur annotation
 		- [ ] Vertical vs horizontal
 		- [ ] Mould updates
 		- [ ] Connectors
