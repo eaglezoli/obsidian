@@ -9,10 +9,11 @@ icon: 🏠
 
 - [ ] ➕ **Update**
 	- [ ] Setup (add photos, update diagrams, add changes)
+		- [ ] Zen
 		- [ ] Vertical vs horizontal
-		- [ ] Tubing options
 		- [ ] Mould updates
 		- [ ] Connectors
+		- [ ] Tubing options
 	- [ ] Vessels (adapt technical paper into a chapter)
 
 - [ ] 💬 **MPhil Edits/Comments**
