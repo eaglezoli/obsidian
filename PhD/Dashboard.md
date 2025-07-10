@@ -19,6 +19,9 @@ icon: 🏠
 				- [ ] Indicate sections
 			- [ ] Connectors
 				- [ ] Leur annotation
+		- [ ] Photos
+			- [ ] Zen
+			- [ ] Sensor
 		- [ ] Vertical vs horizontal
 		- [ ] Mould updates
 		- [ ] Connectors
