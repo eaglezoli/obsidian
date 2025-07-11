@@ -8,15 +8,13 @@ icon: 🏠
 ### 📒 Chapter List
 
 - [ ] ➕ **Update**
-	- [ ] Setup (add photos, update diagrams, add changes)
+	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
 		- [ ] Comments!
 		- [ ] Zen
 		- [ ] Figures
 			- [ ] Setup Diagram
-				- [ ] Purpose of return flow branch
+				- [x] Purpose of return flow branch
 				- [ ] Aorta material
-			- [ ] Tubing
-				- [ ] Indicate sections
 			- [ ] Connectors
 				- [ ] Leur annotation
 		- [ ] Photos
@@ -30,6 +28,7 @@ icon: 🏠
 
 - [ ] 💬 **MPhil Edits/Comments**
 	- [ ] MPhil Results – refine for thesis
+		- [ ] Chapter Summary
 	- [ ] CVD
 	- [ ] PPG
 	- [ ] Lit. Review
