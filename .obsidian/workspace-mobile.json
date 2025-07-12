@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8d8c67d01104bbd1",
+        "id": "3840fbf530fed262",
         "type": "tabs",
         "children": [
           {
-            "id": "7b5726bd1d16e01b",
+            "id": "fb2ad5b4ff0cdb07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAAP/Assessments.md",
+                "file": "PhD/Dashboard.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Assessments"
+              "title": "Dashboard"
             }
           }
         ]
@@ -87,8 +87,7 @@
         }
       }
     ],
-    "currentTab": 0,
-    "pinned": true
+    "currentTab": 0
   },
   "right": {
     "id": "e06af571577e7e2c",
@@ -100,6 +99,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "PhD/Dashboard.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -158,9 +158,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b5726bd1d16e01b",
+  "active": "fb2ad5b4ff0cdb07",
   "lastOpenFiles": [
     "MAAP/Assessments.md",
+    "Script Bullets.md",
+    "MAAP/Curriculum Development and Evaluation/Presentation Feedback.md",
+    "MAAP/Curriculum Development and Evaluation/Presentation Script.md",
+    "MAAP/Curriculum Development and Evaluation/images/image.png",
+    "MAAP/Curriculum Development and Evaluation/images",
     "MAAP/Curriculum Development and Evaluation/💬 Presentation Feedback.md",
     "New file.md",
     "Blog/Focus.md",
@@ -174,7 +179,6 @@
     "PhD/10. Bilateral/images/histograms/histograms_Max.start.datum.difference.png",
     "PhD/10. Bilateral/images/histograms/histograms_kurt.png",
     "PhD/10. Bilateral/images/histograms/histograms_snr.png",
-    "PhD/10. Bilateral/images/histograms/histograms_AUC.Ratio.png",
     "PhD/10. Bilateral/images/histograms",
     "PhD/10. Bilateral/images/FAM_Red_HR",
     "PhD/10. Bilateral/images/GAM_IR_FR",
@@ -195,16 +199,12 @@
     "PhD/Meetings/2. Data Analysis.md",
     "PhD/Meetings/images",
     "PhD/10. Bilateral",
-    "PhD/Meetings",
     "PhD/Dashboard.md",
     "PhD/Wiki.md",
     "Blog/Things To Do Instead.md",
     "Blog/Part 2.md",
     "Blog/Goal Setting.md",
     "Blog/Quotes.md",
-    "Blog/Habits.md",
-    "Blog/Psychology.md",
-    "Blog/Productivity.md",
-    "Blog/Reflections.md"
+    "Blog/Habits.md"
   ]
 }

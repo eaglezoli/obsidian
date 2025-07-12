@@ -19,7 +19,7 @@ icon: 🏠
 				- [ ] Leur annotation
 		- [ ] Photos
 			- [ ] Zen
-			- [ ] Sensor
+			- [x] Sensor
 		- [ ] Vertical vs horizontal
 		- [ ] Mould updates
 		- [ ] Connectors
