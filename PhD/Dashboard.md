@@ -24,7 +24,14 @@ icon: 🏠
 		- [ ] Mould updates
 		- [ ] Connectors
 		- [ ] Tubing options
+		      
 	- [ ] Vessels (adapt technical paper into a chapter)
+		- [ ] Methods
+		- [ ] Results
+		- [ ] Discussion
+		- [ ] Conclusion
+		- [ ] Summary
+		- [ ] Introduction
 
 - [ ] 💬 **MPhil Edits/Comments**
 	- [ ] MPhil Results – refine for thesis
