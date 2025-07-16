@@ -18,9 +18,9 @@ icon: 🏠
 			- [ ] Connectors
 				- [ ] Leur annotation
 		- [ ] Photos
+			- [ ] Setup (vertical vs horizontal)
 			- [ ] Zen
 			- [x] Sensor
-		- [ ] Vertical vs horizontal
 		- [ ] Mould updates
 		- [ ] Connectors
 		- [ ] Tubing options
