@@ -26,12 +26,15 @@ icon: 🏠
 		- [ ] Tubing options
 		      
 	- [ ] Vessels (adapt technical paper into a chapter)
-		- [ ] Methods
-		- [ ] Results
-		- [ ] Discussion
-		- [ ] Conclusion
-		- [ ] Summary
-		- [ ] Introduction
+		- [ ] Rephrase
+			- [ ] Methods
+			- [ ] Results
+			- [ ] Discussion
+			- [ ] Conclusion
+			- [ ] Summary
+			- [ ] Introduction
+		- [ ] References
+		- [ ] Figures
 
 - [ ] 💬 **MPhil Edits/Comments**
 	- [ ] MPhil Results – refine for thesis
