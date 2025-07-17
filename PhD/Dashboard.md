@@ -38,7 +38,8 @@ icon: 🏠
 		- [ ] Figures
 
 - [ ] 💬 **MPhil Edits/Comments**
-	- [ ] MPhil Results – refine for thesis
+	- [ ] MPhil Experiment
+		- [ ] Refine results for thesis
 		- [ ] Chapter Summary
 	- [ ] CVD
 	- [ ] PPG
