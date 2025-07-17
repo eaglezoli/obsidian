@@ -28,7 +28,7 @@ icon: 🏠
 	- [ ] Vessels (adapt technical paper into a chapter)
 		- [ ] Rephrase
 			- [x] Methods
-			- [ ] Results
+			- [x] Results
 			- [ ] Discussion
 			- [ ] Conclusion
 			- [ ] Introduction
