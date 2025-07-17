@@ -31,8 +31,9 @@ icon: 🏠
 			- [ ] Results
 			- [ ] Discussion
 			- [ ] Conclusion
-			- [ ] Summary
 			- [ ] Introduction
+		- [ ] Write
+			- [ ] Summary
 		- [ ] References
 		- [ ] Figures
 
