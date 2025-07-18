@@ -30,7 +30,7 @@ icon: 🏠
 			- [x] Methods
 			- [x] Results
 			- [x] Discussion
-			- [ ] Conclusion
+			- [x] Conclusion
 			- [ ] Introduction
 		- [ ] Write
 			- [ ] Summary
