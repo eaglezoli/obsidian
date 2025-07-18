@@ -62,7 +62,9 @@ icon: 🏠
 - [ ] ☑️ **Final Edits**
 	- [ ] Title!
 	- [ ] Chapter titles
+	- [ ] Drop Caps
 	- [ ] Figure numbers
+	- [ ] Cross-references (Alt + F9?)
 	- [ ] Spell check!
 
 ### 📅 Schedule
