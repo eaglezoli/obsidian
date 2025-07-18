@@ -26,7 +26,7 @@ icon: 🏠
 		- [ ] Tubing options
 		      
 	- [ ] Vessels (adapt technical paper into a chapter)
-		- [ ] Rephrase
+		- [x] Rephrase
 			- [x] Methods
 			- [x] Results
 			- [x] Discussion
@@ -46,6 +46,8 @@ icon: 🏠
 	- [ ] Lit. Review
 
 - [ ] 📝 **Write**
+	- [ ] Overall Discussion & Conclusion
+	- [ ] Intro & Abstract
 	- [ ] Bilateral Flow Experiment
 		- [x] Method
 		- [x] Results
@@ -56,10 +58,8 @@ icon: 🏠
 			- [ ] Setup photo
 			- [x] Setup diagram
 		- [x] ToCs
-	- [ ] Overall Discussion & Conclusion
-	- [ ] Intro & Abstract
 
-- [ ] ☑️ **Final Edits**
+- [ ] ☑️ **Final Checks**
 	- [ ] Title!
 	- [ ] Chapter titles
 	- [ ] Drop Caps
