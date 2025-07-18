@@ -29,7 +29,7 @@ icon: 🏠
 		- [ ] Rephrase
 			- [x] Methods
 			- [x] Results
-			- [ ] Discussion
+			- [x] Discussion
 			- [ ] Conclusion
 			- [ ] Introduction
 		- [ ] Write
