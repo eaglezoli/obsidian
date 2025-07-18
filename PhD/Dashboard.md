@@ -31,7 +31,7 @@ icon: 🏠
 			- [x] Results
 			- [x] Discussion
 			- [x] Conclusion
-			- [ ] Introduction
+			- [x] Introduction
 		- [ ] Write
 			- [ ] Summary
 		- [ ] References
