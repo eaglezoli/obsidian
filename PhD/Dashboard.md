@@ -18,6 +18,8 @@ icon: 🏠
 	- [ ] Overall Discussion & Conclusion
 	- [ ] Intro & Abstract
 	- [ ] Chapter Summaries
+	- [ ] Methodology
+		- [ ] Feature extraction code explanations
 
 - [ ] 💬 **MPhil Edits/Comments**
 	- [ ] MPhil Experiment
@@ -61,6 +63,10 @@ icon: 🏠
 		- [ ] Figures
 			- [x] Setup diagram
 			- [ ] Setup photo
+			      
+	- [ ] Appendices
+		- [ ] Cross-correlation code
+		- [ ] Regression code
 
 - [ ] ☑️ **Final Checks**
 	- [ ] Title!
