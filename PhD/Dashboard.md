@@ -7,6 +7,25 @@ icon: 🏠
 ********
 ### 📒 Chapter List
 
+- [ ] 📝 **Write**
+	- [x] Bilateral Flow Experiment
+		- [x] Method
+		- [x] Results
+		- [x] Discussion
+		- [x] Summary
+		- [x] Introduction
+		- [x] ToCs
+	- [ ] Overall Discussion & Conclusion
+	- [ ] Intro & Abstract
+
+- [ ] 💬 **MPhil Edits/Comments**
+	- [ ] MPhil Experiment
+		- [ ] Refine results for thesis
+		- [ ] Chapter Summary
+	- [ ] CVD
+	- [ ] PPG
+	- [ ] Lit. Review
+
 - [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
 		- [ ] Comments!
@@ -41,25 +60,6 @@ icon: 🏠
 		- [ ] Figures
 			- [x] Setup diagram
 			- [ ] Setup photo
-
-- [ ] 💬 **MPhil Edits/Comments**
-	- [ ] MPhil Experiment
-		- [ ] Refine results for thesis
-		- [ ] Chapter Summary
-	- [ ] CVD
-	- [ ] PPG
-	- [ ] Lit. Review
-
-- [ ] 📝 **Write**
-	- [ ] Overall Discussion & Conclusion
-	- [ ] Intro & Abstract
-	- [ ] Bilateral Flow Experiment
-		- [x] Method
-		- [x] Results
-		- [x] Discussion
-		- [x] Summary
-		- [x] Introduction
-		- [x] ToCs
 
 - [ ] ☑️ **Final Checks**
 	- [ ] Title!
