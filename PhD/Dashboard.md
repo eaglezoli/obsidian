@@ -32,6 +32,7 @@ icon: 🏠
 - [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
 		- [ ] Comments!
+		- [ ] Conference paper content
 		- [ ] Zen
 		- [ ] Figures
 			- [ ] Setup Diagram
