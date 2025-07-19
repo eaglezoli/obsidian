@@ -17,6 +17,7 @@ icon: 🏠
 		- [x] ToCs
 	- [ ] Overall Discussion & Conclusion
 	- [ ] Intro & Abstract
+	- [ ] Chapter Summaries
 
 - [ ] 💬 **MPhil Edits/Comments**
 	- [ ] MPhil Experiment
