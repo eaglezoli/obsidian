@@ -36,6 +36,11 @@ icon: 🏠
 			- [x] Summary
 		- [ ] References
 		- [ ] Figures
+		      
+	- [ ] Bilateral Flow Experiment
+		- [ ] Figures
+			- [x] Setup diagram
+			- [ ] Setup photo
 
 - [ ] 💬 **MPhil Edits/Comments**
 	- [ ] MPhil Experiment
@@ -54,9 +59,6 @@ icon: 🏠
 		- [x] Discussion
 		- [x] Summary
 		- [x] Introduction
-		- [ ] Figures
-			- [ ] Setup photo
-			- [x] Setup diagram
 		- [x] ToCs
 
 - [ ] ☑️ **Final Checks**
