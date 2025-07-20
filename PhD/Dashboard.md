@@ -28,6 +28,7 @@ icon: 🏠
 			* [ ] Methodological and Study Limitations
 			* [ ] Integration with Existing Literature
 			* [ ] Future Directions and Clinical Translation
+			* [ ] References
 		- [ ] Conclusion
 			- [ ] Summary of Aims and Key Findings
 			* [ ] Original Contributions and Knowledge Advances
