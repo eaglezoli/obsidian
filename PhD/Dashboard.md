@@ -16,6 +16,25 @@ icon: 🏠
 		- [x] Introduction
 		- [x] ToCs
 	- [ ] Overall Discussion & Conclusion
+		- [ ] Discussion
+			- [x] Thematic Context and Research Foundation
+			* [x] Overview of Main Findings
+			* [x] Custom In Vitro PPG Platform: Reproducibility and Validation
+			* [x] Development of Tunable Silicone Vessels
+			* [ ] Stiffness Detection Across Vessel Elasticity Range
+			* [ ] Bilateral Assessment Under Varying Flow Dynamics
+			* [ ] Novel Contributions
+			* [ ] Implications and Real-World Applications
+			* [ ] Methodological and Study Limitations
+			* [ ] Integration with Existing Literature
+			* [ ] Future Directions and Clinical Translation
+		- [ ] Conclusion
+			- [ ] Summary of Aims and Key Findings
+			* [ ] Original Contributions and Knowledge Advances
+			* [ ] Clinical and Practical Relevance
+			* [ ] Strengths and Limitations
+			* [ ] Future Work and Open Questions
+			* [ ] Final Reflection
 	- [ ] Intro & Abstract
 	- [ ] Chapter Summaries
 	- [ ] Methodology
