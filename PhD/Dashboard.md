@@ -22,7 +22,7 @@ icon: 🏠
 			* [x] Custom In Vitro PPG Platform: Reproducibility and Validation
 			* [x] Development of Tunable Silicone Vessels
 			* [x] Stiffness Detection Across Vessel Elasticity Range
-			* [ ] Bilateral Assessment Under Varying Flow Dynamics
+			* [x] Bilateral Assessment Under Varying Flow Dynamics
 			* [ ] Novel Contributions
 			* [ ] Implications and Real-World Applications
 			* [ ] Methodological and Study Limitations
@@ -40,6 +40,7 @@ icon: 🏠
 	- [ ] Chapter Summaries
 	- [ ] Methodology
 		- [ ] Feature extraction code explanations
+	- [ ] Acknowledgements!
 
 - [ ] 💬 **MPhil Edits/Comments**
 	- [ ] MPhil Experiment
