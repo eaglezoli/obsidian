@@ -25,7 +25,7 @@ icon: 🏠
 			* [x] Bilateral Assessment Under Varying Flow Dynamics
 			* [x] Novel Contributions
 			* [x] Implications and Real-World Applications
-			* [ ] Methodological and Study Limitations
+			* [x] Methodological and Study Limitations
 			* [ ] Integration with Existing Literature
 			* [ ] Future Directions and Clinical Translation
 			* [ ] References
