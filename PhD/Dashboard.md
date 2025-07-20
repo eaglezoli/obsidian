@@ -26,9 +26,10 @@ icon: 🏠
 			* [x] Novel Contributions
 			* [x] Implications and Real-World Applications
 			* [x] Methodological and Study Limitations
-			* [ ] Future Directions and Clinical Translation
-			* [ ] Integration with Existing Literature
+			* [x] Future Directions and Clinical Translation
+			* [ ] Summary
 			* [ ] References
+			* [ ] Integration with Existing Literature
 		- [ ] Conclusion
 			- [ ] Summary of Aims and Key Findings
 			* [ ] Original Contributions and Knowledge Advances
