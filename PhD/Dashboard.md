@@ -28,13 +28,13 @@ icon: 🏠
 			* [x] Methodological and Study Limitations
 			* [x] Future Directions and Clinical Translation
 			* [x] Summary
-			* [ ] References (from previous chapters and literature)
+			* [ ] **References (from previous chapters and literature)**
 			* [ ] Integration with Existing Literature
 		- [x] Conclusion
 			- [x] Summary of Contributions
 			* [x] Limitations & Future Work
 			* [x] Final Reflection
-	- [ ] Intro & Abstract
+	- [ ] **Intro & Abstract**
 	- [ ] Chapter Summaries (1–4)
 	- [ ] Methodology
 		- [ ] Feature extraction code explanations
@@ -70,7 +70,7 @@ icon: 🏠
 			- [ ] Zen
 			- [x] Sensor
 		      
-	- [ ] Vessels (adapt technical paper into a chapter)
+	- [ ] **Vessels (adapt technical paper into a chapter)**
 		- [x] Rephrase
 			- [x] Methods
 			- [x] Results
@@ -79,8 +79,8 @@ icon: 🏠
 			- [x] Introduction
 		- [x] Write
 			- [x] Summary
-		- [ ] References
-		- [ ] Figures
+		- [ ] **References**
+		- [ ] **Figures**
 		      
 	- [ ] Bilateral Flow Experiment
 		- [ ] Figures
@@ -99,6 +99,7 @@ icon: 🏠
 	- [ ] Check figure numbers
 	- [ ] Check tables and cross-references (Alt + F9?)
 	- [ ] Spell check!
+	- [ ] Layout
 
 ### 📅 Schedule
 
@@ -112,7 +113,7 @@ icon: 🏠
 | Lesson prep | - Engineering Science<br>- Intro to Programming | - Education Research Project Proposal Draft |          | Vessels  | MPhil Edits | Discussion<br>Conclusion <br>Intro<br>Abstract<br>Final edits |
 |             |                                                 | - MPhil Edits                               |          |          |             |                                                               |
 
-📑 **Draft to James:					==Sun 20th July==**
+📑 **Draft to James:					==Sun 20th July==** 😵
 ☠️ **Submission Deadline:		==Thu 14th Aug**==
 
 ### 🧑🏼‍🏫 James' Dates
