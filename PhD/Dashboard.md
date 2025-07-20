@@ -91,10 +91,11 @@ icon: 🏠
 
 - [ ] ☑️ **Final Checks**
 	- [ ] Title!
-	- [ ] Chapter titles
-	- [ ] Drop Caps
-	- [ ] Figure numbers
-	- [ ] Cross-references (Alt + F9?)
+	- [ ] Finalise chapter titles
+	- [ ] Section ToCs
+	- [ ] Dropcaps
+	- [ ] Check figure numbers
+	- [ ] Check tables and cross-references (Alt + F9?)
 	- [ ] Spell check!
 
 ### 📅 Schedule
