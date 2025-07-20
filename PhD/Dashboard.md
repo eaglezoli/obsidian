@@ -28,12 +28,12 @@ icon: 🏠
 			* [x] Methodological and Study Limitations
 			* [x] Future Directions and Clinical Translation
 			* [x] Summary
-			* [ ] References
+			* [ ] References (f)
 			* [ ] Integration with Existing Literature
-		- [ ] Conclusion
-			- [ ] Summary of Contributions
-			* [ ] Limitations & Future Work
-			* [ ] Final Reflection
+		- [x] Conclusion
+			- [x] Summary of Contributions
+			* [x] Limitations & Future Work
+			* [x] Final Reflection
 	- [ ] Intro & Abstract
 	- [ ] Chapter Summaries
 	- [ ] Methodology
