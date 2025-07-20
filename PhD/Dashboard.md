@@ -26,7 +26,6 @@ icon: 🏠
 			* [x] Novel Contributions
 			* [x] Implications and Real-World Applications
 			* [x] Methodological and Study Limitations
-			* [ ] Integration with Existing Literature
 			* [ ] Future Directions and Clinical Translation
 			* [ ] References
 		- [ ] Conclusion
