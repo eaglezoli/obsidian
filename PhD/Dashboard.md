@@ -21,7 +21,7 @@ icon: 🏠
 			* [x] Overview of Main Findings
 			* [x] Custom In Vitro PPG Platform: Reproducibility and Validation
 			* [x] Development of Tunable Silicone Vessels
-			* [ ] Stiffness Detection Across Vessel Elasticity Range
+			* [x] Stiffness Detection Across Vessel Elasticity Range
 			* [ ] Bilateral Assessment Under Varying Flow Dynamics
 			* [ ] Novel Contributions
 			* [ ] Implications and Real-World Applications
