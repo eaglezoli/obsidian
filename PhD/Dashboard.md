@@ -23,7 +23,7 @@ icon: 🏠
 			* [x] Development of Tunable Silicone Vessels
 			* [x] Stiffness Detection Across Vessel Elasticity Range
 			* [x] Bilateral Assessment Under Varying Flow Dynamics
-			* [ ] Novel Contributions
+			* [x] Novel Contributions
 			* [ ] Implications and Real-World Applications
 			* [ ] Methodological and Study Limitations
 			* [ ] Integration with Existing Literature
