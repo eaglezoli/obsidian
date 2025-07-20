@@ -31,11 +31,8 @@ icon: 🏠
 			* [ ] References
 			* [ ] Integration with Existing Literature
 		- [ ] Conclusion
-			- [ ] Summary of Aims and Key Findings
-			* [ ] Original Contributions and Knowledge Advances
-			* [ ] Clinical and Practical Relevance
-			* [ ] Strengths and Limitations
-			* [ ] Future Work and Open Questions
+			- [ ] Summary of Contributions
+			* [ ] Limitations & Future Work
 			* [ ] Final Reflection
 	- [ ] Intro & Abstract
 	- [ ] Chapter Summaries
