@@ -39,14 +39,14 @@ icon: 🏠
 				- [x] Purpose of return flow branch
 				- [ ] Aorta material
 			- [ ] Connectors
+				- [ ] Show previous designs
 				- [ ] Leur annotation
+			- [ ] Mould updates
+			- [ ] Tubing options
 		- [ ] Photos
 			- [ ] Setup (vertical vs horizontal)
 			- [ ] Zen
 			- [x] Sensor
-		- [ ] Mould updates
-		- [ ] Connectors
-		- [ ] Tubing options
 		      
 	- [ ] Vessels (adapt technical paper into a chapter)
 		- [x] Rephrase
