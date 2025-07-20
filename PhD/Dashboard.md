@@ -28,14 +28,14 @@ icon: 🏠
 			* [x] Methodological and Study Limitations
 			* [x] Future Directions and Clinical Translation
 			* [x] Summary
-			* [ ] References (f)
+			* [ ] References (from previous chapters and literature)
 			* [ ] Integration with Existing Literature
 		- [x] Conclusion
 			- [x] Summary of Contributions
 			* [x] Limitations & Future Work
 			* [x] Final Reflection
 	- [ ] Intro & Abstract
-	- [ ] Chapter Summaries
+	- [ ] Chapter Summaries (1–4)
 	- [ ] Methodology
 		- [ ] Feature extraction code explanations
 	- [ ] Acknowledgements!
@@ -45,8 +45,11 @@ icon: 🏠
 		- [ ] Refine results for thesis
 		- [ ] Chapter Summary
 	- [ ] CVD
+		- [ ] Summary
 	- [ ] PPG
+		- [ ] Summary
 	- [ ] Lit. Review
+		- [ ] Summary
 
 - [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
