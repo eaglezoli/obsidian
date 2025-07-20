@@ -27,7 +27,7 @@ icon: 🏠
 			* [x] Implications and Real-World Applications
 			* [x] Methodological and Study Limitations
 			* [x] Future Directions and Clinical Translation
-			* [ ] Summary
+			* [x] Summary
 			* [ ] References
 			* [ ] Integration with Existing Literature
 		- [ ] Conclusion
