@@ -37,6 +37,7 @@ icon: 🏠
 	- [ ] **Intro & Abstract**
 		- [ ] Aims & objectives
 		- [ ] Chapter outline
+		- [ ] List of publications
 	- [ ] **Chapter Summaries (1–4)**
 	- [ ] Methodology
 		- [ ] Feature extraction code explanations
