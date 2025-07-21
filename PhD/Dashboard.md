@@ -35,7 +35,7 @@ icon: 🏠
 			* [x] Limitations & Future Work
 			* [x] Final Reflection
 	- [ ] **Intro & Abstract**
-	- [ ] Chapter Summaries (1–4)
+	- [ ] **Chapter Summaries (1–4)**
 	- [ ] Methodology
 		- [ ] Feature extraction code explanations
 	- [ ] Acknowledgements!
@@ -43,13 +43,9 @@ icon: 🏠
 - [ ] 💬 **MPhil Edits/Comments**
 	- [ ] MPhil Experiment
 		- [ ] Refine results for thesis
-		- [ ] Chapter Summary
 	- [ ] CVD
-		- [ ] Summary
 	- [ ] PPG
-		- [ ] Summary
 	- [ ] Lit. Review
-		- [ ] Summary
 
 - [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
