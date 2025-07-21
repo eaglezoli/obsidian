@@ -39,8 +39,8 @@ icon: 🏠
 		- [x] Aims & objectives
 		- [ ] Chapter outline
 		- [x] Intro
-		- [ ] Abstract
-	- [ ] **Chapter Summaries (1–4)**
+		- [x] Abstract
+	- [ ] **Chapter Summaries (1–5)**
 	- [ ] Methodology
 		- [ ] Feature extraction code explanations
 	- [ ] Acknowledgements!
@@ -48,6 +48,7 @@ icon: 🏠
 - [ ] 💬 **MPhil Edits/Comments**
 	- [ ] MPhil Experiment – can't find comments?
 		- [ ] Refine results for thesis
+		- [ ] Write summary
 	- [ ] CVD
 	- [ ] PPG
 	- [ ] Lit. Review
