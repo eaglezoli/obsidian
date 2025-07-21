@@ -35,6 +35,8 @@ icon: 🏠
 			* [x] Limitations & Future Work
 			* [x] Final Reflection
 	- [ ] **Intro & Abstract**
+		- [ ] Aims & objectives
+		- [ ] Chapter outline
 	- [ ] **Chapter Summaries (1–4)**
 	- [ ] Methodology
 		- [ ] Feature extraction code explanations
