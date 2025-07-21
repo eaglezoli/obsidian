@@ -46,12 +46,12 @@ icon: 🏠
 	- [ ] Acknowledgements!
 
 - [ ] 💬 **MPhil Edits/Comments**
-	- [ ] MPhil Experiment – can't find comments?
+	- [ ] Lit. Review
+	- [ ] PPG
+	- [ ] MPhil Method & Experiment – can't find comments?
 		- [ ] Refine results for thesis
 		- [ ] Write summary
-	- [ ] CVD
-	- [ ] PPG
-	- [ ] Lit. Review
+	- [ ] CVD?
 
 - [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
