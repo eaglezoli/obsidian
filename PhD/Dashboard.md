@@ -80,7 +80,7 @@ icon: 🏠
 			- [x] Summary
 		- [ ] References
 		- [ ] Figure Diagrams
-		- [x] Figures Captions
+		- [x] Figure Captions
 		      
 	- [ ] Bilateral Flow Experiment
 		- [ ] Figures
