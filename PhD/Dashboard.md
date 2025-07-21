@@ -50,7 +50,7 @@ icon: 🏠
 	- [ ] PPG
 	- [ ] Lit. Review
 
-- [ ] ➕ Update
+- [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
 		- [ ] Comments!
 		- [ ] Conference paper content
