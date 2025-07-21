@@ -28,7 +28,7 @@ icon: 🏠
 			* [x] Methodological and Study Limitations
 			* [x] Future Directions and Clinical Translation
 			* [x] Summary
-			* [ ] **References (from previous chapters and literature)**
+			* [x] References (from previous chapters and literature)
 			* [ ] Integration with Existing Literature
 		- [x] Conclusion
 			- [x] Summary of Contributions
@@ -50,7 +50,7 @@ icon: 🏠
 	- [ ] PPG
 	- [ ] Lit. Review
 
-- [ ] ➕ **Update**
+- [ ] ➕ Update
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
 		- [ ] Comments!
 		- [ ] Conference paper content
