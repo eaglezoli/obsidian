@@ -78,8 +78,9 @@ icon: 🏠
 			- [x] Introduction
 		- [x] Write
 			- [x] Summary
-		- [ ] **References**
-		- [ ] **Figures**
+		- [ ] References
+		- [ ] Figure Diagrams
+		- [x] Figures Captions
 		      
 	- [ ] Bilateral Flow Experiment
 		- [ ] Figures
