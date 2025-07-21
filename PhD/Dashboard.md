@@ -35,9 +35,11 @@ icon: 🏠
 			* [x] Limitations & Future Work
 			* [x] Final Reflection
 	- [ ] **Intro & Abstract**
+		- [ ] List of publications
 		- [ ] Aims & objectives
 		- [ ] Chapter outline
-		- [ ] List of publications
+		- [ ] Intro
+		- [ ] Abstract
 	- [ ] **Chapter Summaries (1–4)**
 	- [ ] Methodology
 		- [ ] Feature extraction code explanations
@@ -79,7 +81,7 @@ icon: 🏠
 		- [x] Write
 			- [x] Summary
 		- [ ] References
-		- [ ] Figure Diagrams
+		- [ ] Change figures
 		- [x] Figure Captions
 
 	- [ ] Bilateral Flow Experiment
