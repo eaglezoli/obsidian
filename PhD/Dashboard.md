@@ -36,7 +36,7 @@ icon: 🏠
 			* [x] Final Reflection
 	- [ ] **Intro & Abstract**
 		- [x] List of publications
-		- [ ] Aims & objectives
+		- [x] Aims & objectives
 		- [ ] Chapter outline
 		- [ ] Intro
 		- [ ] Abstract
