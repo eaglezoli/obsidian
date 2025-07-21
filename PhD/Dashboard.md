@@ -35,7 +35,7 @@ icon: 🏠
 			* [x] Limitations & Future Work
 			* [x] Final Reflection
 	- [ ] **Intro & Abstract**
-		- [ ] List of publications
+		- [x] List of publications
 		- [ ] Aims & objectives
 		- [ ] Chapter outline
 		- [ ] Intro
