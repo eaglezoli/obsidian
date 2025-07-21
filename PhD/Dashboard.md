@@ -38,7 +38,7 @@ icon: 🏠
 		- [x] List of publications
 		- [x] Aims & objectives
 		- [ ] Chapter outline
-		- [ ] Intro
+		- [x] Intro
 		- [ ] Abstract
 	- [ ] **Chapter Summaries (1–4)**
 	- [ ] Methodology
