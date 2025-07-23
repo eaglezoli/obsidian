@@ -7,6 +7,8 @@ icon: 🏠
 ********
 ### 📒 Chapter List
 
+![[image.png]]
+
 - [ ] 📝 **Write**
 	- [x] Bilateral Flow Experiment
 		- [x] Method
