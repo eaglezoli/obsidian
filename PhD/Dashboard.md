@@ -105,8 +105,9 @@ icon: 🏠
 	- [ ] Finalise chapter titles
 	- [ ] Section ToCs
 	- [ ] Dropcaps
-	- [ ] Check figure numbers
-	- [ ] Check tables and cross-references (Alt + F9?)
+	- [ ] Caption styles
+	- [ ] Figure numbers
+	- [ ] Tables and cross-references (Alt + F9?)
 	- [ ] Spell check!
 	- [ ] Layout
 
