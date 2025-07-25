@@ -49,7 +49,7 @@ icon: 🏠
 
 - [ ] 💬 **MPhil Edits/Comments**
 	- [ ] Lit. Review
-		- [ ] Tables
+		- [x] Tables
 		- [ ] Edits
 	- [ ] PPG
 	- [ ] MPhil Method & Experiment – can't find comments?
