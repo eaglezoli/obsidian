@@ -49,6 +49,8 @@ icon: 🏠
 
 - [ ] 💬 **MPhil Edits/Comments**
 	- [ ] Lit. Review
+		- [ ] Tables
+		- [ ] Edits
 	- [ ] PPG
 	- [ ] MPhil Method & Experiment – can't find comments?
 		- [ ] Refine results for thesis
