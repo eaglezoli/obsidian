@@ -92,7 +92,10 @@ icon: 🏠
 		- [ ] Figures
 			- [x] Setup diagram
 			- [ ] Setup photo
-	- [ ] Overall Discussin
+			      
+	- [ ] Overall Discussion
+		- [ ]  Integrate existing literature
+		      
 	- [ ] Appendices
 		- [ ] Cross-correlation code
 		- [ ] Regression code
