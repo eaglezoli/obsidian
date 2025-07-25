@@ -49,12 +49,16 @@ icon: 🏠
 - [ ] 💬 **MPhil Edits/Comments**
 	- [ ] Lit. Review
 		- [x] Tables
+		- [x] Styles
 		- [ ] Edits
 	- [ ] PPG
+		- [ ] Styles
 	- [ ] MPhil Method & Experiment – can't find comments?
 		- [ ] Refine results for thesis
 		- [ ] Write summary
+		- [ ] Styles
 	- [ ] CVD?
+		- [ ] Styles
 
 - [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
