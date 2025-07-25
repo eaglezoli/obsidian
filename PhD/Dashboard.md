@@ -17,8 +17,8 @@ icon: 🏠
 		- [x] Summary
 		- [x] Introduction
 		- [x] ToCs
-	- [ ] Overall Discussion & Conclusion
-		- [ ] Discussion
+	- [x] Overall Discussion & Conclusion
+		- [x] Discussion
 			- [x] Thematic Context and Research Foundation
 			* [x] Overview of Main Findings
 			* [x] Custom In Vitro PPG Platform: Reproducibility and Validation
@@ -31,7 +31,6 @@ icon: 🏠
 			* [x] Future Directions and Clinical Translation
 			* [x] Summary
 			* [x] References (from previous chapters and literature)
-			* [ ] Integration with Existing Literature
 		- [x] Conclusion
 			- [x] Summary of Contributions
 			* [x] Limitations & Future Work
@@ -93,7 +92,7 @@ icon: 🏠
 		- [ ] Figures
 			- [x] Setup diagram
 			- [ ] Setup photo
-			      
+	- [ ] Overall Discussin
 	- [ ] Appendices
 		- [ ] Cross-correlation code
 		- [ ] Regression code
