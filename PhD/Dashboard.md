@@ -52,12 +52,14 @@ icon: 🏠
 		- [x] Styles
 		- [ ] Edits
 	- [ ] PPG
+		- [ ] Edits
 		- [ ] Styles
 	- [ ] MPhil Method & Experiment – can't find comments?
 		- [ ] Refine results for thesis
 		- [ ] Write summary
 		- [ ] Styles
 	- [ ] CVD?
+		- [ ] Edits
 		- [ ] Styles
 
 - [ ] ➕ **Update**
