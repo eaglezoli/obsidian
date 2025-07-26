@@ -51,6 +51,7 @@ icon: 🏠
 		- [x] Tables
 		- [x] Styles
 		- [ ] Edits
+			- [ ] Image credits
 	- [ ] PPG
 		- [ ] Edits
 		- [ ] Styles
