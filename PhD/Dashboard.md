@@ -51,15 +51,18 @@ icon: 🏠
 		- [x] Edits
 			- [x] Image credits
 	- [ ] PPG
-		- [ ] Edits
+		- [ ] Comments
+		- [x] Edits
 		- [x] Styles
 	- [ ] MPhil Method & Experiment – can't find comments?
 		- [ ] Styles
 		- [ ] Refine results for thesis
 		- [ ] Write summary
+		- [ ] No James edits?
 	- [ ] CVD?
 		- [ ] Styles
-			- [ ] Read through
+		- [ ] Read through
+		- [ ] No James edits?
 
 - [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
