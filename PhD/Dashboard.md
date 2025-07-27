@@ -59,7 +59,7 @@ icon: 🏠
 		- [ ] Write summary
 	- [ ] CVD?
 		- [ ] Styles
-		- [ ] Edits
+			- [ ] Read through
 
 - [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
