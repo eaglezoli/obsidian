@@ -53,15 +53,15 @@ icon: 🏠
 		- [x] Edits
 			- [x] Image credits
 	- [ ] PPG
+		- [x] Styles
 		- [ ] Edits
-		- [ ] Styles
 	- [ ] MPhil Method & Experiment – can't find comments?
+		- [ ] Styles
 		- [ ] Refine results for thesis
 		- [ ] Write summary
-		- [ ] Styles
 	- [ ] CVD?
-		- [ ] Edits
 		- [ ] Styles
+		- [ ] Edits
 
 - [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
