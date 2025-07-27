@@ -62,6 +62,7 @@ icon: 🏠
 	- [ ] CVD?
 		- [ ] Styles
 		- [ ] Read through
+		- [ ] Summary
 		- [ ] No James edits?
 
 - [ ] ➕ **Update**
