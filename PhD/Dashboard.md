@@ -50,8 +50,8 @@ icon: 🏠
 		- [x] Styles
 		- [x] Edits
 			- [x] Image credits
-	- [ ] PPG
-		- [ ] Comments
+	- [x] PPG
+		- [x] Comments
 		- [x] Edits
 		- [x] Styles
 	- [ ] MPhil Method & Experiment – can't find comments?
