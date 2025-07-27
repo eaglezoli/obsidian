@@ -112,6 +112,7 @@ icon: 🏠
 	- [ ] Finalise chapter titles
 	- [ ] Section ToCs
 	- [ ] Dropcaps
+	- [ ] Figure reference styles
 	- [ ] Caption styles
 	- [ ] Figure numbers
 	- [ ] Tables and cross-references (Alt + F9?)
