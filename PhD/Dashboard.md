@@ -7,8 +7,6 @@ icon: 🏠
 ********
 ### 📒 Chapter List
 
-![[image.png]]
-
 - [ ] 📝 **Write**
 	- [x] Bilateral Flow Experiment
 		- [x] Method
@@ -53,8 +51,8 @@ icon: 🏠
 		- [x] Edits
 			- [x] Image credits
 	- [ ] PPG
-		- [x] Styles
 		- [ ] Edits
+		- [x] Styles
 	- [ ] MPhil Method & Experiment – can't find comments?
 		- [ ] Styles
 		- [ ] Refine results for thesis
