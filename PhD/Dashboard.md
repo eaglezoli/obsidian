@@ -47,10 +47,10 @@ icon: 🏠
 	- [ ] Acknowledgements!
 
 - [ ] 💬 **MPhil Edits/Comments**
-	- [ ] Lit. Review
+	- [x] Lit. Review
 		- [x] Tables
 		- [x] Styles
-		- [ ] Edits
+		- [x] Edits
 			- [x] Image credits
 	- [ ] PPG
 		- [ ] Edits
