@@ -43,7 +43,7 @@ icon: 🏠
 		- [ ] 1 (Outline)
 		- [ ] 2 CVD
 		- [x] 3 PPG
-		- [ ] 4 Lit. Review
+		- [x] 4 Lit. Review
 		- [ ] 5 Development & Testing
 	- [ ] Methodology
 		- [ ] Feature extraction code explanations
@@ -67,7 +67,7 @@ icon: 🏠
 	- [ ] CVD?
 		- [ ] Styles
 		- [ ] Read through
-		- [ ] Summary
+		- [ ] Write summary
 		- [ ] No James edits?
 
 - [ ] ➕ **Update**
