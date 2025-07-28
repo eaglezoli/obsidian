@@ -40,6 +40,11 @@ icon: 🏠
 		- [x] Intro
 		- [x] Abstract
 	- [ ] **Chapter Summaries (1–5)**
+		- [ ] 1 (Outline)
+		- [ ] 2 CVD
+		- [x] 3 PPG
+		- [ ] 4 Lit. Review
+		- [ ] 5 Development & Testing
 	- [ ] Methodology
 		- [ ] Feature extraction code explanations
 	- [ ] Acknowledgements!
