@@ -87,7 +87,8 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 0,
+    "pinned": true
   },
   "right": {
     "id": "e06af571577e7e2c",
@@ -160,6 +161,10 @@
   },
   "active": "fb2ad5b4ff0cdb07",
   "lastOpenFiles": [
+    "PhD/Dashboard.md",
+    "Untitled.md",
+    "PhD/Discussion and Conclusion Outline.md",
+    "MAAP/Curriculum Development and Evaluation/Script Bullets.md",
     "MAAP/Assessments.md",
     "Script Bullets.md",
     "MAAP/Curriculum Development and Evaluation/Presentation Feedback.md",
@@ -199,12 +204,8 @@
     "PhD/Meetings/2. Data Analysis.md",
     "PhD/Meetings/images",
     "PhD/10. Bilateral",
-    "PhD/Dashboard.md",
     "PhD/Wiki.md",
     "Blog/Things To Do Instead.md",
-    "Blog/Part 2.md",
-    "Blog/Goal Setting.md",
-    "Blog/Quotes.md",
-    "Blog/Habits.md"
+    "Blog/Part 2.md"
   ]
 }
