@@ -40,7 +40,7 @@ icon: 🏠
 		- [x] Intro
 		- [x] Abstract
 	- [ ] **Chapter Summaries (1–5)**
-		- [ ] 1 (Outline)
+		- [x] 1 (Outline)
 		- [ ] 2 CVD
 		- [x] 3 PPG
 		- [x] 4 Lit. Review
@@ -87,7 +87,7 @@ icon: 🏠
 		- [ ] Photos
 			- [ ] Setup (vertical vs horizontal)
 			- [ ] Zen
-			- [x] Sensor
+			- [ ] Sensor
 		      
 	- [ ] **Vessels (adapt technical paper into a chapter)**
 		- [x] Rephrase
