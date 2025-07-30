@@ -63,12 +63,10 @@ icon: 🏠
 		- [ ] Styles
 		- [ ] Refine results for thesis
 		- [ ] Write summary
-		- [ ] No James edits?
-	- [ ] CVD?
+	- [x] CVD
 		- [x] Styles
 		- [x] Read through
 		- [x] Write summary
-		- [ ] No James edits?
 
 - [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
