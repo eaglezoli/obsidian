@@ -33,10 +33,10 @@ icon: 🏠
 			- [x] Summary of Contributions
 			* [x] Limitations & Future Work
 			* [x] Final Reflection
-	- [ ] **Intro & Abstract**
+	- [x] **Intro & Abstract**
 		- [x] List of publications
 		- [x] Aims & objectives
-		- [ ] Chapter outline
+		- [x] Chapter outline
 		- [x] Intro
 		- [x] Abstract
 	- [ ] **Chapter Summaries (1–5)**
