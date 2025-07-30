@@ -41,7 +41,7 @@ icon: 🏠
 		- [x] Abstract
 	- [ ] **Chapter Summaries (1–5)**
 		- [x] 1 (Outline)
-		- [ ] 2 CVD
+		- [x] 2 CVD
 		- [x] 3 PPG
 		- [x] 4 Lit. Review
 		- [ ] 5 Development & Testing
@@ -65,9 +65,9 @@ icon: 🏠
 		- [ ] Write summary
 		- [ ] No James edits?
 	- [ ] CVD?
-		- [ ] Styles
-		- [ ] Read through
-		- [ ] Write summary
+		- [x] Styles
+		- [x] Read through
+		- [x] Write summary
 		- [ ] No James edits?
 
 - [ ] ➕ **Update**
