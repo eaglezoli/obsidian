@@ -86,7 +86,7 @@ icon: 🏠
 			- [ ] Setup
 				- [ ] Final
 				- [ ] Vertical vs Horizontal
-			- [ ] Zen
+			- [x] Zen
 			- [ ] Sensor
 			- [ ] Pressure sensors?
 		      
