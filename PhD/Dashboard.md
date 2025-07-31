@@ -60,7 +60,7 @@ icon: 🏠
 		- [x] Edits
 		- [x] Styles
 	- [ ] MPhil Method & Experiment – can't find comments?
-		- [ ] Styles
+		- [x] Styles
 		- [ ] Refine results for thesis
 		- [ ] Write summary
 	- [x] CVD
