@@ -72,7 +72,7 @@ icon: 🏠
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
 		- [ ] Comments!
 		- [ ] Conference paper content
-		- [ ] Zen
+		- [ ] Zen info
 		- [ ] Figures
 			- [ ] Setup Diagram
 				- [x] Purpose of return flow branch
@@ -83,9 +83,12 @@ icon: 🏠
 			- [ ] Mould updates
 			- [ ] Tubing options
 		- [ ] Photos
-			- [ ] Setup (vertical vs horizontal)
+			- [ ] Setup
+				- [ ] Final
+				- [ ] Vertical vs Horizontal
 			- [ ] Zen
 			- [ ] Sensor
+			- [ ] Pressure sensors?
 		      
 	- [ ] **Vessels (adapt technical paper into a chapter)**
 		- [x] Rephrase
