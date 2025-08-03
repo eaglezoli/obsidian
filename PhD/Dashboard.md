@@ -118,6 +118,7 @@ icon: 🏠
 - [ ] ☑️ **Final Checks**
 	- [ ] Title!
 	- [ ] Finalise chapter titles
+	- [ ] Refresh Zotero references
 	- [ ] Section ToCs
 	- [ ] Dropcaps
 	- [ ] Figure numbers
