@@ -47,6 +47,7 @@ icon: 🏠
 		- [ ] 5 Development & Testing
 	- [ ] Methodology
 		- [ ] Feature extraction code explanations
+		- [ ] Zen info
 	- [ ] Acknowledgements!
 
 - [ ] 💬 **MPhil Edits/Comments**
@@ -70,9 +71,8 @@ icon: 🏠
 
 - [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
-		- [ ] Comments!
+		- [x] Comments!
 		- [ ] Conference paper content
-		- [ ] Zen info
 		- [ ] Figures
 			- [ ] Setup Diagram
 				- [x] Purpose of return flow branch
