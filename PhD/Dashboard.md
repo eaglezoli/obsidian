@@ -126,6 +126,7 @@ icon: 🏠
 	- [ ] Title!
 	- [ ] Finalise chapter titles
 	- [x] Refresh Zotero references
+	- [x] Chapter ToCs
 	- [ ] Section ToCs
 	- [x] Dropcaps
 	- [x] Figure numbers
