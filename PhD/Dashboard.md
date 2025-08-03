@@ -64,15 +64,17 @@ icon: 🏠
 		- [x] Styles
 		- [x] Refine results for thesis
 		- [x] Write summary
-	- [x] CVD
+	- [x] CVD 
 		- [x] Styles
 		- [x] Read through
 		- [x] Write summary
 
 - [ ] ➕ **Update**
+	- [ ] CVD – No comments
+	      
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
 		- [x] Method Comments!
-		- [ ] Can't
+		- [ ] Can't find results comments
 		- [ ] Integrate conference paper content
 		- [ ] Figures
 			- [ ] Setup Diagram
