@@ -100,7 +100,9 @@ icon: 🏠
 		- [x] Write
 			- [x] Summary
 		- [x] References
-		- [ ] **Change figures**
+		- [x] Change figures
+			- [ ] 
+			- [ ] Didn't change the PPG signals and extraction ones I made
 		- [x] Figure Captions
 
 	- [ ] Bilateral Flow Experiment
