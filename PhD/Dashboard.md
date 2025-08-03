@@ -93,7 +93,7 @@ icon: 🏠
 			- [ ] Sensor
 			- [ ] Pressure sensors?
 		      
-	- [ ] **Vessels (adapt technical paper into a chapter)**
+	- [x] **Vessels (adapt technical paper into a chapter)**
 		- [x] Rephrase
 			- [x] Methods
 			- [x] Results
@@ -106,8 +106,8 @@ icon: 🏠
 		- [x] Change figures
 			- [x] Tables
 			- [x] Graphs
-			- [ ] Photos
-			- [ ] PPGs (didn't change signals features)
+			- [x] Photos
+			- [ ] PPGs (didn't change signals & features)
 		- [x] Figure Captions
 
 	- [ ] Bilateral Flow Experiment
