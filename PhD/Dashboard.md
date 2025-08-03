@@ -99,8 +99,8 @@ icon: 🏠
 			- [x] Introduction
 		- [x] Write
 			- [x] Summary
-		- [ ] References
-		- [ ] Change figures
+		- [x] References
+		- [ ] **Change figures**
 		- [x] Figure Captions
 
 	- [ ] Bilateral Flow Experiment
