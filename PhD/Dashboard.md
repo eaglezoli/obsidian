@@ -127,13 +127,13 @@ icon: 🏠
 	- [ ] Finalise chapter titles
 	- [x] Refresh Zotero references
 	- [ ] Section ToCs
-	- [ ] Dropcaps
-	- [ ] Figure numbers
-	- [ ] Figure reference styles
-	- [ ] Caption styles
-	- [ ] Tables and cross-references (Alt + F9?)
+	- [x] Dropcaps
+	- [x] Figure numbers
+	- [x] Figure reference styles
+	- [x] Caption styles
+	- [x] Tables and cross-references (Alt + F9?)
 	- [ ] Spell check!
-	- [ ] Layout
+	- [ ] Layout?
 
 ### 📅 Schedule
 
