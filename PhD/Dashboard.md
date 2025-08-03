@@ -60,10 +60,10 @@ icon: 🏠
 		- [x] Comments
 		- [x] Edits
 		- [x] Styles
-	- [ ] MPhil Method & Experiment – can't find comments?
+	- [x] MPhil Method & Experiment
 		- [x] Styles
-		- [ ] Refine results for thesis
-		- [ ] Write summary
+		- [x] Refine results for thesis
+		- [x] Write summary
 	- [x] CVD
 		- [x] Styles
 		- [x] Read through
@@ -71,8 +71,9 @@ icon: 🏠
 
 - [ ] ➕ **Update**
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
-		- [x] Comments!
-		- [ ] Conference paper content
+		- [x] Method Comments!
+		- [ ] Can't
+		- [ ] Integrate conference paper content
 		- [ ] Figures
 			- [ ] Setup Diagram
 				- [x] Purpose of return flow branch
@@ -101,8 +102,10 @@ icon: 🏠
 			- [x] Summary
 		- [x] References
 		- [x] Change figures
-			- [ ] 
-			- [ ] Didn't change the PPG signals and extraction ones I made
+			- [x] Tables
+			- [x] Graphs
+			- [ ] Photos
+			- [ ] PPGs (didn't change signals features)
 		- [x] Figure Captions
 
 	- [ ] Bilateral Flow Experiment
