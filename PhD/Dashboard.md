@@ -39,12 +39,12 @@ icon: 🏠
 		- [x] Chapter outline
 		- [x] Intro
 		- [x] Abstract
-	- [ ] **Chapter Summaries (1–5)**
+	- [x] **Chapter Summaries (1–5)**
 		- [x] 1 (Outline)
 		- [x] 2 CVD
 		- [x] 3 PPG
 		- [x] 4 Lit. Review
-		- [ ] 5 Development & Testing
+		- [x] 5 Development & Testing
 	- [ ] Methodology
 		- [ ] Feature extraction code explanations
 		- [ ] Zen info
