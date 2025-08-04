@@ -24,7 +24,7 @@
 
 ---
 
-### 3. Methodology & Ethics _(~800–900 words)_
+### 3. Methodology & Ethics _(~800–900 words)_ ✅
 
 3.1 Research Design & Methodology _(qualitative, exploratory, rationale)_  
 3.2 Participants _(first-year engineering students, sampling strategy)_  
