@@ -19,19 +19,22 @@
 
 ### **2.3 Review of Key Studies**
 
-#### **Theme 1: [Title]**
+#### **Theme 1: Challenges in learning coding for first-year engineering students**
+- *Low confidence, limited prior experience, misconceptions.*
 - Summary of findings from key studies
 - Points of agreement or consensus
 - Contradictions or differing perspectives
 - Relevance to current study
 
-#### **Theme 2: [Title]**
+#### **Theme 2: Pedagogical approaches to improve confidence and skills**
+- *PBL, live coding, short challenges, peer learning.*
 - Summary of findings from key studies
 - Points of agreement or consensus
 - Contradictions or differing perspectives
 - Relevance to current study
 
-#### **Theme 3: [Title]**
+#### **Theme 3: Co‑creation and student voice in curriculum design**
+- *Involving students in shaping teaching and assessment.*
 - Summary of findings from key studies
 - Points of agreement or consensus
 - Contradictions or differing perspectives
@@ -46,3 +49,5 @@
 - **Identified Gaps:** Areas under-researched or overlooked
 - **Why Important:** Significance of addressing these gaps
 - **How This Study Contributes:** What this research will add to the field
+
+
