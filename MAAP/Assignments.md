@@ -68,7 +68,7 @@
 
 * * *
 
-### **📄 Researching HE Task 2 (80%) – EDM109**
+### **📄 Task 2 (80%) – EDM109**
 
 **Research Proposal (2,500 words)** for an education-based study
 
