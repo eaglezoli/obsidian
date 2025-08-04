@@ -43,7 +43,7 @@
   "MAAP": "LiUniversity",
   "MAAP/Researching Higher Education": "LiGraduationCap",
   "MAAP/Ideas.md": "LiLightbulb",
-  "MAAP/Assessments.md": "LiListTodo",
   "MAAP/Curriculum Development and Evaluation": "LiBookText",
-  "Blog": "LiNotebookPen"
+  "Blog": "LiNotebookPen",
+  "MAAP/Assignments.md": "LiListTodo"
 }
