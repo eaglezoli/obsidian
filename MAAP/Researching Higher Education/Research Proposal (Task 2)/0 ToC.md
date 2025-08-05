@@ -1,5 +1,12 @@
 ## **Table of Contents**
 
+**Writing order:** 
+- Methodology
+- Literature Review
+- Anticipated Outcomes & Implications
+- Introduction & Rationale
+- Conclusion
+
 ### 1. Introduction & Rationale _(~400–500 words)_
 
 1.1 Broad Topic and Context _(coding education in first-year engineering)_  
