@@ -2,7 +2,7 @@
 
 **Writing order:** 
 - ~~Methodology~~
-- Literature Review
+- ~~Literature Review~~
 - Anticipated Outcomes & Implications
 - Introduction & Rationale
 - Conclusion
@@ -18,7 +18,7 @@
 
 ---
 
-### 2. Literature Review & Search Approach _(~500–600 words)_
+### 2. ✅Literature Review & Search Approach _(~500–600 words)_
 
 2.1 Introduction to Literature Review _(how it links to your question)_  
 2.2 Search Approach _(brief: databases, keywords, inclusion/exclusion)_  
