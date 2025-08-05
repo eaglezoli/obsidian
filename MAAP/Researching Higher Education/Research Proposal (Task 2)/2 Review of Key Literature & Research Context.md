@@ -7,7 +7,7 @@
 
 ---
 
-### **2.3 Review of Key Studies**
+### **2.2 Review of Key Studies**
 
 #### **Theme 1: Challenges in learning coding for first-year engineering students**
 - *Low confidence, limited prior experience, misconceptions.*
@@ -34,7 +34,7 @@
 
 ---
 
-### **2.4 Gap in Literature & Justification for This Study**
+### **2.3 Gap in Literature & Justification for This Study**
 
 - **Identified Gaps:** Areas under-researched or overlooked
 - **Why Important:** Significance of addressing these gaps
