@@ -1,7 +1,7 @@
 ## **Table of Contents**
 
 **Writing order:** 
-- Methodology
+- ~~Methodology~~
 - Literature Review
 - Anticipated Outcomes & Implications
 - Introduction & Rationale
