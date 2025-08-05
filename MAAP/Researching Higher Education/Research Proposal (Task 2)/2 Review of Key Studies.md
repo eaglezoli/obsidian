@@ -7,17 +7,6 @@
 
 ---
 
-### **2.2 Search Approach**
-
-- **Databases Used:** e.g., Google Scholar, ERIC, Scopus
-- **Keywords/Phrases:** List search terms
-- **Date Range:** Years included and justification
-- **Inclusion Criteria:** e.g., higher education focus, first-year/novice programmers
-- **Exclusion Criteria:** e.g., school-level studies, advanced computing courses
-- **Rationale:** Why these sources and parameters were chosen
-
----
-
 ### **2.3 Review of Key Studies**
 
 #### **Theme 1: Challenges in learning coding for first-year engineering students**
@@ -50,5 +39,3 @@
 - **Identified Gaps:** Areas under-researched or overlooked
 - **Why Important:** Significance of addressing these gaps
 - **How This Study Contributes:** What this research will add to the field
-
-
