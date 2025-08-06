@@ -8,6 +8,7 @@
 - ~~Conclusion~~
 - Formatting & Layout
 - Cover sheet!
+- References!
 
 Word count: 2628
 
