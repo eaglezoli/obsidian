@@ -5,7 +5,7 @@
 - ~~Literature Review~~
 - ~~Anticipated Outcomes & Implications~~
 - ~~Introduction & Rationale~~
-- Conclusion
+- ~~Conclusion~~
 - Formatting & Layout
 
 ### 1. ✅ Introduction & Rationale _(~400–500 words)_
@@ -51,7 +51,7 @@
 
 ---
 
-### 5. Conclusion _(~150–200 words)_
+### 5. ✅ Conclusion _(~150–200 words)_
 
 5.1 Summary of Proposal _(research aim, method, significance)_  
 5.2 Contribution & Value of the Study
