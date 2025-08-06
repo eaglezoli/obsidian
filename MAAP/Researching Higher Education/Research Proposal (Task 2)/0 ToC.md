@@ -3,7 +3,7 @@
 **Writing order:** 
 - ~~Methodology~~
 - ~~Literature Review~~
-- Anticipated Outcomes & Implications
+- ~~Anticipated Outcomes & Implications~~
 - Introduction & Rationale
 - Conclusion
 
@@ -42,7 +42,7 @@
 
 ---
 
-### 4. Anticipated Outcomes & Implications _(~250–350 words)_
+### 4. ✅ Anticipated Outcomes & Implications _(~250–350 words)_
 
 4.1 Expected Findings _(themes you anticipate, e.g., common barriers, solution ideas)_
 4.2 Implications for Teaching Practice _(how findings could inform coding curriculum design)_  
