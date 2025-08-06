@@ -7,6 +7,7 @@
 - ~~Introduction & Rationale~~
 - ~~Conclusion~~
 - Formatting & Layout
+- Cover sheet!
 
 ### 1. ✅ Introduction & Rationale _(~400–500 words)_
 
