@@ -4,10 +4,11 @@
 - ~~Methodology~~
 - ~~Literature Review~~
 - ~~Anticipated Outcomes & Implications~~
-- Introduction & Rationale
+- ~~Introduction & Rationale~~
 - Conclusion
+- Formatting & Layout
 
-### 1. Introduction & Rationale _(~400–500 words)_
+### 1. ✅ Introduction & Rationale _(~400–500 words)_
 
 1.1 Broad Topic and Context _(coding education in first-year engineering)_  
 1.2 Research Problem _(gap between teaching approach and student experience)_  
