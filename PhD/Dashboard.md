@@ -76,6 +76,7 @@ icon: 🏠
 		- [x] Method Comments!
 		- [ ] Can't find results comments
 		- [ ] Integrate conference paper content
+		- [ ] Describe change from vertical to horizontal and sensor placement from top to bottom
 		- [ ] Figures
 			- [ ] Feature extraction block diagram
 			- [ ] Setup Diagram
