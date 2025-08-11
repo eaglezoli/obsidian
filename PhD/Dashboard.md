@@ -46,8 +46,8 @@ icon: 🏠
 		- [x] 4 Lit. Review
 		- [x] 5 Development & Testing
 	- [ ] Methodology
-		- [ ] Feature extraction code explanations
-		- [ ] Zen info
+		- [ ] **Feature extraction code explanations**
+		- [ ] **Zen info**
 	- [ ] Acknowledgements!
 
 - [ ] 💬 **MPhil Edits/Comments**
@@ -78,7 +78,7 @@ icon: 🏠
 		- [ ] Integrate conference paper content
 		- [ ] Describe change from vertical to horizontal and sensor placement from top to bottom
 		- [ ] Figures
-			- [ ] Feature extraction block diagram
+			- [x] Feature extraction block diagram
 			- [ ] Setup Diagram
 				- [x] Purpose of return flow branch
 				- [ ] Aorta material
