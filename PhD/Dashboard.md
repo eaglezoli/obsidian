@@ -77,6 +77,7 @@ icon: 🏠
 		- [ ] Can't find results comments
 		- [ ] Integrate conference paper content
 		- [ ] Figures
+			- [ ] Feature extraction block diagram
 			- [ ] Setup Diagram
 				- [x] Purpose of return flow branch
 				- [ ] Aorta material
