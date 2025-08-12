@@ -50,7 +50,7 @@ icon: 🏠
 		- [ ] **Zen info**
 	- [ ] Acknowledgements!
 
-- [ ] 💬 **MPhil Edits/Comments**
+- [x] 💬 **MPhil Edits/Comments**
 	- [x] Lit. Review
 		- [x] Tables
 		- [x] Styles
@@ -71,6 +71,7 @@ icon: 🏠
 
 - [ ] ➕ **Update**
 	- [ ] CVD – No comments
+	- [ ] George's Reference throughout
 	      
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
 		- [x] Method Comments!
@@ -102,14 +103,13 @@ icon: 🏠
 			- [x] Discussion
 			- [x] Conclusion
 			- [x] Introduction
-		- [x] Write
-			- [x] Summary
+		- [x] Write Summary
 		- [x] References
 		- [x] Change figures
 			- [x] Tables
 			- [x] Graphs
 			- [x] Photos
-			- [ ] PPGs (didn't change signals & features)
+			- [x] PPGs (didn't change signals & features)
 		- [x] Figure Captions
 
 	- [ ] Bilateral Flow Experiment
@@ -121,20 +121,21 @@ icon: 🏠
 		- [ ]  Integrate existing literature
 		      
 	- [ ] Appendices
+		- [ ] Feature plotting code
 		- [ ] Cross-correlation code
 		- [ ] Regression code
 
 - [ ] ☑️ **Final Checks**
 	- [ ] Title!
 	- [ ] Finalise chapter titles
-	- [x] Refresh Zotero references
+	- [ ] Refresh Zotero references
 	- [x] Chapter ToCs
-	- [ ] Section ToCs
-	- [x] Dropcaps
-	- [x] Figure numbers
-	- [x] Figure reference styles
-	- [x] Caption styles
-	- [x] Tables and cross-references (Alt + F9?)
+	- [x] Section ToCs
+	- [ ] Dropcaps
+	- [ ] Figure numbers
+	- [ ] Figure reference styles
+	- [ ] Caption styles
+	- [ ] Tables and cross-references (Alt + F9?)
 	- [ ] Spell check!
 	- [ ] Layout?
 
