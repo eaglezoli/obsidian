@@ -95,7 +95,7 @@ icon: 🏠
 			- [x] Zen
 			- [ ] Sensor
 			- [ ] Pressure sensors?
-			- [ ] Look through google photos, icloud album and notes to see if there is anything worth adding!
+			- [ ] Look through files, google photos, icloud album and notes to see if there is anything worth adding!
 		      
 	- [x] **Vessels (adapt technical paper into a chapter)**
 		- [x] Rephrase
