@@ -70,8 +70,8 @@ icon: 🏠
 		- [x] Write summary
 
 - [ ] ➕ **Update**
-	- [ ] CVD – No comments
-	- [ ] George's Reference throughout
+	- [x] CVD – No comments
+	- [x] George's Reference throughout
 	      
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
 		- [x] Method Comments!
@@ -95,6 +95,7 @@ icon: 🏠
 			- [x] Zen
 			- [ ] Sensor
 			- [ ] Pressure sensors?
+			- [ ] Look through google photos, icloud album and notes to see if there is anything worth adding!
 		      
 	- [x] **Vessels (adapt technical paper into a chapter)**
 		- [x] Rephrase
