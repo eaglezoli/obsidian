@@ -46,8 +46,8 @@ icon: 🏠
 		- [x] 4 Lit. Review
 		- [x] 5 Development & Testing
 	- [ ] Methodology
-		- [ ] **Feature extraction code explanations**
-		- [ ] **Zen info**
+		- [x] Feature extraction code explanations
+		- [ ] Zen info
 	- [ ] Acknowledgements!
 
 - [x] 💬 **MPhil Edits/Comments**
