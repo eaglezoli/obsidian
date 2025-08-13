@@ -69,7 +69,7 @@ icon: 🏠
 		- [x] Read through
 		- [x] Write summary
 
-- [ ] ➕ **Update**
+- [ ] 📑 **Update**
 	- [x] CVD – No comments
 	- [x] George's Reference throughout
 	      
@@ -125,6 +125,9 @@ icon: 🏠
 		- [ ] Feature plotting code
 		- [ ] Cross-correlation code
 		- [ ] Regression code
+
+- [ ] 📄 **Read**
+	- [ ] Review
 
 - [ ] ☑️ **Final Checks**
 	- [ ] Title!
