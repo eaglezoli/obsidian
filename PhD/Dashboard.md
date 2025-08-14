@@ -75,7 +75,7 @@ icon: 🏠
 	      
 	- [ ] Methodology / Setup (add photos, update diagrams, add changes)
 		- [x] Method Comments!
-		- [ ] Can't find results comments
+		- [x] Can't find results comments
 		- [ ] Integrate conference paper content
 		- [ ] Describe change from vertical to horizontal and sensor placement from top to bottom
 		- [ ] Figures
@@ -97,7 +97,7 @@ icon: 🏠
 			- [ ] Sensor
 			- [ ] Pressure sensors?
 			- [ ] Phantoms set
-			- [ ] Look through lab book, files, ppt, google photos, icloud album and notes to see if there is anything worth adding!
+			- [ ] Look through **lab book**, files, ppt, google photos, icloud album and notes to see if there is anything worth adding!
 		      
 	- [x] **Vessels (adapt technical paper into a chapter)**
 		- [x] Rephrase
