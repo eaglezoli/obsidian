@@ -148,8 +148,8 @@ icon: 🏠
 	- [x] Figure numbers
 	- [x] Figure reference styles
 	- [ ] Caption styles
-	- [ ] Table captions 'keep with next'
-	- [ ] Tables and cross-references (Alt + F9?)
+	- [x] Table captions 'keep with next'
+	- [x] Tables and cross-references (Alt + F9?)
 	- [ ] Spell check!
 	- [ ] Layout?
 
