@@ -48,7 +48,7 @@ icon: 🏠
 	- [ ] Methodology
 		- [x] Feature extraction code explanations
 		- [ ] Zen info
-	- [ ] Acknowledgements!
+	- [x] Acknowledgements!
 
 - [x] 💬 **MPhil Edits/Comments**
 	- [x] Lit. Review
