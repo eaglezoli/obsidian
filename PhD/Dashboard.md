@@ -90,7 +90,8 @@ icon: 🏠
 			- [ ] Tubing options
 		- [ ] Photos
 			- [ ] Setup
-				- [ ] Final
+				- [ ] Harvard
+				- [ ] BDC
 				- [ ] Vertical vs Horizontal
 			- [x] Zen
 			- [ ] Sensor
