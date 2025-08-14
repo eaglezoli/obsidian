@@ -94,7 +94,7 @@ icon: 🏠
 				- [ ] Mould 3D prints
 				- [ ] Sensor placement
 		- [ ] Photos
-			- [ ] Setup
+			- [x] Setup
 				- [x] Harvard
 				- [x] BDC
 				- [x] Vertical vs Horizontal
@@ -102,8 +102,7 @@ icon: 🏠
 			- [x] Zen
 			- [x] Sensor
 			- [x] Pressure sensors?
-
-			- [ ] Look through **lab book**, files, ppt, google photos, icloud album and notes to see if there is anything worth adding!
+			- [x] Look through **lab book**, files, ppt, google photos, icloud album and notes to see if there is anything worth adding!
 		      
 	- [x] **Vessels (adapt technical paper into a chapter)**
 		- [x] Rephrase
