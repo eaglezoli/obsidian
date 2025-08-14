@@ -77,7 +77,8 @@ icon: 🏠
 		- [x] Method Comments!
 		- [x] Can't find results comments
 		- [x] Integrate conference paper content
-		- [ ] Describe change from vertical to horizontal and sensor placement from top to bottom
+		- [x] Describe change from vertical to horizontal
+		- [ ] And sensor placement from top to bottom
 		- [ ] Figures
 			- [x] Feature extraction block diagram
 			- [x] Setup Diagram
@@ -91,9 +92,9 @@ icon: 🏠
 			- [ ] Evolution of
 				- [x] Setup board
 				- [ ] Mould design
-				- [ ] Mould 3D prints
+				- [x] Mould 3D prints
 				- [ ] Sensor placement
-		- [ ] Photos
+		- [x] Photos
 			- [x] Setup
 				- [x] Harvard
 				- [x] BDC
