@@ -100,8 +100,8 @@ icon: 🏠
 				- [x] Vertical vs Horizontal
 			- [x] Phantoms set
 			- [x] Zen
-			- [ ] Sensor
-			- [ ] Pressure sensors?
+			- [x] Sensor
+			- [x] Pressure sensors?
 
 			- [ ] Look through **lab book**, files, ppt, google photos, icloud album and notes to see if there is anything worth adding!
 		      
