@@ -92,7 +92,7 @@ icon: 🏠
 			- [ ] Setup
 				- [x] Harvard
 				- [x] BDC
-				- [ ] Vertical vs Horizontal
+				- [x] Vertical vs Horizontal
 			- [x] Zen
 			- [ ] Sensor
 			- [ ] Pressure sensors?
