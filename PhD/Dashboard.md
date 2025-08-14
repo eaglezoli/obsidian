@@ -151,7 +151,8 @@ icon: 🏠
 	- [x] Table captions 'keep with next'
 	- [x] Tables and cross-references (Alt + F9?)
 	- [ ] Spell check!
-	- [ ] Layout?
+	- [x] Layout?
+	- [ ] Have to update tables after cause things have moved!
 
 ### 📅 Schedule
 
