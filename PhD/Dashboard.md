@@ -138,13 +138,13 @@ icon: 🏠
 	- [ ] Review
 
 - [ ] ☑️ **Final Checks**
-	- [ ] Title!
-	- [ ] Finalise chapter titles
-	- [ ] Refresh Zotero references
-	- [ ] Format references
+	- [x] Title!
+	- [x] Finalise chapter titles
+	- [x] Refresh Zotero references
+	- [x] Format references
 	- [x] Chapter ToCs
 	- [x] Section ToCs
-	- [ ] Dropcaps
+	- [x] Dropcaps
 	- [ ] Figure numbers
 	- [ ] Figure reference styles
 	- [ ] Caption styles
