@@ -116,9 +116,9 @@ icon: 🏠
 		- [x] Figure Captions
 
 	- [ ] Bilateral Flow Experiment
-		- [ ] Figures
+		- [x] Figures
 			- [x] Setup diagram
-			- [ ] Setup photo
+			- [x] Setup photo
 			      
 	- [ ] Overall Discussion
 		- [ ]  Integrate existing literature
