@@ -97,7 +97,7 @@ icon: 🏠
 			- [ ] Sensor
 			- [ ] Pressure sensors?
 			- [ ] Phantoms set
-			- [ ] Look through files, ppt, google photos, icloud album and notes to see if there is anything worth adding!
+			- [ ] Look through lab book, files, ppt, google photos, icloud album and notes to see if there is anything worth adding!
 		      
 	- [x] **Vessels (adapt technical paper into a chapter)**
 		- [x] Rephrase
