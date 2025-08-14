@@ -135,7 +135,7 @@ icon: 🏠
 		- [ ] Regression code
 
 - [ ] 📄 **Read**
-	- [ ] Review
+	- [x] Review
 
 - [ ] ☑️ **Final Checks**
 	- [x] Title!
@@ -147,12 +147,12 @@ icon: 🏠
 	- [x] Dropcaps
 	- [x] Figure numbers
 	- [x] Figure reference styles
-	- [ ] Caption styles
+	- [x] Caption styles
 	- [x] Table captions 'keep with next'
 	- [x] Tables and cross-references (Alt + F9?)
 	- [ ] Spell check!
 	- [x] Layout?
-	- [ ] Have to update tables after cause things have moved!
+		- [x] Have to update tables last cause things have moved!
 
 ### 📅 Schedule
 
