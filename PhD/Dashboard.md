@@ -93,7 +93,7 @@ icon: 🏠
 				- [x] Harvard
 				- [x] BDC
 				- [x] Vertical vs Horizontal
-			- [ ] Phantoms set
+			- [x] Phantoms set
 			- [x] Zen
 			- [ ] Sensor
 			- [ ] Pressure sensors?
