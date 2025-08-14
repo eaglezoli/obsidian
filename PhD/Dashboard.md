@@ -88,6 +88,11 @@ icon: 🏠
 				- [ ] Leur annotation
 			- [ ] Mould updates
 			- [ ] Tubing options
+			- [ ] Evolution of
+				- [x] Setup board
+				- [ ] Mould design
+				- [ ] Mould 3D prints
+				- [ ] Sensor placement
 		- [ ] Photos
 			- [ ] Setup
 				- [x] Harvard
