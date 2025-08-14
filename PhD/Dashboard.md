@@ -145,8 +145,8 @@ icon: 🏠
 	- [x] Chapter ToCs
 	- [x] Section ToCs
 	- [x] Dropcaps
-	- [ ] Figure numbers
-	- [ ] Figure reference styles
+	- [x] Figure numbers
+	- [x] Figure reference styles
 	- [ ] Caption styles
 	- [ ] Table captions 'keep with next'
 	- [ ] Tables and cross-references (Alt + F9?)
