@@ -127,19 +127,3 @@ Your work will be assessed using the following criteria:
     Accurate use of citations and adherence to academic integrity guidelines.
     
 
----
-
-# 👉 Want me to write your full assessment criteria for your chosen assessment task?
-
-If you tell me **what assessment you are designing** (e.g., poster, report, lab task, video, presentation), I can produce:
-
-- 4–6 crystal-clear criteria
-    
-- Weighted
-    
-- Aligned to learning outcomes
-    
-- Written in student-friendly language
-    
-- Exactly suitable for your 1000-word assignment brief
-
