@@ -116,5 +116,3 @@
     
 - A **reflective rationale structure** tailored to your chosen assessment
     
-
-Just tell me which one you want next.
