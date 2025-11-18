@@ -145,6 +145,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "omnisearch:Omnisearch": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -161,6 +162,12 @@
   },
   "active": "fb2ad5b4ff0cdb07",
   "lastOpenFiles": [
+    "MAAP/Assignments.md",
+    "MAAP/Researching Higher Education/Research Proposal (Task 2)/0 ToC.md",
+    "MAAP/Researching Higher Education/Research Proposal (Task 2)/2 Review of Key Literature & Research Context.md",
+    "MAAP/Researching Higher Education/Research Proposal (Task 2)/3 Methodology & Ethics.md",
+    "MAAP/Researching Higher Education/Research Proposal (Task 2)",
+    "MAAP/Researching Higher Education/Assessment Criteria.md",
     "PhD/Dashboard.md",
     "Untitled.md",
     "PhD/Discussion and Conclusion Outline.md",
@@ -200,12 +207,6 @@
     "PhD/10. Bilateral/images",
     "PhD/10. Bilateral/1. Visualise Data.md",
     "PhD/10. Bilateral/4.2 Mixed Effects Model.md",
-    "PhD/Meetings/1. Thesis Plan & Bilateral Chapter Update.md",
-    "PhD/Meetings/2. Data Analysis.md",
-    "PhD/Meetings/images",
-    "PhD/10. Bilateral",
-    "PhD/Wiki.md",
-    "Blog/Things To Do Instead.md",
-    "Blog/Part 2.md"
+    "PhD/Meetings/images"
   ]
 }

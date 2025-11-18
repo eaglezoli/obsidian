@@ -5,6 +5,30 @@ banner-y: 88
 icon: 🏠
 ---
 ********
+### 📑 Viva Prep Plan
+📅 **Viva Day:** ==Wed 10th Dec!==
+
+📈 2 weeks • Mon 17th – Mon 1st
+📄 ==15 pages per day==
+
+
+| Week 1 |     |
+| ------ | --- |
+| Mon    |     |
+| Tue    |     |
+| Wed    |     |
+| Thur   |     |
+| Fri    |     |
+
+
+| Week 2 |
+| ------ |
+| Mon    |
+| Tue    |
+| Wed    |
+| Thur   |
+| Fri    |
+
 ### 📒 Chapter List
 
 - [ ] 📝 **Write**
@@ -154,7 +178,7 @@ icon: 🏠
 	- [x] Layout?
 		- [x] Have to update tables last cause things have moved!
 
-### 📅 Schedule
+### 📅 Writing Schedule
 
 | Mon 7th | Tue 8th                        | Wed 9th                     | Thu 10th       | Fri 11th                                        | Sat 12th          | Sun 13th            |
 | :------ | :----------------------------- | --------------------------- | -------------- | ----------------------------------------------- | ----------------- | ------------------- |
@@ -169,7 +193,7 @@ icon: 🏠
 📑 **Draft to James:					==Sun 20th July==** 😵
 ☠️ **Submission Deadline:		==Thu 14th Aug**==
 
-### 🧑🏼‍🏫 James' Dates
+#### 🧑🏼‍🏫 James' Dates
 - Mon 28th July	|	AL
 - Mon 11th Aug		|	Clearing
 - End of Aug?	 	|	AL
