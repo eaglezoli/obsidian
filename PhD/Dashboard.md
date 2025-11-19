@@ -11,25 +11,46 @@ icon: 🏠
 📈 2 weeks • Mon 17th – Mon 1st
 📄 ==15 pages per day==
 
-Test
+
+| Week 1    |              |
+| --------- | ------------ |
+| Mon 17th  |              |
+| Tue 18th  |              |
+| Wed 19th  | Chapter 4: M |
+| Thur 20th |              |
+| Fri 21st  |              |
+| Sat 22nd  |              |
+| Sun 23rd  |              |
 
 
-| Week 1 |     |
-| ------ | --- |
-| Mon    |     |
-| Tue    |     |
-| Wed    |     |
-| Thur   |     |
-| Fri    |     |
+| Week 2    |     |
+| --------- | --- |
+| Mon 24th  |     |
+| Tue 25th  |     |
+| Wed 26th  |     |
+| Thur 27th |     |
+| Fri 28th  |     |
+| Sat 29th  |     |
+| Sun 30th  |     |
 
 
-| Week 2 |
-| ------ |
-| Mon    |
-| Tue    |
-| Wed    |
-| Thur   |
-| Fri    |
+| Week 3      |     |
+| ----------- | --- |
+| Mon 1st Dec |     |
+| Tue 2nd     |     |
+| Wed 3rd     |     |
+| Thur 4th    |     |
+| Fri 5th     |     |
+| Sat 6th     |     |
+| Sun 7th     |     |
+
+
+| Week 4   |              |
+| -------- | ------------ |
+| Mon 8th  |              |
+| Tue 9th  |              |
+| Wed 10th | 🎓 Viva Day! |
+
 
 ### 📒 Chapter List
 
