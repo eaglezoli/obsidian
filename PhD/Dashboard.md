@@ -12,15 +12,15 @@ icon: 🏠
 📄 ==15 pages per day==
 
 
-| Week 1    |              |
-| --------- | ------------ |
-| Mon 17th  |              |
-| Tue 18th  |              |
-| Wed 19th  | Chapter 4: M |
-| Thur 20th |              |
-| Fri 21st  |              |
-| Sat 22nd  |              |
-| Sun 23rd  |              |
+| Week 1    |             |
+| --------- | ----------- |
+| Mon 17th  |             |
+| Tue 18th  |             |
+| Wed 19th  | Chapter 5:  |
+| Thur 20th |             |
+| Fri 21st  |             |
+| Sat 22nd  |             |
+| Sun 23rd  |             |
 
 
 | Week 2    |     |
