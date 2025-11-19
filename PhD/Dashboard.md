@@ -14,7 +14,7 @@ icon: 🏠
 
 | Week 1    |                         |
 | --------- | ----------------------- |
-| Mon 17th  |                         |
+| Mon 17th  | Chapter 4: Lit. Review  |
 | Tue 18th  |                         |
 | Wed 19th  | Chapter 5: In Vitro Rig |
 | Thur 20th |                         |
