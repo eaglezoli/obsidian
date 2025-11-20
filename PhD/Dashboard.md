@@ -23,26 +23,26 @@ icon: 🏠
 10. Conclusion
 
 
-| Week 1    |                         |
-| --------- | ----------------------- |
-| Mon 17th  | Chapter 4: Lit. Review  |
-| Tue 18th  |                         |
-| Wed 19th  | Chapter 5: In Vitro Rig |
-| Thur 20th |                         |
-| Fri 21st  |                         |
-| Sat 22nd  |                         |
-| Sun 23rd  |                         |
+| Week 1    |                    |
+| --------- | ------------------ |
+| Mon 17th  | 4 – Lit. Review    |
+| Tue 18th  |                    |
+| Wed 19th  | 5 – In Vitro Rig   |
+| Thur 20th |                    |
+| Fri 21st  |                    |
+| Sat 22nd  | 6 – Custom Vessels |
+| Sun 23rd  |                    |
 
 
-| Week 2    |     |
-| --------- | --- |
-| Mon 24th  |     |
-| Tue 25th  |     |
-| Wed 26th  |     |
-| Thur 27th |     |
-| Fri 28th  |     |
-| Sat 29th  |     |
-| Sun 30th  |     |
+| Week 2    |                                |
+| --------- | ------------------------------ |
+| Mon 24th  | 7 – Arterial Stiffness         |
+| Tue 25th  |                                |
+| Wed 26th  | 8 – Bilateral Flow             |
+| Thur 27th |                                |
+| Fri 28th  |                                |
+| Sat 29th  | 9-10 – Discussion & Conclusion |
+| Sun 30th  |                                |
 
 
 | Week 3      |     |
