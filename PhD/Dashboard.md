@@ -23,15 +23,15 @@ icon: 🏠
 10. Conclusion
 
 
-| Week 1    |                    |
-| --------- | ------------------ |
-| Mon 17th  | 4 – Lit. Review    |
-| Tue 18th  |                    |
-| Wed 19th  | 5 – In Vitro Rig   |
-| Thur 20th |                    |
-| Fri 21st  |                    |
-| Sat 22nd  | 6 – Custom Vessels |
-| Sun 23rd  |                    |
+| Week 1    |                                           |
+| --------- | ----------------------------------------- |
+| Mon 17th  | 4 – Lit. Review ☑️ (Need to do main text) |
+| Tue 18th  |                                           |
+| Wed 19th  | 5 – In Vitro Rig ✅                        |
+| Thur 20th | p132 (finished Chapter 5)                 |
+| Fri 21st  |                                           |
+| Sat 22nd  | 6 – Custom Vessels                        |
+| Sun 23rd  |                                           |
 
 
 | Week 2    |                                |
