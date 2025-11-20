@@ -11,6 +11,17 @@ icon: 🏠
 📈 2 weeks • Mon 17th – Mon 1st
 📄 ==15 pages per day==
 
+1. Introduction
+2. CVD
+3. PPG
+4. Lit. Review
+5. In Vitro Rig
+6. Custom Vessels
+7. Arterial Stiffness
+8. Bilateral Flow
+9. Discussion
+10. Conclusion
+
 
 | Week 1    |                         |
 | --------- | ----------------------- |
@@ -50,7 +61,6 @@ icon: 🏠
 | Mon 8th  |              |
 | Tue 9th  |              |
 | Wed 10th | 🎓 Viva Day! |
-
 
 ### 📒 Chapter List
 
