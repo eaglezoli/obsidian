@@ -45,15 +45,15 @@ icon: 🏠
 | Sun 30th  |                                |
 
 
-| Week 3      |     |
-| ----------- | --- |
-| Mon 1st Dec |     |
-| Tue 2nd     |     |
-| Wed 3rd     |     |
-| Thur 4th    |     |
-| Fri 5th     |     |
-| Sat 6th     |     |
-| Sun 7th     |     |
+| Week 3      |                        |
+| ----------- | ---------------------- |
+| Mon 1st Dec | 3 – PPG                |
+| Tue 2nd     |                        |
+| Wed 3rd     | 1-2 – Intro & CVD      |
+| Thur 4th    |                        |
+| Fri 5th     | 4 – Finish Lit. Review |
+| Sat 6th     |                        |
+| Sun 7th     |                        |
 
 
 | Week 4   |              |
