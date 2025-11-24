@@ -31,7 +31,7 @@ icon: 🏠
 | Thur 20th | p132 (finished Chapter 5)                 |
 | Fri 21st  |                                           |
 | Sat 22nd  | 6 – Custom Vessels                        |
-| Sun 23rd  |                                           |
+| Sun 23rd  | still p132!                               |
 
 
 | Week 2    |                                |
