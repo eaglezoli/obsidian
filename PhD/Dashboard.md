@@ -34,15 +34,15 @@ icon: 🏠
 | Sun 23rd  | still p132!                               |
 
 
-| Week 2    |                                                           |
-| --------- | --------------------------------------------------------- |
-| Mon 24th  | 7 – Arterial Stiffness<br>p__ – Nearly finished Chapter 5 |
-| Tue 25th  |                                                           |
-| Wed 26th  | 8 – Bilateral Flow                                        |
-| Thur 27th |                                                           |
-| Fri 28th  |                                                           |
-| Sat 29th  | 9-10 – Discussion & Conclusion                            |
-| Sun 30th  |                                                           |
+| Week 2    |                                                            |
+| --------- | ---------------------------------------------------------- |
+| Mon 24th  | 7 – Arterial Stiffness<br>p151 – Nearly finished Chapter 6 |
+| Tue 25th  | still 151!                                                 |
+| Wed 26th  | 8 – Bilateral Flow                                         |
+| Thur 27th |                                                            |
+| Fri 28th  |                                                            |
+| Sat 29th  | 9-10 – Discussion & Conclusion                             |
+| Sun 30th  |                                                            |
 
 
 | Week 3      |                        |
