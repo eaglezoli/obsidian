@@ -14,7 +14,8 @@
 7. Specify preferred format/platform for video.
 
 8. How will the 'pofessional presentation' be evaluated? The idea of a "clear demonstration" might need a bit of unpacking.
-    
+
+---
 ### Original
 
 Dear Redjan
@@ -28,19 +29,19 @@ The criteria is very clear, I wonder if you would also include how to get a **di
 
 ----
 
-These are excellent points made by Rachel. She has viewed the brief from a student's point of view and anticipated what students might find difficult with the instructions.  
-  
 I agree that the assessment task looks interesting and it should be clear to the students why it matters. I was impressed how much ground you covered in the brief within the 1000-word limit and you have considered how best to support students with the task.  
   
 A few questions to consider:  
 1. Is there a preferred format or platform for the video submission? Wil they upload their video to Moodle?  
-2. How will the 'pofessional presentation' be evaluated? The idea of a "clear demonstration" might need a bit of unpacking.  
-  
-Best wishes,  
-  
-Clare
+2. How will the 'pofessional presentation' be evaluated? The idea of a "clear demonstration" might need a bit of unpacking
 
+----
 ### Other’s
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Thank you, Guangyu, for your thoughtful comments.  <br>  <br>Roohi - you might want to think about 'salience' - how to make particular information stand out.   <br>  <br>For me, the rationale for the assessment is clear and I also think it looks engaging.  <br>  <br>Some further questions for you to consider:  <br>  <br>What are the module learning outcomes? How does the brief explicitly link to the module learning outcomes and assessment criteria? You have provided grading criteria in the form of the rubric but the students would benefit from knowing specifically how the work will be assessed (some clear 'generic' criteria). What is the weighting of each part? Is there a penalty for exceeding the word count? What are the key skills the assessment aims to assess beyond technical accuracy? Is there any guidance/support for students who may lack these design skills?  <br>  <br>I hope these questions are helpful.  <br>  <br>Best wishes,  <br>  <br>Clare |
+
+Roohi - you might want to think about 'salience' - how to make particular information stand out.
+
+For me, the rationale for the assessment is clear and I also think it looks engaging.
+
+Some further questions for you to consider:
+
+What are the module learning outcomes? How does the brief explicitly link to the module learning outcomes and assessment criteria? You have provided grading criteria in the form of the rubric but the students would benefit from knowing specifically how the work will be assessed (some clear 'generic' criteria). What is the weighting of each part? Is there a penalty for exceeding the word count? What are the key skills the assessment aims to assess beyond technical accuracy? Is there any guidance/support for students who may lack these design skills?
