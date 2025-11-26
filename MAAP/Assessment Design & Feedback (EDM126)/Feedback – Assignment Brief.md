@@ -10,6 +10,10 @@
 5. Include information about the marking process (e.g., whether marking is anonymous).
     
 6. Add grade-related guidance showing what distinguishes a **distinction**, **merit**, and **pass**.
+
+7. Specify preferred format/platform for video.
+
+8. How will the 'pofessional presentation' be evaluated? The idea of a "clear demonstration" might need a bit of unpacking.
     
 ### Original
 
@@ -21,3 +25,17 @@ I wasn't sure **who** this task was for, is it BSC, MSC what year group - perhap
 I also think students will always get in a muddle when **choices** are given and wonder if it would be much clearer if you bold the choices and add OR in capitals or something that brings their attention to the fact that that section is a choice.
 I think you need to mention how students are allowed to use **AI** if at all. And although you have mentioned what happens after marking, it might help students know how the assignment is **marked** (anonymously?)
 The criteria is very clear, I wonder if you would also include how to get a **distinction** versus a **pass**?
+
+----
+
+These are excellent points made by Rachel. She has viewed the brief from a student's point of view and anticipated what students might find difficult with the instructions.  
+  
+I agree that the assessment task looks interesting and it should be clear to the students why it matters. I was impressed how much ground you covered in the brief within the 1000-word limit and you have considered how best to support students with the task.  
+  
+A few questions to consider:  
+1. Is there a preferred format or platform for the video submission? Wil they upload their video to Moodle?  
+2. How will the 'pofessional presentation' be evaluated? The idea of a "clear demonstration" might need a bit of unpacking.  
+  
+Best wishes,  
+  
+Clare
