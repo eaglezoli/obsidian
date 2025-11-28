@@ -40,7 +40,7 @@ icon: 🏠
 | Tue 25th  | still 151!                                                 |
 | Wed 26th  | 8 – Bilateral Flow                                         |
 | Thur 27th |                                                            |
-| Fri 28th  |                                                            |
+| Fri 28th  | still 151!                                                 |
 | Sat 29th  | 9-10 – Discussion & Conclusion                             |
 | Sun 30th  |                                                            |
 
