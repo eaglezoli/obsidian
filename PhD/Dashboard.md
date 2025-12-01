@@ -14,8 +14,8 @@ icon: 🏠
 1. Introduction
 2. CVD
 3. PPG
-4. Lit. Review
-5. In Vitro Rig
+4. Lit. Review ☑️ (Need to do main text)
+5. In Vitro Rig ✅
 6. Custom Vessels
 7. Arterial Stiffness
 8. Bilateral Flow
