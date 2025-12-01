@@ -5,6 +5,63 @@ banner-y: 88
 icon: 🏠
 ---
 ********
+### 📑 Viva Prep Plan
+📅 **Viva Day:** ==Wed 10th Dec!==
+
+📈 2 weeks • Mon 17th – Mon 1st
+📄 ==15 pages per day==
+
+1. Introduction
+2. CVD
+3. PPG
+4. Lit. Review
+5. In Vitro Rig
+6. Custom Vessels
+7. Arterial Stiffness
+8. Bilateral Flow
+9. Discussion
+10. Conclusion
+
+
+| Week 1    |                                           |
+| --------- | ----------------------------------------- |
+| Mon 17th  | 4 – Lit. Review ☑️ (Need to do main text) |
+| Tue 18th  |                                           |
+| Wed 19th  | 5 – In Vitro Rig ✅                        |
+| Thur 20th | p132 (finished Chapter 5)                 |
+| Fri 21st  |                                           |
+| Sat 22nd  | 6 – Custom Vessels                        |
+| Sun 23rd  | still p132!                               |
+
+
+| Week 2    |                                                            |
+| --------- | ---------------------------------------------------------- |
+| Mon 24th  | 7 – Arterial Stiffness<br>p151 – Nearly finished Chapter 6 |
+| Tue 25th  | still 151!                                                 |
+| Wed 26th  | 8 – Bilateral Flow                                         |
+| Thur 27th |                                                            |
+| Fri 28th  | still 151!                                                 |
+| Sat 29th  | 9-10 – Discussion & Conclusion                             |
+| Sun 30th  |                                                            |
+
+
+| Week 3      |                        |
+| ----------- | ---------------------- |
+| Mon 1st Dec | 3 – PPG                |
+| Tue 2nd     |                        |
+| Wed 3rd     | 1-2 – Intro & CVD      |
+| Thur 4th    |                        |
+| Fri 5th     | 4 – Finish Lit. Review |
+| Sat 6th     |                        |
+| Sun 7th     |                        |
+
+
+| Week 4   |              |
+| -------- | ------------ |
+| Mon 8th  |              |
+| Tue 9th  |              |
+| Wed 10th | 🎓 Viva Day! |
+
 ### 📒 Chapter List
 
 - [ ] 📝 **Write**
@@ -154,7 +211,7 @@ icon: 🏠
 	- [x] Layout?
 		- [x] Have to update tables last cause things have moved!
 
-### 📅 Schedule
+### 📅 Writing Schedule
 
 | Mon 7th | Tue 8th                        | Wed 9th                     | Thu 10th       | Fri 11th                                        | Sat 12th          | Sun 13th            |
 | :------ | :----------------------------- | --------------------------- | -------------- | ----------------------------------------------- | ----------------- | ------------------- |
@@ -169,7 +226,7 @@ icon: 🏠
 📑 **Draft to James:					==Sun 20th July==** 😵
 ☠️ **Submission Deadline:		==Thu 14th Aug**==
 
-### 🧑🏼‍🏫 James' Dates
+#### 🧑🏼‍🏫 James' Dates
 - Mon 28th July	|	AL
 - Mon 11th Aug		|	Clearing
 - End of Aug?	 	|	AL
