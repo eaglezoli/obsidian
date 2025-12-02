@@ -1,7 +1,7 @@
 
-1. Add which cohort the task is for (e.g., BSc, MSc, year group).
+1. Add which cohort the task is for (e.g., BSc, MSc, year group). ✅
     
-2. Make sections **4)** and **5)** start with a clear instruction, matching section **3)**.
+2. Make sections **4)** and **5)** start with a clear instruction, matching section **3)**. 
     
 3. Highlight student choices more clearly — e.g., **bold the options** and add **OR** in capitals.
     
