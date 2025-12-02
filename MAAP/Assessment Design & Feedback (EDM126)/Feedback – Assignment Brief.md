@@ -5,7 +5,7 @@
     
 3. Highlight student choices more clearly — e.g., **bold the options** and add **OR** in capitals. ✅
     
-4. Add a statement about whether AI is allowed, and if so, how. 
+4. Add a statement about whether AI is allowed, and if so, how. ✅
     
 5. Include information about the marking process (e.g., whether marking is anonymous). 
     
