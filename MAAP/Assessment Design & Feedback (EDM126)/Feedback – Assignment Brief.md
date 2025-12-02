@@ -11,7 +11,7 @@
     
 6. Add grade-related guidance showing what distinguishes a **distinction**, **merit**, and **pass**.
 
-7. Specify preferred format/platform for video.
+7. Specify preferred format/platform for video. ✅
 
 8. How will the 'pofessional presentation' be evaluated? The idea of a "clear demonstration" might need a bit of unpacking.
 
