@@ -1,13 +1,13 @@
 
 1. Add which cohort the task is for (e.g., BSc, MSc, year group). ✅
     
-2. Make sections **4)** and **5)** start with a clear instruction, matching section **3)**. 
+2. Make sections **4)** and **5)** start with a clear instruction, matching section **3)**. ✅
     
-3. Highlight student choices more clearly — e.g., **bold the options** and add **OR** in capitals.
+3. Highlight student choices more clearly — e.g., **bold the options** and add **OR** in capitals. ✅
     
-4. Add a statement about whether AI is allowed, and if so, how.
+4. Add a statement about whether AI is allowed, and if so, how. 
     
-5. Include information about the marking process (e.g., whether marking is anonymous).
+5. Include information about the marking process (e.g., whether marking is anonymous). 
     
 6. Add grade-related guidance showing what distinguishes a **distinction**, **merit**, and **pass**.
 
