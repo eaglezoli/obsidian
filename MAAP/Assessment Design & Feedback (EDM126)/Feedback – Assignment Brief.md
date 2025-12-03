@@ -9,7 +9,7 @@
     
 5. Include information about the marking process (e.g., whether marking is anonymous). 
     
-6. Add grade-related guidance showing what distinguishes a **distinction**, **merit**, and **pass**. 
+6. Add grade-related guidance showing what distinguishes a **distinction**, **merit**, and **pass**. ✅
 
 7. Specify preferred format/platform for video. ✅
 
