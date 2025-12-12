@@ -6,13 +6,13 @@
 ---
 ## Chapter 2 – CVD
 
-- [ ] Blood flow monitoring techniques (p29) – add:
+- [ ] Add blood flow monitoring techniques (p29):
 	- [ ] Blood pressure monitoring
 	- [ ] Applanation tonometry
 	- [ ] Impedance
 ---
 ## Chapter 3 – PPG
-
+- No corrections! 🥳
 ---
 ## Chapter 4 – Lit. Review
 
@@ -55,8 +55,31 @@
 			- This could be improved by recording pressure sensors from the vessel, but would require reworking the setup design, while ensuring not to affect the PPG signals
 			- In vivo arterial stiffening and vascular ageing are systemic, and you would expect a change in the pressure pulse downstream, not just directly at the vessel. However this experiment was a localised investigation into a specific region, so the pressure differences did not appear downstream
 				- The advantage of this is that we could confirm the trends in the extracted PPG features where directly related to arterial stiffening, with the absence of blood pressure changes
-	- [ ] Pressure sensor location – Where were they located?
-		- These were located downstream, but in the following chapter we analysed individual vessels in a single branch setup, where we recorded pressure signals before and after the vessel, however the analysis is based on the PPG signals
-		- Add location info and explain reason 
-- 
 
+- [ ] Pressure sensor location (also p147?) – Add location info and explain reason
+	- These were located downstream, but in the following chapter we analysed individual vessels in a single branch setup, where we recorded pressure signals before and after the vessel, however the analysis is based on the PPG signals
+
+- [ ] Blank space (p154) – Don’t start next section on a new page if it leaves a large blank space on the previous page. At the end, zoom out and check for any large blank spaces
+
+- [ ] Explain custom vessel fabrication challenges
+	- What were the difficulties in the process?
+	- How did you ensure that you could create multiple vessels consistently?
+		- Ensuring consistency was challenging and demanded accurate measuring of silicone in grams, timing throughout the process, and finding the ideal draw speed (40 mm/min)
+		- Once we figured out the rights amounts through experimentation, we recorded them and ensured to follow the same process each time
+		- This ensured the properties were consistent and when we tested between vessels we confirmed that the results were reproducible
+	- With the dip-coating method, wouldn’t the silicone collect more on one side due to gravity? How did you ensure the wall thickness on each side was the same?
+		- Following the mixing and timing protocols I mentioned, we were able to reproduce vessels
+		- We cut the cross-sections at middle and each end to compare and there were minimal thickness differences
+		- This was acceptable naturally human arteries are not perfect straight tubes
+	- Mention these difficulties and challenges, and how you overcame them. It sounds like a lot of work was put into this, but it doesn’t come across in the writing
+---
+## Chapter 7 – Arterial Stiffness Range
+- No corrections! 🥳
+---
+## Chapter 8 – Bilateral Varying Flow
+
+- [ ] Maybe take out correlation results on p180 if they do not match your previous findings and not as relevant
+---
+## Chapter 9 – Discussion
+- No corrections! 🥳
+---
