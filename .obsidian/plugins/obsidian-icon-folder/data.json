@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiLetterText",
       "LiMessageSquareQuote",
       "LiNotebookText",
       "LiNotebookPen",
-      "LiBookText",
-      "LiAlignVerticalDistributeCenter"
+      "LiBookText"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -46,5 +46,5 @@
   "MAAP/Curriculum Development and Evaluation": "LiBookText",
   "Blog": "LiNotebookPen",
   "MAAP/Assessment Design & Feedback (EDM126)": "LiListTodo",
-  "PhD/Comments.md": "LiMessageSquareQuote"
+  "PhD/Comments.md": "LiLetterText"
 }

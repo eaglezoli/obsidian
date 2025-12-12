@@ -17,6 +17,7 @@
 ## Chapter 4 – Lit. Review
 
 - [ ] Computational modelling – Talk about computational model PPG investigation techniques (not just in vivo or in vitro, but in silico as well)
+	- Allows for even more control than our in vitro studies as you can modify any parameter. A holistic approach would benefit from the advantages of all three pathways: in vivo, in vitro and in silico
 
 - [ ] Images (p72 fig. 4-3) – Low resolution, update image
 
