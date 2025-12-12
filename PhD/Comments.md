@@ -10,4 +10,11 @@
 
 ## Chapter 3 – Lit. Review
 - [ ] Computational modelling – Talk about computational model PPG investigation techniques (not just in vivo or in vitro, but in silico as well)
-- [ ] 
+- [ ] Images (p72 fig. 4-3) – Low resolution, update image
+- [ ] Study review (p69, 2nd paragraph) – Highlight the hypothesis of the study, where they expecting to see same or different characteristics between PPGs from each side?
+- [ ] In vitro (p77) – Discuss advantages & disadvantages of in vitro
+	- [ ] Write about simulations
+	- [ ] Explain why you decided on in vitro
+- [ ] Table of papers – add a section for gaps in the literature
+	- [ ] What gaps are there and why they would be desirable to address
+	- [ ] Talk about the pros and cons of the literature
