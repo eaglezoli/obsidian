@@ -33,21 +33,71 @@ var CursorGoaway = class extends import_obsidian.Plugin {
     this.registerEvent(
       this.app.workspace.on("file-open", (file) => {
         let startTime;
+        let isBlurring = false;
         const blurEditor = () => {
           var _a, _b;
           (_b = (_a = this.app.workspace.activeEditor) == null ? void 0 : _a.editor) == null ? void 0 : _b.blur();
           if (performance.now() - startTime < 500) {
             requestAnimationFrame(blurEditor);
+          } else {
+            isBlurring = false;
           }
         };
+        this.cleanupKeydownHandler();
         if ((file == null ? void 0 : file.extension) === "md") {
           startTime = performance.now();
+          isBlurring = true;
           requestAnimationFrame(blurEditor);
+          const onKeyDown = (e) => {
+            var _a;
+            if (e.key !== "ArrowDown")
+              return;
+            const activeFile = this.app.workspace.getActiveFile();
+            if ((activeFile == null ? void 0 : activeFile.path) !== file.path)
+              return this.cleanupKeydownHandler();
+            if (isBlurring)
+              return;
+            const editor = (_a = this.app.workspace.activeEditor) == null ? void 0 : _a.editor;
+            if (editor) {
+              const cm = editor.cm;
+              if (cm && cm.hasFocus && cm.hasFocus()) {
+                return this.cleanupKeydownHandler();
+              }
+            }
+            const activeElement = document.activeElement;
+            const editorContainer = activeElement == null ? void 0 : activeElement.closest(".cm-editor, .cm-content, .markdown-source-view");
+            if (editorContainer) {
+              return this.cleanupKeydownHandler();
+            }
+            e.preventDefault();
+            if (editor) {
+              try {
+                editor.focus();
+              } catch (err) {
+                console.debug("focus() failed", err);
+              }
+              editor.setCursor(0, 0);
+            }
+            this.cleanupKeydownHandler();
+          };
+          document.addEventListener("keydown", onKeyDown, true);
+          this.currentKeydownHandler = onKeyDown;
         }
       })
     );
   }
+  /**
+   * cleanup the keydown handler
+   */
+  cleanupKeydownHandler() {
+    if (this.currentKeydownHandler) {
+      document.removeEventListener("keydown", this.currentKeydownHandler, true);
+      this.currentKeydownHandler = void 0;
+    }
+  }
+  onunload() {
+    this.cleanupKeydownHandler();
+  }
 };
-
 
 /* nosourcemap */
