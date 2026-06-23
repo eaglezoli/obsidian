@@ -96,7 +96,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Hello",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -147,7 +147,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "1586d90dee26177c",
@@ -215,7 +215,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "b6713fd345501c9f",
+  "active": "dcbcf449aaeb4496",
   "lastOpenFiles": [
     "ipad test.md",
     "iPhone test 5.md",
