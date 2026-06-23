@@ -1,38 +1,69 @@
 {
   "main": {
-    "id": "113abc38843f695a",
+    "id": "9888b541bdb3277e",
     "type": "split",
     "children": [
       {
-        "id": "3840fbf530fed262",
+        "id": "ade7c93aaffe102a",
         "type": "tabs",
         "children": [
           {
-            "id": "fb2ad5b4ff0cdb07",
+            "id": "7bb7abd2e16db084",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAAP/Assessment Design & Feedback (EDM126)/Feedback – Assignment Brief.md",
+                "file": "MAAP/Assessment Design & Feedback (EDM126)/Assessment Criteria.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Feedback – Assignment Brief"
+              "title": "Assessment Criteria"
+            }
+          },
+          {
+            "id": "bf24c1f09053395b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Test.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Test"
+            }
+          },
+          {
+            "id": "f40dbed926570415",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iPhone test 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "iPhone test 2"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3c7b1cda4849d65c",
+    "id": "5cc843ff1b0bb85e",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "92c6d41f3151c06f",
+        "id": "aa603e63403afdc5",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -45,7 +76,7 @@
         }
       },
       {
-        "id": "5ab71cdd3ffcf41f",
+        "id": "dcbcf449aaeb4496",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -62,7 +93,7 @@
         }
       },
       {
-        "id": "710a549bd947a86e",
+        "id": "7d72b5dc6a239f48",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -77,7 +108,21 @@
         }
       },
       {
-        "id": "f950b1caab0362db",
+        "id": "0b93b7c60b577ca8",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "68adca7daa5c3b93",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -87,20 +132,19 @@
         }
       }
     ],
-    "currentTab": 0,
-    "pinned": true
+    "currentTab": 0
   },
   "right": {
-    "id": "e06af571577e7e2c",
+    "id": "1586d90dee26177c",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "687faf6a3ddcaa7f",
+        "id": "6e0b94a20a9c7142",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "PhD/Dashboard.md",
+            "file": "iPhone test 2.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -114,11 +158,12 @@
         }
       },
       {
-        "id": "a0110399b75669f8",
+        "id": "5253cbc90c0bf1f1",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "iPhone test 2.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -127,11 +172,12 @@
         }
       },
       {
-        "id": "10b26cbeea18e758",
+        "id": "95a10bb2c9a4371d",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
+            "file": "iPhone test 2.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -145,50 +191,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "pexels-banner:🚩 Pixel Banner Menu": false,
-      "custom-sort:Toggle custom sorting": false,
-      "callout-manager:Insert Callout": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "fb2ad5b4ff0cdb07",
+  "active": "f40dbed926570415",
   "lastOpenFiles": [
-    "PhD/Dashboard.md",
-    "MAAP/Assessment Design & Feedback (EDM126)/Feedback – Assignment Brief.md",
-    "MAAP/Assessment Design & Feedback (EDM126)/Deadlines.md",
-    "MAAP/Curriculum Development and Evaluation/Assignemt.md",
-    "MAAP/Researching Higher Education/Assignment.md",
-    "MAAP/Assessment Design & Feedback (EDM126)/Example Assessment Criteria.md",
+    "Test.md",
+    "iPhone test 2.md",
     "MAAP/Assessment Design & Feedback (EDM126)/Assessment Criteria.md",
-    "MAAP/Assessment Design & Feedback (EDM126)",
-    "MAAP/Assignments.md",
-    "MAAP/Researching Higher Education/Research Proposal (Task 2)/0 ToC.md",
-    "MAAP/Researching Higher Education/Research Proposal (Task 2)/2 Review of Key Literature & Research Context.md",
-    "MAAP/Researching Higher Education/Research Proposal (Task 2)/3 Methodology & Ethics.md",
-    "MAAP/Researching Higher Education/Research Proposal (Task 2)",
-    "MAAP/Researching Higher Education/Assessment Criteria.md",
-    "Untitled.md",
-    "PhD/Discussion and Conclusion Outline.md",
-    "MAAP/Curriculum Development and Evaluation/Script Bullets.md",
-    "MAAP/Assessments.md",
-    "Script Bullets.md",
-    "MAAP/Curriculum Development and Evaluation/Presentation Feedback.md",
-    "MAAP/Curriculum Development and Evaluation/Presentation Script.md",
-    "MAAP/Curriculum Development and Evaluation/images/image.png",
-    "MAAP/Curriculum Development and Evaluation/images",
-    "MAAP/Curriculum Development and Evaluation/💬 Presentation Feedback.md",
-    "New file.md",
-    "Blog/Focus.md",
-    "MAAP/Ideas.md",
     "PhD/10. Bilateral/images/histograms/histograms_decay_times.png",
     "PhD/10. Bilateral/images/histograms/histograms_systolic_width_50.png",
     "PhD/10. Bilateral/images/histograms/histograms_S.AUC.png",
@@ -198,6 +214,7 @@
     "PhD/10. Bilateral/images/histograms/histograms_Max.start.datum.difference.png",
     "PhD/10. Bilateral/images/histograms/histograms_kurt.png",
     "PhD/10. Bilateral/images/histograms/histograms_snr.png",
+    "PhD/10. Bilateral/images/histograms/histograms_AUC.Ratio.png",
     "PhD/10. Bilateral/images/histograms",
     "PhD/10. Bilateral/images/FAM_Red_HR",
     "PhD/10. Bilateral/images/GAM_IR_FR",
@@ -207,6 +224,29 @@
     "PhD/10. Bilateral/5. Model Interaction.md",
     "PhD/10. Bilateral/4.1 Simple Model.md",
     "PhD/10. Bilateral/4.3. Generalized Additive Model.html",
-    "PhD/10. Bilateral/images"
+    "PhD/10. Bilateral/2. Cross Correlation.md",
+    "PhD/10. Bilateral/3. HR & FR Interaction.md",
+    "PhD/10. Bilateral/Research Log.md",
+    "PhD/10. Bilateral/0. Normalisation.md",
+    "PhD/10. Bilateral/images",
+    "PhD/10. Bilateral/1. Visualise Data.md",
+    "PhD/10. Bilateral/4.2 Mixed Effects Model.md",
+    "PhD/Meetings/1. Thesis Plan & Bilateral Chapter Update.md",
+    "PhD/Meetings/2. Data Analysis.md",
+    "PhD/Meetings/images",
+    "PhD/10. Bilateral",
+    "PhD/Discussion and Conclusion Outline.md",
+    "PhD/Meetings",
+    "PhD/Comments.md",
+    "PhD/Dashboard.md",
+    "PhD/Wiki.md",
+    "Blog/Things To Do Instead.md",
+    "Blog/Part 2.md",
+    "Blog/Goal Setting.md",
+    "Blog/Quotes.md",
+    "Blog/Habits.md",
+    "Blog/Psychology.md",
+    "Blog/Productivity.md",
+    "Blog/Reflections.md"
   ]
 }
