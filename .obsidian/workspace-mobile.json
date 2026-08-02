@@ -11,15 +11,10 @@
             "id": "7bb7abd2e16db084",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blog/Focus.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Focus"
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
             }
           }
         ]
@@ -177,7 +172,7 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "7bb7abd2e16db084",
+  "active": "aa603e63403afdc5",
   "lastOpenFiles": [
     "Test.md",
     "ipad test.md",
