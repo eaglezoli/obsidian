@@ -33,7 +33,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -170,7 +172,7 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "7bb7abd2e16db084",
+  "active": "aa603e63403afdc5",
   "lastOpenFiles": [
     "Test.md",
     "ipad test.md",
