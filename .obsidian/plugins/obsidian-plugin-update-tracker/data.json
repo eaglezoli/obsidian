@@ -6,5 +6,5 @@
   "excludeBetaVersions": true,
   "excludeDisabledPlugins": true,
   "minUpdateCountToShowIcon": 0,
-  "hoursBetweenCheckingForUpdates": 4
+  "hoursBetweenCheckingForUpdates": 24
 }
