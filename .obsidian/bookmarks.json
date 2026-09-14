@@ -16,45 +16,58 @@
           "items": [
             {
               "type": "file",
-              "ctime": 1749398937439,
-              "path": "MAAP/Assignments.md",
-              "subpath": "#^-"
-            },
-            {
-              "type": "file",
-              "ctime": 1748885951092,
-              "path": "MAAP/Ideas.md",
+              "ctime": 1789410005325,
+              "path": "MAAP/💡 Project Ideas.md",
               "subpath": "#^-"
             },
             {
               "type": "group",
-              "ctime": 1763466149619,
-              "items": [],
-              "title": "Assessment Design & Feedback (EDM126)"
+              "ctime": 1789409661158,
+              "items": [
+                {
+                  "type": "group",
+                  "ctime": 1789410305415,
+                  "items": [],
+                  "title": "Assessment Design & Feedback (EDM126)"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1789410305416,
+                  "items": [],
+                  "title": "Curriculum Development and Evaluation"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1789410305416,
+                  "items": [],
+                  "title": "Researching Higher Education"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1789410219597,
+                  "items": [],
+                  "title": "🖼️ Images"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1789410305416,
+                  "path": "MAAP/📁 Archive/Assignments.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1789410305416,
+                  "path": "MAAP/📁 Archive/Ideas.md",
+                  "subpath": "#^-"
+                }
+              ],
+              "title": "📁 Archive"
             },
             {
               "type": "group",
-              "ctime": 1748793193105,
+              "ctime": 1789410242919,
               "items": [],
-              "title": "Researching Higher Education"
-            },
-            {
-              "type": "group",
-              "ctime": 1749399594326,
-              "items": [],
-              "title": "Curriculum Development and Evaluation"
-            },
-            {
-              "type": "group",
-              "ctime": 1748793193105,
-              "items": [],
-              "title": "images"
-            },
-            {
-              "type": "group",
-              "ctime": 1748793193105,
-              "items": [],
-              "title": "images"
+              "title": "🖼️ Images"
             }
           ],
           "title": "MAAP"
@@ -180,6 +193,12 @@
             }
           ],
           "title": "PhD"
+        },
+        {
+          "type": "file",
+          "ctime": 1789410233379,
+          "path": "Test 2.md",
+          "subpath": "#^-"
         }
       ],
       "title": "sortspec"
