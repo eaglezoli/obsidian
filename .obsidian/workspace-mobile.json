@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ade7c93aaffe102a",
+        "id": "a6d48fad42ef05a7",
         "type": "tabs",
         "children": [
           {
-            "id": "7bb7abd2e16db084",
+            "id": "8a7509f0d47bde9d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "MAAP/📁 Archive/🖼️ Images/5_stars.png"
+                "file": "MAAP/💡 Project Ideas.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "5_stars"
+              "icon": "lucide-file",
+              "title": "💡 Project Ideas"
             }
           }
         ]
@@ -112,7 +115,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "MAAP/📁 Archive/🖼️ Images/5_stars.png",
+            "file": "MAAP/💡 Project Ideas.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -145,7 +148,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "MAAP/Assessment Design & Feedback (EDM126)/Assessment Criteria.md",
+            "file": "MAAP/💡 Project Ideas.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -185,16 +188,16 @@
       "chatting-with-ai:Open Chatting with AI": false
     }
   },
-  "active": "7bb7abd2e16db084",
+  "active": "8a7509f0d47bde9d",
   "lastOpenFiles": [
     "MAAP/💡 Project Ideas.md",
+    "MAAP/📁 Archive/🖼️ Images/5_stars.png",
     "PhD/Comments.md",
     "Test.md",
     "MAAP/📁 Archive/Curriculum Development and Evaluation/images/image.png",
     "MAAP/📁 Archive/Researching Higher Education/Research Proposal (Task 2)/0 ToC.md",
     "MAAP/📁 Archive/Researching Higher Education/Research Proposal (Task 2)/2 Review of Key Literature & Research Context.md",
     "MAAP/📁 Archive/Researching Higher Education/Research Proposal (Task 2)/3 Methodology & Ethics.md",
-    "MAAP/📁 Archive/🖼️ Images/5_stars.png",
     "MAAP/📁 Archive/Curriculum Development and Evaluation/Presentation Feedback.md",
     "MAAP/📁 Archive/Curriculum Development and Evaluation/Frameworks & Organisations.md",
     "MAAP/📁 Archive/Curriculum Development and Evaluation/Presentation Outline.md",
@@ -223,7 +226,6 @@
     "Blog/Focus.md",
     "Untitled",
     "ipad test.md",
-    "MAAP/Assessment Design & Feedback (EDM126)/Assessment Criteria.md",
     "PhD/10. Bilateral/images/histograms/histograms_decay_times.png",
     "PhD/10. Bilateral/images/histograms/histograms_systolic_width_50.png",
     "PhD/10. Bilateral/images/histograms/histograms_S.AUC.png",
