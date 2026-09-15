@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiArchive",
       "LiLetterText",
       "LiMessageSquareQuote",
       "LiNotebookText",
-      "LiNotebookPen",
-      "LiBookText"
+      "LiNotebookPen"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,5 +42,6 @@
   "PhD/Dashboard.md": "LiLayoutDashboard",
   "MAAP": "LiUniversity",
   "Blog": "LiNotebookPen",
-  "PhD/Comments.md": "LiLetterText"
+  "PhD/Comments.md": "LiLetterText",
+  "MAAP/📁 Archive": "LiArchive"
 }

@@ -11,24 +11,15 @@
             "id": "7bb7abd2e16db084",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
-            }
-          },
-          {
-            "id": "452fed858d5664d2",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
+              "type": "image",
+              "state": {
+                "file": "MAAP/📁 Archive/🖼️ Images/5_stars.png"
+              },
+              "icon": "lucide-image",
+              "title": "5_stars"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,6 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "MAAP/📁 Archive/🖼️ Images/5_stars.png",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -161,9 +153,19 @@
           "icon": "lucide-list",
           "title": "Outline"
         }
+      },
+      {
+        "id": "0341630b9e0c2e6b",
+        "type": "leaf",
+        "state": {
+          "type": "ochatting-view",
+          "state": {},
+          "icon": "message-circle",
+          "title": "Chatting with AI"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,13 +181,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
       "custom-sort:Toggle custom sorting": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "chatting-with-ai:Open Chatting with AI": false
     }
   },
-  "active": "452fed858d5664d2",
+  "active": "7bb7abd2e16db084",
   "lastOpenFiles": [
-    "Test.md",
     "MAAP/💡 Project Ideas.md",
+    "PhD/Comments.md",
+    "Test.md",
     "MAAP/📁 Archive/Curriculum Development and Evaluation/images/image.png",
     "MAAP/📁 Archive/Researching Higher Education/Research Proposal (Task 2)/0 ToC.md",
     "MAAP/📁 Archive/Researching Higher Education/Research Proposal (Task 2)/2 Review of Key Literature & Research Context.md",
@@ -220,7 +224,6 @@
     "Untitled",
     "ipad test.md",
     "MAAP/Assessment Design & Feedback (EDM126)/Assessment Criteria.md",
-    "iPhone test 2.md",
     "PhD/10. Bilateral/images/histograms/histograms_decay_times.png",
     "PhD/10. Bilateral/images/histograms/histograms_systolic_width_50.png",
     "PhD/10. Bilateral/images/histograms/histograms_S.AUC.png",
