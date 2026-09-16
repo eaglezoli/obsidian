@@ -28,3 +28,7 @@ The sweet spot for most work is medium effort. It provides a good balance of cos
 ## Choosing a model
 - I consider the model to be about 50-50 equal with the harness plus environment. In other words, the model is a very consequential part of the whole operation. If you switch out to a crap model, then you are not going to get anywhere.
 - **Check the benchmarks** - Look at performance graphs for the models you use on sites like [DeepSWE](https://deepswe.datacurve.ai/). They show token spend ratios and differences between low, medium, and high.
+- **On a subscription, ignore API $/task:** care about **how much of your usage allowance a model burns to complete the task**; output tokens help, but providers can weight models differently.
+	- Check the provider’s own **usage docs/dashboard** to see how different models count against your allowance.
+
+## Subagents
