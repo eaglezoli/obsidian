@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "1️⃣",
       "LiCode2",
       "LiImage",
       "LiLightbulb",
-      "LiArchive",
-      "LiLetterText"
+      "LiArchive"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -50,5 +50,6 @@
   "MAAP/📁 Archive/Curriculum Development and Evaluation": "LiBookText",
   "MAAP/📁 Archive/Ideas.md": "LiLightbulb",
   "MAAP/🖼️ Images": "LiImage",
-  "Coding": "LiCode2"
+  "Coding": "LiCode2",
+  "Coding/Images": "LiImage"
 }

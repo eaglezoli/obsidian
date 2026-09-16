@@ -1,11 +1,11 @@
 ## Models, Harnesses, Agents, Environments
-![[Diagram showing the four components - environment, model, agent, and harness.png]]
+![[AI-components.png|Diagram showing the four components - environment, model, agent, and harness]]
 
 ## Smart Zone vs. Dumb Zone
-![[150,000 tokens as the current dumb zone threshold.png]]
+![[dumb-zone.png|150,000 tokens as the current dumb zone threshold]]
 
 ## Statelessness
+![[codebase-as-memory-system.png|Mario Zechner quote about codebase as memory system]]
 
-![[Mario Zechner quote about codebase as memory system.png]]
-
-## Hallucinations![[Decision tree flowchart for diagnosing hallucinations.png]]
+## Hallucinations
+![[hallucination-flowchart.png|Mario Zechner quote about codebase as memory system]]
