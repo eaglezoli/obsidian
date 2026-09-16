@@ -32,3 +32,4 @@ The sweet spot for most work is medium effort. It provides a good balance of cos
 	- Check the provider’s own **usage docs/dashboard** to see how different models count against your allowance.
 
 ## Subagents
+![[parallel-subagents.png]]
