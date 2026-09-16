@@ -2,8 +2,10 @@
 ![[image.png]]
 
 ## Smart Zone vs. Dumb Zone
-![[image-1.png]]
+![[150,000 tokens as the current dumb zone threshold.png]]
 
 ## Statelessness
 
-![[image-2.png]]
+![[Mario Zechner quote about codebase as memory system.png]]
+
+## Hallucinations![[Decision tree flowchart for diagnosing hallucinations.png]]
