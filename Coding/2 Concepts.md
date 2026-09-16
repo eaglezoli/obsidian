@@ -27,4 +27,4 @@ The sweet spot for most work is medium effort. It provides a good balance of cos
 
 ## Choosing a model
 - I consider the model to be about 50-50 equal with the harness plus environment. In other words, the model is a very consequential part of the whole operation. If you switch out to a crap model, then you are not going to get anywhere.
-- 
+- **Check the benchmarks** - Look at performance graphs for the models you use on sites like [DeepSWE](https://deepswe.datacurve.ai/). They show token spend ratios and differences between low, medium, and high.
