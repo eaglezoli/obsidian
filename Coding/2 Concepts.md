@@ -1,5 +1,5 @@
 ## Models, Harnesses, Agents, Environments
-![[image.png]]
+![[Diagram showing the four components - environment, model, agent, and harness.png]]
 
 ## Smart Zone vs. Dumb Zone
 ![[150,000 tokens as the current dumb zone threshold.png]]
