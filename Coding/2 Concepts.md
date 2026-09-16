@@ -32,4 +32,7 @@ The sweet spot for most work is medium effort. It provides a good balance of cos
 	- Check the provider’s own **usage docs/dashboard** to see how different models count against your allowance.
 
 ## Subagents
-![[parallel-subagents.png]]
+![[parallel-subagents.png|Visualization showing multiple subagents spawned in parallel]]
+![[recursive-subagents.png|Visualization of nested subagents spawning their own subagents]]
+- If subagents can spawn their own subagents, they can independently decompose and delegate their work, making them more capable than subagents limited to doing everything themselves.
+	- Depending on harness, some only allow one level deep
