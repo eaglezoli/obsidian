@@ -25,3 +25,7 @@
 | **Restore the code and the conversation**      | Rewind your entire session to the point before this code edit was made |
 | **Restore the conversation but keep the code** | Keep your current code state while reverting the conversation          |
 | **Restore the code but keep the conversation** | Keep your conversation history while reverting the code                |
+- **Enter rewind mode** - Press `Escape` twice to zoom through all checkpoints
+- **Choose what to restore** - Pick whether to rewind code, conversation, or both
+- **Persist sessions locally** - Quit and resume without losing progress
+- **Multiple resume methods** - Use `--continue`, `/resume`, or the UUID command
