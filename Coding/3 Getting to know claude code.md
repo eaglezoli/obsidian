@@ -1,0 +1,2 @@
+- Use ```/terminal-setup``` to enable Shift+Enter for new lines
+- 
