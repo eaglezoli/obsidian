@@ -29,3 +29,5 @@
 - **Choose what to restore** - Pick whether to rewind code, conversation, or both
 - **Persist sessions locally** - Quit and resume without losing progress
 - **Multiple resume methods** - Use `--continue`, `/resume`, or the UUID command
+
+## Running Bash Commands
