@@ -16,6 +16,8 @@
 | **Total**                                                                  | **~23k** |
 ![[fresh-context-example.png|Terminal output showing /context command results with 22.9k tokens used by default configuration]]
 ## My Optimisation
+## Claude Code Context Optimisation Baseline
+
 ### Baseline
 
 | Item | Before | After | Change / Notes |
@@ -25,33 +27,45 @@
 | Context window | 200k | 200k | Hard context ceiling |
 | Fresh-session context | ~43.0k | **25.3k** | ~41% reduction |
 | System prompt | ~8.7k | **8.7k** | Essentially unchanged |
-| System tools | ~12.7k+ | **9.7k** | Reduced by removing large always-loaded tools |
-| Skills | 2.6k | **2.0k** | Reduced via skill trimming / name-only |
+| System tools | 12.7k | **9.7k** | Reduced by removing large always-loaded tool schemas |
+| Skills | 2.6k | **2.0k** | Reduced via skill trimming / `name-only` |
 | MCP tools | Claude Docs + Top-Rated Online + IDE | **2 IDE tools, 0 tokens** | Claude.ai connectors disabled; remaining MCP tools load on demand |
-| Messages on fresh `Hello!` | ~5.5k | **4.9k** | Some variation between fresh sessions |
+| Messages on fresh `Hello!` | ~5.5k | **4.9k** | Some fresh-session variation |
 | Free space before autocompact buffer | Lower | **141.7k** | Based on 25.3k active context |
-| Autocompact buffer | 33k | **33k** | Claude Code reserves this before the 200k ceiling |
+| Autocompact buffer | 33k | **33k** | Reserved before reaching the 200k ceiling |
 
-### Settings changes made
+### Optimisation changes
 
-| Setting / Tool | Action | Reason |
+| Setting / Tool | Action | Reason / Notes |
 |---|---|---|
-| `disableClaudeAiConnectors` | `true` | Removed unused Claude.ai connector overhead |
-| `enableWorkflows` | `false` | Disabled dynamic workflows not currently used |
-| `Artifact` | Denied | Very large tool definition; not needed for normal coding |
-| `ScheduleWakeup` | Denied | Only useful for self-paced `/loop` workflows |
-| `AskUserQuestion` | Denied | Removed structured-question tool overhead; normal text questions still work |
-| `SendFeedback` | Denied | Not needed for normal coding work |
-| `artifact-capabilities` | Off | Artifact feature disabled |
-| `artifact-diagramming` | Off | Artifact feature disabled |
-| `artifact-design` | Off | Artifact feature disabled |
-| `schedule` skill | `name-only` | Keeps skill usable without carrying full description every request |
-| `loop` skill | `name-only` | Keeps skill usable without carrying full description every request |
+| `disableClaudeAiConnectors` | `true` | Removes unused Claude.ai connector overhead |
+| `enableWorkflows` | `false` | Disables dynamic workflows not currently used |
+| `Artifact` | Denied via `permissions.deny` | Temporary workaround. The documented toggle is `enableArtifact: false`, but Claude Code currently has an open bug where that also removes the scratchpad directory |
+| `ScheduleWakeup` | Denied | Not needed unless using self-paced `/loop` workflows |
+| `AskUserQuestion` | Denied | Removes its schema from context; normal text questions still work |
+| `SendFeedback` | Denied | Removes an unused always-loaded tool schema |
+| `artifact-capabilities` | `off` | Artifact feature currently disabled |
+| `artifact-diagramming` | `off` | Artifact feature currently disabled |
+| `artifact-design` | `off` | Artifact feature currently disabled |
+| `schedule` skill | `name-only` | Skill remains usable while only its name is kept in context |
+| `loop` skill | `name-only` | Skill remains usable while only its name is kept in context |
 | Bundled skills generally | Kept | Useful skills such as `code-review`, `simplify`, `run`, `claude-api` retained |
-| ToolSearch / deferred tools | Kept | Important optimisation: loads full tool schemas only when needed |
-| Agent / subagents | Kept | Useful for side agents, forks and larger tasks |
+| ToolSearch / deferred tools | Kept | Important optimisation: full tool schemas load only when needed |
+| Agent / subagents | Kept | Useful for forks, side agents and larger tasks |
 | Read / Edit / Write / Bash | Kept | Core coding tools |
-| IDE MCP tools | Kept | Deferred, currently 0-token overhead |
+| IDE MCP tools | Kept | Deferred and currently 0-token overhead |
+| `modelSettings` / Sonnet 5 effort | `medium` | Deliberate choice for general coding. Sonnet 5 default is `high`; use `/effort high` per-session for harder tasks |
+
+### Important behaviour confirmed
+
+| Behaviour | Confirmed |
+|---|---|
+| Bare tool names in `permissions.deny` remove the tool schema from Claude's context entirely | **Yes** |
+| Scoped deny rules only block matching calls while leaving the tool itself available | **Yes** |
+| `enableArtifact: false` is the documented Artifact toggle | **Yes** |
+| `enableArtifact: false` currently has a scratchpad-removal bug | **Yes, keep the permission-deny workaround for now** |
+| Sonnet 5 default effort is `high` | **Yes** |
+| Current `medium` effort is intentional | **Yes** |
 
 ### Final `settings.json`
 
