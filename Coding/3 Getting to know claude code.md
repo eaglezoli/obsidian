@@ -36,3 +36,7 @@
 | Agent needs to see the output       | Use bash mode          | `!` prefix                  |
 | Long-running process (dev servers)  | Background with Ctrl-B | After `!` command           |
 | Command should be hidden from agent | Suspend the agent      | Ctrl-Z, then `fg` to return |
+## Permissions
+- To share permissions with team rename `settings.local.json` to `settings.json` 
+- Auto mode is easier
+	- The `settings.json` file is still really useful with auto mode. The agent checks `settings.json` first, before running the command through the classifier. This means you can speed up common operations and not have to worry about the classifier by just having something in `settings.json`.
