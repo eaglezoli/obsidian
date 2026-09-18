@@ -31,3 +31,8 @@
 - **Multiple resume methods** - Use `--continue`, `/resume`, or the UUID command
 
 ## Running Bash Commands
+| Goal                                | Approach               | Shortcut                    |
+| ----------------------------------- | ---------------------- | --------------------------- |
+| Agent needs to see the output       | Use bash mode          | `!` prefix                  |
+| Long-running process (dev servers)  | Background with Ctrl-B | After `!` command           |
+| Command should be hidden from agent | Suspend the agent      | Ctrl-Z, then `fg` to return |
