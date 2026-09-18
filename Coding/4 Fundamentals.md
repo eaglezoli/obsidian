@@ -14,3 +14,4 @@
 | Skills                                                                     | 2k       |
 | Messages                                                                   | 8        |
 | **Total**                                                                  | **~23k** |
+![[fresh-context-example.png|Terminal output showing /context command results with 22.9k tokens used by default configuration]]
