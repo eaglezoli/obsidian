@@ -38,5 +38,6 @@
 | Command should be hidden from agent | Suspend the agent      | Ctrl-Z, then `fg` to return |
 ## Permissions
 - To share permissions with team rename `settings.local.json` to `settings.json` 
-- Auto mode is easier
+- Auto mode is easier – agent itself decides if safe
 	- The `settings.json` file is still really useful with auto mode. The agent checks `settings.json` first, before running the command through the classifier. This means you can speed up common operations and not have to worry about the classifier by just having something in `settings.json`.
+	- Anthropic no longer charges for the classifier token overhead in Auto mode 
