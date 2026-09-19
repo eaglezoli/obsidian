@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/3 Getting to know claude code.md",
+                "file": "Coding/4 Fundamentals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3 Getting to know claude code"
+              "title": "4 Fundamentals"
             }
           }
         ]
@@ -148,7 +148,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "MAAP/💡 Project Ideas.md",
+            "file": "Coding/4 Fundamentals.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -168,7 +168,7 @@
         }
       }
     ],
-    "currentTab": 3
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,6 +190,16 @@
   },
   "active": "8a7509f0d47bde9d",
   "lastOpenFiles": [
+    "Coding/Study Plan.md",
+    "Blog/Productivity.md",
+    "Blog/Poetry.md",
+    "Coding/4 Fundamentals.md",
+    "Coding/Images/recursive-subagents.png",
+    "Coding/Images/parallel-subagents.png",
+    "Coding/Images/fresh-context-example.png",
+    "Coding/Images/5-step-system.png",
+    "Images/image.png",
+    "Coding/3 Getting to know claude code.md",
     "Coding/1 Setup.md",
     "MAAP/💡 Project Ideas.md",
     "MAAP/📁 Archive/🖼️ Images/5_stars.png",
@@ -217,24 +227,14 @@
     "MAAP/📁 Archive/Assessment Design & Feedback (EDM126)/Feedback – Assignment Brief.md",
     "MAAP/📁 Archive/Assessment Design & Feedback (EDM126)/Assessment Criteria.md",
     "MAAP/📁 Archive/🖼️ Images",
-    "MAAP/📁 Archive/Assignments.md",
-    "MAAP/📁 Archive/Ideas.md",
     "MAAP/📁 Archive/Curriculum Development and Evaluation",
     "MAAP/📁 Archive/Researching Higher Education",
     "MAAP/📁 Archive/Assessment Design & Feedback (EDM126)",
     "MAAP/📁 Archive",
-    "Untitled.md",
-    "Blog/Focus.md",
     "Untitled",
-    "ipad test.md",
     "PhD/10. Bilateral/images/histograms/histograms_decay_times.png",
     "PhD/10. Bilateral/images/histograms/histograms_systolic_width_50.png",
     "PhD/10. Bilateral/images/histograms/histograms_S.AUC.png",
-    "PhD/10. Bilateral/images/histograms/histograms_median_downslope_length.png",
-    "PhD/10. Bilateral/images/histograms/histograms_median_upslope.png",
-    "PhD/10. Bilateral/images/histograms/histograms_End.datum.area.png",
-    "PhD/10. Bilateral/images/histograms/histograms_Max.start.datum.difference.png",
-    "PhD/10. Bilateral/images/histograms/histograms_kurt.png",
     "PhD/10. Bilateral/images/histograms"
   ]
 }
