@@ -1,6 +1,6 @@
 | Day                     | Course         | Exact HTMLs                                                                                                                       |
 | ----------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **Thu 17**              | Crash          | **Section 03 – Getting To Know Claude Code** → then start **Section 04 – Fundamentals**                                           |
+| **Thu 17**              | Crash          | **Section 03 – Getting To Know Claude Code** ✅ → then start **Section 04 – Fundamentals**                                         |
 | **Fri 18**              | Crash          | Finish **Section 04 – Fundamentals** + **Section 05 – Steering**                                                                  |
 | **Sat 19** _(half day)_ | Crash          | **Section 06 – Shipping**. Prioritise specs, tickets/decomposition, rerouting, goal, coding standards                             |
 | **Sun 20**              | Real Engineers | Skip/skim **007–013 Getting To Know Claude Code**, then properly read **014–026 Day 1 Fundamentals** + **027–034 Day 2 Steering** |
