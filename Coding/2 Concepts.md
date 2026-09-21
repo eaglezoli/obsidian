@@ -36,3 +36,4 @@ The sweet spot for most work is medium effort. It provides a good balance of cos
 ![[recursive-subagents.png|Visualization of nested subagents spawning their own subagents]]
 - If subagents can spawn their own subagents, they can independently decompose and delegate their work, making them more capable than subagents limited to doing everything themselves.
 	- Depending on harness, some only allow one level deep
+	- This is where paying attention to your starting context window pays off. If your starting context is really big, then you're going to pay that cost every time you open a sub-agent. Keeping it small means it's more economical and you get more time in the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone).
