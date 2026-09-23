@@ -2,12 +2,10 @@
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
 ## Set Up Your Issue Tracker
 ```npx
-skills@latest add mattpocock/skills --skill=setup-matt-pocock-skills
+npx skills@latest add mattpocock/skills --skill=setup-matt-pocock-skills
 ```
 - Search for "setup skills skill"
 	- This will add the `/setup-matt-pocock-skills` [skill](https://www.aihero.dev/ai-coding-dictionary/skill) to the repo.
 - Run`/setup-matt-pocock-skills`in Claude Code
 	- The skill will do a brief exploration of the repo's current state and provide a recommendation on the issue tracker to use.
-
-
 
