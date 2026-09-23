@@ -33,11 +33,3 @@ The spec that's created uses a template that's nice and meaty. It includes:
 
 An analytics page is so big, so potentially scope creepy and could expand larger and larger that I think it makes a very good candidate for a grilling session followed by a spec. We need to shape this into something reasonable and it's definitely going to be larger than one [Smart Zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone).
 
-## The Explore Phase
-
-## Round 1: Answering the Questions
-
-## Background Exploration
-
-## Round 2: The "Zoom Out" Technique
-
