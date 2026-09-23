@@ -12,3 +12,24 @@ npx skills@latest add mattpocock/skills --skill=setup-matt-pocock-skills
 
 ## Write Great Specs With `/to-spec`
 
+**The Process**
+1. Initial grilling session
+2. Turn that grilling session into a spec
+3. Turn that spec into [tickets](https://www.aihero.dev/ai-coding-dictionary/ticket)
+4. Implement each individual ticket
+5. Review against the spec that we initially created
+![[5-step-system.png|Five-step system: grilling session → spec → tickets → implement → review]]
+**The Spec Template**
+
+The spec that's created uses a template that's nice and meaty. It includes:
+
+- A problem statement
+- A solution description
+- A bunch of user stories (a classic software development technique)
+- Implementation decisions
+- Testing decisions
+- Out of scope items
+- Further notes
+
+An analytics page is so big, so potentially scope creepy and could expand larger and larger that I think it makes a very good candidate for a grilling session followed by a spec. We need to shape this into something reasonable and it's definitely going to be larger than one [Smart Zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone).
+
