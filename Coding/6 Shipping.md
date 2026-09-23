@@ -41,4 +41,4 @@ I rarely actually go and read these specs myself. If I were to read the spec, wh
 
 ![[image-2.png]]
 
-![[image-4.png]]
+![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
