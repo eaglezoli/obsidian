@@ -33,3 +33,12 @@ The spec that's created uses a template that's nice and meaty. It includes:
 
 An analytics page is so big, so potentially scope creepy and could expand larger and larger that I think it makes a very good candidate for a grilling session followed by a spec. We need to shape this into something reasonable and it's definitely going to be larger than one [Smart Zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone).
 
+I rarely actually go and read these specs myself. If I were to read the spec, what would I actually be testing for? I'd just be testing the agent's ability to summarize what we just talked about. And that's something that I kind of take on trust.
+
+![[image.png]]
+
+![[image-1.png]]
+
+![[image-2.png]]
+
+![[image-4.png]]
