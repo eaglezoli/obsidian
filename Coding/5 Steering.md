@@ -192,3 +192,22 @@ This test is one question: does this line change behaviour versus the default?
 **An instruction can be perfectly relevant to the situation and still be a no-op.** It can be true, on-topic, and still not worth a single token, because the agent didn't need telling.
 
 Look for advice that reads like best practices rather than project-specific guidance. Examples: "Write unit tests for all new utilities", "Provide helpful error messages to users", "Never include sensitive information in commits". These don't steer the agent - they describe what it already does.
+
+Ask the `/writing-for-agents` skill to do the pruning work:
+
+```
+I want you to find me candidates in AGENTS.md that have single-source-of-truth issues between AGENTS.md and the rest of the stuff on the filesystem. I want you to give me candidates for removal or for putting behind pointers. Basically, I want you to do a whole pruning pass on AGENTS.md, and the ideal state for it should be just a few navigation pointers to different documentation.
+```
+
+```
+I would like you to do another pass for me and look for opportunities where we can take even more stuff out of AGENTS.md and put them behind pointers. I agree with the deletions that you've made, but I think there are more opportunities for putting existing docs behind pointers and writing careful descriptions so that they are grabbed at the right time.
+```
+
+The agent is following a principle: task procedures have predictable triggers. You know when you're adding a route. You know when you're writing a test. These belong behind pointers with clear descriptions. Error recovery has unpredictable triggers, so the triage table stays inline.
+
+The pruning process forces you to ask hard questions:
+- Does the agent already know this?
+- Is this documented somewhere else?
+- Is this a real pitfall or a no-op?
+- Will this statement still be true in a month?
+
