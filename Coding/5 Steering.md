@@ -6,7 +6,7 @@
 ![[session-turns.png|Diagram showing a session with three turns, each turn containing multiple model provider requests represented as light blue dots]]
 
 Each model provider request carries all of the history and everything new along with it. **Any little instruction that you add early in the [context window](https://www.aihero.dev/ai-coding-dictionary/context-window) is going to be passed in on every single request.**
-![[image-1.png|Context load diagram showing five numbered requests, each row containing blocks representing the growing payload with a violet block at the front being re-sent every time]]
+![[instructions-context.png|Context load diagram showing five numbered requests, each row containing blocks representing the growing payload with a violet block at the front being re-sent every time]]
 
 **You're paying [tokens](https://www.aihero.dev/ai-coding-dictionary/token) to include these steering instructions on every request.** But there's a second cost: **you're also paying in [attention](https://www.aihero.dev/ai-coding-dictionary/attention-budget).**
 
@@ -103,3 +103,10 @@ However, it does have some weaknesses.
 
 ## Agent Skills
 ![[skills-structure.png|Diagram showing layered structure from context window to SKILL.md to reference files]]
+
+
+|Invocation Type|How It Works|Context Load|Cognitive Load|
+|---|---|---|---|
+|**Model-invoked**|Description is in the context window. The agent can see it, notice it's relevant, and pull it in on its own.|Higher|Lower|
+|**User-invoked**|Description is hidden from the agent. Only you can invoke it by typing its name.|Zero|Higher (you must remember it)|
+
