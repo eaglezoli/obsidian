@@ -110,3 +110,31 @@ However, it does have some weaknesses.
 |**Model-invoked**|Description is in the context window. The agent can see it, notice it's relevant, and pull it in on its own.|Higher|Lower|
 |**User-invoked**|Description is hidden from the agent. Only you can invoke it by typing its name.|Zero|Higher (you must remember it)|
 
+**The portable pointer** – skills are just the same as our doc and pointer approach, except they're just more portable.
+
+**Where Skills Live**
+
+| Level   | Location            | Scope                 | Sharing                         |
+| ------- | ------------------- | --------------------- | ------------------------------- |
+| User    | `~/.agents/skills/` | Personal to you       | Global across all your projects |
+| Project | `.agents/skills/`   | Scoped to one project | Shared with everyone who clones |
+
+**Two Flavours**
+
+![[two-skill-flavours.png|Whiteboard diagram showing user-level vs project-level skill characteristics]]
+
+| User-Level | Project-Level  |
+| ---------- | -------------- |
+| Personal   | Checked-in     |
+| Global     | Single-project |
+|            | Communal       |
+
+**Personal:** It's yours alone, nobody else sees it, and nobody else has to use it.
+
+**Global:** It follows you everywhere. Install it once in your user directory, and it's available in every project you open on your machine with no setup and no copying.
+
+**Checked-in:** The skill is part of your repository. It's tracked in git history and travels with the project.
+
+**Single-project:** It won't follow you to your next project, but it's scoped to this one for good reason.
+
+**Communal:** Everyone who edits the project can also contribute to the skill. The skill automatically grows with the project, and everyone on the team gets to build it up over time.
