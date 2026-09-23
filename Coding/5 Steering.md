@@ -171,3 +171,24 @@ Use navigation pointers for files that are:
 |No-Ops|Instructions that change nothing about the agent's behavior|
 Anything that fails these three tests is not earning its place in the [context window](https://www.aihero.dev/ai-coding-dictionary/context-window). Cut it, and you'll notice that your steering improves massively.
 
+1. **Is this instruction duplicated**, breaking single source of truth?
+2. **Is this instruction a piece of sediment** that is true once but not true now?
+3. **Is this line a no-op?** Does it actually do anything to change behavior?
+
+Anything that fails these three tests is not earning its place in the context window. It's just costing you context load for no gain.
+
+**Duplicates**
+
+Scan for facts repeated within the file. Check if any section duplicates information that lives in a `README.md`, `package.json`, code comments, or type definitions elsewhere in the repo. If the agent can read the source, you don't need to transcribe it.
+
+**Sediment**
+
+Find lines that could apply to any codebase rather than your specific one. A generic project overview, a command table listing every npm script without context, directory listings, generic development tips. These aren't lies, but they're not earning their tokens.
+
+**No-Ops**
+
+This test is one question: does this line change behaviour versus the default?
+
+**An instruction can be perfectly relevant to the situation and still be a no-op.** It can be true, on-topic, and still not worth a single token, because the agent didn't need telling.
+
+Look for advice that reads like best practices rather than project-specific guidance. Examples: "Write unit tests for all new utilities", "Provide helpful error messages to users", "Never include sensitive information in commits". These don't steer the agent - they describe what it already does.
