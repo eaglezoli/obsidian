@@ -1,13 +1,14 @@
-| Day     | Course         | Section / module                                 | HTMLs          | Main topics                                                                     |
-| ------- | -------------- | ------------------------------------------------ | -------------- | ------------------------------------------------------------------------------- |
-| ✅       | Crash          | 01 Before We Start                               | done           | Setup                                                                           |
-| ✅       | Crash          | 02 Concepts                                      | done           | Models, context, smart/dumb zone, statelessness, subagents                      |
-| ✅       | Crash          | 03 Getting to Know Claude Code                   | done           | Sessions, terminal, IDE, Bash, permissions                                      |
-| ✅       | Crash          | 04 Fundamentals                                  | done           | Exploration, **Grill → Execute → Clear**, compaction, handoffs                  |
-| **Wed** | Crash + RE     | 05 Steering + 06 Shipping, then RE Intro + Day 1 | RE **001–026** | **Skills, PRDs/specs, decomposition**, then RE fundamentals                     |
-| **Thu** | Real Engineers | Day 2–3                                          | **027–045**    | **Steering, PRDs, multi-phase plans, tracer bullets**                           |
-| **Fri** | Real Engineers | Day 4                                            | **046–055**    | **Feedback loops**, pre-commit, red-green-refactor                              |
-| **Sat** | Real Engineers | Day 5–6                                          | **056–085**    | **Ralph/AFK**, sandboxing, backlog, Kanban, research, prototyping, architecture |
+| Day     | Course         | Section / module                   | HTMLs          | Main topics                                                                     |
+| ------- | -------------- | ---------------------------------- | -------------- | ------------------------------------------------------------------------------- |
+| ✅       | Crash          | 01 Before We Start                 | done           | Setup                                                                           |
+| ✅       | Crash          | 02 Concepts                        | done           | Models, context, smart/dumb zone, statelessness, subagents                      |
+| ✅       | Crash          | 03 Getting to Know Claude Code     | done           | Sessions, terminal, IDE, Bash, permissions                                      |
+| ✅       | Crash          | 04 Fundamentals                    | done           | Exploration, **Grill → Execute → Clear**, compaction, handoffs                  |
+| ✅       | Crash          | 05 Steering                        | done           |                                                                                 |
+| **Wed** | Crash + RE     | 06 Shipping, then RE Intro + Day 1 | RE **001–026** | **Skills, PRDs/specs, decomposition**, then RE fundamentals                     |
+| **Thu** | Real Engineers | Day 2–3                            | **027–045**    | **Steering, PRDs, multi-phase plans, tracer bullets**                           |
+| **Fri** | Real Engineers | Day 4                              | **046–055**    | **Feedback loops**, pre-commit, red-green-refactor                              |
+| **Sat** | Real Engineers | Day 5–6                            | **056–085**    | **Ralph/AFK**, sandboxing, backlog, Kanban, research, prototyping, architecture |
 ## OG
 
 | Day                     | Course         | Exact HTMLs                                                                                                                       |

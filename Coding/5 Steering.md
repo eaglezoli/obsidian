@@ -211,3 +211,7 @@ The pruning process forces you to ask hard questions:
 - Is this a real pitfall or a no-op?
 - Will this statement still be true in a month?
 
+## Auto Memory
+
+Recommended to turn off.
+
