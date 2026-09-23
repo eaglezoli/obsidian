@@ -1,5 +1,9 @@
 ## The Steering Map
 
+**Steering** is the question of how you guide the agent's behavior across different sessions. Which instructions should reach the agent every time, and how do you deliver them without having to restate them every time you do more work?
+
+**So where should those steering instructions live?** That's what this section answers.
+
 ### Understanding Context Load
 
 **Anything that you load into the agent up front, you pay for on every single [model provider request](https://www.aihero.dev/ai-coding-dictionary/model-provider-request).**
@@ -159,4 +163,11 @@ Use navigation pointers for files that are:
 - Part of non-obvious workflows
 
 ## Pruning
+
+|Test|Definition|
+|---|---|
+|Single Source Of Truth|Every fact should live in exactly one authoritative place|
+|Sediment|Lines that were once true but aren't true now|
+|No-Ops|Instructions that change nothing about the agent's behavior|
+Anything that fails these three tests is not earning its place in the [context window](https://www.aihero.dev/ai-coding-dictionary/context-window). Cut it, and you'll notice that your steering improves massively.
 
