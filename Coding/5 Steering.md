@@ -101,3 +101,5 @@ And this pattern of having local docs inside the repo, hidden behind a pointer, 
 
 However, it does have some weaknesses.
 
+## Agent Skills
+![[skills-structure.png|Diagram showing layered structure from context window to SKILL.md to reference files]]
