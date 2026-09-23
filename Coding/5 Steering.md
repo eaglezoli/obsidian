@@ -138,3 +138,25 @@ However, it does have some weaknesses.
 **Single-project:** It won't follow you to your next project, but it's scoped to this one for good reason.
 
 **Communal:** Everyone who edits the project can also contribute to the skill. The skill automatically grows with the project, and everyone on the team gets to build it up over time.
+
+## Navigation Pointers
+
+A **navigation pointer** is a short line in `AGENTS.md` that sends the agent straight to an important part of the codebase with no scanning in between. It's a [context pointer](https://www.aihero.dev/ai-coding-dictionary/context-pointer) with a specific job: instead of telling the agent what to do, it tells the agent where to look.
+
+You don't build highways to everywhere. That would push your entire file tree into [context](https://www.aihero.dev/ai-coding-dictionary/context), imposing serious context load. You build highways to the places the agent needs often, and let it take local roads for the final stretch once it's arrived.
+
+The rule is simple: **whenever you change your project structure, check your navigation pointers**. A stale highway is worse than no highway, because the agent believes it.
+
+
+| Scope         | Mechanism          | Location     |
+| ------------- | ------------------ | ------------ |
+| Every session | Navigation pointer | `AGENTS.md`  |
+| One turn      | @-mention          | Chat message |
+
+Use navigation pointers for files that are:
+- Hard to discover by scanning
+- Critical to change when solving a problem
+- Part of non-obvious workflows
+
+## Pruning
+
