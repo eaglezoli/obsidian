@@ -7,7 +7,7 @@
 | ✅           | Crash          | 03 Getting to Know Claude Code |                | Sessions, terminal, IDE, permissions                                        |
 | ✅           | Crash          | 04 Fundamentals                |                | Exploration, **Grill → Execute → Clear**, handoffs                          |
 | ✅           | Crash          | 05 Steering                    |                | **Skills, pointers, progressive disclosure, pruning**                       |
-| **Thu**     | Crash + RE     | **06 Shipping + RE Intro**     | RE **001–013** | **Specs, decomposition, tickets, standards** + skim RE setup/basics         |
+| **Thu**     | Crash + RE     | **06 Shipping ✅ + RE Intro**   | RE **001–013** | **Specs, decomposition, tickets, standards** + skim RE setup/basics         |
 | **Fri**     | Real Engineers | **Day 1 + Day 2**              | **014–034**    | LLM constraints, exploration, context, **AGENTS.md, skills, steering**      |
 | **Sat ~2h** | Real Engineers | **Day 3 Planning**             | **035–045**    | **PRDs, multi-phase plans, tracer bullets**                                 |
 | **Sun ~2h** | Real Engineers | **Day 4 Feedback Loops**       | **046–055**    | **Feedback loops, pre-commit, red-green-refactor**                          |

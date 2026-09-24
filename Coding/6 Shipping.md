@@ -729,3 +729,19 @@ The five-step process covered in this course is an essential part of how to buil
 
 Even though things have changed over time, this process still fits into this format. And this core set of five steps is going to stick.
 ![[5-step-system.png|Five-step system: grilling session → spec → tickets → implement → review]]
+**What To Do Next**
+
+Your next task, now that this course is finished, is to go and deepen these steps.
+
+Consider the following areas to explore:
+
+- **[AFK loops](https://www.aihero.dev/ai-coding-dictionary/afk)** - instead of sitting there babysitting the implementation, delegate that to an AFK (away from keyboard) [agent](https://www.aihero.dev/ai-coding-dictionary/agent) loop
+- **[Prototyping](https://www.aihero.dev/ai-coding-dictionary/prototyping) and research** - how might these help you during the initial ideation phase, before you approach a spec?
+- **[The AI Coding Dictionary](https://www.aihero.dev/ai-coding-dictionary)** - firm up your mental model for all of this: [model provider requests](https://www.aihero.dev/ai-coding-dictionary/model-provider-request), turns and context windows, tools, and more
+- **[Sandcastle](https://github.com/mattpocock/sandcastle)** - an open source attempt to do AFK agents inside isolated [sandboxes](https://www.aihero.dev/ai-coding-dictionary/sandbox)
+
+**Keep Learning**
+
+Check out Wayfinder, Prototype, and the other [skills](https://www.aihero.dev/ai-coding-dictionary/skill) in development. AI coding will change, and the shape of this process will be iterated on, made more complex, and developed further.
+
+*Cohorts* (Real Engineers) run on AI Hero are opportunities to deepen all of this work too, so keep your eyes peeled if you or your company are interested.
