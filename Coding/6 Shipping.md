@@ -357,6 +357,7 @@ Close the sub-issue on GitHub. This is good hygiene. Once you close the first on
 
 You can do this manually, or get your agent to do it for you.
 
+
 ### Deciding how to continue
 
 There's a debate: do you review after all tickets are complete, or review individual tickets against the spec?
