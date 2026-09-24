@@ -698,12 +698,34 @@ One particularly useful thing lives inside the skill itself: a **phase boundary 
 
 A phase is a chunk of work inside a [session](https://www.aihero.dev/ai-coding-dictionary/session): the grilling, the implementation, the QA. The boundary is the gap between two of them, and it is where you decide what happens to your [context window](https://www.aihero.dev/ai-coding-dictionary/context-window). That decision is genuinely hard. You have five options and no obvious way to pick.
 
-|Option|What it does|
-|---|---|
-|Continue|Stay in the session. No context switch at all.|
-|Clear|Empty the context window and start from nothing.|
-|[Handoff](https://www.aihero.dev/ai-coding-dictionary/handoff)|Write a portable markdown file and seed a session anywhere with it.|
-|[Subagent](https://www.aihero.dev/ai-coding-dictionary/subagent)|Send the task to its own context window and get a report back.|
-|Compact|Compress this context and seed a fresh session with the summary.|
+| Option ↓                                                         | What it does                                                        |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Continue                                                         | Stay in the session. No context switch at all.                      |
+| Clear                                                            | Empty the context window and start from nothing.                    |
+| [Handoff](https://www.aihero.dev/ai-coding-dictionary/handoff)   | Write a portable markdown file and seed a session anywhere with it. |
+| [Subagent](https://www.aihero.dev/ai-coding-dictionary/subagent) | Send the task to its own context window and get a report back.      |
+| Compact                                                          | Compress this context and seed a fresh session with the summary.    |
+So when you are not sure whether to continue, clear, hand off, send it to a subagent, or [compact](https://www.aihero.dev/ai-coding-dictionary/compaction), the skill can walk you through it. It works the options above top to bottom and the *first* 'yes' wins, which turns a vague feeling into an ordered set of questions.
 
-So when you are not sure whether to continue, clear, hand off, send it to a subagent, or [compact](https://www.aihero.dev/ai-coding-dictionary/compaction), the skill can walk you through it. It works the options top to bottom and the first yes wins, which turns a vague feeling into an ordered set of questions.
+**Take Its Answers With A Pinch Of Salt**
+
+Look back at the answer it gave me. It said to clear. I would say the best thing there is probably to compact instead, because some of that implementation context is worth carrying into the bug hunt. And to be honest, you might not need the `/diagnosing-bugs` skill at all. That skill is only for very, very tricky bugs. If it is a simple bug, you might just be able to sort it yourself.
+
+So treat it like any agent. It is a router, not an oracle. It is a nice way to ask questions about the skills and figure out what you might want to use next, and you still apply your own judgement to what comes back.
+
+If you notice it giving any weird answers, raise an issue on the skills repo itself. That is how the router gets better.
+
+People have found this useful for getting to grips with the skills, as a first port of call for the things they do not quite understand yet.
+
+## Where You Go From Here
+
+The five-step process covered in this course is an essential part of how to build software:
+
+1. **[Grill](https://www.aihero.dev/ai-coding-dictionary/grilling) the idea** - align with the AI before you get going
+2. **Create a [spec](https://www.aihero.dev/ai-coding-dictionary/spec)** - decide where you're going
+3. **Create [tickets](https://www.aihero.dev/ai-coding-dictionary/ticket)** - split things up to parallelize work, or to make sure you stay in the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone)
+4. **Implement** - work through the tickets
+5. **Review** - check things that couldn't have been done during implementation
+
+Even though things have changed over time, this process still fits into this format. And this core set of five steps is going to stick.
+![[5-step-system.png|Five-step system: grilling session → spec → tickets → implement → review]]
