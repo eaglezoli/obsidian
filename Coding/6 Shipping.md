@@ -39,11 +39,27 @@ I rarely actually go and read these specs myself. If I were to read the spec, wh
 
 **Horizontal Slices Are a Trap**
 
-Every application has layers. But you shouldn't develop in layers. 
 ![[application-layers.png|Application layers: database, API, front-end, services, and components]]
+Every application has layers. But you shouldn't develop in layers, which is what the AI likes to do.
 
 ![[horizontal-phases.png|How an agent thinks to break up tasks: horizontal slices with separate phases for each layer]]
+This looks well-organized and reasonable, but it's a trap. Software developers have known about this for decades.
 
-![[image-2.png]]
+If you do it this way, all of the code in phase 1, you don't really know if it works or if it's well designed until you're implementing phase 3. You need to cross the layers to work out if the code for that layer is well designed.
 
+With horizontal slices, you get feedback on the whole system far too late.
+
+**Vertical Slices Give Early Feedback**
+
+The way to fix this is vertical slices. The agent works across layers from the very first phase.
+
+From the word go, they're touching the database, the API, and the front-end. They're building out a minimal implementation first, then building from there.
+![[vertical-slices.png|Vertical slices cutting across all layers from the first phase]]
+This means they're getting feedback on their design, its feasibility, and seeing how all the layers integrate from the first phase.
+
+Every phase that builds on that is pretty trivial because it's just building on work that it already knows is well integrated.
+
+Using the phrase "vertical slices" is actually really good because the agent already understands vaguely what it means. The concept of vertical slices and tracer bullets has been around for a long time - it goes back to [_The Pragmatic Programmer_](https://www.amazon.co.uk/Pragmatic-Programmer-Andrew-Hunt/dp/020161622X).
+
+![[tracer-limits.png]]
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
