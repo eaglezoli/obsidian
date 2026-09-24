@@ -38,9 +38,9 @@ I rarely actually go and read these specs myself. If I were to read the spec, wh
 # Split Features Across Context Windows With `/to-tickets`
 
 
-![[image.png]]
+![[application-layers.png|Application layers: database, API, front-end, services, and components]]
 
-![[image-1.png]]
+![[horizontal-phases.png|How an agent thinks to break up tasks: horizontal slices with separate phases for each layer]]
 
 ![[image-2.png]]
 
