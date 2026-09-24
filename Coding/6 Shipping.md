@@ -624,11 +624,27 @@ When you implement something, you have to explore where it fits in the codebase,
 
 Code review has none of them. You do not need the exploration, because the exploration has already been done and you are handed the right file straight away. You do not need to make many changes, because you are reading what is there. And you carry no burden for testing that everything works, because the tests have been written and run already.
 
-||`/implement`|Code review|
-|---|---|---|
-|Explore the codebase|Yes|No|
-|Write the files|Yes|No|
-|Debug and test|Yes|No|
+|                      | `/implement` | Code review |
+| -------------------- | ------------ | ----------- |
+| Explore the codebase | Yes          | No          |
+| Write the files      | Yes          | No          |
+| Debug and test       | Yes          | No          |
 
 So it makes much more sense to load the coding standards into code review than to try to make the implementer get it right first time. The review agent has a lot more space in its context window, and far fewer demands on it.
+![[implementer-vs-reviewer_demands.png|Comparison of demands on the implementer vs the code review agent]]
+**What A Real Standards File Looks Like**
+
+A mature standards file is loose, and that is fine. Every line in one arrives the same way: you noticed the agent do something stupid, and you wrote it down.
+
+```
+Context menu items should always include a leading icon (from `lucide-react`), matching the style of the surrounding items. When adding a new menu item, pick an icon that conveys the action.
+```
+
+That one exists because, for some reason, the agent just was not adding icons.
+
+```
+All files in `./app/routes` will be exposed publicly as routes. Do not include test files or utility files there.
+```
+
+You could break a file like this down and put parts of it behind [context pointers](https://www.aihero.dev/ai-coding-dictionary/context-pointer). If a rule only makes sense for front-end work, that is where it belongs. But since the standards file is only ever loaded during code review, its size matters much less than it would in an always-on steering file. It is fine for it to get quite large.
 
