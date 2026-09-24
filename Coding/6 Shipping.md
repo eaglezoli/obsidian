@@ -172,5 +172,70 @@ So this means we could work on one and two and then split up to do three and fou
 
 That's entirely optional, you don't have to do that, but it is a little bit quicker if you can make that work. And this means that we can scale this [skill](https://www.aihero.dev/ai-coding-dictionary/skill) up to actually fanning out, producing multiple pieces of work and merging them back together.
 
+**The published tickets**
+![[published-issue-ticket.png|GitHub issues page showing the parent issue #4 with five sub-issues]]
+So we've got our spec and we have the first one that's unblocked, which is the groundwork.
+
+We get an explicit link to the parent, and then we get what to build and the acceptance criteria.
+
+Notice this ticket is pretty light here because we have the parent spec to rely on. All we're doing is really specifying which bit of the spec we're building now.
+
+![[ticket-parent-link_acceptance-criteria.png|Ticket #5 showing parent link and acceptance criteria]]
+And having this explicit acceptance criteria is really nice for giving it a point where it can stop.
+
+**Review the tickets lightly**
+
+What I recommend you do is read through some of these. Again, I don't recommend actually reviewing each of these because they're just summaries of the things that we've decided already.
+
+These tickets are relatively light, they're just splitting up the spec so that we can go and work on it.
+
+## Executing Your Tickets
+
+There are three [skills](https://www.aihero.dev/ai-coding-dictionary/skill) that handle this: `/implement`, `/tdd`, and `/code-review`. They work together to build features, write tests first, and review the work before committing.
+
+### **The `/implement` Skill**
+
+The `/implement` skill is the orchestrator. It delegates most of its work to the other two skills.
+
+Here's what it does:
+
+- Implement the work described in the spec or tickets
+- Use `/tdd` where possible, at pre-agreed seams
+- Run [typechecking](https://www.aihero.dev/ai-coding-dictionary/automated-check) regularly, single test files regularly, full test suite once at the end
+- Once done, use `/code-review` to review the work
+- Commit your work to the current branch
+
+It's very simple. The real work happens in `/tdd` and `/code-review`.
+
+
+### **The `/tdd` Skill**
+
+The `/tdd` skill is where the quality comes from. [Agents](https://www.aihero.dev/ai-coding-dictionary/agent) do their best work when they have the most feedback, and TDD is a great technique for that.
+
+You write the unit test for the feature first, then implement it. The test gives the agent immediate feedback on whether the implementation is correct.
+
+The skill includes:
+
+- What a good test is - tests verify behaviour through public interfaces, not implementation details
+- Advice on mocking and tests
+- What seams are - the public boundary you test at
+- What bad tests are - implementation-coupled, tautological, or horizontal slicing
+- Rules of the loop - red before green, one slice at a time, refactoring belongs in review
+
+**Test Only at Pre-Agreed Seams**
+
+A **seam** is the public boundary you test at. Tests live at seams, never against internals.
+
+Before writing any test, you write down the seams under test and confirm them with the user. No test is written at an unconfirmed seam.
+
+This keeps testing effort on the critical paths and complex logic instead of every edge case.
+
+**Tautological Tests**
+
+One anti-pattern worth calling out: **tautological tests**. These are tests where the assertion recomputes the expected value the way the code does.
+
+For example: `expect(add(a, b)).toBe(a + b)`. The test passes by construction and can never disagree with the code.
+
+Expected values must come from an independent source of truth - a known-good literal, a worked example, the spec.
 
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
