@@ -266,7 +266,7 @@ The Standards sub-agent gets:
 
 It reports every place the diff violates a documented standard, and any baseline smell it spots. Documented-standard breaches can be hard violations, but baseline smells are always judgement calls.
 
-### The Spec Sub-Agent
+**The Spec Sub-Agent**
 
 The Spec sub-agent gets:
 
@@ -280,5 +280,35 @@ It reports:
 - Requirements that look implemented but where the implementation looks wrong
 
 This second pass massively increases the quality of the output. It often goes and fixes the really bad stuff itself.
+
+### Context Management
+
+There's a debate: do you review after all tickets are complete, or review individual tickets against the spec?
+
+For this lesson, we're going to review each individual ticket. But sometimes you'll just do it right at the end.
+
+**Clearing vs. Compacting**
+
+Once you finish the planning phase, you need to decide: [**clear**](https://www.aihero.dev/ai-coding-dictionary/clearing) or [**compact**](https://www.aihero.dev/ai-coding-dictionary/compaction)?
+
+The spec and tickets stay outside of [context](https://www.aihero.dev/ai-coding-dictionary/context). They're in documents, so the conversation history is now disposable. It's just a more verbose version of the documents you already have.
+
+If you **compact**, the next [session](https://www.aihero.dev/ai-coding-dictionary/session) might not have to do so much exploration because it should already have the right context for it.
+
+However, it's just cheaper and faster to **clear**. That way you're going to start your new session with the maximum of the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone).
+
+For this lesson, we're at ~90k [tokens](https://www.aihero.dev/ai-coding-dictionary/token) after planning (original task: building . The planning context is now disposable because it's been encoded into the spec and the tickets. So we're going to clear it.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
