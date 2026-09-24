@@ -395,9 +395,15 @@ For each ticket:
 5. Close the ticket
 6. Decide whether to clear, compact, or continue
 
-There's no real reason to sit around while the agent cooks here. And what the cool thing about this loop is that it's really minimal input from you. You just say, okay, do the next one now.
+There's no real reason to sit around while the agent cooks here. And what the cool thing about this loop is that it's really minimal input from you. You just say, okay, do the next one now. While this has been going, I've been answering emails, I've been doing other stuff and checking back in occasionally seeing how things are going.
 
-Then QA the Implementation:
+I sometimes have tasks that are so big, tickets that are so big that they go 300K tokens or something. In those situations I mostly chalk it up as a learning experience and try to improve the skills so it catches those in future. Often they are something silly like a rename that accidentally touches way more that has a much bigger blast radius than I thought.
+
+Sometimes you can catch them, and sometimes you just can't. And that is one benefit of a large context window, is even if you screw up, it's not like it's going to compact at a weird moment. It will just keep going, keep going. And that is expensive, but it does mean you can continue, at least.
+
+And of course you can still continue even if it compacts at a weird moment, but I find that compacting at strange moments means that it loses context in funny ways and it just doesn't end up working quite as well.
+
+**## QA - Testing the implementation:**
 - Check that each feature from the spec is present and working correctly.
 - Open your browser's developer console and verify no errors appear.
 - Ensure the analytics dashboard displays properly and matches the design.
