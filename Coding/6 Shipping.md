@@ -520,3 +520,22 @@ So you don't throw away your work, probably, unless it's really, really bad. And
 Use `/implement` to implement the new tickets.
 
 ![[rerouting-steps.png|Rerouting]]
+## The `/goal` Command
+
+One of the things people ask me a lot is: why don't we use `/goal` to implement our [specs](https://www.aihero.dev/ai-coding-dictionary/spec)?
+
+**The `/goal` Theory**
+
+The theory here is we would create a spec, and then we would use `/goal`, which is a feature of many [harnesses](https://www.aihero.dev/ai-coding-dictionary/harness) where the [agent](https://www.aihero.dev/ai-coding-dictionary/agent) pursues a goal in a single [context window](https://www.aihero.dev/ai-coding-dictionary/context-window) until that goal is complete.
+
+The goal would be the destination, which is a very, very well-specified destination, and it seems like a great use case for `/goal`.
+
+![[goal-theory.png|Goal theory]]
+## The Problem: The Dumb Zone
+
+However, all of the implementations of `/goal` that I've seen don't really take advantage of the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone). It's all done in a single context window, relying on [auto-compaction](https://www.aihero.dev/ai-coding-dictionary/autocompact) to manage it.
+
+And so what you end up with is a little bit of smart zone at the start, and then a whole lot of dumb zone.
+
+Every time I've tried this, I see the same setup. So I still believe that the spec-and-tickets approach is better than the spec-and-`/goal` approach.
+
