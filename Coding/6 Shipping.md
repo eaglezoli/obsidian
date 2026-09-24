@@ -207,6 +207,25 @@ Here's what it does:
 
 It's very simple. The real work happens in `/tdd` and `/code-review`.
 
+```
+/implement <issue-url>
+```
+
+This will kick off the implementation. The agent will:
+
+1. Use `/tdd` to write tests first, then implement the feature
+2. Run typechecking and tests regularly
+3. Use `/code-review` to review the work
+4. Commit the work to the current branch
+
+You'll see it:
+
+- Propose test seams and confirm them with you
+- Write failing tests (red)
+- Implement the feature (green)
+- Run `/code-review` to catch issues
+- Fix any issues the review found
+- Commit the work
 
 ### **The `/tdd` Skill**
 
@@ -297,7 +316,7 @@ If you **compact**, the next [session](https://www.aihero.dev/ai-coding-dictiona
 
 However, it's just cheaper and faster to **clear**. That way you're going to start your new session with the maximum of the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone).
 
-For this lesson, we're at ~90k [tokens](https://www.aihero.dev/ai-coding-dictionary/token) after planning (original task: building . The planning context is now disposable because it's been encoded into the spec and the tickets. So we're going to clear it.
+For this lesson, we're at ~90k [tokens](https://www.aihero.dev/ai-coding-dictionary/token) after planning (original task: building an instructor analytics dashboard. The planning context is now disposable because it's been encoded into the spec and the tickets. So we're going to clear it.
 
 
 
