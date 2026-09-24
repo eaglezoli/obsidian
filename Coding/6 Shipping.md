@@ -485,4 +485,38 @@ So we can maybe have a [grilling](https://www.aihero.dev/ai-coding-dictionary/gr
 
 **The Spec Is The Destination**
 
+In other words, the spec is the destination and we are changing the destination.
 
+The destination and the plan live in two separate documents rather than one so the destination can be edited while the journey is thrown away.
+
+What I would do is go back to the spec, have a new grilling session, and then once I'm happy with my edits to the spec, I would create a new set of tickets.
+
+This new set of tickets might change the scope of the work a little bit, so we end up with maybe just a bit more that we're doing. But it means that we've found the journey to our new destination from where we are.
+
+### The Flow
+
+The whole flow looks like this:
+
+**1. "Oh no, this needs to change"**
+
+Realize that you want to change the destination. This is not turning out how you wanted.
+
+**2. Close the tickets**
+
+Delete any existing tickets that haven't yet been implemented. But you keep the spec because you want to modify the spec.
+
+**3. Modify the spec**
+
+Use [`/grill-me`](https://aihero.dev/things-people-get-wrong-with-grill-me-and-grill-with-docs) to adjust the spec, describing what you want changed. Probably in a new [session](https://www.aihero.dev/ai-coding-dictionary/session).
+
+**4. Regenerate the tickets**
+
+Once you're happy with the spec, regenerate the tickets based on where you are. You use `/to-tickets` to regenerate the new tickets.
+
+So you don't throw away your work, probably, unless it's really, really bad. And then you continue implementing from that point.
+
+**5. Continue implementing**
+
+Use `/implement` to implement the new tickets.
+
+![[rerouting-steps.png|Rerouting]]
