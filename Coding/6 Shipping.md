@@ -311,6 +311,8 @@ Both of these are going to come back with a report that we can then take a look 
 
 This is really great because we basically reset our smart zones. So with the sub-agents, because they're working in their own [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone), we don't need to worry about the fact they're going to be made dumb by this 113k token [context window](https://www.aihero.dev/ai-coding-dictionary/context-window) that we've got.
 
+The implementation agent can actually deviate quite far from the spec. And so having a review step does a pretty good job in catching those.
+
 
 **Why Two Axes**
 
@@ -381,6 +383,8 @@ The reason for that is that we have a really rich amount of [context](https://ww
 
 So I'm feeling pretty positive that we can just clear the context and, you know, instantly done and we're able to implement the next issue.
 
+The rule of thumb is if you have a if it's 50/50 between clear and compact then you should choose clear because it's cheaper and faster.
+
 ### Implement the Remaining Tickets
 
 For each ticket:
@@ -390,6 +394,8 @@ For each ticket:
 4. Review the code review output
 5. Close the ticket
 6. Decide whether to clear, compact, or continue
+
+There's no real reason to sit around while the agent cooks here. And what the cool thing about this loop is that it's really minimal input from you. You just say, okay, do the next one now.
 
 Then QA the Implementation:
 - Check that each feature from the spec is present and working correctly.
