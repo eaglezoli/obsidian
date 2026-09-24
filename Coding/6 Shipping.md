@@ -162,5 +162,15 @@ It's even explicitly saying here:
 
 Think of the tracer bullets landing at the final destination (the UI).
 ![[tickets-landing.png|Claude's message stating every ticket lands as something you can look at]]
+**Blocking relationships and parallel work**
+
+It also, by the way, does this clever thing where it has blocking relationships here.
+
+So technically we can do these in parallel if we wanted to. For instance, in the overview panels, like two, we've got the page shell, and then three is blocked by two and four is blocked by two.
+
+So this means we could work on one and two and then split up to do three and four in separate context windows if we wanted to.
+
+That's entirely optional, you don't have to do that, but it is a little bit quicker if you can make that work. And this means that we can scale this [skill](https://www.aihero.dev/ai-coding-dictionary/skill) up to actually fanning out, producing multiple pieces of work and merging them back together.
+
 
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
