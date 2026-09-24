@@ -65,6 +65,25 @@ To get beautifully vertically sliced tickets, you use the `/to-tickets` [skill](
 
 **When to Call /to-tickets**
 
+![[phase-end_decision-tree.png|Decision tree diagram for when to continue, compact, or start fresh at the end of a phase]]
 
+
+When you reach the end of a phase, you need to decide what to do next. After `/to-spec`, that's definitely the end of a piece of work.
+
+Walk through this decision tree:
+
+**Can you continue?** Do you have enough smart zone left?
+
+If yes, and your [context](https://www.aihero.dev/ai-coding-dictionary/context) is relevant to the next piece of work, you can keep going in the same session.
+
+**Is your context irrelevant?** If the information in your context isn't relevant to the next task, [start fresh](https://www.aihero.dev/ai-coding-dictionary/clearing).
+
+In this case, the context is extremely relevant. All the decisions that went into the spec are in the context. It makes sense to keep this around.
+
+**Do we need to [hand off](https://www.aihero.dev/ai-coding-dictionary/handoff)?** Not if we're staying within the same agent and directory.
+
+**Can this be done [AFK](https://www.aihero.dev/ai-coding-dictionary/afk)?** Not if you need [human review](https://www.aihero.dev/ai-coding-dictionary/human-review).
+
+This situation is a great candidate for [compacting](https://www.aihero.dev/ai-coding-dictionary/compaction) if you're outside the smart zone. However, if you don't need to, you can just continue.
 
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]

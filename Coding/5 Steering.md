@@ -124,7 +124,6 @@ However, it does have some weaknesses.
 | Project | `.agents/skills/`   | Scoped to one project | Shared with everyone who clones |
 
 **Two Flavours**
-
 ![[two-skill-flavours.png|Whiteboard diagram showing user-level vs project-level skill characteristics]]
 
 | User-Level | Project-Level  |
