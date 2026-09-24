@@ -585,3 +585,50 @@ Now agents can help. [Automated review](https://www.aihero.dev/ai-coding-diction
 Crucially, this does not replace human review. It makes human review easier, because the agent has already walked through the diff and done a first pass. Automated review catches more than you would catch without it. You still want a human doing a sanity check on top for most types of work.
 
 That is what the code review skill is doing. You implement in one [context window](https://www.aihero.dev/ai-coding-dictionary/context-window), then you review in a fresh one.
+
+**The Two Axes**
+
+The review runs along two axes. The Spec axis asks whether the code faithfully implements what was asked for:
+
+```
+- **Spec** — does the code faithfully implement the originating issue / PRD / spec?
+```
+
+The other axis is standards. Coding standards matter because you do not want your agent making the same mistake again and again and again. Those steering instructions have to live somewhere.
+
+Slotting them into `CLAUDE.md` is painful, and it has real downsides. Code review is an interesting case, though, because the skill lets you customise it. You create your own `CODING_STANDARDS.md` file.
+
+**CODING_STANDARDS.md**
+
+The file just sits there and captures the coding standards for the repo. When you notice the agent doing something weird, you put it in the standards file, and the review catches it next time.
+
+A brand new one can be a single line:
+
+```
+Don't do stupid stuff.
+```
+
+The skill finds it during its third step, when it works out where this repo documents how code should be written:
+
+```
+Anything in the repo that documents how code should be written, such as `CODING_STANDARDS.md` or `CONTRIBUTING.md`.
+```
+
+That step is the seam you are writing into. (We've deliberately made the review process look for repo documentation here, so you can customise its behaviour just by adding/updating that documentation.)
+
+**Why Standards Belong In Review**
+
+The reason this makes sense is that code review is a lot less constrained than implementation is.
+
+When you implement something, you have to explore where it fits in the codebase, write all the files, and then debug it to see whether it actually works. Three demands, all in one context window.
+
+Code review has none of them. You do not need the exploration, because the exploration has already been done and you are handed the right file straight away. You do not need to make many changes, because you are reading what is there. And you carry no burden for testing that everything works, because the tests have been written and run already.
+
+||`/implement`|Code review|
+|---|---|---|
+|Explore the codebase|Yes|No|
+|Write the files|Yes|No|
+|Debug and test|Yes|No|
+
+So it makes much more sense to load the coding standards into code review than to try to make the implementer get it right first time. The review agent has a lot more space in its context window, and far fewer demands on it.
+
