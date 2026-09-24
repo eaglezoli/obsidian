@@ -648,3 +648,17 @@ All files in `./app/routes` will be exposed publicly as routes. Do not include t
 
 You could break a file like this down and put parts of it behind [context pointers](https://www.aihero.dev/ai-coding-dictionary/context-pointer). If a rule only makes sense for front-end work, that is where it belongs. But since the standards file is only ever loaded during code review, its size matters much less than it would in an always-on steering file. It is fine for it to get quite large.
 
+**The Baseline You Get For Free**
+
+Even with no standards file at all, the Standards axis still carries a set of code smells drawn from Martin Fowler's _Refactoring_.
+
+Shotgun Surgery. Divergent Change. Mysterious Name. These are classic coding terms, so agents already know all about them. The review will often find something even when you have documented nothing.
+
+Your own file sits on top of that baseline and overrides it. Where your repo endorses something the baseline would flag, the flag goes away.
+
+**Don't Shout At The Agent**
+
+Here is the habit worth building. Next time you finish an implementation and notice something you do not like, do not shout at the agent.
+
+Write it into `CODING_STANDARDS.md` instead, so the reviewer catches it.
+
