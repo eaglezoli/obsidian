@@ -232,10 +232,53 @@ This keeps testing effort on the critical paths and complex logic instead of eve
 
 **Tautological Tests**
 
-One anti-pattern worth calling out: **tautological tests**. These are tests where the assertion recomputes the expected value the way the code does.
+One anti-pattern (“don't do it this way” pattern) worth calling out: **tautological tests**. These are tests where the assertion recomputes the expected value the way the code does.
 
 For example: `expect(add(a, b)).toBe(a + b)`. The test passes by construction and can never disagree with the code.
 
 Expected values must come from an independent source of truth - a known-good literal, a worked example, the spec.
+
+### The `/code-review` Skill
+
+The `/code-review` skill does a two-axis review of the diff between `HEAD` and a fixed point you supply.
+
+It runs two [reviews](https://www.aihero.dev/ai-coding-dictionary/automated-review) in parallel [sub-agents](https://www.aihero.dev/ai-coding-dictionary/subagent):
+
+- **Standards** - does the code conform to this repo's documented coding standards?
+- **Spec** - does the code faithfully implement the originating issue / PRD / spec?
+
+**Why Two Axes**
+
+A change can pass one axis and fail the other:
+
+- Code that follows every standard but implements the wrong thing - **Standards pass, Spec fail**
+- Code that does exactly what the issue asked but breaks the project's conventions - **Spec pass, Standards fail**
+
+Reporting them separately stops one axis from masking the other.
+
+**The Standards Sub-Agent**
+
+The Standards sub-agent gets:
+
+- The full diff command and commit list
+- The list of standards-source files found in the repo
+- A smell baseline from _Refactoring_ - Mysterious Name, Duplicated Code, Feature Envy, Data Clumps, and others
+
+It reports every place the diff violates a documented standard, and any baseline smell it spots. Documented-standard breaches can be hard violations, but baseline smells are always judgement calls.
+
+### The Spec Sub-Agent
+
+The Spec sub-agent gets:
+
+- The diff command and commit list
+- The path or fetched contents of the spec
+
+It reports:
+
+- Requirements the spec asked for that are missing or partial
+- Behavior in the diff that wasn't asked for (scope creep)
+- Requirements that look implemented but where the implementation looks wrong
+
+This second pass massively increases the quality of the output. It often goes and fixes the really bad stuff itself.
 
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
