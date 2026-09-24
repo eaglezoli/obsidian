@@ -339,8 +339,17 @@ If you decide to continue, move on to the next ticket immediately.
 
 For this lesson, we're at ~90k [tokens](https://www.aihero.dev/ai-coding-dictionary/token) after planning (original task: building an instructor analytics dashboard. The planning context is now disposable because it's been encoded into the spec and the tickets. So we're going to clear it.
 
+### Implement the Remaining Tickets
 
+For each ticket:
+1. Copy the issue URL
+2. Run `/implement <url>`
+3. Watch the agent work
+4. Review the code review output
+5. Close the ticket
+6. Decide whether to clear, compact, or continue
 
+Then QA the Implementation. 
 
 
 
