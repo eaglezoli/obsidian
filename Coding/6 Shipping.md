@@ -349,7 +349,13 @@ For each ticket:
 5. Close the ticket
 6. Decide whether to clear, compact, or continue
 
-Then QA the Implementation. 
+Then QA the Implementation:
+- Check that each feature from the spec is present and working correctly.
+- Open your browser's developer console and verify no errors appear.
+- Ensure the analytics dashboard displays properly and matches the design.
+- Check that the data displayed makes sense and matches what you'd expect from the seed data.
+
+
 
 
 
