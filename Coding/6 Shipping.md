@@ -662,3 +662,48 @@ Here is the habit worth building. Next time you finish an implementation and not
 
 Write it into `CODING_STANDARDS.md` instead, so the reviewer catches it.
 
+## `/ask-matt`
+
+There is a tool for asking my advice without me being in the room.
+
+The skill takes a situation, not a keyword. Here is the one I put to it.
+
+```
+/ask-matt What's the best flow for fixing a bug once I've finished doing an implementation on a spec and all the tickets are closed?
+```
+
+That is a real position to be in. The [spec](https://www.aihero.dev/ai-coding-dictionary/spec) is built. Every [ticket](https://www.aihero.dev/ai-coding-dictionary/ticket) is closed. Then something turns out to be broken. There is no obvious next command to type, because the flow you were following has run out.
+
+The router opened with this.
+
+```
+**Short answer: `/clear`, then `/diagnosing-bugs`.**
+```
+
+Two moves. First empty the [context](https://www.aihero.dev/ai-coding-dictionary/context), because the spec thread is spent and a bug is a new starting point rather than a continuation of the build. Then reach for the skill that handles bugs.
+
+It went further than the headline. It said to check whether you can make the bug go red with one command: if you can, and the cause is obvious, write the failing test and fix it. If you cannot, that is when the diagnosis skill earns its place. It also named two things not to do. Do not triage the bug, because triage is only for issues you did not create. Do not reopen the closed spec, because a spec that turns out to be wrong is a new idea, not a patch.
+
+**It Knows Skills The Course Does Not Cover**
+
+The skill it recommended is one we have not encountered. It does exist in my real skillset.
+
+That is the point. This course covers the main flow and a fair few very important skills, but it does not cover everything in the skillset. There is still stuff to learn, and **`/ask-matt` is the way you learn it**. It is listed under Getting Started, and it is a good way to get up to speed with the rest of the skills.
+
+A **flow** is a path through the skills, not a single skill. Most work travels along one main flow. A couple of on-ramps merge onto it. The rest are standalone, or a vocabulary layer running underneath. When you name your situation, the router puts you on a flow at the right step, which is often a different answer from the skill whose name matches your words.
+
+**The Phase Boundary Checklist**
+
+One particularly useful thing lives inside the skill itself: a **phase boundary checklist**.
+
+A phase is a chunk of work inside a [session](https://www.aihero.dev/ai-coding-dictionary/session): the grilling, the implementation, the QA. The boundary is the gap between two of them, and it is where you decide what happens to your [context window](https://www.aihero.dev/ai-coding-dictionary/context-window). That decision is genuinely hard. You have five options and no obvious way to pick.
+
+|Option|What it does|
+|---|---|
+|Continue|Stay in the session. No context switch at all.|
+|Clear|Empty the context window and start from nothing.|
+|[Handoff](https://www.aihero.dev/ai-coding-dictionary/handoff)|Write a portable markdown file and seed a session anywhere with it.|
+|[Subagent](https://www.aihero.dev/ai-coding-dictionary/subagent)|Send the task to its own context window and get a report back.|
+|Compact|Compress this context and seed a fresh session with the summary.|
+
+So when you are not sure whether to continue, clear, hand off, send it to a subagent, or [compact](https://www.aihero.dev/ai-coding-dictionary/compaction), the skill can walk you through it. It works the options top to bottom and the first yes wins, which turns a vague feeling into an ordered set of questions.
