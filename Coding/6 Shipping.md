@@ -105,9 +105,34 @@ It comes back pretty fast and gives us 10 tickets.
 
 10 tickets feels way too much for this. If you think of the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone) as 150,000 [tokens](https://www.aihero.dev/ai-coding-dictionary/token), then this would mean we are budgeting 1.5 million tokens for this feature.
 
+That feels like way too much to me. I'm picturing that maximum we would need 450k. So let's say three tickets.
+
+The way I'm able to make that judgment call is just a gut feeling really, just having done a lot of this, a lot of looking at these proposed ticket breakdowns and seeing what comes out.
+
+450k even feels generous. I think this could probably even be done in two [sessions](https://www.aihero.dev/ai-coding-dictionary/session), but I don't want to push it.
+
+**Horizontal slicing is still a problem**
+![[claudes-initial-horizontal-tickets.png|Claude's initial 10-ticket breakdown showing horizontal slicing]]
+What we can see here too is doing classic horizontal slicing as well, which is frustrating because I'm really trying inside the [agent](https://www.aihero.dev/ai-coding-dictionary/agent) to not get it to do this, but it still just persistently does it.
+
+**This is why I feel a human looking at this is so important, by the way.**
+
+I think 10 is not a good candidate, I'm just going to say:
+
+```
+I would like to break this down into maximum three tickets. 
+I think ten feels way too much.
+```
+
+Let's give this a go.
+
+**Three tickets, but Claude pushes back**
 
 
+Okay, it's now given me three pretty large pieces of work here and it's actually saying:
 
+> One trade I want to be explicit about: tickets two and three are larger than a single fresh [context window](https://www.aihero.dev/ai-coding-dictionary/context-window).
 
+![[image-2.png]]
 
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
