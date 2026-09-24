@@ -415,9 +415,9 @@ One question I get all the time is: what should I do with my [specs](https://www
 
 Well, let me shock you. Now that this is represented in the code, I'm going to close the spec.
 
-## Primary and Secondary Sources
+**Primary and Secondary Sources**
 
-
+![[primary-secondary_sources.png|Codebase is the Primary Source and Spec is a Secondary Source]]
 
 
 
