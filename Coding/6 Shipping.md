@@ -531,11 +531,26 @@ The theory here is we would create a spec, and then we would use `/goal`, which 
 The goal would be the destination, which is a very, very well-specified destination, and it seems like a great use case for `/goal`.
 
 ![[goal-theory.png|Goal theory]]
-## The Problem: The Dumb Zone
+**The Problem: The Dumb Zone**
 
 However, all of the implementations of `/goal` that I've seen don't really take advantage of the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone). It's all done in a single context window, relying on [auto-compaction](https://www.aihero.dev/ai-coding-dictionary/autocompact) to manage it.
 
 And so what you end up with is a little bit of smart zone at the start, and then a whole lot of dumb zone.
 
 Every time I've tried this, I see the same setup. So I still believe that the spec-and-tickets approach is better than the spec-and-`/goal` approach.
+
+**Why Tickets Give You More Control**
+
+Tickets just give you a lot more control. They, I think, are often cheaper to use because you're doing most of your work in a lot of smart zones.
+
+Creating tickets from the spec is often a really, really short job. It usually just takes me a couple of minutes.
+
+On some of my workflows, which we're not really discussing in the course (covered in Real Engineers course), I even generate tickets [AFK](https://www.aihero.dev/ai-coding-dictionary/afk), so I don't even review them.
+
+|Approach|Context Management|Cost|Zone Quality|
+|---|---|---|---|
+|**Spec-and-Tickets**|Multiple smart zones|Often cheaper|Mostly smart|
+|**Spec-and-`/goal`**|Single context window|Potentially more expensive|Small smart zone, large dumb zone|
+
+## Enforcing Your Coding Standards
 
