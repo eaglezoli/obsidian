@@ -64,10 +64,7 @@ Using the phrase "vertical slices" is actually really good because the agent alr
 To get beautifully vertically sliced tickets, you use the `/to-tickets` [skill](https://www.aihero.dev/ai-coding-dictionary/skill).
 
 **When to Call /to-tickets**
-
 ![[phase-end_decision-tree.png|Decision tree diagram for when to continue, compact, or start fresh at the end of a phase]]
-
-
 When you reach the end of a phase, you need to decide what to do next. After `/to-spec`, that's definitely the end of a piece of work.
 
 Walk through this decision tree:
@@ -85,5 +82,32 @@ In this case, the context is extremely relevant. All the decisions that went int
 **Can this be done [AFK](https://www.aihero.dev/ai-coding-dictionary/afk)?** Not if you need [human review](https://www.aihero.dev/ai-coding-dictionary/human-review).
 
 This situation is a great candidate for [compacting](https://www.aihero.dev/ai-coding-dictionary/compaction) if you're outside the smart zone. However, if you don't need to, you can just continue.
+
+**Review the Ticket Breakdown**
+
+Each ticket should cut across all layers - database, API, front-end - not focus on just one layer.
+
+Look for tickets that say things like "implement the database schema" or "build the API endpoints" as separate phases. That's horizontal slicing.
+
+Good vertical slices deliver end-to-end behavior in each ticket - a narrow but complete path through every layer.
+
+Remember, you've only got one smart zone per session to play with. Each ticket should be sized to fit in a single fresh [context window](https://www.aihero.dev/ai-coding-dictionary/context-window).
+
+If a ticket looks like it's trying to do too much, ask the agent to split it further.
+
+The agent will iterate with you until you approve the breakdown. Don't move forward until the tickets are properly vertically sliced and appropriately sized.
+
+### Example
+
+**The first proposal: 10 tickets**
+
+It comes back pretty fast and gives us 10 tickets.
+
+10 tickets feels way too much for this. If you think of the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone) as 150,000 [tokens](https://www.aihero.dev/ai-coding-dictionary/token), then this would mean we are budgeting 1.5 million tokens for this feature.
+
+
+
+
+
 
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
