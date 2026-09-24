@@ -361,7 +361,7 @@ You can do this manually, or get your agent to do it for you.
 
 There's a debate: do you review after all tickets are complete, or review individual tickets against the spec?
 
-For this lesson, we're going to review each individual ticket. But sometimes you'll just do it right at the end.
+For this lesson, we're going to review each individual ticket. But sometimes you'll just do it right at the end (note: I'm not sure how when the skill is automatic).
 
 So at this point, we need to decide how to continue. We could potentially do QA on this commit and on this issue right now, but I think I want to save my QA until right at the end.
 
