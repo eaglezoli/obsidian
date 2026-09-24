@@ -554,3 +554,34 @@ On some of my workflows, which we're not really discussing in the course (covere
 
 ## Enforcing Your Coding Standards
 
+There are really three levels of checks you want running on your code before you ship it.
+
+|Level|What it catches|What it costs|
+|---|---|---|
+|Automated checks|Mechanical failures|Nothing|
+|Automated review|Judgement-shaped problems|[Tokens](https://www.aihero.dev/ai-coding-dictionary/token)|
+|Human review|Everything else|Your attention|
+![[checks.png|Three levels of checks]]
+**Automated Checks**
+
+[Automated checks](https://www.aihero.dev/ai-coding-dictionary/automated-check) are linting, typecheck, and unit tests. They matter because they are deterministic. The agent can run them and always get back the same pass or fail.
+
+They also cost you no tokens to run. They are essentially free. If everything could be done in automated checks, we would live in a dream world.
+
+But you cannot catch every bug in an automated check. A test suite proves only the properties you asserted. So you need some kind of reviewing system on top.
+
+**Human Review**
+
+Before AI, that reviewing system was a human. Someone looked at the pull request and said: that does not look right. That test is not doing what we think it is doing. Have you considered this approach?
+
+In other words, the human was providing qualitative feedback. Saying, I am not sure about this.
+
+And [human review](https://www.aihero.dev/ai-coding-dictionary/human-review) was always everyone's least favourite part of development. You would always have a stack of pull requests you needed to review, and it was painful.
+
+**Automated Review**
+
+Now agents can help. [Automated review](https://www.aihero.dev/ai-coding-dictionary/automated-review) means the agent reviews your work and provides the qualitative feedback itself.
+
+Crucially, this does not replace human review. It makes human review easier, because the agent has already walked through the diff and done a first pass. Automated review catches more than you would catch without it. You still want a human doing a sanity check on top for most types of work.
+
+That is what the code review skill is doing. You implement in one [context window](https://www.aihero.dev/ai-coding-dictionary/context-window), then you review in a fresh one.
