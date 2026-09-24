@@ -366,9 +366,18 @@ For this lesson, we're at ~90k [tokens](https://www.aihero.dev/ai-coding-diction
 
 So at this point, we need to decide how to continue. We could potentially do QA on this commit and on this issue right now, but I think I want to save my QA until right at the end.
 
-So what I'm going to do is I'm going to open up this issue on GitHub and as I'm going to immediately close it, which should then open up this issue to be worked on. So now it's number six.
+So what I'm going to do is I'm going to open up this issue on GitHub and immediately close it, which should then open up the next issue to be worked on.
 
-I'm going to copy the link address and then we're going to implement this issue next.
+I'm going to copy the link address and then we're going to implement the next issue.
+
+
+**Clearing the context**
+
+The next question is what do we do with our context window? It's currently at 125k. I would usually just straight up [clear](https://www.aihero.dev/ai-coding-dictionary/clearing) this context window.
+
+The reason for that is that we have a really rich amount of [context](https://www.aihero.dev/ai-coding-dictionary/context) outside of the context window. We have the [spec](https://www.aihero.dev/ai-coding-dictionary/spec). We have the next [ticket](https://www.aihero.dev/ai-coding-dictionary/ticket). We even have the previous ticket if it wanted to look at the intention of what was supposed to be done. And we have the commit in the commit history that it can read to see what was done.
+
+So I'm feeling pretty positive that we can just clear the context and, you know, instantly done and we're able to implement the next issue.
 
 ### Implement the Remaining Tickets
 
