@@ -60,6 +60,11 @@ This means they're getting feedback on their design, its feasibility, and seeing
 Every phase that builds on that is pretty trivial because it's just building on work that it already knows is well integrated.
 
 Using the phrase "vertical slices" is actually really good because the agent already understands vaguely what it means. The concept of vertical slices and tracer bullets has been around for a long time - it goes back to [_The Pragmatic Programmer_](https://www.amazon.co.uk/Pragmatic-Programmer-Andrew-Hunt/dp/020161622X).
+![[tracer-bullets.png|Building out sideways from the tracer bullet (vertical slice – or horizontal in this diagram)]]
+To get beautifully vertically sliced tickets, you use the `/to-tickets` [skill](https://www.aihero.dev/ai-coding-dictionary/skill).
 
-![[tracer-limits.png]]
+**When to Call /to-tickets**
+
+
+
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
