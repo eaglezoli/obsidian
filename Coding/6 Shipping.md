@@ -417,10 +417,50 @@ Well, let me shock you. Now that this is represented in the code, I'm going to c
 
 **Primary and Secondary Sources**
 
+A spec is really a condensed version (secondary source) of how a codebase (the primary source) works or even just a part of a codebase works.
+
+And of course, the issue with a [secondary source](https://www.aihero.dev/ai-coding-dictionary/secondary-source) is it's only a projection. It's a summary of how the thing actually works.
 ![[primary-secondary_sources.png|Codebase is the Primary Source and Spec is a Secondary Source]]
+**The Drift Problem**
 
+And the worst part is the codebase can very quickly move away from the spec.
 
+In other words, if you're not constantly keeping the spec up to date with the codebase, they are going to drift apart.
 
+**Why Not Spec-Driven Development?**
+
+There's a very popular approach called spec-driven development. One of the ways you can do spec-driven development is you take these specs, save them in the repo, and they become the source of truth instead of the code.
+
+However, it's this exact drift risk that makes me terrified of that approach. If your agent is exploring your local repo and finding these old, ancient specs on how the code works, it's very likely to trust the out-of-date spec - the secondary source - instead of the primary source.
+
+The secondary source is often easier to explore, smaller, denser. So it's unlikely to go and actually touch the primary source, which is more verbose and harder to explore, if it's seen that.
+
+**The Code Doesn't Lie**
+
+The issue is, of course, that the codebase doesn't lie about itself. If you look at the executable parts of the codebase - the functions themselves - they are unlikely to lie about what the code actually does.
+
+This is assuming you don't have weird, stale parts of your codebase, like:
+
+- Functions that are no longer called
+- A part of the system that's kept there for legacy purposes
+- Throwaway [prototypes](https://www.aihero.dev/ai-coding-dictionary/prototyping) in the repo
+
+**Archive, Don't Delete**
+
+All this to say: get rid of your specs as soon as they are put into code.
+
+I really like this issues approach because you can close an issue, it gets moved out of the way of the main views, and it's kind of archived, specifically marked as archived. But if the agent needs to come back to it to have a look at how something was implemented or why something was implemented, then the spec is there for it to explore.
+
+**Why GitHub Issues Work**
+
+Not only that, but your team can see them. If your spec is local markdown on your laptop, then it's just yours. Whereas a spec in the tracker is the team's. It's reviewable, commentable, and findable by someone who was not in the room.
+
+Not only that, but if you keep these [tickets](https://www.aihero.dev/ai-coding-dictionary/ticket) out of the local setup, it means that they're durable if you're switching worktrees, if you're switching laptops. The state is not colliding with your local setup.
+
+**The Verdict**
+
+So that is my message to you: archive your specs.
+![[archive-your-specs.png|Archive your specs]]
 
 
 
