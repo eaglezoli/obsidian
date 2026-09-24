@@ -60,7 +60,7 @@ This means they're getting feedback on their design, its feasibility, and seeing
 Every phase that builds on that is pretty trivial because it's just building on work that it already knows is well integrated.
 
 Using the phrase "vertical slices" is actually really good because the agent already understands vaguely what it means. The concept of vertical slices and tracer bullets has been around for a long time - it goes back to [_The Pragmatic Programmer_](https://www.amazon.co.uk/Pragmatic-Programmer-Andrew-Hunt/dp/020161622X).
-![[tracer-bullets.png|Building out sideways from the tracer bullet (vertical slice – or horizontal in this diagram)]]
+![[tracer-bullets.png|Building out sideways from the tracer bullet (vertical slice – or horizontal in this diagram, also not sure why it's starting with UI)]]
 To get beautifully vertically sliced tickets, you use the `/to-tickets` [skill](https://www.aihero.dev/ai-coding-dictionary/skill).
 
 **When to Call /to-tickets**
@@ -133,6 +133,34 @@ Okay, it's now given me three pretty large pieces of work here and it's actually
 
 > One trade I want to be explicit about: tickets two and three are larger than a single fresh [context window](https://www.aihero.dev/ai-coding-dictionary/context-window).
 
-![[image-2.png]]
+![[claudes-ticket-warning.png|Claude's warning about tickets exceeding context window size]]
+So it's saying that it's pretty scared about this overview tab. Okay. Maybe we'll pull it to like five or something.
+
+What I can see though is that these three are pretty good vertical slices. There is some groundwork that's being done here. There's some stuff that's kind of being included in this PR that probably could be elsewhere. So there's indexes, the seed rewrite, and the dead parameter prefactor.
+
+Prefactor by the way if you've never heard of this - this is just a refactor before you do some work.
+
+This will burn a lot of tokens because we're just like plowing in a bunch of seed data, and so just like lots of [output tokens](https://www.aihero.dev/ai-coding-dictionary/output-tokens) will be produced during this. And so I guess it makes sense to have it before we do any of the other vertical slices.
+
+But the other ones, because they're now grouping a ton of work together, they are by definition vertical because they're like building out throughout an entire feature.
+
+So let's see if it retains the vertical slices when we go to five:
+
+```
+Could we have five tickets instead of three?
+```
+
+## Five tickets: the sweet spot
+
+Okay, so the groundwork is looking the same here and then it starts then with a page shell. That's a good classic vertical slice. I really like that.
+
+It then goes on and adds some extra overview panels, then the course detail selector, progress and drop-off funnel and course detail extras. Okay.
+
+It's even explicitly saying here:
+
+> Every ticket lands as something you can look at
+
+Think of the tracer bullets landing at the final destination (the UI)
+![[tickets-landing.png|Claude's message stating every ticket lands as something you can look at]]
 
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
