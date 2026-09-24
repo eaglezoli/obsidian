@@ -35,6 +35,9 @@ An analytics page is so big, so potentially scope creepy and could expand larger
 
 I rarely actually go and read these specs myself. If I were to read the spec, what would I actually be testing for? I'd just be testing the agent's ability to summarize what we just talked about. And that's something that I kind of take on trust.
 
+# Split Features Across Context Windows With `/to-tickets`
+
+
 ![[image.png]]
 
 ![[image-1.png]]
