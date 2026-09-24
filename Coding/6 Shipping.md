@@ -39,7 +39,7 @@ I rarely actually go and read these specs myself. If I were to read the spec, wh
 
 **Horizontal Slices Are a Trap**
 
-Every application has layers. 
+Every application has layers. But you shouldn't develop in layers. 
 ![[application-layers.png|Application layers: database, API, front-end, services, and components]]
 
 ![[horizontal-phases.png|How an agent thinks to break up tasks: horizontal slices with separate phases for each layer]]
