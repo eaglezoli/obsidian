@@ -243,6 +243,8 @@ If it hits any trouble with the implementation or it's something isn't behaving 
 
 It's now doing some final verification. So it is doing the tests and the [type checking](https://www.aihero.dev/ai-coding-dictionary/automated-check). And now it's gone over to run the code review.
 
+We don't really have a way for it to verify a running application. For that, you could use something like the Chrome DevTools [MCP](https://www.aihero.dev/ai-coding-dictionary/mcp) server or similar. It can take photos of things. There's even agent-browser as well. That's a good one.
+
 **Clearing vs. Compacting**
 (This is for after planning/spec phase and before implementing, not after each ticket.)
 
