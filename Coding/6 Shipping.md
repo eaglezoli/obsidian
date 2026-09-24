@@ -227,6 +227,22 @@ You'll see it:
 - Fix any issues the review found
 - Commit the work
 
+**Auto Mode**
+
+One thing, by the way, that's really very important for these situations is [Auto Mode](https://www.aihero.dev/ai-coding-dictionary/agent-mode), which is the ability to just run it and have a classifier just checking the [permission requests](https://www.aihero.dev/ai-coding-dictionary/permission-request).
+
+So I can probably leave this for a bit and come back and the implementation for the first phase should be finished as well as hopefully the review.
+
+This is a Claude Code-only feature, though I'm fairly sure that other [harnesses](https://www.aihero.dev/ai-coding-dictionary/harness) also will implement their own version of Auto Mode.
+
+**Verification loops**
+
+Verification loops can absolutely eat [tokens](https://www.aihero.dev/ai-coding-dictionary/token), which is part of the reason why we're so careful with making sure the tasks are the right size.
+
+If it hits any trouble with the implementation or it's something isn't behaving how it wants, then it can burn tokens trying to get where it needs to.
+
+It's now doing some final verification. So it is doing the tests and the [type checking](https://www.aihero.dev/ai-coding-dictionary/automated-check). And now it's gone over to run the code review.
+
 ### **The `/tdd` Skill**
 
 The `/tdd` skill is where the quality comes from. [Agents](https://www.aihero.dev/ai-coding-dictionary/agent) do their best work when they have the most feedback, and TDD is a great technique for that.
@@ -312,6 +328,14 @@ The agent will show you both the Standards review and the Spec review. Check tha
 Close the sub-issue on GitHub. This is good hygiene. Once you close the first one, the second one will be unblocked.
 
 You can do this manually, or get your agent to do it for you.
+
+A code review is a model-invokable skill, so it's able to just chain them together without asking you. And we can see it's initialised two [agents](https://www.aihero.dev/ai-coding-dictionary/agent) here. So it's initialized the standards review and the spec review.
+
+Both of these are going to come back with a report that we can then take a look at to see if we want to change anything about the way it was implemented.
+
+This is really great because we basically reset our smart zones. So with the sub-agents, because they're working in their own [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone), we don't need to worry about the fact they're going to be made dumb by this $113k token [context window](https://www.aihero.dev/ai-coding-dictionary/context-window) that we've got.
+
+These two agents have now finished the standards review and the spec review and it has had four things come back and it's immediately gone and fixed them.
 
 ### Context Management
 
