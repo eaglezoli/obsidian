@@ -300,6 +300,19 @@ It reports:
 
 This second pass massively increases the quality of the output. It often goes and fixes the really bad stuff itself.
 
+**Review and Close the Ticket**
+
+The agent will show you both the Standards review and the Spec review. Check that:
+
+- No documented standards were violated
+- No baseline smells were introduced
+- All requirements from the spec were implemented
+- No scope creep snuck in
+
+Close the sub-issue on GitHub. This is good hygiene. Once you close the first one, the second one will be unblocked.
+
+You can do this manually, or get your agent to do it for you.
+
 ### Context Management
 
 There's a debate: do you review after all tickets are complete, or review individual tickets against the spec?
@@ -316,8 +329,15 @@ If you **compact**, the next [session](https://www.aihero.dev/ai-coding-dictiona
 
 However, it's just cheaper and faster to **clear**. That way you're going to start your new session with the maximum of the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone).
 
-For this lesson, we're at ~90k [tokens](https://www.aihero.dev/ai-coding-dictionary/token) after planning (original task: building an instructor analytics dashboard. The planning context is now disposable because it's been encoded into the spec and the tickets. So we're going to clear it.
+Look at the token count in the status line.
 
+If you're at ~90k tokens or higher, consider clearing. The spec and tickets are outside of context, so the conversation history is now disposable. If you're under that, you might be able to continue to the next ticket.
+
+If you decide to compact, the next session might not have to do so much exploration.
+
+If you decide to continue, move on to the next ticket immediately.
+
+For this lesson, we're at ~90k [tokens](https://www.aihero.dev/ai-coding-dictionary/token) after planning (original task: building an instructor analytics dashboard. The planning context is now disposable because it's been encoded into the spec and the tickets. So we're going to clear it.
 
 
 
