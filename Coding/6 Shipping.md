@@ -403,13 +403,19 @@ Sometimes you can catch them, and sometimes you just can't. And that is one bene
 
 And of course you can still continue even if it compacts at a weird moment, but I find that compacting at strange moments means that it loses context in funny ways and it just doesn't end up working quite as well.
 
-**## QA - Testing the implementation:**
+**QA - Testing the implementation:**
 - Check that each feature from the spec is present and working correctly.
 - Open your browser's developer console and verify no errors appear.
 - Ensure the analytics dashboard displays properly and matches the design.
 - Check that the data displayed makes sense and matches what you'd expect from the seed data.
 
+## Should You Keep Your Specs?
 
+One question I get all the time is: what should I do with my [specs](https://www.aihero.dev/ai-coding-dictionary/spec) once I've completed them? Once they exist in the code, what should I do with them?
+
+Well, let me shock you. Now that this is represented in the code, I'm going to close the spec.
+
+## Primary and Secondary Sources
 
 
 
