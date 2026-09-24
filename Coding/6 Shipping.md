@@ -282,6 +282,13 @@ It runs two [reviews](https://www.aihero.dev/ai-coding-dictionary/automated-revi
 - **Standards** - does the code conform to this repo's documented coding standards?
 - **Spec** - does the code faithfully implement the originating issue / PRD / spec?
 
+A code review is a model-invokable skill, so it's able to just chain them together without asking you.
+
+Both of these are going to come back with a report that we can then take a look at to see if we want to change anything about the way it was implemented.
+
+This is really great because we basically reset our smart zones. So with the sub-agents, because they're working in their own [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone), we don't need to worry about the fact they're going to be made dumb by this 113k token [context window](https://www.aihero.dev/ai-coding-dictionary/context-window) that we've got.
+
+
 **Why Two Axes**
 
 A change can pass one axis and fail the other:
@@ -329,14 +336,6 @@ Close the sub-issue on GitHub. This is good hygiene. Once you close the first on
 
 You can do this manually, or get your agent to do it for you.
 
-A code review is a model-invokable skill, so it's able to just chain them together without asking you. And we can see it's initialised two [agents](https://www.aihero.dev/ai-coding-dictionary/agent) here. So it's initialized the standards review and the spec review.
-
-Both of these are going to come back with a report that we can then take a look at to see if we want to change anything about the way it was implemented.
-
-This is really great because we basically reset our smart zones. So with the sub-agents, because they're working in their own [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone), we don't need to worry about the fact they're going to be made dumb by this $113k token [context window](https://www.aihero.dev/ai-coding-dictionary/context-window) that we've got.
-
-These two agents have now finished the standards review and the spec review and it has had four things come back and it's immediately gone and fixed them.
-
 ### Context Management
 
 There's a debate: do you review after all tickets are complete, or review individual tickets against the spec?
@@ -362,6 +361,14 @@ If you decide to compact, the next session might not have to do so much explorat
 If you decide to continue, move on to the next ticket immediately.
 
 For this lesson, we're at ~90k [tokens](https://www.aihero.dev/ai-coding-dictionary/token) after planning (original task: building an instructor analytics dashboard. The planning context is now disposable because it's been encoded into the spec and the tickets. So we're going to clear it.
+
+### Deciding how to continue
+
+So at this point, we need to decide how to continue. We could potentially do QA on this commit and on this issue right now, but I think I want to save my QA until right at the end.
+
+So what I'm going to do is I'm going to open up this issue on GitHub and as I'm going to immediately close it, which should then open up this issue to be worked on. So now it's number six.
+
+I'm going to copy the link address and then we're going to implement this issue next.
 
 ### Implement the Remaining Tickets
 
