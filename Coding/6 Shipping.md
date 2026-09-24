@@ -431,7 +431,7 @@ In other words, if you're not constantly keeping the spec up to date with the co
 
 There's a very popular approach called spec-driven development. One of the ways you can do spec-driven development is you take these specs, save them in the repo, and they become the source of truth instead of the code.
 
-However, it's this exact drift risk that makes me terrified of that approach. If your agent is exploring your local repo and finding these old, ancient specs on how the code works, it's very likely to trust the out-of-date spec - the secondary source - instead of the primary source.
+However, it's this exact drift risk that makes me terrified of that approach. If your agent is exploring your local repo and finding these old, ancient specs on how the code works, it's very likely to trust the out-of-date spec - the secondary source - instead of the [primary source](https://www.aihero.dev/ai-coding-dictionary/primary-source).
 
 The secondary source is often easier to explore, smaller, denser. So it's unlikely to go and actually touch the primary source, which is more verbose and harder to explore, if it's seen that.
 
@@ -461,8 +461,28 @@ Not only that, but if you keep these [tickets](https://www.aihero.dev/ai-coding-
 
 So that is my message to you: archive your specs.
 ![[archive-your-specs.png|Archive your specs]]
+Your specs are meant to be temporary artifacts that define a piece of work. They are not the source of truth for how the code works.
 
+I'm very happy to debate you in Discord if you feel otherwise. There are lots of frameworks who say persist your specs, use them as a source of truth. I have found that doesn't work very well.
 
+So hopefully that makes sense for what you should do with your specs once you've finished a multi-session piece of work.
 
+## Rerouting: When The Destination Changes
 
+Imagine a situation where you have a [spec](https://www.aihero.dev/ai-coding-dictionary/spec) and you've put together some [tickets](https://www.aihero.dev/ai-coding-dictionary/ticket) for it. Halfway through, maybe you're reviewing the tickets as they come in, and you realize: oh dear, this is just the wrong approach.
+
+What do we do when we get two tickets in and we realize we need to change things?
+
+**Tickets Are Disposable**
+
+The thing you need to consider here is that these tickets are disposable.
+
+If we realise that this set of tickets - maybe we've implemented the first two, but the second two we haven't implemented - we can just delete the tickets that we haven't implemented.
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
+Then we can go back to the spec, and the spec is editable.
+
+So we can maybe have a [grilling](https://www.aihero.dev/ai-coding-dictionary/grilling) session about where we are right now. We've had two tickets and we're not happy with the way they're coming out, so we need to go back to the spec to edit it.
+
+**The Spec Is The Destination**
+
+
