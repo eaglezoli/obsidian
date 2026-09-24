@@ -243,6 +243,27 @@ If it hits any trouble with the implementation or it's something isn't behaving 
 
 It's now doing some final verification. So it is doing the tests and the [type checking](https://www.aihero.dev/ai-coding-dictionary/automated-check). And now it's gone over to run the code review.
 
+**Clearing vs. Compacting**
+(This is for after planning/spec phase and before implementing, not after each ticket.)
+
+Once you finish the planning phase, you need to decide: [**clear**](https://www.aihero.dev/ai-coding-dictionary/clearing) or [**compact**](https://www.aihero.dev/ai-coding-dictionary/compaction)?
+
+The spec and tickets stay outside of [context](https://www.aihero.dev/ai-coding-dictionary/context). They're in documents, so the conversation history is now disposable. It's just a more verbose version of the documents you already have.
+
+If you **compact**, the next [session](https://www.aihero.dev/ai-coding-dictionary/session) might not have to do so much exploration because it should already have the right context for it.
+
+However, it's just cheaper and faster to **clear**. That way you're going to start your new session with the maximum of the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone).
+
+Look at the token count in the status line.
+
+If you're at ~90k tokens or higher, consider clearing. The spec and tickets are outside of context, so the conversation history is now disposable. If you're under that, you might be able to continue to the next ticket.
+
+If you decide to compact, the next session might not have to do so much exploration.
+
+If you decide to continue, move on to the next ticket immediately.
+
+For this lesson, we're at ~90k [tokens](https://www.aihero.dev/ai-coding-dictionary/token) after planning (original task: building an instructor analytics dashboard). The planning context is now disposable because it's been encoded into the spec and the tickets. So we're going to clear it.
+
 ### **The `/tdd` Skill**
 
 The `/tdd` skill is where the quality comes from. [Agents](https://www.aihero.dev/ai-coding-dictionary/agent) do their best work when they have the most feedback, and TDD is a great technique for that.
@@ -336,33 +357,11 @@ Close the sub-issue on GitHub. This is good hygiene. Once you close the first on
 
 You can do this manually, or get your agent to do it for you.
 
-### Context Management
+### Deciding how to continue
 
 There's a debate: do you review after all tickets are complete, or review individual tickets against the spec?
 
 For this lesson, we're going to review each individual ticket. But sometimes you'll just do it right at the end.
-
-**Clearing vs. Compacting**
-
-Once you finish the planning phase, you need to decide: [**clear**](https://www.aihero.dev/ai-coding-dictionary/clearing) or [**compact**](https://www.aihero.dev/ai-coding-dictionary/compaction)?
-
-The spec and tickets stay outside of [context](https://www.aihero.dev/ai-coding-dictionary/context). They're in documents, so the conversation history is now disposable. It's just a more verbose version of the documents you already have.
-
-If you **compact**, the next [session](https://www.aihero.dev/ai-coding-dictionary/session) might not have to do so much exploration because it should already have the right context for it.
-
-However, it's just cheaper and faster to **clear**. That way you're going to start your new session with the maximum of the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone).
-
-Look at the token count in the status line.
-
-If you're at ~90k tokens or higher, consider clearing. The spec and tickets are outside of context, so the conversation history is now disposable. If you're under that, you might be able to continue to the next ticket.
-
-If you decide to compact, the next session might not have to do so much exploration.
-
-If you decide to continue, move on to the next ticket immediately.
-
-For this lesson, we're at ~90k [tokens](https://www.aihero.dev/ai-coding-dictionary/token) after planning (original task: building an instructor analytics dashboard. The planning context is now disposable because it's been encoded into the spec and the tickets. So we're going to clear it.
-
-### Deciding how to continue
 
 So at this point, we need to decide how to continue. We could potentially do QA on this commit and on this issue right now, but I think I want to save my QA until right at the end.
 
