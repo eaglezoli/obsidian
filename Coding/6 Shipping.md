@@ -160,7 +160,7 @@ It's even explicitly saying here:
 
 > Every ticket lands as something you can look at
 
-Think of the tracer bullets landing at the final destination (the UI)
+Think of the tracer bullets landing at the final destination (the UI).
 ![[tickets-landing.png|Claude's message stating every ticket lands as something you can look at]]
 
 ![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
