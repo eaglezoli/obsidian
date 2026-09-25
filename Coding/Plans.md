@@ -1,0 +1,23 @@
+
+
+```
+IDEA
+↓
+???
+↓
+PROTOTYPE
+↓
+???
+↓
+FIRST PRODUCTION SLICE
+↓
+???
+↓
+AFK EXECUTION
+↓
+???
+↓
+REVIEW
+```
+
+
