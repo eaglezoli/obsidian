@@ -265,3 +265,26 @@ Architecture
 First real vertical slice
 ```
 
+
+BMAD + Superpowers + Mobile App specialists workflow
+
+```
+BMAD
+Discovery → PRD → UX → Architecture → Stories
+                ↓
+        authoritative repo docs
+                ↓
+        Superpowers feature cycle
+                ↓
+     Expo / RN specialist skills
+                ↓
+      fresh implementation agents
+                ↓
+           reviews + tests
+                ↓
+             your QA
+
+claude-mem runs alongside this,
+remembering useful session history
+```
+
