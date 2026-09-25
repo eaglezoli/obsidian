@@ -288,3 +288,69 @@ claude-mem runs alongside this,
 remembering useful session history
 ```
 
+
+```
+              PRODUCT
+────────────────────────────────
+BMAD
+research / product / UX / architecture
+
+              ↓
+
+       DURABLE PROJECT TRUTH
+────────────────────────────────
+AGENTS.md / CLAUDE.md      ← short
+docs/
+  ARCHITECTURE.md
+  ENGINEERING_STANDARDS.md
+  TESTING.md
+  SECURITY.md
+  UX / decisions / ADRs
+
+              ↓
+
+            ENGINEERING
+────────────────────────────────
+Superpowers
+plan → small task → TDD → review → verify
+
+              +
+
+Official Expo skills
+React Native specialist skills
+
+              ↓
+
+          QUALITY LAYERS
+────────────────────────────────
+Spec review
+Code-quality review
+Correctness review
+Conditional:
+  mobile / security / accessibility /
+  architecture / performance
+
+              ↓
+
+              YOU
+────────────────────────────────
+actual-device visual + behavioural QA
+
+
+RUNNING ALONGSIDE ALL OF IT:
+claude-mem
+session history / debugging recall
+```
+
+Then **later**, if the repo starts accumulating AI cruft:
+
+```
+Desloppify / codebase health pass
+```
+
+And even later, if you want many tasks worked through AFK:
+
+```
+GSD / stronger orchestration
+```
+
