@@ -233,3 +233,35 @@ The balance I'd use
 
 7. ITERATE
 ```
+
+
+Prototyping
+
+```
+BMAD
+Brainstorm / Forge / Research
+        ↓
+Product Brief / PRD
+        ↓
+BMAD UX
+        ↓
+━━━━━━━━━━━━━━━━━━━━━━━━
+ EARLY PROTOTYPE CHECKPOINT
+━━━━━━━━━━━━━━━━━━━━━━━━
+        ↓
+Stitch / Figma prototype
+and/or
+Matt /prototype for interactions
+that need actual code
+        ↓
+YOU USE IT
+        ↓
+"Actually, this should work differently..."
+        ↓
+BMAD Update PRD / UX
+        ↓
+Architecture
+        ↓
+First real vertical slice
+```
+
