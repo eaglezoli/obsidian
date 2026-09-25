@@ -1,4 +1,5 @@
-**You cannot reliably know everything that is missing before you actually interact with the product.** More ceremony can predict more problems, but after a point you're asking AI to reason about an imaginary product rather than learning from a real one.
+> You cannot reliably know everything that is missing before you actually interact with the product. More ceremony can predict more problems, but after a point you'**re asking AI to reason about an imaginary product rather than learning from a real one**.
+
 
 
 
@@ -68,6 +69,7 @@ Feature-wide completeness check
 
 > **Who currently does each box best?**
 
+
 The process I’d actually use
 
 ```
@@ -128,6 +130,7 @@ RAW APP IDEA
     ↓
 Next vertical slice
 ```
+
 
 Mobile App Process
 
@@ -191,3 +194,42 @@ Mobile App Process
 7. FEATURE QA / REGRESSION
 ```
 
+
+The balance I'd use
+
+```
+1. BROAD DISCOVERY
+   BMAD-style
+   ↓
+   users, problem, competitors,
+   possible product directions,
+   core journeys, assumptions
+
+2. QUICK PROTOTYPE
+   ↓
+   fake data, rough UI,
+   enough screens to FEEL the product
+
+3. USE IT
+   ↓
+   "Oh, actually map-first is annoying"
+   "I need collections here"
+   "Events and places should behave differently"
+   "This screen needs context I hadn't considered"
+
+4. SECOND DISCOVERY / UX PASS
+   ↓
+   now BMAD/AI has REAL evidence
+   rather than hypothetical assumptions
+
+5. DEFINE MVP + ARCHITECTURE
+   ↓
+   PRD, UX rules, technical decisions,
+   first production slice
+
+6. BUILD FIRST REAL SLICE
+   ↓
+   use it again
+
+7. ITERATE
+```
