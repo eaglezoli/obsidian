@@ -1,3 +1,5 @@
+**You cannot reliably know everything that is missing before you actually interact with the product.** More ceremony can predict more problems, but after a point you're asking AI to reason about an imaginary product rather than learning from a real one.
+
 
 
 ```
