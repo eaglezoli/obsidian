@@ -21,7 +21,7 @@ REVIEW
 ```
 
 
-### **Your workflow**
+Your workflow
 
 ```
                  GREENFIELD
@@ -66,7 +66,7 @@ Feature-wide completeness check
 
 > **Who currently does each box best?**
 
-### The process I’d actually use
+The process I’d actually use
 
 ```
 RAW APP IDEA
@@ -125,5 +125,67 @@ RAW APP IDEA
 15. Commit / ship
     ↓
 Next vertical slice
+```
+
+Mobile App Process
+
+```
+1. PRODUCT DISCOVERY
+   BMAD
+   ├─ brainstorm
+   ├─ research
+   ├─ challenge assumptions
+   ├─ product definition
+   └─ UX journeys
+
+          ↓
+
+2. PRODUCT PROTOTYPE
+   quick/disposable
+   ├─ fake data
+   ├─ actual screens
+   └─ you physically use it
+
+          ↓
+
+3. PRODUCTION DEFINITION
+   BMAD
+   ├─ PRD
+   ├─ architecture
+   ├─ first vertical slice
+   └─ acceptance criteria
+
+          ↓
+
+4. ENGINEERING
+   Superpowers OR BMAD build initially
+   ├─ small bounded tasks
+   ├─ TDD where appropriate
+   ├─ tests/typecheck/lint
+   ├─ spec review
+   ├─ code-quality review
+   └─ correctness review
+
+          ↓
+
+5. MOBILE-SPECIFIC REVIEW
+   React Native / Expo rules
+   ├─ architecture
+   ├─ accessibility
+   ├─ performance
+   ├─ permissions/privacy
+   └─ platform behaviour
+
+          ↓
+
+6. VISUAL FEEDBACK LOOP
+   YOU + screenshots/device
+   ├─ iPhone
+   ├─ Android
+   └─ web if supporting it
+
+          ↓
+
+7. FEATURE QA / REGRESSION
 ```
 
