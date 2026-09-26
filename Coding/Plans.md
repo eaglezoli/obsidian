@@ -22,6 +22,124 @@ The fair framework comparison is the same starting problem and the same stopping
 
 Do not let AI-generated standards become project law until another strong model has challenged and verified them.
 
+Latest frozen workflow
+
+DISCOVERY WORKSPACE
+════════════════════════════
+
+BMAD
+research
+problem / users
+product brief / PRD
+UX hypotheses
+        ↓
+early disposable prototype
+        ↓
+you + real Londoners use it
+        ↓
+revise discovery with evidence
+        ↓
+distil useful decisions
+
+
+APP REPO
+════════════════════════════
+
+PRODUCT.md
+UX.md
+
+        ↓
+
+PLACES DATA-SOURCE SPIKE
+────────────────────────────
+existing Google Maps lists
+→ resolve to Google Place IDs
+→ check Google Places terms/licensing
+→ caching/display restrictions
+→ freshness
+→ cost/quotas
+→ decide what metadata you own/store
+
+(events explicitly deferred)
+
+        ↓
+
+ARCHITECTURE
+────────────────────────────
+plain architecture session
++ official Expo / RN knowledge
++ findings from prototype/data spike
+
+For each architecture area:
+DECIDE / DEFER WITH REASON / N/A
+
+- places data source + licensing
+- backend / hosting
+- accounts + auth
+- data model
+- navigation
+- data fetching / state / cache
+- offline behaviour
+- maps + location
+- secrets / environment config
+- analytics + privacy
+- build / release / updates
+
+        ↓
+independent cross-model challenge
+        ↓
+ARCHITECTURE.md + ADRs
+
+
+MINIMAL PROJECT RULES
+────────────────────────────
+AGENTS.md
+PROCESS.md
+ENGINEERING_STANDARDS.md
+
+        ↓
+
+FIRST PRODUCTION / TRACER SLICE
+────────────────────────────
+SUPERPOWERS
+
+feature design / clarification
+→ implementation plan
+→ subagent-driven development
+→ fresh implementer per task
+→ TDD at appropriate seams
+→ spec-compliance review
+→ code-quality review
+→ final verification
+
+        +
+
+official Expo / RN skills
+
+        +
+
+CI / deterministic checks
+- TypeScript
+- lint
+- tests
+- Expo Doctor
+- build checks
+
+        ↓
+
+CROSS-MODEL BRANCH REVIEW
+default before merge initially
+(skip only clearly trivial changes)
+
+        ↓
+
+MERGE / TESTFLIGHT
+        ↓
+
+YOUR DEVICE QA
+        ↓
+
+FIRST PROCESS RETRO
 
 
 ```
