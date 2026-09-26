@@ -8,6 +8,8 @@ You own the pipeline, not necessarily the technical labour.
 
 Small implementation units reduce the amount of code you need to understand at once and make it much easier to identify where a bad decision entered the system.
 
+The question is not whether the framework has more ceremony. The question is whether each stage contributes information, catches risk or improves a decision.
+
 
 
 
