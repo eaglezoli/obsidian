@@ -1,5 +1,7 @@
 The goal is not to become a senior engineer before you build. It is to know enough software engineering to supervise AI software engineering.
 
+Start with more structure than you think you need, interrupt that structure early with reality, and gradually remove ceremony only after you have evidence that it is not earning its keep.
+
 > You cannot reliably know everything that is missing before you actually interact with the product. More ceremony can predict more problems, but after a point you'**re asking AI to reason about an imaginary product rather than learning from a real one**.
 
 Too little ceremony creates avoidable mistakes. Useful ceremony catches expensive mistakes early. **Too much ceremony creates increasingly detailed speculation about something nobody has used yet.**
