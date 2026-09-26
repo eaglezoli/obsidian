@@ -2,7 +2,6 @@
   "obsidian-image-toolkit",
   "omnisearch",
   "image-converter",
-  "obsidian-git",
   "obsidian-trash-explorer",
   "editing-toolbar",
   "url-into-selection",
@@ -25,5 +24,6 @@
   "obsidian-enhancing-export",
   "auto-card-link",
   "obsidian-style-settings",
-  "cmdr"
+  "cmdr",
+  "chatting-with-ai"
 ]

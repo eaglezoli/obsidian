@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiLetterText",
-      "LiMessageSquareQuote",
-      "LiNotebookText",
-      "LiNotebookPen",
-      "LiBookText"
+      "LiCalendar",
+      "1️⃣",
+      "LiCode2",
+      "LiImage",
+      "LiLightbulb"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,10 +41,16 @@
   "PhD/Wiki.md": "LiBookOpenText",
   "PhD/Dashboard.md": "LiLayoutDashboard",
   "MAAP": "LiUniversity",
-  "MAAP/Researching Higher Education": "LiGraduationCap",
-  "MAAP/Ideas.md": "LiLightbulb",
-  "MAAP/Curriculum Development and Evaluation": "LiBookText",
   "Blog": "LiNotebookPen",
-  "MAAP/Assessment Design & Feedback (EDM126)": "LiListTodo",
-  "PhD/Comments.md": "LiLetterText"
+  "PhD/Comments.md": "LiLetterText",
+  "MAAP/💡 Project Ideas.md": "LiLightbulb",
+  "MAAP/📁 Archive": "LiArchive",
+  "MAAP/📁 Archive/Assessment Design & Feedback (EDM126)": "LiListTodo",
+  "MAAP/📁 Archive/Researching Higher Education": "LiGraduationCap",
+  "MAAP/📁 Archive/Curriculum Development and Evaluation": "LiBookText",
+  "MAAP/📁 Archive/Ideas.md": "LiLightbulb",
+  "MAAP/🖼️ Images": "LiImage",
+  "Coding": "LiCode2",
+  "Coding/Images": "LiImage",
+  "Coding/Study Plan.md": "LiCalendar"
 }

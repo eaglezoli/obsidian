@@ -1,0 +1,84 @@
+
+--- USER_MESSAGE [2026-09-15T00:17:10.366Z] ---
+{
+  "userMessage": "Tell me about MAAP/💡 Project Ideas.md",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-09-15T00:17:12.814Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 4206,
+    "outputTokens": 36
+  }
+}
+
+--- API_RESPONSE [2026-09-15T00:17:16.993Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 4314,
+    "outputTokens": 104
+  }
+}
+
+--- USER_MESSAGE [2026-09-15T00:18:40.400Z] ---
+{
+  "userMessage": "What can you do here?",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-09-15T00:18:45.026Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 4458,
+    "outputTokens": 176
+  }
+}
+
+--- USER_MESSAGE [2026-09-15T00:19:17.082Z] ---
+{
+  "userMessage": "Can you edit selected text",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-09-15T00:19:20.564Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 4673,
+    "outputTokens": 106
+  }
+}
+
+--- USER_MESSAGE [2026-09-15T00:20:10.109Z] ---
+{
+  "userMessage": "When I select I can’t open sidebar",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-09-15T00:20:14.662Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 4821,
+    "outputTokens": 185
+  }
+}

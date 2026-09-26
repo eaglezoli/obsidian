@@ -238,6 +238,7 @@
   "ProcessCurrentNoteskipImagesInTargetFormat": false,
   "ProcessCurrentNoteEnlargeOrReduce": "Always",
   "ProcessCurrentNoteSkipFormats": "tif,tiff,heic",
+  "ProcessCurrentNoteIgnoreFolders": "",
   "ProcessAllVaultconvertTo": "disabled",
   "ProcessAllVaultquality": 0.75,
   "ProcessAllVaultResizeModalresizeMode": "None",
@@ -316,11 +317,14 @@
     ]
   },
   "isImageAlignmentEnabled": true,
-  "imageAlignment_cacheCleanupInterval": 3600000,
-  "imageAlignment_cacheLocation": "plugin",
+  "imageAlignmentDefaultAlignment": "none",
+  "imageAlignmentCacheCleanupInterval": 3600000,
+  "imageAlignmentCacheLocation": "config",
   "isDragResizeEnabled": true,
   "isScrollResizeEnabled": true,
+  "isDragAspectRatioLocked": true,
   "isResizeInReadingModeEnabled": false,
+  "disableObsidianImageSelectionOnClick": false,
   "resizeSensitivity": 0.1,
   "scrollwheelModifier": "Shift",
   "isImageResizeEnbaled": true,
@@ -330,6 +334,7 @@
   "enableContextMenu": true,
   "showSpaceSavedNotification": true,
   "revertToOriginalIfLarger": false,
+  "minimumCompressionSavingsInKB": 30,
   "enableImageCaptions": true,
   "skipCaptionExtensions": "icns",
   "captionFontSize": "var(--font-smaller)",
@@ -344,5 +349,7 @@
   "captionLetterSpacing": "normal",
   "captionBorder": "none",
   "captionMarginTop": "4px",
-  "captionAlignment": "center"
+  "captionAlignment": "center",
+  "imageAlignment_cacheCleanupInterval": 3600000,
+  "imageAlignment_cacheLocation": "plugin"
 }

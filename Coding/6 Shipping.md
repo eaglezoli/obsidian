@@ -1,0 +1,747 @@
+## How to Tackle Massive Tasks
+![[smart-dumb-zone-tasks.png|Small tasks like small features or bug fixes can fit in the smart zone, but not larger tasks like a refactor that touches every layer of the application]]
+![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
+## Set Up Your Issue Tracker
+```Terminal
+npx skills@latest add mattpocock/skills --skill=setup-matt-pocock-skills
+```
+- Search for "setup skills skill"
+	- This will add the `/setup-matt-pocock-skills` [skill](https://www.aihero.dev/ai-coding-dictionary/skill) to the repo.
+- Run`/setup-matt-pocock-skills`in Claude Code
+	- The skill will do a brief exploration of the repo's current state and provide a recommendation on the issue tracker to use.
+
+## Write Great Specs With `/to-spec`
+
+**The Process**
+1. Initial grilling session
+2. Turn that grilling session into a spec
+3. Turn that spec into [tickets](https://www.aihero.dev/ai-coding-dictionary/ticket)
+4. Implement each individual ticket
+5. Review against the spec that we initially created
+![[5-step-system.png|Five-step system: grilling session → spec → tickets → implement → review]]
+**The Spec Template**
+
+The spec that's created uses a template that's nice and meaty. It includes:
+
+- A problem statement
+- A solution description
+- A bunch of user stories (a classic software development technique)
+- Implementation decisions
+- Testing decisions
+- Out of scope items
+- Further notes
+
+An analytics page is so big, so potentially scope creepy and could expand larger and larger that I think it makes a very good candidate for a grilling session followed by a spec. We need to shape this into something reasonable and it's definitely going to be larger than one [Smart Zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone).
+
+I rarely actually go and read these specs myself. If I were to read the spec, what would I actually be testing for? I'd just be testing the agent's ability to summarize what we just talked about. And that's something that I kind of take on trust.
+
+# Split Features Across Context Windows With `/to-tickets`
+
+**Horizontal Slices Are a Trap**
+
+![[application-layers.png|Application layers: database, API, front-end, services, and components]]
+Every application has layers. But you shouldn't develop in layers, which is what the AI likes to do.
+
+![[horizontal-phases.png|How an agent thinks to break up tasks: horizontal slices with separate phases for each layer]]
+This looks well-organized and reasonable, but it's a trap. Software developers have known about this for decades.
+
+If you do it this way, all of the code in phase 1, you don't really know if it works or if it's well designed until you're implementing phase 3. You need to cross the layers to work out if the code for that layer is well designed.
+
+With horizontal slices, you get feedback on the whole system far too late.
+
+**Vertical Slices Give Early Feedback**
+
+The way to fix this is vertical slices. The agent works across layers from the very first phase.
+
+From the word go, they're touching the database, the API, and the front-end. They're building out a minimal implementation first, then building from there.
+![[vertical-slices.png|Vertical slices cutting across all layers from the first phase]]
+This means they're getting feedback on their design, its feasibility, and seeing how all the layers integrate from the first phase.
+
+Every phase that builds on that is pretty trivial because it's just building on work that it already knows is well integrated.
+
+Using the phrase "vertical slices" is actually really good because the agent already understands vaguely what it means. The concept of vertical slices and tracer bullets has been around for a long time - it goes back to [_The Pragmatic Programmer_](https://www.amazon.co.uk/Pragmatic-Programmer-Andrew-Hunt/dp/020161622X).
+![[tracer-bullets.png|Building out sideways from the tracer bullet (vertical slice – or horizontal in this diagram, also not sure why it's starting with UI)]]
+To get beautifully vertically sliced tickets, you use the `/to-tickets` [skill](https://www.aihero.dev/ai-coding-dictionary/skill).
+
+**When to Call /to-tickets**
+![[phase-end_decision-tree.png|Decision tree diagram for when to continue, compact, or start fresh at the end of a phase]]
+When you reach the end of a phase, you need to decide what to do next. After `/to-spec`, that's definitely the end of a piece of work.
+
+Walk through this decision tree:
+
+**Can you continue?** Do you have enough smart zone left?
+
+If yes, and your [context](https://www.aihero.dev/ai-coding-dictionary/context) is relevant to the next piece of work, you can keep going in the same session.
+
+**Is your context irrelevant?** If the information in your context isn't relevant to the next task, [start fresh](https://www.aihero.dev/ai-coding-dictionary/clearing).
+
+In this case, the context is extremely relevant. All the decisions that went into the spec are in the context. It makes sense to keep this around.
+
+**Do we need to [hand off](https://www.aihero.dev/ai-coding-dictionary/handoff)?** Not if we're staying within the same agent and directory.
+
+**Can this be done [AFK](https://www.aihero.dev/ai-coding-dictionary/afk)?** Not if you need [human review](https://www.aihero.dev/ai-coding-dictionary/human-review).
+
+This situation is a great candidate for [compacting](https://www.aihero.dev/ai-coding-dictionary/compaction) if you're outside the smart zone. However, if you don't need to, you can just continue.
+
+**Review the Ticket Breakdown**
+
+Each ticket should cut across all layers - database, API, front-end - not focus on just one layer.
+
+Look for tickets that say things like "implement the database schema" or "build the API endpoints" as separate phases. That's horizontal slicing.
+
+Good vertical slices deliver end-to-end behavior in each ticket - a narrow but complete path through every layer.
+
+Remember, you've only got one smart zone per session to play with. Each ticket should be sized to fit in a single fresh [context window](https://www.aihero.dev/ai-coding-dictionary/context-window).
+
+If a ticket looks like it's trying to do too much, ask the agent to split it further.
+
+The agent will iterate with you until you approve the breakdown. Don't move forward until the tickets are properly vertically sliced and appropriately sized.
+
+### Example
+
+**The first proposal: 10 tickets**
+
+It comes back pretty fast and gives us 10 tickets.
+
+10 tickets feels way too much for this. If you think of the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone) as 150,000 [tokens](https://www.aihero.dev/ai-coding-dictionary/token), then this would mean we are budgeting 1.5 million tokens for this feature.
+
+That feels like way too much to me. I'm picturing that maximum we would need 450k. So let's say three tickets.
+
+The way I'm able to make that judgment call is just a gut feeling really, just having done a lot of this, a lot of looking at these proposed ticket breakdowns and seeing what comes out.
+
+450k even feels generous. I think this could probably even be done in two [sessions](https://www.aihero.dev/ai-coding-dictionary/session), but I don't want to push it.
+
+**Horizontal slicing is still a problem**
+![[claudes-initial-horizontal-tickets.png|Claude's initial 10-ticket breakdown showing horizontal slicing]]
+What we can see here too is doing classic horizontal slicing as well, which is frustrating because I'm really trying inside the [agent](https://www.aihero.dev/ai-coding-dictionary/agent) to not get it to do this, but it still just persistently does it.
+
+**This is why I feel a human looking at this is so important, by the way.**
+
+I think 10 is not a good candidate, I'm just going to say:
+
+```
+I would like to break this down into maximum three tickets. 
+I think ten feels way too much.
+```
+
+Let's give this a go.
+
+**Three tickets, but Claude pushes back**
+
+
+Okay, it's now given me three pretty large pieces of work here and it's actually saying:
+
+> One trade I want to be explicit about: tickets two and three are larger than a single fresh [context window](https://www.aihero.dev/ai-coding-dictionary/context-window).
+
+![[claudes-ticket-warning.png|Claude's warning about tickets exceeding context window size]]
+So it's saying that it's pretty scared about this overview tab. Okay. Maybe we'll pull it to like five or something.
+
+What I can see though is that these three are pretty good vertical slices. There is some groundwork that's being done here. There's some stuff that's kind of being included in this PR that probably could be elsewhere. So there's indexes, the seed rewrite, and the dead parameter prefactor.
+
+Prefactor by the way if you've never heard of this - this is just a refactor before you do some work.
+
+This will burn a lot of tokens because we're just like plowing in a bunch of seed data, and so just like lots of [output tokens](https://www.aihero.dev/ai-coding-dictionary/output-tokens) will be produced during this. And so I guess it makes sense to have it before we do any of the other vertical slices.
+
+But the other ones, because they're now grouping a ton of work together, they are by definition vertical because they're like building out throughout an entire feature.
+
+So let's see if it retains the vertical slices when we go to five:
+
+```
+Could we have five tickets instead of three?
+```
+
+## Five tickets: the sweet spot
+
+Okay, so the groundwork is looking the same here and then it starts then with a page shell. That's a good classic vertical slice. I really like that.
+
+It then goes on and adds some extra overview panels, then the course detail selector, progress and drop-off funnel and course detail extras. Okay.
+
+It's even explicitly saying here:
+
+> Every ticket lands as something you can look at
+
+Think of the tracer bullets landing at the final destination (the UI).
+![[tickets-landing.png|Claude's message stating every ticket lands as something you can look at]]
+**Blocking relationships and parallel work**
+
+It also, by the way, does this clever thing where it has blocking relationships here.
+
+So technically we can do these in parallel if we wanted to. For instance, in the overview panels, like two, we've got the page shell, and then three is blocked by two and four is blocked by two.
+
+So this means we could work on one and two and then split up to do three and four in separate context windows if we wanted to.
+
+That's entirely optional, you don't have to do that, but it is a little bit quicker if you can make that work. And this means that we can scale this [skill](https://www.aihero.dev/ai-coding-dictionary/skill) up to actually fanning out, producing multiple pieces of work and merging them back together.
+
+**The published tickets**
+![[published-issue-ticket.png|GitHub issues page showing the parent issue #4 with five sub-issues]]
+So we've got our spec and we have the first one that's unblocked, which is the groundwork.
+
+We get an explicit link to the parent, and then we get what to build and the acceptance criteria.
+
+Notice this ticket is pretty light here because we have the parent spec to rely on. All we're doing is really specifying which bit of the spec we're building now.
+
+![[ticket-parent-link_acceptance-criteria.png|Ticket #5 showing parent link and acceptance criteria]]
+And having this explicit acceptance criteria is really nice for giving it a point where it can stop.
+
+**Review the tickets lightly**
+
+What I recommend you do is read through some of these. Again, I don't recommend actually reviewing each of these because they're just summaries of the things that we've decided already.
+
+These tickets are relatively light, they're just splitting up the spec so that we can go and work on it.
+
+## Executing Your Tickets
+
+There are three [skills](https://www.aihero.dev/ai-coding-dictionary/skill) that handle this: `/implement`, `/tdd`, and `/code-review`. They work together to build features, write tests first, and review the work before committing.
+
+### **The `/implement` Skill**
+
+The `/implement` skill is the orchestrator. It delegates most of its work to the other two skills.
+
+Here's what it does:
+
+- Implement the work described in the spec or tickets
+- Use `/tdd` where possible, at pre-agreed seams
+- Run [typechecking](https://www.aihero.dev/ai-coding-dictionary/automated-check) regularly, single test files regularly, full test suite once at the end
+- Once done, use `/code-review` to review the work
+- Commit your work to the current branch
+
+It's very simple. The real work happens in `/tdd` and `/code-review`.
+
+```
+/implement <issue-url>
+```
+
+This will kick off the implementation. The agent will:
+
+1. Use `/tdd` to write tests first, then implement the feature
+2. Run typechecking and tests regularly
+3. Use `/code-review` to review the work
+4. Commit the work to the current branch
+
+You'll see it:
+
+- Propose test seams and confirm them with you
+- Write failing tests (red)
+- Implement the feature (green)
+- Run `/code-review` to catch issues
+- Fix any issues the review found
+- Commit the work
+
+**Auto Mode**
+
+One thing, by the way, that's really very important for these situations is [Auto Mode](https://www.aihero.dev/ai-coding-dictionary/agent-mode), which is the ability to just run it and have a classifier just checking the [permission requests](https://www.aihero.dev/ai-coding-dictionary/permission-request).
+
+So I can probably leave this for a bit and come back and the implementation for the first phase should be finished as well as hopefully the review.
+
+This is a Claude Code-only feature, though I'm fairly sure that other [harnesses](https://www.aihero.dev/ai-coding-dictionary/harness) also will implement their own version of Auto Mode.
+
+**Verification loops**
+
+Verification loops can absolutely eat [tokens](https://www.aihero.dev/ai-coding-dictionary/token), which is part of the reason why we're so careful with making sure the tasks are the right size.
+
+If it hits any trouble with the implementation or it's something isn't behaving how it wants, then it can burn tokens trying to get where it needs to.
+
+It's now doing some final verification. So it is doing the tests and the [type checking](https://www.aihero.dev/ai-coding-dictionary/automated-check). And now it's gone over to run the code review.
+
+We don't really have a way for it to verify a running application. For that, you could use something like the Chrome DevTools [MCP](https://www.aihero.dev/ai-coding-dictionary/mcp) server or similar. It can take photos of things. There's even agent-browser as well. That's a good one.
+
+**Clearing vs. Compacting**
+(This is for after planning/spec phase and before implementing, not after each ticket.)
+
+Once you finish the planning phase, you need to decide: [**clear**](https://www.aihero.dev/ai-coding-dictionary/clearing) or [**compact**](https://www.aihero.dev/ai-coding-dictionary/compaction)?
+
+The spec and tickets stay outside of [context](https://www.aihero.dev/ai-coding-dictionary/context). They're in documents, so the conversation history is now disposable. It's just a more verbose version of the documents you already have.
+
+If you **compact**, the next [session](https://www.aihero.dev/ai-coding-dictionary/session) might not have to do so much exploration because it should already have the right context for it.
+
+However, it's just cheaper and faster to **clear**. That way you're going to start your new session with the maximum of the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone).
+
+Look at the token count in the status line.
+
+If you're at ~90k tokens or higher, consider clearing. The spec and tickets are outside of context, so the conversation history is now disposable. If you're under that, you might be able to continue to the next ticket.
+
+If you decide to compact, the next session might not have to do so much exploration.
+
+If you decide to continue, move on to the next ticket immediately.
+
+For this lesson, we're at ~90k [tokens](https://www.aihero.dev/ai-coding-dictionary/token) after planning (original task: building an instructor analytics dashboard). The planning context is now disposable because it's been encoded into the spec and the tickets. So we're going to clear it.
+
+### **The `/tdd` Skill**
+
+The `/tdd` skill is where the quality comes from. [Agents](https://www.aihero.dev/ai-coding-dictionary/agent) do their best work when they have the most feedback, and TDD is a great technique for that.
+
+You write the unit test for the feature first, then implement it. The test gives the agent immediate feedback on whether the implementation is correct.
+
+The skill includes:
+
+- What a good test is - tests verify behaviour through public interfaces, not implementation details
+- Advice on mocking and tests
+- What seams are - the public boundary you test at
+- What bad tests are - implementation-coupled, tautological, or horizontal slicing
+- Rules of the loop - red before green, one slice at a time, refactoring belongs in review
+
+**Test Only at Pre-Agreed Seams**
+
+A **seam** is the public boundary you test at. Tests live at seams, never against internals.
+
+Before writing any test, you write down the seams under test and confirm them with the user. No test is written at an unconfirmed seam.
+
+This keeps testing effort on the critical paths and complex logic instead of every edge case.
+
+**Tautological Tests**
+
+One anti-pattern (“don't do it this way” pattern) worth calling out: **tautological tests**. These are tests where the assertion recomputes the expected value the way the code does.
+
+For example: `expect(add(a, b)).toBe(a + b)`. The test passes by construction and can never disagree with the code.
+
+Expected values must come from an independent source of truth - a known-good literal, a worked example, the spec.
+
+### The `/code-review` Skill
+
+The `/code-review` skill does a two-axis review of the diff between `HEAD` and a fixed point you supply.
+
+It runs two [reviews](https://www.aihero.dev/ai-coding-dictionary/automated-review) in parallel [sub-agents](https://www.aihero.dev/ai-coding-dictionary/subagent):
+
+- **Standards** - does the code conform to this repo's documented coding standards?
+- **Spec** - does the code faithfully implement the originating issue / PRD / spec?
+
+A code review is a model-invokable skill, so it's able to just chain them together without asking you.
+
+Both of these are going to come back with a report that we can then take a look at to see if we want to change anything about the way it was implemented.
+
+This is really great because we basically reset our smart zones. So with the sub-agents, because they're working in their own [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone), we don't need to worry about the fact they're going to be made dumb by this 113k token [context window](https://www.aihero.dev/ai-coding-dictionary/context-window) that we've got.
+
+The implementation agent can actually deviate quite far from the spec. And so having a review step does a pretty good job in catching those.
+
+
+**Why Two Axes**
+
+A change can pass one axis and fail the other:
+
+- Code that follows every standard but implements the wrong thing - **Standards pass, Spec fail**
+- Code that does exactly what the issue asked but breaks the project's conventions - **Spec pass, Standards fail**
+
+Reporting them separately stops one axis from masking the other.
+
+**The Standards Sub-Agent**
+
+The Standards sub-agent gets:
+
+- The full diff command and commit list
+- The list of standards-source files found in the repo
+- A smell baseline from _Refactoring_ - Mysterious Name, Duplicated Code, Feature Envy, Data Clumps, and others
+
+It reports every place the diff violates a documented standard, and any baseline smell it spots. Documented-standard breaches can be hard violations, but baseline smells are always judgement calls.
+
+**The Spec Sub-Agent**
+
+The Spec sub-agent gets:
+
+- The diff command and commit list
+- The path or fetched contents of the spec
+
+It reports:
+
+- Requirements the spec asked for that are missing or partial
+- Behavior in the diff that wasn't asked for (scope creep)
+- Requirements that look implemented but where the implementation looks wrong
+
+This second pass massively increases the quality of the output. It often goes and fixes the really bad stuff itself.
+
+**Review and Close the Ticket**
+
+The agent will show you both the Standards review and the Spec review. Check that:
+
+- No documented standards were violated
+- No baseline smells were introduced
+- All requirements from the spec were implemented
+- No scope creep snuck in
+
+Close the sub-issue on GitHub. This is good hygiene. Once you close the first one, the second one will be unblocked.
+
+You can do this manually, or get your agent to do it for you.
+
+
+### Deciding how to continue
+
+There's a debate: do you review after all tickets are complete, or review individual tickets against the spec?
+
+For this lesson, we're going to review each individual ticket. But sometimes you'll just do it right at the end (note: I'm not sure how when the skill is automatic).
+
+So at this point, we need to decide how to continue. We could potentially do QA on this commit and on this issue right now, but I think I want to save my QA until right at the end.
+
+So what I'm going to do is I'm going to open up this issue on GitHub and immediately close it, which should then open up the next issue to be worked on.
+
+I'm going to copy the link address and then we're going to implement the next issue.
+
+
+**Clearing the context**
+
+The next question is what do we do with our context window? It's currently at 125k. I would usually just straight up [clear](https://www.aihero.dev/ai-coding-dictionary/clearing) this context window.
+
+The reason for that is that we have a really rich amount of [context](https://www.aihero.dev/ai-coding-dictionary/context) outside of the context window. We have the [spec](https://www.aihero.dev/ai-coding-dictionary/spec). We have the next [ticket](https://www.aihero.dev/ai-coding-dictionary/ticket). We even have the previous ticket if it wanted to look at the intention of what was supposed to be done. And we have the commit in the commit history that it can read to see what was done.
+
+So I'm feeling pretty positive that we can just clear the context and, you know, instantly done and we're able to implement the next issue.
+
+The rule of thumb is if you have a if it's 50/50 between clear and compact then you should choose clear because it's cheaper and faster.
+
+### Implement the Remaining Tickets
+
+For each ticket:
+1. Copy the issue URL
+2. Run `/implement <url>`
+3. Watch the agent work
+4. Review the code review output
+5. Close the ticket
+6. Decide whether to clear, compact, or continue
+
+There's no real reason to sit around while the agent cooks here. And what the cool thing about this loop is that it's really minimal input from you. You just say, okay, do the next one now. While this has been going, I've been answering emails, I've been doing other stuff and checking back in occasionally seeing how things are going.
+
+I sometimes have tasks that are so big, tickets that are so big that they go 300K tokens or something. In those situations I mostly chalk it up as a learning experience and try to improve the skills so it catches those in future. Often they are something silly like a rename that accidentally touches way more that has a much bigger blast radius than I thought.
+
+Sometimes you can catch them, and sometimes you just can't. And that is one benefit of a large context window, is even if you screw up, it's not like it's going to compact at a weird moment. It will just keep going, keep going. And that is expensive, but it does mean you can continue, at least.
+
+And of course you can still continue even if it compacts at a weird moment, but I find that compacting at strange moments means that it loses context in funny ways and it just doesn't end up working quite as well.
+
+**QA - Testing the implementation:**
+- Check that each feature from the spec is present and working correctly.
+- Open your browser's developer console and verify no errors appear.
+- Ensure the analytics dashboard displays properly and matches the design.
+- Check that the data displayed makes sense and matches what you'd expect from the seed data.
+
+## Should You Keep Your Specs?
+
+One question I get all the time is: what should I do with my [specs](https://www.aihero.dev/ai-coding-dictionary/spec) once I've completed them? Once they exist in the code, what should I do with them?
+
+Well, let me shock you. Now that this is represented in the code, I'm going to close the spec.
+
+**Primary and Secondary Sources**
+
+A spec is really a condensed version (secondary source) of how a codebase (the primary source) works or even just a part of a codebase works.
+
+And of course, the issue with a [secondary source](https://www.aihero.dev/ai-coding-dictionary/secondary-source) is it's only a projection. It's a summary of how the thing actually works.
+![[primary-secondary_sources.png|Codebase is the Primary Source and Spec is a Secondary Source]]
+**The Drift Problem**
+
+And the worst part is the codebase can very quickly move away from the spec.
+
+In other words, if you're not constantly keeping the spec up to date with the codebase, they are going to drift apart.
+
+**Why Not Spec-Driven Development?**
+
+There's a very popular approach called spec-driven development. One of the ways you can do spec-driven development is you take these specs, save them in the repo, and they become the source of truth instead of the code.
+
+However, it's this exact drift risk that makes me terrified of that approach. If your agent is exploring your local repo and finding these old, ancient specs on how the code works, it's very likely to trust the out-of-date spec - the secondary source - instead of the [primary source](https://www.aihero.dev/ai-coding-dictionary/primary-source).
+
+The secondary source is often easier to explore, smaller, denser. So it's unlikely to go and actually touch the primary source, which is more verbose and harder to explore, if it's seen that.
+
+**The Code Doesn't Lie**
+
+The issue is, of course, that the codebase doesn't lie about itself. If you look at the executable parts of the codebase - the functions themselves - they are unlikely to lie about what the code actually does.
+
+This is assuming you don't have weird, stale parts of your codebase, like:
+
+- Functions that are no longer called
+- A part of the system that's kept there for legacy purposes
+- Throwaway [prototypes](https://www.aihero.dev/ai-coding-dictionary/prototyping) in the repo
+
+**Archive, Don't Delete**
+
+All this to say: get rid of your specs as soon as they are put into code.
+
+I really like this issues approach because you can close an issue, it gets moved out of the way of the main views, and it's kind of archived, specifically marked as archived. But if the agent needs to come back to it to have a look at how something was implemented or why something was implemented, then the spec is there for it to explore.
+
+**Why GitHub Issues Work**
+
+Not only that, but your team can see them. If your spec is local markdown on your laptop, then it's just yours. Whereas a spec in the tracker is the team's. It's reviewable, commentable, and findable by someone who was not in the room.
+
+Not only that, but if you keep these [tickets](https://www.aihero.dev/ai-coding-dictionary/ticket) out of the local setup, it means that they're durable if you're switching worktrees, if you're switching laptops. The state is not colliding with your local setup.
+
+**The Verdict**
+
+So that is my message to you: archive your specs.
+![[archive-your-specs.png|Archive your specs]]
+Your specs are meant to be temporary artifacts that define a piece of work. They are not the source of truth for how the code works.
+
+I'm very happy to debate you in Discord if you feel otherwise. There are lots of frameworks who say persist your specs, use them as a source of truth. I have found that doesn't work very well.
+
+So hopefully that makes sense for what you should do with your specs once you've finished a multi-session piece of work.
+
+## Rerouting: When The Destination Changes
+
+Imagine a situation where you have a [spec](https://www.aihero.dev/ai-coding-dictionary/spec) and you've put together some [tickets](https://www.aihero.dev/ai-coding-dictionary/ticket) for it. Halfway through, maybe you're reviewing the tickets as they come in, and you realize: oh dear, this is just the wrong approach.
+
+What do we do when we get two tickets in and we realize we need to change things?
+
+**Tickets Are Disposable**
+
+The thing you need to consider here is that these tickets are disposable.
+
+If we realise that this set of tickets - maybe we've implemented the first two, but the second two we haven't implemented - we can just delete the tickets that we haven't implemented.
+![[spec-tickets.png|The spec is the destination; each ticket is one leg of the journey]]
+Then we can go back to the spec, and the spec is editable.
+
+So we can maybe have a [grilling](https://www.aihero.dev/ai-coding-dictionary/grilling) session about where we are right now. We've had two tickets and we're not happy with the way they're coming out, so we need to go back to the spec to edit it.
+
+**The Spec Is The Destination**
+
+In other words, the spec is the destination and we are changing the destination.
+
+The destination and the plan live in two separate documents rather than one so the destination can be edited while the journey is thrown away.
+
+What I would do is go back to the spec, have a new grilling session, and then once I'm happy with my edits to the spec, I would create a new set of tickets.
+
+This new set of tickets might change the scope of the work a little bit, so we end up with maybe just a bit more that we're doing. But it means that we've found the journey to our new destination from where we are.
+
+### The Flow
+
+The whole flow looks like this:
+
+**1. "Oh no, this needs to change"**
+
+Realize that you want to change the destination. This is not turning out how you wanted.
+
+**2. Close the tickets**
+
+Delete any existing tickets that haven't yet been implemented. But you keep the spec because you want to modify the spec.
+
+**3. Modify the spec**
+
+Use [`/grill-me`](https://aihero.dev/things-people-get-wrong-with-grill-me-and-grill-with-docs) to adjust the spec, describing what you want changed. Probably in a new [session](https://www.aihero.dev/ai-coding-dictionary/session).
+
+**4. Regenerate the tickets**
+
+Once you're happy with the spec, regenerate the tickets based on where you are. You use `/to-tickets` to regenerate the new tickets.
+
+So you don't throw away your work, probably, unless it's really, really bad. And then you continue implementing from that point.
+
+**5. Continue implementing**
+
+Use `/implement` to implement the new tickets.
+
+![[rerouting-steps.png|Rerouting]]
+## The `/goal` Command
+
+One of the things people ask me a lot is: why don't we use `/goal` to implement our [specs](https://www.aihero.dev/ai-coding-dictionary/spec)?
+
+**The `/goal` Theory**
+
+The theory here is we would create a spec, and then we would use `/goal`, which is a feature of many [harnesses](https://www.aihero.dev/ai-coding-dictionary/harness) where the [agent](https://www.aihero.dev/ai-coding-dictionary/agent) pursues a goal in a single [context window](https://www.aihero.dev/ai-coding-dictionary/context-window) until that goal is complete.
+
+The goal would be the destination, which is a very, very well-specified destination, and it seems like a great use case for `/goal`.
+
+![[goal-theory.png|Goal theory]]
+**The Problem: The Dumb Zone**
+
+However, all of the implementations of `/goal` that I've seen don't really take advantage of the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone). It's all done in a single context window, relying on [auto-compaction](https://www.aihero.dev/ai-coding-dictionary/autocompact) to manage it.
+
+And so what you end up with is a little bit of smart zone at the start, and then a whole lot of dumb zone.
+
+Every time I've tried this, I see the same setup. So I still believe that the spec-and-tickets approach is better than the spec-and-`/goal` approach.
+
+**Why Tickets Give You More Control**
+
+Tickets just give you a lot more control. They, I think, are often cheaper to use because you're doing most of your work in a lot of smart zones.
+
+Creating tickets from the spec is often a really, really short job. It usually just takes me a couple of minutes.
+
+On some of my workflows, which we're not really discussing in the course (covered in Real Engineers course), I even generate tickets [AFK](https://www.aihero.dev/ai-coding-dictionary/afk), so I don't even review them.
+
+|Approach|Context Management|Cost|Zone Quality|
+|---|---|---|---|
+|**Spec-and-Tickets**|Multiple smart zones|Often cheaper|Mostly smart|
+|**Spec-and-`/goal`**|Single context window|Potentially more expensive|Small smart zone, large dumb zone|
+
+## Enforcing Your Coding Standards
+
+There are really three levels of checks you want running on your code before you ship it.
+
+|Level|What it catches|What it costs|
+|---|---|---|
+|Automated checks|Mechanical failures|Nothing|
+|Automated review|Judgement-shaped problems|[Tokens](https://www.aihero.dev/ai-coding-dictionary/token)|
+|Human review|Everything else|Your attention|
+![[checks.png|Three levels of checks]]
+**Automated Checks**
+
+[Automated checks](https://www.aihero.dev/ai-coding-dictionary/automated-check) are linting, typecheck, and unit tests. They matter because they are deterministic. The agent can run them and always get back the same pass or fail.
+
+They also cost you no tokens to run. They are essentially free. If everything could be done in automated checks, we would live in a dream world.
+
+But you cannot catch every bug in an automated check. A test suite proves only the properties you asserted. So you need some kind of reviewing system on top.
+
+**Human Review**
+
+Before AI, that reviewing system was a human. Someone looked at the pull request and said: that does not look right. That test is not doing what we think it is doing. Have you considered this approach?
+
+In other words, the human was providing qualitative feedback. Saying, I am not sure about this.
+
+And [human review](https://www.aihero.dev/ai-coding-dictionary/human-review) was always everyone's least favourite part of development. You would always have a stack of pull requests you needed to review, and it was painful.
+
+**Automated Review**
+
+Now agents can help. [Automated review](https://www.aihero.dev/ai-coding-dictionary/automated-review) means the agent reviews your work and provides the qualitative feedback itself.
+
+Crucially, this does not replace human review. It makes human review easier, because the agent has already walked through the diff and done a first pass. Automated review catches more than you would catch without it. You still want a human doing a sanity check on top for most types of work.
+
+That is what the code review skill is doing. You implement in one [context window](https://www.aihero.dev/ai-coding-dictionary/context-window), then you review in a fresh one.
+
+**The Two Axes**
+
+The review runs along two axes. The Spec axis asks whether the code faithfully implements what was asked for:
+
+```
+- **Spec** — does the code faithfully implement the originating issue / PRD / spec?
+```
+
+The other axis is standards. Coding standards matter because you do not want your agent making the same mistake again and again and again. Those steering instructions have to live somewhere.
+
+Slotting them into `CLAUDE.md` is painful, and it has real downsides. Code review is an interesting case, though, because the skill lets you customise it. You create your own `CODING_STANDARDS.md` file.
+
+**CODING_STANDARDS.md**
+
+The file just sits there and captures the coding standards for the repo. When you notice the agent doing something weird, you put it in the standards file, and the review catches it next time.
+
+A brand new one can be a single line:
+
+```
+Don't do stupid stuff.
+```
+
+The skill finds it during its third step, when it works out where this repo documents how code should be written:
+
+```
+Anything in the repo that documents how code should be written, such as `CODING_STANDARDS.md` or `CONTRIBUTING.md`.
+```
+
+That step is the seam you are writing into. (We've deliberately made the review process look for repo documentation here, so you can customise its behaviour just by adding/updating that documentation.)
+
+**Why Standards Belong In Review**
+
+The reason this makes sense is that code review is a lot less constrained than implementation is.
+
+When you implement something, you have to explore where it fits in the codebase, write all the files, and then debug it to see whether it actually works. Three demands, all in one context window.
+
+Code review has none of them. You do not need the exploration, because the exploration has already been done and you are handed the right file straight away. You do not need to make many changes, because you are reading what is there. And you carry no burden for testing that everything works, because the tests have been written and run already.
+
+|                      | `/implement` | Code review |
+| -------------------- | ------------ | ----------- |
+| Explore the codebase | Yes          | No          |
+| Write the files      | Yes          | No          |
+| Debug and test       | Yes          | No          |
+
+So it makes much more sense to load the coding standards into code review than to try to make the implementer get it right first time. The review agent has a lot more space in its context window, and far fewer demands on it.
+![[implementer-vs-reviewer_demands.png|Comparison of demands on the implementer vs the code review agent]]
+**What A Real Standards File Looks Like**
+
+A mature standards file is loose, and that is fine. Every line in one arrives the same way: you noticed the agent do something stupid, and you wrote it down.
+
+```
+Context menu items should always include a leading icon (from `lucide-react`), matching the style of the surrounding items. When adding a new menu item, pick an icon that conveys the action.
+```
+
+That one exists because, for some reason, the agent just was not adding icons.
+
+```
+All files in `./app/routes` will be exposed publicly as routes. Do not include test files or utility files there.
+```
+
+You could break a file like this down and put parts of it behind [context pointers](https://www.aihero.dev/ai-coding-dictionary/context-pointer). If a rule only makes sense for front-end work, that is where it belongs. But since the standards file is only ever loaded during code review, its size matters much less than it would in an always-on steering file. It is fine for it to get quite large.
+
+**The Baseline You Get For Free**
+
+Even with no standards file at all, the Standards axis still carries a set of code smells drawn from Martin Fowler's _Refactoring_.
+
+Shotgun Surgery. Divergent Change. Mysterious Name. These are classic coding terms, so agents already know all about them. The review will often find something even when you have documented nothing.
+
+Your own file sits on top of that baseline and overrides it. Where your repo endorses something the baseline would flag, the flag goes away.
+
+**Don't Shout At The Agent**
+
+Here is the habit worth building. Next time you finish an implementation and notice something you do not like, do not shout at the agent.
+
+Write it into `CODING_STANDARDS.md` instead, so the reviewer catches it.
+
+## `/ask-matt`
+
+There is a tool for asking my advice without me being in the room.
+
+The skill takes a situation, not a keyword. Here is the one I put to it.
+
+```
+/ask-matt What's the best flow for fixing a bug once I've finished doing an implementation on a spec and all the tickets are closed?
+```
+
+That is a real position to be in. The [spec](https://www.aihero.dev/ai-coding-dictionary/spec) is built. Every [ticket](https://www.aihero.dev/ai-coding-dictionary/ticket) is closed. Then something turns out to be broken. There is no obvious next command to type, because the flow you were following has run out.
+
+The router opened with this.
+
+```
+**Short answer: `/clear`, then `/diagnosing-bugs`.**
+```
+
+Two moves. First empty the [context](https://www.aihero.dev/ai-coding-dictionary/context), because the spec thread is spent and a bug is a new starting point rather than a continuation of the build. Then reach for the skill that handles bugs.
+
+It went further than the headline. It said to check whether you can make the bug go red with one command: if you can, and the cause is obvious, write the failing test and fix it. If you cannot, that is when the diagnosis skill earns its place. It also named two things not to do. Do not triage the bug, because triage is only for issues you did not create. Do not reopen the closed spec, because a spec that turns out to be wrong is a new idea, not a patch.
+
+**It Knows Skills The Course Does Not Cover**
+
+The skill it recommended is one we have not encountered. It does exist in my real skillset.
+
+That is the point. This course covers the main flow and a fair few very important skills, but it does not cover everything in the skillset. There is still stuff to learn, and **`/ask-matt` is the way you learn it**. It is listed under Getting Started, and it is a good way to get up to speed with the rest of the skills.
+
+A **flow** is a path through the skills, not a single skill. Most work travels along one main flow. A couple of on-ramps merge onto it. The rest are standalone, or a vocabulary layer running underneath. When you name your situation, the router puts you on a flow at the right step, which is often a different answer from the skill whose name matches your words.
+
+**The Phase Boundary Checklist**
+
+One particularly useful thing lives inside the skill itself: a **phase boundary checklist**.
+
+A phase is a chunk of work inside a [session](https://www.aihero.dev/ai-coding-dictionary/session): the grilling, the implementation, the QA. The boundary is the gap between two of them, and it is where you decide what happens to your [context window](https://www.aihero.dev/ai-coding-dictionary/context-window). That decision is genuinely hard. You have five options and no obvious way to pick.
+
+| Option ↓                                                         | What it does                                                        |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Continue                                                         | Stay in the session. No context switch at all.                      |
+| Clear                                                            | Empty the context window and start from nothing.                    |
+| [Handoff](https://www.aihero.dev/ai-coding-dictionary/handoff)   | Write a portable markdown file and seed a session anywhere with it. |
+| [Subagent](https://www.aihero.dev/ai-coding-dictionary/subagent) | Send the task to its own context window and get a report back.      |
+| Compact                                                          | Compress this context and seed a fresh session with the summary.    |
+So when you are not sure whether to continue, clear, hand off, send it to a subagent, or [compact](https://www.aihero.dev/ai-coding-dictionary/compaction), the skill can walk you through it. It works the options above top to bottom and the *first* 'yes' wins, which turns a vague feeling into an ordered set of questions.
+
+**Take Its Answers With A Pinch Of Salt**
+
+Look back at the answer it gave me. It said to clear. I would say the best thing there is probably to compact instead, because some of that implementation context is worth carrying into the bug hunt. And to be honest, you might not need the `/diagnosing-bugs` skill at all. That skill is only for very, very tricky bugs. If it is a simple bug, you might just be able to sort it yourself.
+
+So treat it like any agent. It is a router, not an oracle. It is a nice way to ask questions about the skills and figure out what you might want to use next, and you still apply your own judgement to what comes back.
+
+If you notice it giving any weird answers, raise an issue on the skills repo itself. That is how the router gets better.
+
+People have found this useful for getting to grips with the skills, as a first port of call for the things they do not quite understand yet.
+
+## Where You Go From Here
+
+The five-step process covered in this course is an essential part of how to build software:
+
+1. **[Grill](https://www.aihero.dev/ai-coding-dictionary/grilling) the idea** - align with the AI before you get going
+2. **Create a [spec](https://www.aihero.dev/ai-coding-dictionary/spec)** - decide where you're going
+3. **Create [tickets](https://www.aihero.dev/ai-coding-dictionary/ticket)** - split things up to parallelize work, or to make sure you stay in the [smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone)
+4. **Implement** - work through the tickets
+5. **Review** - check things that couldn't have been done during implementation
+
+Even though things have changed over time, this process still fits into this format. And this core set of five steps is going to stick.
+![[5-step-system.png|Five-step system: grilling session → spec → tickets → implement → review]]
+**What To Do Next**
+
+Your next task, now that this course is finished, is to go and deepen these steps.
+
+Consider the following areas to explore:
+
+- **[AFK loops](https://www.aihero.dev/ai-coding-dictionary/afk)** - instead of sitting there babysitting the implementation, delegate that to an AFK (away from keyboard) [agent](https://www.aihero.dev/ai-coding-dictionary/agent) loop
+- **[Prototyping](https://www.aihero.dev/ai-coding-dictionary/prototyping) and research** - how might these help you during the initial ideation phase, before you approach a spec?
+- **[The AI Coding Dictionary](https://www.aihero.dev/ai-coding-dictionary)** - firm up your mental model for all of this: [model provider requests](https://www.aihero.dev/ai-coding-dictionary/model-provider-request), turns and context windows, tools, and more
+- **[Sandcastle](https://github.com/mattpocock/sandcastle)** - an open source attempt to do AFK agents inside isolated [sandboxes](https://www.aihero.dev/ai-coding-dictionary/sandbox)
+
+**Keep Learning**
+
+Check out Wayfinder, Prototype, and the other [skills](https://www.aihero.dev/ai-coding-dictionary/skill) in development. AI coding will change, and the shape of this process will be iterated on, made more complex, and developed further.
+
+*Cohorts* (Real Engineers) run on AI Hero are opportunities to deepen all of this work too, so keep your eyes peeled if you or your company are interested.

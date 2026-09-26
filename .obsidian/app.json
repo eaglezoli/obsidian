@@ -1,5 +1,6 @@
 {
   "showIndentGuide": false,
   "trashOption": "local",
-  "attachmentFolderPath": "./images"
+  "attachmentFolderPath": "./Images",
+  "alwaysUpdateLinks": true
 }
