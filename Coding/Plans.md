@@ -14,7 +14,7 @@ A stage is not redundant because it found nothing once. It becomes questionable 
 
 Do not measure a framework by how impressive its Markdown looks. Measure the useful decisions and problems it surfaces per unit of effort.
 
-
+The fair framework comparison is the same starting problem and the same stopping point, while allowing each framework to choose its own route there.
 
 
 
