@@ -22,8 +22,9 @@ The fair framework comparison is the same starting problem and the same stopping
 
 Do not let AI-generated standards become project law until another strong model has challenged and verified them.
 
-Latest frozen workflow
+Frozen converged workflow
 
+```
 DISCOVERY WORKSPACE
 ════════════════════════════
 
@@ -140,6 +141,7 @@ YOUR DEVICE QA
         ↓
 
 FIRST PROCESS RETRO
+```
 
 
 ```
