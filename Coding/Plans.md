@@ -6,6 +6,8 @@ Owning the process does not mean personally possessing all the engineering exper
 
 You own the pipeline, not necessarily the technical labour.
 
+Small implementation units reduce the amount of code you need to understand at once and make it much easier to identify where a bad decision entered the system.
+
 
 
 
