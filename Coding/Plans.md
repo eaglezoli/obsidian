@@ -16,6 +16,8 @@ Do not measure a framework by how impressive its Markdown looks. Measure the use
 
 The fair framework comparison is the same starting problem and the same stopping point, while allowing each framework to choose its own route there.
 
+Do not let AI-generated standards become project law until another strong model has challenged and verified them.
+
 
 
 ```
