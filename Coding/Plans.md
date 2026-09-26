@@ -10,7 +10,7 @@ Small implementation units reduce the amount of code you need to understand at o
 
 The question is not whether the framework has more ceremony. The question is whether each stage contributes information, catches risk or improves a decision.
 
-
+A stage is not redundant because it found nothing once. It becomes questionable when it repeatedly duplicates another stage without changing decisions or reducing risk.
 
 
 
