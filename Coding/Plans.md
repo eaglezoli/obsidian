@@ -4,6 +4,8 @@ Too little ceremony creates avoidable mistakes. Useful ceremony catches expensiv
 
 Owning the process does not mean personally possessing all the engineering expertise. It means owning how that expertise gets applied and verified.
 
+You own the pipeline, not necessarily the technical labour.
+
 
 
 
