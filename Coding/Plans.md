@@ -2,6 +2,8 @@
 
 Too little ceremony creates avoidable mistakes. Useful ceremony catches expensive mistakes early. **Too much ceremony creates increasingly detailed speculation about something nobody has used yet.**
 
+Owning the process does not mean personally possessing all the engineering expertise. It means owning how that expertise gets applied and verified.
+
 
 
 
