@@ -12,6 +12,10 @@ The question is not whether the framework has more ceremony. The question is whe
 
 A stage is not redundant because it found nothing once. It becomes questionable when it repeatedly duplicates another stage without changing decisions or reducing risk.
 
+Do not measure a framework by how impressive its Markdown looks. Measure the useful decisions and problems it surfaces per unit of effort.
+
+
+
 
 
 ```
